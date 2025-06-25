@@ -1698,6 +1698,7 @@ dependencies = [
  "ctrlc",
  "hf-hub",
  "indicatif",
+ "regex",
  "serde",
  "serde_json",
  "tokenizers",

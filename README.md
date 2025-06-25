@@ -1,160 +1,197 @@
 # Nameless Vector - Verb Outcome Generator
 
-A high-performance Rust application that generates comprehensive verb outcomes using large language models. This tool systematically processes English verbs starting with all two-letter combinations (aa-zz) and generates detailed preconditions and effects for each verb.
+A Rust application that generates comprehensive verb outcomes using quantized language models. Built with the Candle ML framework for efficient inference with GGUF models.
 
 ## Features
 
-- **Systematic Processing**: Generates verbs for all 676 two-letter prefixes (aa through zz)
-- **Comprehensive Analysis**: For each verb, generates:
-  - Preconditions (what must exist before the action)
-  - Physical effects (tangible changes in the world)
-  - Emotional effects (psychological impacts)
-  - Environmental effects (changes to surroundings)
-- **Proper Tokenization**: Automatically downloads the correct tokenizer for your model
-- **State Management**: Robust state persistence with automatic recovery
-- **Progress Tracking**: Real-time progress bar with detailed statistics
-- **Interrupt Handling**: Graceful shutdown with state preservation
-- **Batch Processing**: Efficient batch generation to optimize model usage
+- **Multi-Model Support**: Llama-2, Mistral, DeepSeek, CodeLlama, Phi-3, Qwen, Gemma
+- **GPU Acceleration**: CUDA, Metal, and Accelerate framework support
+- **Robust Tokenizer Discovery**: Automatic tokenizer loading with fallback mechanisms
+- **State Management**: Resume interrupted processing with persistent state
+- **Concurrent Processing**: Async/await with optimized batch sizes
+- **Progress Tracking**: Real-time progress bars and performance metrics
 
-## Requirements
+## Quick Start
+
+### 1. Prerequisites
 
 - Rust 1.70+ with Cargo
-- A compatible GGUF model file (Mistral, Llama, or CodeLlama)
-- At least 8GB RAM (16GB+ recommended for larger models)
-- Optional: CUDA-compatible GPU for acceleration
+- GPU drivers (optional but recommended):
+  - NVIDIA: CUDA Toolkit 11.8+
+  - Apple Silicon: macOS 12+
 
-## Setup
+### 2. Setup
 
-1. **Clone and navigate to the project:**
-   ```bash
-   git clone <your-repo>
-   cd nameless_vector
-   ```
-
-2. **Place your model file:**
-   - Download a compatible GGUF model (e.g., Mistral-7B-Instruct)
-   - You can use direct download URLs like: `https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_K_M.gguf`
-   - Place it in `src/models/`
-   - Update `MODEL_PATH` in `src/main.rs` if using a different model
-
-3. **Build the application:**
-   ```bash
-   # CPU-only build (default)
-   cargo build --release
-   
-   # Or with CUDA support (requires NVCC and Visual Studio Build Tools)
-   cargo build --release --features cuda
-   ```
-
-## Usage
-
-Run the application:
 ```bash
+git clone <repository-url>
+cd nameless_vector
+```
+
+### 3. Model Setup
+
+Place your GGUF model file in `./src/models/` and update the `MODEL_PATH` constant in `src/main.rs`:
+
+```rust
+const MODEL_PATH: &str = "./src/models/your-model.gguf";
+```
+
+### 4. Tokenizer Authentication (Important!)
+
+Most Llama models require Hugging Face authentication. Choose one option:
+
+#### Option A: Environment Variable (Recommended)
+```bash
+# Get token from https://huggingface.co/settings/tokens
+export HF_TOKEN=your_hugging_face_token_here
+
+# Windows PowerShell:
+$env:HF_TOKEN="your_hugging_face_token_here"
+
+# Windows CMD:
+set HF_TOKEN=your_hugging_face_token_here
+```
+
+#### Option B: Manual Tokenizer Download
+1. Go to https://huggingface.co/huggyllama/llama-7b
+2. Download `tokenizer.json` to your model directory (`./src/models/`)
+
+#### Option C: Use Open Models
+Update `MODEL_PATH` to use models that don't require authentication.
+
+### 5. Build and Run
+
+```bash
+# CPU version
 cargo run --release
+
+# GPU versions
+cargo run --release --features cuda    # NVIDIA GPUs
+cargo run --release --features metal   # Apple Silicon
 ```
 
-The application will:
-1. Initialize the language model
-2. Load or create processing state
-3. Begin systematic verb generation
-4. Save progress continuously
-5. Handle interrupts gracefully (Ctrl+C)
+## Configuration
 
-## Output Structure
+### Key Constants (in `src/main.rs`)
 
-```
-verb_state/          # Processing state files
-├── global.json      # Overall progress tracking
-├── aa.json         # State for 'aa' prefix
-├── ab.json         # State for 'ab' prefix
-└── ...
-
-verb_output/         # Final output files
-├── aa.json         # Completed verbs for 'aa' prefix
-├── ab.json         # Completed verbs for 'ab' prefix
-└── ...
+```rust
+const MODEL_PATH: &str = "./src/models/llama-2-7b-chat.Q4_K_S.gguf";
+const MAX_VERBS_PER_PREFIX: usize = 600;  // Max verbs per prefix (aa-zz)
+const MAX_GENERATION_TOKENS: usize = 512; // Max tokens per generation
+const GPU_BATCH_SIZE: usize = 8;          // GPU batch size
+const CPU_BATCH_SIZE: usize = 3;          // CPU batch size
 ```
 
-Each output file contains an array of verb outcomes:
+### Supported Model Types
+
+The application automatically detects model types from filenames:
+
+- **Llama**: `llama-2-7b-chat`, `llama-2-13b`, etc.
+- **Mistral**: `mistral-7b-instruct`, `mistral-7b`, etc.
+- **CodeLlama**: `codellama-7b`, `code-llama`, etc.
+- **DeepSeek**: `deepseek-coder`, `deepseek-r1`, etc.
+- **Phi-3**: `phi-3-mini`, etc.
+- **Qwen**: `qwen2-7b`, etc.
+- **Gemma**: `gemma-7b`, etc.
+
+## Troubleshooting
+
+### Tokenizer Issues
+
+**Error**: `status code 401` or `Failed to download tokenizer`
+
+**Solutions**:
+1. Set `HF_TOKEN` environment variable (see Setup section)
+2. Download tokenizer manually to model directory
+3. Use an open model that doesn't require authentication
+
+**Error**: `Tokenizer vocab size seems unusual`
+
+**Solution**: This is usually a warning, not an error. The application will continue running.
+
+### GPU Issues
+
+**Error**: `CUDA not available` or `Metal not available`
+
+**Solutions**:
+1. Install appropriate GPU drivers
+2. Rebuild with correct features: `--features cuda` or `--features metal`
+3. Use CPU version (slower but works everywhere)
+
+### Memory Issues
+
+**Error**: Out of memory or allocation failures
+
+**Solutions**:
+1. Reduce `GPU_BATCH_SIZE` or `CPU_BATCH_SIZE`
+2. Use a smaller model (e.g., 7B instead of 13B)
+3. Close other applications to free memory
+
+### Performance Optimization
+
+**Slow generation** (< 5 tokens/second on CPU):
+
+**Solutions**:
+1. Use GPU acceleration: `--features cuda` or `--features metal`
+2. Use quantized models (Q4_K_S, Q4_K_M)
+3. Increase batch size for GPU processing
+
+## Output
+
+The application generates:
+
+- **State Files**: `./verb_state/` - Progress tracking and resume capability
+- **Output Files**: `./verb_output/` - Final JSON files with verb outcomes
+- **Progress Display**: Real-time progress bar with ETA and performance metrics
+
+### Output Format
+
+Each prefix generates a JSON file with verb outcomes:
+
 ```json
 [
   {
     "verb": "abandon",
     "preconditions": ["something to leave behind", "a reason to leave"],
-    "physical_effects": ["object or place is left unattended", "distance increases from abandoned item"],
+    "physical_effects": ["object or place is left unattended", "distance increases"],
     "emotional_effects": ["possible feelings of loss or relief", "sense of letting go"],
     "environmental_effects": ["abandoned item may deteriorate", "space becomes unoccupied"]
   }
 ]
 ```
 
-## Configuration
-
-Key constants in `src/main.rs`:
-- `MODEL_PATH`: Path to your GGUF model file
-- `BATCH_SIZE`: Number of verbs to generate per batch (default: 5)
-- `MAX_VERBS_PER_PREFIX`: Maximum verbs per two-letter prefix (default: 200)
-- `MAX_GENERATION_TOKENS`: Maximum tokens per model response (default: 512)
-
-## Performance Tips
-
-- **GPU Acceleration**: Use `--features cuda` for significant speedup
-- **Memory**: Ensure sufficient RAM for your model size
-- **Batch Size**: Adjust `BATCH_SIZE` based on your hardware capabilities
-- **Model Selection**: Smaller quantized models (Q4_K_M) offer good performance/quality balance
-
-## Monitoring Progress
-
-The application provides real-time feedback:
-- Progress bar showing completion percentage
-- Current prefix being processed
-- Number of verbs generated per prefix
-- Estimated time remaining
-- Token generation speed
-
-## Error Handling
-
-The application includes robust error handling:
-- Automatic state recovery on restart
-- Graceful handling of model errors
-- JSON validation and cleanup
-- Network timeout handling for model downloads
-
-## Troubleshooting
-
-**Model Loading Issues:**
-- Verify model file path and format
-- Ensure sufficient disk space and RAM
-- Check model compatibility (GGUF format required)
-
-**Tokenizer Download Issues:**
-- Ensure internet connectivity for first run
-- Check if Hugging Face Hub is accessible
-- The correct tokenizer is automatically selected based on model name
-
-**CUDA Compilation Errors:**
-- Install Visual Studio Build Tools
-- Ensure NVCC is in PATH
-- Use CPU-only build as fallback
-
-**Memory Issues:**
-- Reduce `BATCH_SIZE` or `MAX_GENERATION_TOKENS`
-- Use a smaller quantized model
-- Ensure adequate system RAM
-
 ## Architecture
 
-The application uses:
-- **Candle**: High-performance ML inference framework
-- **Tokio**: Async runtime for concurrent operations
-- **GGUF**: Efficient model format for quantized models
-- **State Persistence**: JSON-based state management
-- **Progress Tracking**: Real-time monitoring with Indicatif
+### Key Components
+
+- **CandleModel**: ML model wrapper with device management
+- **AppState**: Application state with async processing
+- **TokenOutputStream**: Tokenizer integration with streaming
+- **Progress Tracking**: Real-time progress bars and metrics
+
+### Processing Flow
+
+1. **Initialization**: Load model, tokenizer, and previous state
+2. **Prefix Processing**: Process aa-zz prefixes sequentially
+3. **Batch Generation**: Generate multiple verbs per batch
+4. **Validation**: Verify verb uniqueness and validity
+5. **State Persistence**: Save progress after each batch
+6. **Output Generation**: Create final JSON files
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
 
 ## License
 
 [Add your license information here]
 
-## Contributing
+## Support
 
-[Add contribution guidelines here] 
+For issues and questions:
+1. Check this README's troubleshooting section
+2. Review the application logs for specific error messages
+3. Open an issue with detailed error information and system specs 

@@ -677,6 +677,10 @@
     "zy",
     "zz"
   ],
-  "current_prefix": "aa",
-  "completed_prefixes": []
+  "current_prefix": null,
+  "completed_prefixes": [
+    "aa",
+    "ab",
+    "ac"
+  ]
 }

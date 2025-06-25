@@ -25,6 +25,8 @@ indicatif = "0.17.11"
 ctrlc = "3.4"
 # Hugging Face integration with fallback handling
 hf-hub = "0.4.3"
+# JSON processing
+regex = "1.10"
 # Logging
 tracing = "0.1"
 tracing-subscriber = "0.3"

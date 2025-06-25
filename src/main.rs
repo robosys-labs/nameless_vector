@@ -28,8 +28,8 @@ const MODEL_PATH: &str = "./src/models/llama-2-7b-chat.Q4_K_S.gguf"; // Will use
 const STATE_DIR: &str = "./verb_state";
 const OUTPUT_DIR: &str = "./verb_output";
 const BATCH_SIZE: usize = 5;
-const MAX_VERBS_PER_PREFIX: usize = 200;
-const MAX_GENERATION_TOKENS: usize = 512;
+const MAX_VERBS_PER_PREFIX: usize = 600;
+const MAX_GENERATION_TOKENS: usize = 800;
 
 // GPU-optimized batch sizes
 const GPU_BATCH_SIZE: usize = 8; // Larger batches for GPU efficiency
@@ -87,7 +87,7 @@ impl ModelConfig {
             }
         } else if model_path_lower.contains("deepseek") {
             Self {
-                chat_template: |prompt| format!("<｜User｜>{}<｜Assistant｜>", prompt),
+                chat_template: |prompt| format!("{}", prompt),
                 eos_token_id: 2, // Will be determined from tokenizer
                 model_type: ModelType::CodeLlama,
             }
@@ -366,49 +366,140 @@ impl CandleModel {
     }
     
     fn download_tokenizer(repo: &str) -> Result<Tokenizer> {
-        let api = hf_hub::api::sync::Api::new()
-            .context("Failed to initialize Hugging Face API")?;
-        
-        println!("🔗 Connecting to Hugging Face Hub...");
-        
-        // Try to download tokenizer.json first
-        let tokenizer_result = api
-            .model(repo.to_string())
-            .get("tokenizer.json")
-            .with_context(|| format!("Failed to download tokenizer.json from {}", repo));
-        
-        let tokenizer_path = match tokenizer_result {
-            Ok(path) => path,
-            Err(_e) => {
-                println!("⚠️  tokenizer.json not found, trying vocab.json + merges.txt...");
-                
-                // Fallback: try vocab.json and merges.txt for older models
-                let vocab_path = api
-                    .model(repo.to_string())
-                    .get("vocab.json")
-                    .with_context(|| format!("Failed to download vocab.json from {}", repo))?;
-                
-                let merges_path = api
-                    .model(repo.to_string())
-                    .get("merges.txt")
-                    .with_context(|| format!("Failed to download merges.txt from {}", repo))?;
-                
-                // Try creating BPE tokenizer from vocab and merges
-                use tokenizers::models::bpe::BPE;
-                let bpe = BPE::from_file(&vocab_path.to_string_lossy(), &merges_path.to_string_lossy())
+        // Initialize HF API with authentication if available
+        let api = match std::env::var("HF_TOKEN") {
+            Ok(token) => {
+                println!("🔐 Using authenticated Hugging Face access");
+                hf_hub::api::sync::ApiBuilder::new()
+                    .with_token(Some(token))
                     .build()
-                    .map_err(|e| anyhow::anyhow!("Failed to create BPE tokenizer: {}", e))?;
-                let tokenizer = Tokenizer::new(bpe);
-                
-                return Ok(tokenizer);
+                    .context("Failed to initialize authenticated Hugging Face API")?
+            }
+            Err(_) => {
+                println!("🔓 Using anonymous Hugging Face access (some models may be restricted)");
+                hf_hub::api::sync::Api::new()
+                    .context("Failed to initialize Hugging Face API")?
             }
         };
         
-        let tokenizer = Tokenizer::from_file(tokenizer_path)
-            .map_err(|e| anyhow::anyhow!("Failed to parse tokenizer file: {}", e))?;
+        println!("🔗 Connecting to Hugging Face Hub...");
         
-        println!("✅ Tokenizer loaded successfully");
-        Ok(tokenizer)
+        // Try multiple tokenizer formats in order of preference
+        let mut errors = Vec::new();
+        
+        // Try tokenizer.json first
+        println!("🔍 Trying tokenizer.json format...");
+        match Self::load_tokenizer_json(&api, repo) {
+            Ok(tokenizer) => {
+                println!("✅ Tokenizer loaded successfully using tokenizer.json format");
+                return Ok(tokenizer);
+            }
+            Err(e) => {
+                println!("⚠️  tokenizer.json format failed: {}", e);
+                errors.push(format!("tokenizer.json: {}", e));
+            }
+        }
+        
+        // Try vocab.json + merges.txt
+        println!("🔍 Trying vocab.json + merges.txt format...");
+        match Self::load_bpe_tokenizer(&api, repo) {
+            Ok(tokenizer) => {
+                println!("✅ Tokenizer loaded successfully using vocab.json + merges.txt format");
+                return Ok(tokenizer);
+            }
+            Err(e) => {
+                println!("⚠️  vocab.json + merges.txt format failed: {}", e);
+                errors.push(format!("vocab.json + merges.txt: {}", e));
+            }
+        }
+        
+        // Try tokenizer.model (SentencePiece)
+        println!("🔍 Trying tokenizer.model format...");
+        match Self::load_sentencepiece_tokenizer(&api, repo) {
+            Ok(tokenizer) => {
+                println!("✅ Tokenizer loaded successfully using tokenizer.model format");
+                return Ok(tokenizer);
+            }
+            Err(e) => {
+                println!("⚠️  tokenizer.model format failed: {}", e);
+                errors.push(format!("tokenizer.model: {}", e));
+            }
+        }
+        
+        // If all methods failed, try alternative repositories
+        if let Some(alt_repo) = Self::get_alternative_tokenizer_repo(repo) {
+            println!("🔄 Trying alternative repository: {}", alt_repo);
+            return Self::download_tokenizer(alt_repo);
+        }
+        
+        // If everything failed, provide helpful error message
+        let error_msg = format!(
+            "Failed to download tokenizer from {}. Possible solutions:\n\
+            1. Set HF_TOKEN environment variable for gated models\n\
+            2. Use a different model that doesn't require authentication\n\
+            3. Check your internet connection\n\
+            Attempted formats and errors:\n{}",
+            repo,
+            errors.join("\n")
+        );
+        
+        Err(anyhow::anyhow!(error_msg))
+    }
+    
+    fn load_tokenizer_json(api: &hf_hub::api::sync::Api, repo: &str) -> Result<Tokenizer> {
+        let tokenizer_path = api
+            .model(repo.to_string())
+            .get("tokenizer.json")
+            .with_context(|| format!("Failed to download tokenizer.json from {}", repo))?;
+        
+        Tokenizer::from_file(tokenizer_path)
+            .map_err(|e| anyhow::anyhow!("Failed to parse tokenizer.json: {}", e))
+    }
+    
+    fn load_bpe_tokenizer(api: &hf_hub::api::sync::Api, repo: &str) -> Result<Tokenizer> {
+        let vocab_path = api
+            .model(repo.to_string())
+            .get("vocab.json")
+            .with_context(|| format!("Failed to download vocab.json from {}", repo))?;
+        
+        let merges_path = api
+            .model(repo.to_string())
+            .get("merges.txt")
+            .with_context(|| format!("Failed to download merges.txt from {}", repo))?;
+        
+        use tokenizers::models::bpe::BPE;
+        let bpe = BPE::from_file(&vocab_path.to_string_lossy(), &merges_path.to_string_lossy())
+            .build()
+            .map_err(|e| anyhow::anyhow!("Failed to create BPE tokenizer: {}", e))?;
+        
+        Ok(Tokenizer::new(bpe))
+    }
+    
+    fn load_sentencepiece_tokenizer(api: &hf_hub::api::sync::Api, repo: &str) -> Result<Tokenizer> {
+        let model_path = api
+            .model(repo.to_string())
+            .get("tokenizer.model")
+            .with_context(|| format!("Failed to download tokenizer.model from {}", repo))?;
+        
+        // Try to load as SentencePiece model using the tokenizers library
+        Tokenizer::from_file(model_path)
+            .map_err(|e| anyhow::anyhow!("Failed to load SentencePiece tokenizer: {}", e))
+    }
+    
+    fn get_alternative_tokenizer_repo(original_repo: &str) -> Option<&'static str> {
+        // Map gated repositories to open alternatives when possible
+        match original_repo {
+            // Llama-2 alternatives - use compatible models with similar tokenizers
+            "meta-llama/Llama-2-7b-chat-hf" => Some("huggyllama/llama-7b"),
+            "meta-llama/Llama-2-7b-hf" => Some("huggyllama/llama-7b"),
+            "meta-llama/Llama-2-13b-hf" => Some("huggyllama/llama-13b"),
+            "meta-llama/Llama-2-13b-chat-hf" => Some("huggyllama/llama-13b"),
+            // Llama-3 alternatives
+            "meta-llama/Meta-Llama-3-8B" => Some("huggyllama/llama-7b"),
+            // CodeLlama alternatives
+            "codellama/CodeLlama-7b-hf" => Some("huggyllama/llama-7b"),
+            _ => None,
+        }
     }
     
     fn validate_tokenizer_compatibility(model_path: &str, tokenizer: &TokenOutputStream) -> Result<()> {
@@ -924,59 +1015,95 @@ impl AppState {
         let excluded_examples = if state.processed_verbs.is_empty() {
             "none".to_string()
         } else {
+            // Show ALL processed verbs to ensure proper exclusion
             state
                 .processed_verbs
                 .iter()
-                .take(10) // Show more examples for better exclusion
                 .map(|v| format!("\"{}\"", v))
                 .collect::<Vec<_>>()
                 .join(", ")
         };
         
         let prompt = format!(
-            r#"Task: Find common English verbs starting with '{}' that are different from: [{}].
+            r#"Generate {} NEW verbs starting with '{}' (excluding: {}).
 
-IMPORTANT: If no valid English verbs exist starting with '{}', return exactly: []
-
-If verbs exist, generate up to {} verbs and return ONLY a valid JSON array in this exact format:
+JSON format only:
 [
   {{
     "verb": "abandon",
-    "preconditions": ["something to leave behind", "a reason to leave"],
-    "physical_effects": ["object or place is left unattended", "distance increases from abandoned item"],
-    "emotional_effects": ["possible feelings of loss or relief", "sense of letting go"],
-    "environmental_effects": ["abandoned item may deteriorate", "space becomes unoccupied"]
+    "preconditions": ["requirement1", "requirement2"],
+    "physical_effects": ["effect1", "effect2"],
+    "emotional_effects": ["feeling1", "feeling2"],
+    "environmental_effects": ["change1", "change2"]
   }}
 ]
 
-Requirements:
-- Only include real, common English verbs starting with '{}'
-- All verbs must be different from the excluded list
-- If no verbs exist for this prefix, return: []
-- Valid JSON format only (either [] or array with verb objects)
-- No explanations, comments, or additional text
-- Each verb should have 2-4 items in each effect category
-
-Examples of prefixes with no common verbs: aa, bb, cc, dd, ff, gg, etc.
-For such cases, return: []"#,
-            prefix, excluded_examples, prefix, current_batch_size, prefix
+Rules:
+- {} different verbs starting with '{}'
+- Exclude: {}
+- Real English verbs only
+- Valid JSON array
+- Return [] if no new verbs exist"#,
+            current_batch_size, prefix, excluded_examples,
+            current_batch_size, prefix, excluded_examples
         );
         
-        // Generate response using the model
-        let response_text = self.generate_with_model(&prompt).await
-            .context("Failed to generate verb outcomes")?;
+        // Generate response using the model with retry logic
+        let mut attempts = 0;
+        let max_attempts = 3;
+        let mut new_verbs = Vec::new();
         
-        // Extract and parse JSON
-        let json_str = Self::extract_json(&response_text);
-        
-        // Handle empty response case
-        if json_str.trim() == "[]" || json_str.trim().is_empty() {
-            println!("📝 No verbs found for prefix '{}' - marking as completed", prefix);
-            return Ok(0); // This will trigger completion in the caller
+        while attempts < max_attempts {
+            attempts += 1;
+            
+            let response_text = self.generate_with_model(&prompt).await
+                .context("Failed to generate verb outcomes")?;
+            
+            // Extract and parse JSON
+            let json_str = Self::extract_json(&response_text);
+            
+            // Handle empty response case
+            if json_str.trim() == "[]" || json_str.trim().is_empty() {
+                println!("📝 No verbs found for prefix '{}' - marking as completed", prefix);
+                return Ok(0); // This will trigger completion in the caller
+            }
+            
+            match serde_json::from_str::<Vec<VerbOutcome>>(&json_str) {
+                Ok(parsed_verbs) => {
+                    new_verbs = parsed_verbs;
+                    println!("✅ Successfully parsed JSON with {} verbs on attempt {}", new_verbs.len(), attempts);
+                    break;
+                }
+                Err(e) => {
+                    println!("❌ JSON parsing failed on attempt {}/{}: {}", attempts, max_attempts, e);
+                    if attempts < max_attempts {
+                        println!("🔄 Retrying with adjusted prompt...");
+                        // For retries, reduce batch size to get shorter responses
+                        if attempts == 2 {
+                            // Reduce batch size for retry
+                            let retry_prompt = format!(
+                                r#"Generate {} verbs starting with '{}' (excluding: {}).
+                                
+                                JSON only: [{{"verb":"example","preconditions":["req"],"physical_effects":["eff"],"emotional_effects":["feel"],"environmental_effects":["env"]}}]"#,
+                                std::cmp::min(current_batch_size, 3), prefix, excluded_examples
+                            );
+                            
+                            let retry_response = self.generate_with_model(&retry_prompt).await
+                                .context("Failed to generate verb outcomes on retry")?;
+                            
+                            let retry_json = Self::extract_json(&retry_response);
+                            if let Ok(retry_verbs) = serde_json::from_str::<Vec<VerbOutcome>>(&retry_json) {
+                                new_verbs = retry_verbs;
+                                println!("✅ Retry successful with {} verbs", new_verbs.len());
+                                break;
+                            }
+                        }
+                    } else {
+                        return Err(anyhow::anyhow!("Failed to parse JSON after {} attempts. Last JSON: {}", max_attempts, json_str));
+                    }
+                }
+            }
         }
-        
-        let new_verbs: Vec<VerbOutcome> = serde_json::from_str(&json_str)
-            .with_context(|| format!("Failed to parse JSON response: {}", json_str))?;
         
         // Check if we got an empty array
         if new_verbs.is_empty() {
@@ -987,17 +1114,26 @@ For such cases, return: []"#,
         // Validate and add new verbs
         let mut added_count = 0;
         let mut valid_verbs_found = false;
+        let mut skipped_duplicates = 0;
+        
+        println!("📋 Processing {} generated verbs for prefix '{}'", new_verbs.len(), prefix);
         
         for verb_outcome in new_verbs {
+            let verb_lower = verb_outcome.verb.to_lowercase();
+            
             // Validate verb starts with correct prefix
-            if !verb_outcome.verb.to_lowercase().starts_with(&prefix.to_lowercase()) {
-                eprintln!("⚠️  Skipping '{}' - doesn't start with '{}'", verb_outcome.verb, prefix);
+            if !verb_lower.starts_with(&prefix.to_lowercase()) {
+                println!("⚠️  Skipping '{}' - doesn't start with '{}'", verb_outcome.verb, prefix);
                 continue;
             }
             
-            // Check if we already have this verb
-            if state.processed_verbs.contains(&verb_outcome.verb) {
-                eprintln!("⚠️  Skipping '{}' - already processed", verb_outcome.verb);
+            // Check if we already have this verb (case-insensitive)
+            let already_exists = state.processed_verbs.iter()
+                .any(|existing| existing.to_lowercase() == verb_lower);
+            
+            if already_exists {
+                println!("🔄 Skipping '{}' - already processed (duplicate)", verb_outcome.verb);
+                skipped_duplicates += 1;
                 continue;
             }
             
@@ -1009,11 +1145,18 @@ For such cases, return: []"#,
                 added_count += 1;
                 valid_verbs_found = true;
                 
-                println!("➕ Added verb: {}", verb_outcome.verb);
+                println!("✅ Added new verb: {}", verb_outcome.verb);
             } else {
-                eprintln!("⚠️  Skipping '{}' - not a valid English verb", verb_outcome.verb);
+                println!("❌ Skipping '{}' - not a valid English verb", verb_outcome.verb);
             }
         }
+        
+        if skipped_duplicates > 0 {
+            println!("🔄 Skipped {} duplicate verbs for prefix '{}'", skipped_duplicates, prefix);
+        }
+        
+        println!("📊 Summary for '{}': {} new verbs added, {} total processed", 
+                prefix, added_count, state.processed_verbs.len());
         
         // If no valid verbs were found after processing, consider this prefix complete
         if !valid_verbs_found && added_count == 0 {
@@ -1043,62 +1186,141 @@ For such cases, return: []"#,
             return "[]".to_string();
         }
         
-        // Find JSON array bounds more robustly
-        let lines: Vec<&str> = response.lines().collect();
+        // Check if the response indicates no verbs exist
+        let response_lower = response_trimmed.to_lowercase();
+        if response_lower.contains("no verbs") || 
+           response_lower.contains("no valid") ||
+           response_lower.contains("no common") ||
+           response_lower.contains("none exist") ||
+           response_lower.contains("not exist") {
+            return "[]".to_string();
+        }
         
-        // Look for start and end of JSON array
-        let start_idx = lines.iter().position(|line| {
-            let trimmed = line.trim();
-            trimmed.starts_with('[') || trimmed.contains('[')
-        });
-        
-        let end_idx = lines.iter().rposition(|line| {
-            let trimmed = line.trim();
-            trimmed.ends_with(']') || trimmed.contains(']')
-        });
-        
-        match (start_idx, end_idx) {
-            (Some(start), Some(end)) if start <= end => {
-                let json_lines = &lines[start..=end];
-                let mut result = String::new();
-                
-                for line in json_lines {
-                    result.push_str(line);
-                    result.push('\n');
-                }
-                
-                // Clean up the JSON string
-                let result = result.trim();
-                
-                // Extract just the array part if needed
-                if let Some(start_bracket) = result.find('[') {
-                    if let Some(end_bracket) = result.rfind(']') {
-                        if start_bracket < end_bracket {
-                            let extracted = result[start_bracket..=end_bracket].to_string();
-                            // Handle empty array case
-                            if extracted.trim() == "[]" {
-                                return "[]".to_string();
-                            }
-                            return extracted;
+        // Find the JSON array bounds
+        if let Some(start_bracket) = response_trimmed.find('[') {
+            if let Some(end_bracket) = response_trimmed.rfind(']') {
+                if start_bracket < end_bracket {
+                    let json_candidate = &response_trimmed[start_bracket..=end_bracket];
+                    
+                    // Try to validate and fix the JSON
+                    match Self::validate_and_fix_json(json_candidate) {
+                        Ok(fixed_json) => return fixed_json,
+                        Err(_) => {
+                            // If validation fails, try to extract complete objects
+                            return Self::extract_complete_objects(json_candidate);
                         }
                     }
                 }
-                
-                result.to_string()
+            } else {
+                // No closing bracket found - JSON was truncated
+                println!("⚠️  JSON appears to be truncated (no closing bracket)");
+                return Self::extract_complete_objects(&response_trimmed[start_bracket..]);
             }
-            _ => {
-                // Check if the response indicates no verbs exist
-                let response_lower = response_trimmed.to_lowercase();
-                if response_lower.contains("no verbs") || 
-                   response_lower.contains("no valid") ||
-                   response_lower.contains("no common") ||
-                   response_lower.contains("none exist") ||
-                   response_lower.contains("not exist") {
-                    return "[]".to_string();
+        }
+        
+        // Fallback: return empty array if no valid JSON found
+        println!("⚠️  No valid JSON array found in response");
+        "[]".to_string()
+    }
+    
+    fn validate_and_fix_json(json_str: &str) -> Result<String> {
+        // First, try to parse as-is
+        match serde_json::from_str::<serde_json::Value>(json_str) {
+            Ok(_) => return Ok(json_str.to_string()),
+            Err(_) => {
+                // JSON is malformed, try to fix it
+                println!("🔧 Attempting to fix malformed JSON...");
+            }
+        }
+        
+        // Try to fix common JSON issues
+        let mut fixed = json_str.to_string();
+        
+        // Remove trailing commas before closing braces/brackets
+        fixed = regex::Regex::new(r",(\s*[}\]])")
+            .unwrap()
+            .replace_all(&fixed, "$1")
+            .to_string();
+        
+        // Try parsing again
+        match serde_json::from_str::<serde_json::Value>(&fixed) {
+            Ok(_) => Ok(fixed),
+            Err(e) => Err(anyhow::anyhow!("Could not fix JSON: {}", e))
+        }
+    }
+    
+    fn extract_complete_objects(json_str: &str) -> String {
+        let mut complete_objects = Vec::new();
+        let mut current_object = String::new();
+        let mut brace_count = 0;
+        let mut in_string = false;
+        let mut escape_next = false;
+        
+        for ch in json_str.chars() {
+            if escape_next {
+                escape_next = false;
+                current_object.push(ch);
+                continue;
+            }
+            
+            match ch {
+                '\\' if in_string => {
+                    escape_next = true;
+                    current_object.push(ch);
                 }
-                
-                // Fallback: try to find any JSON-like content
-                response.to_string()
+                '"' => {
+                    in_string = !in_string;
+                    current_object.push(ch);
+                }
+                '{' if !in_string => {
+                    brace_count += 1;
+                    current_object.push(ch);
+                }
+                '}' if !in_string => {
+                    current_object.push(ch);
+                    brace_count -= 1;
+                    
+                    if brace_count == 0 && !current_object.trim().is_empty() {
+                        // We have a complete object
+                        let trimmed_object = current_object.trim();
+                        if trimmed_object.starts_with('{') && trimmed_object.ends_with('}') {
+                            // Validate this object
+                            match serde_json::from_str::<serde_json::Value>(trimmed_object) {
+                                Ok(_) => {
+                                    complete_objects.push(trimmed_object.to_string());
+                                    println!("✅ Extracted complete object");
+                                }
+                                Err(_) => {
+                                    println!("⚠️  Skipping invalid object");
+                                }
+                            }
+                        }
+                        current_object.clear();
+                    }
+                }
+                _ => {
+                    current_object.push(ch);
+                }
+            }
+        }
+        
+        if complete_objects.is_empty() {
+            println!("⚠️  No complete JSON objects found");
+            return "[]".to_string();
+        }
+        
+        // Construct a valid JSON array from complete objects
+        let result = format!("[{}]", complete_objects.join(","));
+        
+        // Final validation
+        match serde_json::from_str::<serde_json::Value>(&result) {
+            Ok(_) => {
+                println!("✅ Successfully reconstructed JSON with {} objects", complete_objects.len());
+                result
+            }
+            Err(_) => {
+                println!("❌ Failed to construct valid JSON array");
+                "[]".to_string()
             }
         }
     }
