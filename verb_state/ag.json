@@ -1,0 +1,271 @@
+{
+  "prefix": "ag",
+  "processed_verbs": [
+    "age",
+    "aggravate",
+    "aggregate",
+    "aggrieve",
+    "agitate",
+    "agree",
+    "agonize"
+  ],
+  "outcomes": [
+    {
+      "verb": "age",
+      "applicable_subjects": ["biological_body", "object", "concept"],
+      "applicable_objects": ["biological_body", "object", "substance"],
+      "goals": ["maturation", "degradation", "evolution"],
+      "mechanisms": ["time passage", "exposure"],
+      "tools": [],
+      "required_subject_states": {
+        "physical": ["alive or existent"],
+        "emotional": ["neutral"],
+        "mental": ["passive"],
+        "positional": ["existing over time"]
+      },
+      "required_object_states": {
+        "physical": ["vulnerable to time"],
+        "emotional": ["neutral"],
+        "mental": ["non-applicable"],
+        "positional": ["exposed"]
+      },
+      "final_subject_states": {
+        "physical": ["aged", "weathered", "mature"],
+        "emotional": ["reflective"],
+        "mental": ["experienced"],
+        "positional": ["long-term presence"]
+      },
+      "final_object_states": {
+        "physical": ["changed", "matured", "decayed"],
+        "emotional": ["less vibrant"],
+        "mental": ["non-applicable"],
+        "positional": ["unchanged"]
+      }
+    },
+    {
+      "verb": "agglomerate",
+      "applicable_subjects": ["concept", "process", "material"],
+      "applicable_objects": ["particles", "data", "units"],
+      "goals": ["clustering", "consolidation"],
+      "mechanisms": ["coalescence", "adhesion"],
+      "tools": [],
+      "required_subject_states": {
+        "physical": ["active or reactive"],
+        "emotional": ["neutral"],
+        "mental": ["non-applicable"],
+        "positional": ["surrounding or central"]
+      },
+      "required_object_states": {
+        "physical": ["fragmented", "separate"],
+        "emotional": ["neutral"],
+        "mental": ["non-applicable"],
+        "positional": ["scattered"]
+      },
+      "final_subject_states": {
+        "physical": ["integrated"],
+        "emotional": ["neutral"],
+        "mental": ["non-applicable"],
+        "positional": ["central or inclusive"]
+      },
+      "final_object_states": {
+        "physical": ["clustered", "compacted"],
+        "emotional": ["neutral"],
+        "mental": ["non-applicable"],
+        "positional": ["unified structure"]
+      }
+    },
+    {
+      "verb": "aggravate",
+      "applicable_subjects": ["biological_body", "concept", "condition"],
+      "applicable_objects": ["situation", "injury", "emotion"],
+      "goals": ["intensify", "worsen"],
+      "mechanisms": ["provocation", "amplification"],
+      "tools": ["force", "reaction", "irritant"],
+      "required_subject_states": {
+        "physical": ["active"],
+        "emotional": ["irritated", "concerned"],
+        "mental": ["aware"],
+        "positional": ["influencing position"]
+      },
+      "required_object_states": {
+        "physical": ["mildly negative or stable"],
+        "emotional": ["sensitive", "stressed"],
+        "mental": ["pre-existing condition"],
+        "positional": ["within range"]
+      },
+      "final_subject_states": {
+        "physical": ["unchanged"],
+        "emotional": ["intensified", "catalyzing"],
+        "mental": ["active"],
+        "positional": ["present"]
+      },
+      "final_object_states": {
+        "physical": ["worsened"],
+        "emotional": ["escalated", "triggered"],
+        "mental": ["disturbed"],
+        "positional": ["more unstable"]
+      }
+    },
+    {
+      "verb": "aggregate",
+      "applicable_subjects": ["biological_body", "system", "concept"],
+      "applicable_objects": ["data", "resources", "elements"],
+      "goals": ["collection", "consolidation"],
+      "mechanisms": ["grouping", "merging"],
+      "tools": ["container", "logic", "framework"],
+      "required_subject_states": {
+        "physical": ["active"],
+        "emotional": ["neutral"],
+        "mental": ["organized"],
+        "positional": ["coordinating role"]
+      },
+      "required_object_states": {
+        "physical": ["separated"],
+        "emotional": ["neutral"],
+        "mental": ["individual"],
+        "positional": ["dispersed"]
+      },
+      "final_subject_states": {
+        "physical": ["coordinator"],
+        "emotional": ["focused"],
+        "mental": ["unified"],
+        "positional": ["controller"]
+      },
+      "final_object_states": {
+        "physical": ["combined"],
+        "emotional": ["neutral"],
+        "mental": ["structured"],
+        "positional": ["grouped"]
+      }
+    },
+    {
+      "verb": "aggrieve",
+      "applicable_subjects": ["biological_body", "institution"],
+      "applicable_objects": ["biological_body", "group"],
+      "goals": ["harm", "injustice"],
+      "mechanisms": ["deprivation", "oppression"],
+      "tools": ["authority", "policy", "neglect"],
+      "required_subject_states": {
+        "physical": ["in power"],
+        "emotional": ["indifferent"],
+        "mental": ["aware"],
+        "positional": ["above or dominant"]
+      },
+      "required_object_states": {
+        "physical": ["dependent"],
+        "emotional": ["trusting", "neutral"],
+        "mental": ["hopeful"],
+        "positional": ["subjected"]
+      },
+      "final_subject_states": {
+        "physical": ["unchanged"],
+        "emotional": ["neutral"],
+        "mental": ["controlling"],
+        "positional": ["in power"]
+      },
+      "final_object_states": {
+        "physical": ["oppressed", "deprived"],
+        "emotional": ["resentful", "hurt"],
+        "mental": ["aware of injustice"],
+        "positional": ["subjugated"]
+      }
+    },
+    {
+      "verb": "agitate",
+      "applicable_subjects": ["biological_body", "machine", "concept"],
+      "applicable_objects": ["liquid", "group", "mind"],
+      "goals": ["movement", "stimulation", "disruption"],
+      "mechanisms": ["shaking", "provoking", "stirring"],
+      "tools": ["motion", "words", "tools"],
+      "required_subject_states": {
+        "physical": ["able to act"],
+        "emotional": ["intentional"],
+        "mental": ["focused"],
+        "positional": ["in contact or addressing"]
+      },
+      "required_object_states": {
+        "physical": ["calm or still"],
+        "emotional": ["neutral or dormant"],
+        "mental": ["inactive or stable"],
+        "positional": ["within reach"]
+      },
+      "final_subject_states": {
+        "physical": ["active"],
+        "emotional": ["assertive"],
+        "mental": ["engaged"],
+        "positional": ["interacting"]
+      },
+      "final_object_states": {
+        "physical": ["disturbed", "in motion"],
+        "emotional": ["alert", "irritated"],
+        "mental": ["stimulated", "unsettled"],
+        "positional": ["shifted"]
+      }
+    },
+    {
+      "verb": "agree",
+      "applicable_subjects": ["biological_body", "group"],
+      "applicable_objects": ["proposal", "decision", "viewpoint"],
+      "goals": ["harmony", "alignment", "consent"],
+      "mechanisms": ["discussion", "approval"],
+      "tools": ["communication", "negotiation"],
+      "required_subject_states": {
+        "physical": ["engaged"],
+        "emotional": ["open", "calm"],
+        "mental": ["rational"],
+        "positional": ["in dialogue"]
+      },
+      "required_object_states": {
+        "physical": ["proposed"],
+        "emotional": ["neutral"],
+        "mental": ["understood"],
+        "positional": ["negotiable"]
+      },
+      "final_subject_states": {
+        "physical": ["still"],
+        "emotional": ["aligned"],
+        "mental": ["accepting"],
+        "positional": ["in agreement"]
+      },
+      "final_object_states": {
+        "physical": ["accepted"],
+        "emotional": ["approved"],
+        "mental": ["affirmed"],
+        "positional": ["shared belief"]
+      }
+    },
+    {
+      "verb": "agonize",
+      "applicable_subjects": ["biological_body"],
+      "applicable_objects": ["decision", "loss", "memory"],
+      "goals": ["resolution", "coping", "understanding"],
+      "mechanisms": ["mental conflict", "emotional struggle"],
+      "tools": [],
+      "required_subject_states": {
+        "physical": ["present"],
+        "emotional": ["distressed"],
+        "mental": ["uncertain"],
+        "positional": ["focused inward"]
+      },
+      "required_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["sensitive"],
+        "mental": ["challenging"],
+        "positional": ["internal or remembered"]
+      },
+      "final_subject_states": {
+        "physical": ["strained"],
+        "emotional": ["exhausted", "resolved (optionally)"],
+        "mental": ["processed", "decided"],
+        "positional": ["still or withdrawn"]
+      },
+      "final_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["processed"],
+        "mental": ["settled"],
+        "positional": ["no longer urgent"]
+      }
+    }
+  ],
+  "completed": true
+}

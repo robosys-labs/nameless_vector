@@ -1,0 +1,74 @@
+{
+  "prefix": "av",
+  "processed_verbs": [
+    "avail",
+    "avoid"
+  ],
+  "outcomes": [
+    {
+      "verb": "avail",
+      "applicable_subjects": ["individual", "group"],
+      "applicable_objects": ["opportunity", "resource", "option"],
+      "goals": ["use", "benefit"],
+      "mechanisms": ["access", "engagement"],
+      "tools": ["choice", "effort", "means"],
+      "required_subject_states": {
+        "physical": ["capable"],
+        "emotional": ["willing"],
+        "mental": ["aware"],
+        "positional": ["near opportunity"]
+      },
+      "required_object_states": {
+        "physical": ["accessible"],
+        "emotional": ["neutral"],
+        "mental": ["identified"],
+        "positional": ["in reach"]
+      },
+      "final_subject_states": {
+        "physical": ["engaged"],
+        "emotional": ["empowered"],
+        "mental": ["utilized"],
+        "positional": ["benefiting"]
+      },
+      "final_object_states": {
+        "physical": ["used"],
+        "emotional": ["neutral"],
+        "mental": ["applied"],
+        "positional": ["consumed or depleted"]
+      }
+    },
+    {
+      "verb": "avoid",
+      "applicable_subjects": ["individual", "system"],
+      "applicable_objects": ["danger", "task", "person", "error"],
+      "goals": ["prevention", "escape"],
+      "mechanisms": ["movement", "decision"],
+      "tools": ["caution", "planning", "intuition"],
+      "required_subject_states": {
+        "physical": ["free to act"],
+        "emotional": ["alert", "apprehensive"],
+        "mental": ["aware of risk"],
+        "positional": ["near threat"]
+      },
+      "required_object_states": {
+        "physical": ["threatening or undesirable"],
+        "emotional": ["provoking"],
+        "mental": ["recognized"],
+        "positional": ["approaching or fixed"]
+      },
+      "final_subject_states": {
+        "physical": ["moved away"],
+        "emotional": ["relieved"],
+        "mental": ["calculated"],
+        "positional": ["distant"]
+      },
+      "final_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["neutral or reactive"],
+        "mental": ["not engaged"],
+        "positional": ["left behind"]
+      }
+    }
+  ],
+  "completed": true
+}

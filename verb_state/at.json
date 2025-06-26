@@ -1,0 +1,239 @@
+{
+  "prefix": "at",
+  "processed_verbs": [
+    "attack",
+    "attain",
+    "attempt",
+    "attend",    
+    "attract",
+    "attach",
+    "attribute"
+  ],
+  "outcomes": [
+    {
+      "verb": "attack",
+      "applicable_subjects": ["biological_body", "group", "system"],
+      "applicable_objects": ["person", "place", "idea"],
+      "goals": ["harm", "control", "defeat"],
+      "mechanisms": ["force", "confrontation"],
+      "tools": ["weapon", "action", "argument"],
+      "required_subject_states": {
+        "physical": ["ready", "able"],
+        "emotional": ["aggressive", "motivated"],
+        "mental": ["hostile or strategic"],
+        "positional": ["near object"]
+      },
+      "required_object_states": {
+        "physical": ["exposed or present"],
+        "emotional": ["neutral or defensive"],
+        "mental": ["aware or unsuspecting"],
+        "positional": ["in range"]
+      },
+      "final_subject_states": {
+        "physical": ["engaged"],
+        "emotional": ["assertive", "dominant"],
+        "mental": ["active"],
+        "positional": ["confronting object"]
+      },
+      "final_object_states": {
+        "physical": ["damaged", "altered"],
+        "emotional": ["shocked", "resistant"],
+        "mental": ["alarmed"],
+        "positional": ["overcome or resisting"]
+      }
+    },
+    {
+      "verb": "attain",
+      "applicable_subjects": ["individual", "group", "system"],
+      "applicable_objects": ["goal", "rank", "standard"],
+      "goals": ["achievement", "arrival"],
+      "mechanisms": ["progress", "effort"],
+      "tools": ["skill", "plan", "time"],
+      "required_subject_states": {
+        "physical": ["capable", "active"],
+        "emotional": ["driven"],
+        "mental": ["goal-oriented"],
+        "positional": ["on path"]
+      },
+      "required_object_states": {
+        "physical": ["reachable"],
+        "emotional": ["desired"],
+        "mental": ["understood"],
+        "positional": ["ahead"]
+      },
+      "final_subject_states": {
+        "physical": ["successful"],
+        "emotional": ["accomplished", "satisfied"],
+        "mental": ["fulfilled"],
+        "positional": ["at target"]
+      },
+      "final_object_states": {
+        "physical": ["possessed or reached"],
+        "emotional": ["neutral"],
+        "mental": ["confirmed"],
+        "positional": ["with subject"]
+      }
+    },
+    {
+      "verb": "attempt",
+      "applicable_subjects": ["individual", "group"],
+      "applicable_objects": ["task", "goal", "escape"],
+      "goals": ["trial", "achievement"],
+      "mechanisms": ["effort", "initiative"],
+      "tools": ["action", "intent"],
+      "required_subject_states": {
+        "physical": ["ready", "able"],
+        "emotional": ["motivated", "uncertain"],
+        "mental": ["hopeful", "uncertain"],
+        "positional": ["near action"]
+      },
+      "required_object_states": {
+        "physical": ["available or actionable"],
+        "emotional": ["neutral"],
+        "mental": ["understood"],
+        "positional": ["in scope"]
+      },
+      "final_subject_states": {
+        "physical": ["engaged"],
+        "emotional": ["hopeful or frustrated"],
+        "mental": ["trying"],
+        "positional": ["in progress"]
+      },
+      "final_object_states": {
+        "physical": ["possibly unchanged"],
+        "emotional": ["unaffected"],
+        "mental": ["targeted"],
+        "positional": ["engaged"]
+      }
+    },
+    {
+      "verb": "attend",
+      "applicable_subjects": ["individual", "group"],
+      "applicable_objects": ["event", "meeting", "person"],
+      "goals": ["presence", "participation"],
+      "mechanisms": ["movement", "focus"],
+      "tools": ["time", "invitation"],
+      "required_subject_states": {
+        "physical": ["available"],
+        "emotional": ["willing or obliged"],
+        "mental": ["aware of event"],
+        "positional": ["distant or absent"]
+      },
+      "required_object_states": {
+        "physical": ["scheduled"],
+        "emotional": ["neutral"],
+        "mental": ["recognized"],
+        "positional": ["reachable"]
+      },
+      "final_subject_states": {
+        "physical": ["present"],
+        "emotional": ["involved or neutral"],
+        "mental": ["attentive"],
+        "positional": ["at event"]
+      },
+      "final_object_states": {
+        "physical": ["ongoing"],
+        "emotional": ["acknowledged"],
+        "mental": ["interacted"],
+        "positional": ["engaged with subject"]
+      }
+    },
+    {
+      "verb": "attract",
+      "applicable_subjects": ["object", "place", "person", "idea"],
+      "applicable_objects": ["person", "attention", "interest"],
+      "goals": ["engagement", "attention"],
+      "mechanisms": ["pull", "appeal"],
+      "tools": ["design", "feature", "signal"],
+      "required_subject_states": {
+        "physical": ["visible", "present"],
+        "emotional": ["appealing"],
+        "mental": ["stimulating"],
+        "positional": ["within view"]
+      },
+      "required_object_states": {
+        "physical": ["observing"],
+        "emotional": ["neutral"],
+        "mental": ["curious"],
+        "positional": ["within influence range"]
+      },
+      "final_subject_states": {
+        "physical": ["unchanged"],
+        "emotional": ["satisfied"],
+        "mental": ["noticed"],
+        "positional": ["focus of attention"]
+      },
+      "final_object_states": {
+        "physical": ["drawn near"],
+        "emotional": ["interested"],
+        "mental": ["engaged"],
+        "positional": ["closer to subject"]
+      }
+    },
+    {
+      "verb": "attach",
+      "applicable_subjects": ["individual", "tool", "device", "system"],
+      "applicable_objects": ["object", "document", "file", "device"],
+      "goals": ["connection", "inclusion"],
+      "mechanisms": ["joining", "linking"],
+      "tools": ["fastener", "interface", "command"],
+      "required_subject_states": {
+        "physical": ["holding or controlling object"],
+        "emotional": ["intentional"],
+        "mental": ["aware of destination"],
+        "positional": ["adjacent to target"]
+      },
+      "required_object_states": {
+        "physical": ["portable or appendable"],
+        "emotional": ["neutral"],
+        "mental": ["identified"],
+        "positional": ["separate"]
+      },
+      "final_subject_states": {
+        "physical": ["connected to object"],
+        "emotional": ["completed"],
+        "mental": ["confirmed"],
+        "positional": ["linked with object"]
+      },
+      "final_object_states": {
+        "physical": ["joined", "fixed"],
+        "emotional": ["neutral"],
+        "mental": ["associated"],
+        "positional": ["with subject or host"]
+      }
+    },
+    {
+      "verb": "attribute",
+      "applicable_subjects": ["individual", "system", "analyst"],
+      "applicable_objects": ["cause", "value", "responsibility", "origin"],
+      "goals": ["assignment", "explanation", "classification"],
+      "mechanisms": ["reasoning", "inference", "labeling"],
+      "tools": ["observation", "knowledge", "logic"],
+      "required_subject_states": {
+        "physical": ["active"],
+        "emotional": ["neutral or thoughtful"],
+        "mental": ["analytical", "interpretive"],
+        "positional": ["evaluating context"]
+      },
+      "required_object_states": {
+        "physical": ["observable", "identifiable"],
+        "emotional": ["neutral"],
+        "mental": ["not yet explained"],
+        "positional": ["within scope"]
+      },
+      "final_subject_states": {
+        "physical": ["unchanged"],
+        "emotional": ["resolved", "assertive"],
+        "mental": ["decisive"],
+        "positional": ["assigning or asserting"]
+      },
+      "final_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["acknowledged"],
+        "mental": ["classified or linked"],
+        "positional": ["tagged or referenced"]
+      }
+    }
+  ],
+  "completed": true
+}

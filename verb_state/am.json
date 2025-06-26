@@ -1,0 +1,606 @@
+{
+  "prefix": "am",
+  "processed_verbs": [
+    "amalgamate",
+    "amaze",
+    "ambush",
+    "amend",
+    "amortize",
+    "amplify",
+    "amuse"
+  ],
+  "outcomes": [
+    {
+      "verb": "amalgamate",
+      "applicable_subjects": [
+        "organization",
+        "system",
+        "concept"
+      ],
+      "applicable_objects": [
+        "entities",
+        "data",
+        "departments"
+      ],
+      "goals": [
+        "unification",
+        "integration"
+      ],
+      "mechanisms": [
+        "merging",
+        "restructuring"
+      ],
+      "tools": [
+        "policy",
+        "agreement",
+        "framework"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "operational"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "strategic"
+        ],
+        "positional": [
+          "administrative"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "separate",
+          "independent"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "compatible"
+        ],
+        "positional": [
+          "dispersed"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "coordinated"
+        ],
+        "emotional": [
+          "unified"
+        ],
+        "mental": [
+          "integrated"
+        ],
+        "positional": [
+          "centralized"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "merged"
+        ],
+        "emotional": [
+          "collaborative"
+        ],
+        "mental": [
+          "combined"
+        ],
+        "positional": [
+          "grouped"
+        ]
+      }
+    },
+    {
+      "verb": "amaze",
+      "applicable_subjects": [
+        "biological_body",
+        "event",
+        "object"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "audience"
+      ],
+      "goals": [
+        "astonishment",
+        "impression"
+      ],
+      "mechanisms": [
+        "performance",
+        "display",
+        "novelty"
+      ],
+      "tools": [
+        "skills",
+        "features",
+        "action"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "present"
+        ],
+        "emotional": [
+          "engaged"
+        ],
+        "mental": [
+          "intentional"
+        ],
+        "positional": [
+          "in view"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "observing"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "unexpecting"
+        ],
+        "positional": [
+          "in audience"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "expressive"
+        ],
+        "emotional": [
+          "proud"
+        ],
+        "mental": [
+          "accomplished"
+        ],
+        "positional": [
+          "elevated"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "reactive"
+        ],
+        "emotional": [
+          "astonished",
+          "delighted"
+        ],
+        "mental": [
+          "stimulated"
+        ],
+        "positional": [
+          "still observing"
+        ]
+      }
+    },
+    {
+      "verb": "ambush",
+      "applicable_subjects": [
+        "biological_body",
+        "military group"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "vehicle",
+        "target"
+      ],
+      "goals": [
+        "surprise attack",
+        "capture",
+        "disable"
+      ],
+      "mechanisms": [
+        "concealment",
+        "timing"
+      ],
+      "tools": [
+        "weapons",
+        "cover",
+        "strategy"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "hidden"
+        ],
+        "emotional": [
+          "aggressive",
+          "focused"
+        ],
+        "mental": [
+          "strategic"
+        ],
+        "positional": [
+          "near object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "moving",
+          "unaware"
+        ],
+        "emotional": [
+          "calm"
+        ],
+        "mental": [
+          "unprepared"
+        ],
+        "positional": [
+          "approaching"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "engaged"
+        ],
+        "emotional": [
+          "intense"
+        ],
+        "mental": [
+          "executing"
+        ],
+        "positional": [
+          "exposed"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "disabled",
+          "captured"
+        ],
+        "emotional": [
+          "shocked",
+          "afraid"
+        ],
+        "mental": [
+          "startled"
+        ],
+        "positional": [
+          "halted"
+        ]
+      }
+    },
+    {
+      "verb": "amend",
+      "applicable_subjects": [
+        "biological_body",
+        "authority",
+        "system"
+      ],
+      "applicable_objects": [
+        "document",
+        "law",
+        "policy"
+      ],
+      "goals": [
+        "improvement",
+        "correction"
+      ],
+      "mechanisms": [
+        "revision",
+        "editing"
+      ],
+      "tools": [
+        "language",
+        "judgment",
+        "tools"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable"
+        ],
+        "emotional": [
+          "responsible"
+        ],
+        "mental": [
+          "judicious"
+        ],
+        "positional": [
+          "governing"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "incomplete",
+          "imperfect"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "flawed"
+        ],
+        "positional": [
+          "in effect"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "engaged"
+        ],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "resolute"
+        ],
+        "positional": [
+          "in control"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "updated"
+        ],
+        "emotional": [
+          "accepted"
+        ],
+        "mental": [
+          "refined"
+        ],
+        "positional": [
+          "in force"
+        ]
+      }
+    },
+    {
+      "verb": "amplify",
+      "applicable_subjects": [
+        "biological_body",
+        "device",
+        "system"
+      ],
+      "applicable_objects": [
+        "signal",
+        "voice",
+        "effect"
+      ],
+      "goals": [
+        "increase",
+        "expansion",
+        "clarity"
+      ],
+      "mechanisms": [
+        "boosting",
+        "enhancement"
+      ],
+      "tools": [
+        "amplifier",
+        "expression",
+        "volume"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "connected",
+          "active"
+        ],
+        "emotional": [
+          "engaged"
+        ],
+        "mental": [
+          "focused"
+        ],
+        "positional": [
+          "linked to output"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "weak",
+          "present"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "understood"
+        ],
+        "positional": [
+          "within scope"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "energized"
+        ],
+        "emotional": [
+          "expressive"
+        ],
+        "mental": [
+          "clear"
+        ],
+        "positional": [
+          "engaged"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "louder",
+          "stronger"
+        ],
+        "emotional": [
+          "energized"
+        ],
+        "mental": [
+          "perceived"
+        ],
+        "positional": [
+          "extended"
+        ]
+      }
+    },
+    {
+      "verb": "amortize",
+      "applicable_subjects": [
+        "organization",
+        "system",
+        "individual"
+      ],
+      "applicable_objects": [
+        "debt",
+        "cost",
+        "asset"
+      ],
+      "goals": [
+        "gradual reduction",
+        "scheduled repayment"
+      ],
+      "mechanisms": [
+        "payments",
+        "installments"
+      ],
+      "tools": [
+        "plan",
+        "schedule",
+        "interest"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable"
+        ],
+        "emotional": [
+          "committed"
+        ],
+        "mental": [
+          "financially aware"
+        ],
+        "positional": [
+          "obligated"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "acquired",
+          "owed"
+        ],
+        "emotional": [
+          "pressuring"
+        ],
+        "mental": [
+          "quantified"
+        ],
+        "positional": [
+          "held by subject"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "relieved"
+        ],
+        "emotional": [
+          "empowered"
+        ],
+        "mental": [
+          "resolved"
+        ],
+        "positional": [
+          "cleared"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "reduced",
+          "eliminated"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "settled"
+        ],
+        "positional": [
+          "zeroed"
+        ]
+      }
+    },
+    {
+      "verb": "amuse",
+      "applicable_subjects": [
+        "biological_body",
+        "media",
+        "performer"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "audience",
+        "group"
+      ],
+      "goals": [
+        "entertainment",
+        "pleasure",
+        "engagement"
+      ],
+      "mechanisms": [
+        "humor",
+        "novelty",
+        "performance"
+      ],
+      "tools": [
+        "story",
+        "gesture",
+        "media"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "present"
+        ],
+        "emotional": [
+          "playful"
+        ],
+        "mental": [
+          "creative"
+        ],
+        "positional": [
+          "visible or audible"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "watching",
+          "listening"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "open"
+        ],
+        "positional": [
+          "within range"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "engaged"
+        ],
+        "emotional": [
+          "joyful"
+        ],
+        "mental": [
+          "expressive"
+        ],
+        "positional": [
+          "in performance"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "stimulated"
+        ],
+        "emotional": [
+          "entertained",
+          "happy"
+        ],
+        "mental": [
+          "engaged"
+        ],
+        "positional": [
+          "present"
+        ]
+      }
+    }
+  ],
+  "completed": true
+}

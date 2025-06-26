@@ -1,0 +1,39 @@
+{
+  "prefix": "ae",
+  "processed_verbs": ["aerate"],
+  "outcomes": [
+    {
+      "verb": "aerate",
+      "applicable_subjects": ["biological_body", "machine", "process"],
+      "applicable_objects": ["soil", "liquid", "environment"],
+      "goals": ["oxygenation", "ventilation", "improvement"],
+      "mechanisms": ["perforation", "diffusion"],
+      "tools": ["aerator", "pressure", "motion"],
+      "required_subject_states": {
+        "physical": ["functional"],
+        "emotional": ["neutral"],
+        "mental": ["aware (if biological)"],
+        "positional": ["in proximity"]
+      },
+      "required_object_states": {
+        "physical": ["dense", "closed"],
+        "emotional": ["neutral"],
+        "mental": ["non-applicable"],
+        "positional": ["static or sealed"]
+      },
+      "final_subject_states": {
+        "physical": ["exerted"],
+        "emotional": ["neutral"],
+        "mental": ["completed"],
+        "positional": ["disengaged"]
+      },
+      "final_object_states": {
+        "physical": ["oxygenated", "loosened"],
+        "emotional": ["neutral"],
+        "mental": ["non-applicable"],
+        "positional": ["open or activated"]
+      }
+    }
+  ],
+  "completed": true
+}

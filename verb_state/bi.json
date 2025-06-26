@@ -1,0 +1,929 @@
+{
+  "prefix": "bi",
+  "processed_verbs": [
+    "bicker",
+    "bid",
+    "bide",
+    "bifurcate",
+    "bill",
+    "bilk",
+    "bind",
+    "bioengineer",
+    "bite",
+    "birth"
+  ],
+  "outcomes": [
+    {
+      "verb": "bicker",
+      "applicable_subjects": [
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "biological_body"
+      ],
+      "goals": [
+        "express disagreement",
+        "establish dominance"
+      ],
+      "mechanisms": [
+        "verbal sparring",
+        "petty argument"
+      ],
+      "tools": [
+        "words",
+        "tone"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "engaged"
+        ],
+        "emotional": [
+          "irritated",
+          "defensive"
+        ],
+        "mental": [
+          "focused on dispute"
+        ],
+        "positional": [
+          "confronting object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "responsive"
+        ],
+        "emotional": [
+          "annoyed",
+          "provoked"
+        ],
+        "mental": [
+          "engaged in argument"
+        ],
+        "positional": [
+          "in argument"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "tired"
+        ],
+        "emotional": [
+          "unsatisfied",
+          "tense"
+        ],
+        "mental": [
+          "frustrated"
+        ],
+        "positional": [
+          "unchanged"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "tired"
+        ],
+        "emotional": [
+          "tense"
+        ],
+        "mental": [
+          "irritated"
+        ],
+        "positional": [
+          "unchanged"
+        ]
+      }
+    },
+    {
+      "verb": "bid",
+      "applicable_subjects": [
+        "biological_body",
+        "entity"
+      ],
+      "applicable_objects": [
+        "item",
+        "contract",
+        "service"
+      ],
+      "goals": [
+        "win acquisition",
+        "propose value"
+      ],
+      "mechanisms": [
+        "offering",
+        "pricing"
+      ],
+      "tools": [
+        "money",
+        "terms",
+        "proposal"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "present"
+        ],
+        "emotional": [
+          "motivated"
+        ],
+        "mental": [
+          "strategic"
+        ],
+        "positional": [
+          "engaged in competition"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "available"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "evaluated"
+        ],
+        "positional": [
+          "in auction or offer system"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "committed"
+        ],
+        "emotional": [
+          "hopeful",
+          "competitive"
+        ],
+        "mental": [
+          "focused"
+        ],
+        "positional": [
+          "in consideration"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "offered to multiple"
+        ],
+        "emotional": [
+          "indifferent"
+        ],
+        "mental": [
+          "awaiting decision"
+        ],
+        "positional": [
+          "unresolved"
+        ]
+      }
+    },
+    {
+      "verb": "bide",
+      "applicable_subjects": [
+        "biological_body",
+        "conceptual agent"
+      ],
+      "applicable_objects": [
+        "time",
+        "opportunity"
+      ],
+      "goals": [
+        "wait",
+        "strategize",
+        "remain inactive temporarily"
+      ],
+      "mechanisms": [
+        "patience",
+        "non-action"
+      ],
+      "tools": [],
+      "required_subject_states": {
+        "physical": [
+          "still",
+          "inactive"
+        ],
+        "emotional": [
+          "calm or restrained"
+        ],
+        "mental": [
+          "alert",
+          "timing-aware"
+        ],
+        "positional": [
+          "away from action"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "pending"
+        ],
+        "emotional": [
+          "unavailable"
+        ],
+        "mental": [
+          "unripe"
+        ],
+        "positional": [
+          "not yet accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "ready"
+        ],
+        "emotional": [
+          "focused",
+          "patient"
+        ],
+        "mental": [
+          "primed"
+        ],
+        "positional": [
+          "unchanged"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "approaching"
+        ],
+        "emotional": [
+          "inviting"
+        ],
+        "mental": [
+          "opportune"
+        ],
+        "positional": [
+          "within reach"
+        ]
+      }
+    },
+    {
+      "verb": "bifurcate",
+      "applicable_subjects": [
+        "object",
+        "concept",
+        "system"
+      ],
+      "applicable_objects": [
+        "object",
+        "path",
+        "logic"
+      ],
+      "goals": [
+        "split",
+        "diverge",
+        "branch"
+      ],
+      "mechanisms": [
+        "division",
+        "structuring"
+      ],
+      "tools": [
+        "cutting logic",
+        "forking action"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "continuous"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "structuring"
+        ],
+        "positional": [
+          "central"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "unified"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "undivided"
+        ],
+        "positional": [
+          "singular"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "unchanged"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "complete"
+        ],
+        "positional": [
+          "above or between"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "split",
+          "divergent"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "organized",
+          "divided"
+        ],
+        "positional": [
+          "branching"
+        ]
+      }
+    },
+    {
+      "verb": "bilk",
+      "applicable_subjects": [
+        "biological_body",
+        "entity"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "system",
+        "organization"
+      ],
+      "goals": [
+        "cheat",
+        "evade payment",
+        "deceive"
+      ],
+      "mechanisms": [
+        "fraud",
+        "omission"
+      ],
+      "tools": [
+        "manipulation",
+        "falsehood"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable"
+        ],
+        "emotional": [
+          "dishonest",
+          "self-serving"
+        ],
+        "mental": [
+          "calculating"
+        ],
+        "positional": [
+          "in trust or transactional setup"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "trusting"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "unaware"
+        ],
+        "positional": [
+          "vulnerable"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "gained or escaped"
+        ],
+        "emotional": [
+          "guilty or satisfied"
+        ],
+        "mental": [
+          "aware"
+        ],
+        "positional": [
+          "gone"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "deprived",
+          "defrauded"
+        ],
+        "emotional": [
+          "angry",
+          "confused"
+        ],
+        "mental": [
+          "alerted",
+          "betrayed"
+        ],
+        "positional": [
+          "defensive"
+        ]
+      }
+    },
+    {
+      "verb": "bind",
+      "applicable_subjects": [
+        "biological_body",
+        "object",
+        "concept"
+      ],
+      "applicable_objects": [
+        "object",
+        "biological_body",
+        "concept",
+        "agreement"
+      ],
+      "goals": [
+        "restrict",
+        "connect",
+        "obligate"
+      ],
+      "mechanisms": [
+        "physical tie",
+        "contract",
+        "chemical adhesion"
+      ],
+      "tools": [
+        "rope",
+        "law",
+        "adhesive"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable"
+        ],
+        "emotional": [
+          "intentional",
+          "neutral"
+        ],
+        "mental": [
+          "aware"
+        ],
+        "positional": [
+          "in contact"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "free",
+          "unbound"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "consenting or unaware"
+        ],
+        "positional": [
+          "accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "attached"
+        ],
+        "emotional": [
+          "secure or assertive"
+        ],
+        "mental": [
+          "focused"
+        ],
+        "positional": [
+          "linked"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "restrained",
+          "joined"
+        ],
+        "emotional": [
+          "secure",
+          "confined"
+        ],
+        "mental": [
+          "obligated"
+        ],
+        "positional": [
+          "connected"
+        ]
+      }
+    },
+    {
+      "verb": "bill",
+      "applicable_subjects": [
+        "organization",
+        "individual"
+      ],
+      "applicable_objects": [
+        "person",
+        "organization"
+      ],
+      "goals": [
+        "charge",
+        "request payment"
+      ],
+      "mechanisms": [
+        "invoicing",
+        "billing cycle"
+      ],
+      "tools": [
+        "invoice",
+        "record"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "functional"
+        ],
+        "emotional": [
+          "formal",
+          "neutral"
+        ],
+        "mental": [
+          "aware of transaction"
+        ],
+        "positional": [
+          "in a service or product relationship"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "recipient of service"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "aware of usage"
+        ],
+        "positional": [
+          "in transaction"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "notified"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "acknowledging due amount"
+        ],
+        "positional": [
+          "initiator"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "indebted"
+        ],
+        "emotional": [
+          "obligated"
+        ],
+        "mental": [
+          "aware of debt"
+        ],
+        "positional": [
+          "debtor position"
+        ]
+      }
+    },
+    {
+      "verb": "bioaccumulate",
+      "applicable_subjects": [
+        "organism",
+        "ecosystem"
+      ],
+      "applicable_objects": [
+        "substance",
+        "toxin",
+        "chemical"
+      ],
+      "goals": [
+        "store compound over time"
+      ],
+      "mechanisms": [
+        "biological intake",
+        "absorption"
+      ],
+      "tools": [
+        "cellular process",
+        "environmental exposure"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "living",
+          "exposed"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "non-volitional"
+        ],
+        "positional": [
+          "within contaminated environment"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "persistent",
+          "available"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "non-sentient"
+        ],
+        "positional": [
+          "in ecosystem"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "toxin burdened"
+        ],
+        "emotional": [
+          "unchanged"
+        ],
+        "mental": [
+          "unaware"
+        ],
+        "positional": [
+          "contaminated"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "accumulated in tissues"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "inactive"
+        ],
+        "positional": [
+          "internalized"
+        ]
+      }
+    },
+    {
+      "verb": "bioengineer",
+      "applicable_subjects": [
+        "scientist",
+        "organization"
+      ],
+      "applicable_objects": [
+        "organism",
+        "system",
+        "component"
+      ],
+      "goals": [
+        "modify biology",
+        "design life systems"
+      ],
+      "mechanisms": [
+        "genetic alteration",
+        "synthetic biology"
+      ],
+      "tools": [
+        "gene editing",
+        "biotechnology"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "technically capable"
+        ],
+        "emotional": [
+          "motivated"
+        ],
+        "mental": [
+          "highly intentional"
+        ],
+        "positional": [
+          "in lab or technical context"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "modifiable",
+          "alive"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "non-resistant"
+        ],
+        "positional": [
+          "under experimentation"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "innovative"
+        ],
+        "emotional": [
+          "accomplished"
+        ],
+        "mental": [
+          "precise"
+        ],
+        "positional": [
+          "controller"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "engineered",
+          "optimized"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "unchanged or altered"
+        ],
+        "positional": [
+          "new state"
+        ]
+      }
+    },
+    {
+      "verb": "biopsy",
+      "applicable_subjects": [
+        "biological_body",
+        "medical agent"
+      ],
+      "applicable_objects": [
+        "tissue",
+        "organ",
+        "cell sample"
+      ],
+      "goals": [
+        "diagnose",
+        "analyze"
+      ],
+      "mechanisms": [
+        "extraction",
+        "microscopic analysis"
+      ],
+      "tools": [
+        "scalpel",
+        "needle",
+        "lab equipment"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable",
+          "trained"
+        ],
+        "emotional": [
+          "neutral or focused"
+        ],
+        "mental": [
+          "clinical"
+        ],
+        "positional": [
+          "adjacent to patient"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "suspected abnormality"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "inert"
+        ],
+        "positional": [
+          "within body"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "completed task"
+        ],
+        "emotional": [
+          "evaluative"
+        ],
+        "mental": [
+          "diagnostic"
+        ],
+        "positional": [
+          "neutral"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "removed sample"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "informative"
+        ],
+        "positional": [
+          "in lab"
+        ]
+      }
+    },
+    {
+      "verb": "birth",
+      "applicable_subjects": [
+        "biological_body",
+        "organism"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "offspring"
+      ],
+      "goals": [
+        "deliver",
+        "bring into existence"
+      ],
+      "mechanisms": [
+        "labor",
+        "biological reproduction"
+      ],
+      "tools": [
+        "body",
+        "womb",
+        "muscle contractions"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "pregnant",
+          "capable"
+        ],
+        "emotional": [
+          "anticipating",
+          "enduring"
+        ],
+        "mental": [
+          "aware"
+        ],
+        "positional": [
+          "prepared for delivery"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "developed fetus"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "undeveloped"
+        ],
+        "positional": [
+          "within body"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "relieved",
+          "weakened"
+        ],
+        "emotional": [
+          "emotional",
+          "fulfilled"
+        ],
+        "mental": [
+          "present",
+          "relieved"
+        ],
+        "positional": [
+          "post-labor state"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "alive",
+          "external"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "in development"
+        ],
+        "positional": [
+          "in environment"
+        ]
+      }
+    }
+  ],
+  "completed": true
+}

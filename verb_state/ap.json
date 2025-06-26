@@ -1,0 +1,690 @@
+{
+  "prefix": "ap",
+  "processed_verbs": [
+    "appeal",
+    "appear",
+    "append",
+    "applaud",
+    "apply",
+    "appoint",
+    "appraise",
+    "appreciate",
+    "apprehend",
+    "approach",
+    "appropriate",
+    "approve",
+    "approximate"
+  ],
+  "outcomes": [
+    {
+      "verb": "appeal",
+      "applicable_subjects": [
+        "biological_body",
+        "organization"
+      ],
+      "applicable_objects": [
+        "authority",
+        "audience",
+        "decision"
+      ],
+      "goals": [
+        "reversal",
+        "support",
+        "approval"
+      ],
+      "mechanisms": [
+        "petition",
+        "argument",
+        "request"
+      ],
+      "tools": [
+        "language",
+        "documentation"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable"
+        ],
+        "emotional": [
+          "motivated"
+        ],
+        "mental": [
+          "convinced"
+        ],
+        "positional": [
+          "in inferior or dependent position"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "accessible"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "evaluative"
+        ],
+        "positional": [
+          "higher authority"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "waiting"
+        ],
+        "emotional": [
+          "hopeful"
+        ],
+        "mental": [
+          "expressed"
+        ],
+        "positional": [
+          "submitted"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "unmoved or reviewing"
+        ],
+        "emotional": [
+          "considering"
+        ],
+        "mental": [
+          "evaluating"
+        ],
+        "positional": [
+          "above"
+        ]
+      }
+    },
+    {
+      "verb": "appear",
+      "applicable_subjects": [
+        "biological_body",
+        "entity",
+        "phenomenon"
+      ],
+      "applicable_objects": [
+        "place",
+        "audience",
+        "situation"
+      ],
+      "goals": [
+        "presence",
+        "visibility"
+      ],
+      "mechanisms": [
+        "entry",
+        "manifestation"
+      ],
+      "tools": [
+        "movement",
+        "transition"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "moving",
+          "emerging"
+        ],
+        "emotional": [
+          "neutral or intentional"
+        ],
+        "mental": [
+          "aware"
+        ],
+        "positional": [
+          "outside or hidden"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "open",
+          "waiting"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "unfocused"
+        ],
+        "positional": [
+          "in place"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "present"
+        ],
+        "emotional": [
+          "visible"
+        ],
+        "mental": [
+          "engaged"
+        ],
+        "positional": [
+          "within object area"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "occupied"
+        ],
+        "emotional": [
+          "aware"
+        ],
+        "mental": [
+          "alerted"
+        ],
+        "positional": [
+          "hosting"
+        ]
+      }
+    },
+    {
+      "verb": "applaud",
+      "applicable_subjects": [
+        "biological_body",
+        "audience"
+      ],
+      "applicable_objects": [
+        "performance",
+        "person",
+        "achievement"
+      ],
+      "goals": [
+        "approval",
+        "celebration"
+      ],
+      "mechanisms": [
+        "clapping",
+        "cheering"
+      ],
+      "tools": [
+        "hands",
+        "voice"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able"
+        ],
+        "emotional": [
+          "pleased"
+        ],
+        "mental": [
+          "appreciative"
+        ],
+        "positional": [
+          "observing"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "visible",
+          "completed"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "understood"
+        ],
+        "positional": [
+          "on stage or before subject"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "clapping"
+        ],
+        "emotional": [
+          "expressive",
+          "joyful"
+        ],
+        "mental": [
+          "supportive"
+        ],
+        "positional": [
+          "facing object"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "acknowledged"
+        ],
+        "emotional": [
+          "encouraged"
+        ],
+        "mental": [
+          "validated"
+        ],
+        "positional": [
+          "centered"
+        ]
+      }
+    },
+    {
+      "verb": "apply",
+      "applicable_subjects": [
+        "biological_body",
+        "system",
+        "agent"
+      ],
+      "applicable_objects": [
+        "tool",
+        "process",
+        "position",
+        "substance"
+      ],
+      "goals": [
+        "execution",
+        "effect",
+        "enrollment"
+      ],
+      "mechanisms": [
+        "contact",
+        "submission"
+      ],
+      "tools": [
+        "form",
+        "medium",
+        "force"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [
+          "motivated"
+        ],
+        "mental": [
+          "intentional"
+        ],
+        "positional": [
+          "targeting object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "accessible",
+          "inactive"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "open to change"
+        ],
+        "positional": [
+          "reachable"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "engaged"
+        ],
+        "emotional": [
+          "assertive"
+        ],
+        "mental": [
+          "in process"
+        ],
+        "positional": [
+          "in contact"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "activated",
+          "engaged"
+        ],
+        "emotional": [
+          "stimulated"
+        ],
+        "mental": [
+          "altered"
+        ],
+        "positional": [
+          "in use"
+        ]
+      }
+    },
+    {
+      "verb": "appoint",
+      "applicable_subjects": [
+        "authority",
+        "organization"
+      ],
+      "applicable_objects": [
+        "person",
+        "position"
+      ],
+      "goals": [
+        "assignment",
+        "delegation"
+      ],
+      "mechanisms": [
+        "designation",
+        "authorization"
+      ],
+      "tools": [
+        "announcement",
+        "document",
+        "order"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable"
+        ],
+        "emotional": [
+          "objective"
+        ],
+        "mental": [
+          "decisive"
+        ],
+        "positional": [
+          "above object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "eligible"
+        ],
+        "emotional": [
+          "neutral or willing"
+        ],
+        "mental": [
+          "aware"
+        ],
+        "positional": [
+          "available"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "delegated"
+        ],
+        "emotional": [
+          "affirmative"
+        ],
+        "mental": [
+          "authorized"
+        ],
+        "positional": [
+          "executive"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "designated"
+        ],
+        "emotional": [
+          "responsible"
+        ],
+        "mental": [
+          "in role"
+        ],
+        "positional": [
+          "assigned"
+        ]
+      }
+    },
+    {
+      "verb": "append",
+      "applicable_subjects": ["biological_body", "system", "program"],
+      "applicable_objects": ["document", "list", "item"],
+      "goals": ["extension", "inclusion"],
+      "mechanisms": ["attachment", "addition"],
+      "tools": ["interface", "writing tool", "API"],
+      "required_subject_states": {
+        "physical": ["operational"],
+        "emotional": ["neutral"],
+        "mental": ["intentional"],
+        "positional": ["connected to object"]
+      },
+      "required_object_states": {
+        "physical": ["incomplete"],
+        "emotional": ["neutral"],
+        "mental": ["modifiable"],
+        "positional": ["accessible"]
+      },
+      "final_subject_states": {
+        "physical": ["engaged"],
+        "emotional": ["efficient"],
+        "mental": ["contributive"],
+        "positional": ["above or adjacent to object"]
+      },
+      "final_object_states": {
+        "physical": ["extended"],
+        "emotional": ["complete"],
+        "mental": ["updated"],
+        "positional": ["augmented"]
+      }
+    },
+    {
+      "verb": "appraise",
+      "applicable_subjects": ["biological_body", "authority", "agent"],
+      "applicable_objects": ["value", "asset", "performance"],
+      "goals": ["evaluation", "assessment"],
+      "mechanisms": ["observation", "measurement"],
+      "tools": ["standard", "criteria", "expertise"],
+      "required_subject_states": {
+        "physical": ["observant"],
+        "emotional": ["neutral"],
+        "mental": ["analytical"],
+        "positional": ["in assessing position"]
+      },
+      "required_object_states": {
+        "physical": ["present"],
+        "emotional": ["neutral"],
+        "mental": ["under evaluation"],
+        "positional": ["observable"]
+      },
+      "final_subject_states": {
+        "physical": ["informed"],
+        "emotional": ["decisive"],
+        "mental": ["judgment rendered"],
+        "positional": ["evaluator"]
+      },
+      "final_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["recognized"],
+        "mental": ["valued"],
+        "positional": ["rated or noted"]
+      }
+    },
+    {
+      "verb": "appreciate",
+      "applicable_subjects": ["biological_body", "observer"],
+      "applicable_objects": ["effort", "art", "gesture"],
+      "goals": ["recognition", "gratitude"],
+      "mechanisms": ["observation", "acknowledgment"],
+      "tools": ["attention", "emotion", "communication"],
+      "required_subject_states": {
+        "physical": ["receptive"],
+        "emotional": ["attuned"],
+        "mental": ["perceptive"],
+        "positional": ["in observing range"]
+      },
+      "required_object_states": {
+        "physical": ["visible", "experienced"],
+        "emotional": ["positive or generous"],
+        "mental": ["recognizable"],
+        "positional": ["within subject's focus"]
+      },
+      "final_subject_states": {
+        "physical": ["engaged"],
+        "emotional": ["grateful"],
+        "mental": ["aware", "inspired"],
+        "positional": ["reflecting"]
+      },
+      "final_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["affirmed"],
+        "mental": ["respected"],
+        "positional": ["recognized"]
+      }
+    },
+    {
+      "verb": "apprehend",
+      "applicable_subjects": ["authority", "agent", "individual"],
+      "applicable_objects": ["suspect", "criminal", "individual"],
+      "goals": ["capture", "justice"],
+      "mechanisms": ["pursuit", "intervention"],
+      "tools": ["force", "restraint", "strategy"],
+      "required_subject_states": {
+        "physical": ["mobilized"],
+        "emotional": ["firm", "alert"],
+        "mental": ["informed"],
+        "positional": ["in proximity"]
+      },
+      "required_object_states": {
+        "physical": ["escaping or present"],
+        "emotional": ["nervous or evasive"],
+        "mental": ["aware or deceptive"],
+        "positional": ["accessible"]
+      },
+      "final_subject_states": {
+        "physical": ["holding object"],
+        "emotional": ["resolved"],
+        "mental": ["successful"],
+        "positional": ["in control"]
+      },
+      "final_object_states": {
+        "physical": ["restrained"],
+        "emotional": ["afraid"],
+        "mental": ["caught"],
+        "positional": ["in custody"]
+      }
+    },
+    {
+      "verb": "approach",
+      "applicable_subjects": ["biological_body", "system", "agent"],
+      "applicable_objects": ["problem", "location", "person"],
+      "goals": ["engagement", "contact", "solution"],
+      "mechanisms": ["movement", "interaction"],
+      "tools": ["strategy", "path", "intent"],
+      "required_subject_states": {
+        "physical": ["mobile"],
+        "emotional": ["willing"],
+        "mental": ["intentional"],
+        "positional": ["distant"]
+      },
+      "required_object_states": {
+        "physical": ["stationary or incoming"],
+        "emotional": ["neutral"],
+        "mental": ["unengaged"],
+        "positional": ["ahead"]
+      },
+      "final_subject_states": {
+        "physical": ["closer"],
+        "emotional": ["focused"],
+        "mental": ["engaged"],
+        "positional": ["near object"]
+      },
+      "final_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["aware"],
+        "mental": ["acknowledging"],
+        "positional": ["encountered"]
+      }
+    },
+    {
+      "verb": "appropriate",
+      "applicable_subjects": ["authority", "group", "individual"],
+      "applicable_objects": ["resource", "idea", "funds"],
+      "goals": ["acquisition", "allocation", "ownership"],
+      "mechanisms": ["claiming", "assignment"],
+      "tools": ["policy", "power", "action"],
+      "required_subject_states": {
+        "physical": ["capable"],
+        "emotional": ["motivated"],
+        "mental": ["strategic"],
+        "positional": ["able to access object"]
+      },
+      "required_object_states": {
+        "physical": ["available"],
+        "emotional": ["neutral or contested"],
+        "mental": ["valuable"],
+        "positional": ["in proximity or scope"]
+      },
+      "final_subject_states": {
+        "physical": ["in control"],
+        "emotional": ["entitled or assertive"],
+        "mental": ["possessive"],
+        "positional": ["in ownership"]
+      },
+      "final_object_states": {
+        "physical": ["transferred", "utilized"],
+        "emotional": ["neutral", "resigned"],
+        "mental": ["reclassified"],
+        "positional": ["under subject control"]
+      }
+    },
+    {
+      "verb": "approve",
+      "applicable_subjects": ["authority", "individual", "committee"],
+      "applicable_objects": ["proposal", "request", "action"],
+      "goals": ["authorization", "consent"],
+      "mechanisms": ["evaluation", "acceptance"],
+      "tools": ["decision", "criteria"],
+      "required_subject_states": {
+        "physical": ["alert"],
+        "emotional": ["neutral or agreeable"],
+        "mental": ["evaluative"],
+        "positional": ["above or over object"]
+      },
+      "required_object_states": {
+        "physical": ["submitted"],
+        "emotional": ["expectant"],
+        "mental": ["pending"],
+        "positional": ["presented"]
+      },
+      "final_subject_states": {
+        "physical": ["affirmative"],
+        "emotional": ["satisfied"],
+        "mental": ["resolved"],
+        "positional": ["confirmed"]
+      },
+      "final_object_states": {
+        "physical": ["authorized"],
+        "emotional": ["validated"],
+        "mental": ["accepted"],
+        "positional": ["endorsed"]
+      }
+    },
+    {
+      "verb": "approximate",
+      "applicable_subjects": ["biological_body", "tool", "system"],
+      "applicable_objects": ["value", "estimate", "distance"],
+      "goals": ["estimation", "prediction"],
+      "mechanisms": ["calculation", "comparison"],
+      "tools": ["data", "reference", "algorithm"],
+      "required_subject_states": {
+        "physical": ["functioning"],
+        "emotional": ["neutral"],
+        "mental": ["analytical"],
+        "positional": ["access to reference data"]
+      },
+      "required_object_states": {
+        "physical": ["measurable"],
+        "emotional": ["irrelevant"],
+        "mental": ["inexact"],
+        "positional": ["targeted"]
+      },
+      "final_subject_states": {
+        "physical": ["engaged"],
+        "emotional": ["confident"],
+        "mental": ["informed"],
+        "positional": ["within expected range"]
+      },
+      "final_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["neutral"],
+        "mental": ["estimated"],
+        "positional": ["approximated"]
+      }
+    }
+  ],
+  "completed": true
+}

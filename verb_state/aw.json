@@ -1,0 +1,260 @@
+{
+  "prefix": "aw",
+  "processed_verbs": [
+    "await",
+    "awaken",
+    "award"
+  ],
+  "outcomes": [
+    {
+      "verb": "await",
+      "applicable_subjects": [
+        "individual",
+        "system"
+      ],
+      "applicable_objects": [
+        "event",
+        "response",
+        "arrival"
+      ],
+      "goals": [
+        "reception",
+        "timing",
+        "completion"
+      ],
+      "mechanisms": [
+        "pause",
+        "patience"
+      ],
+      "tools": [
+        "time",
+        "expectation"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "stationary"
+        ],
+        "emotional": [
+          "anticipating"
+        ],
+        "mental": [
+          "aware of expected outcome"
+        ],
+        "positional": [
+          "in place"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "pending"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "scheduled"
+        ],
+        "positional": [
+          "not yet present"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "still"
+        ],
+        "emotional": [
+          "hopeful",
+          "prepared"
+        ],
+        "mental": [
+          "watchful"
+        ],
+        "positional": [
+          "at receiving point"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "arrived"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "triggered"
+        ],
+        "positional": [
+          "engaged"
+        ]
+      }
+    },    
+    {
+      "verb": "awaken",
+      "applicable_subjects": [
+        "person",
+        "sound",
+        "event",
+        "system"
+      ],
+      "applicable_objects": [
+        "individual",
+        "consciousness",
+        "emotion"
+      ],
+      "goals": [
+        "activation",
+        "awareness"
+      ],
+      "mechanisms": [
+        "stimulation",
+        "interruption"
+      ],
+      "tools": [
+        "sound",
+        "touch",
+        "shock",
+        "realization"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "intentional or accidental"
+        ],
+        "positional": [
+          "proximate"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "asleep or dormant"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "inactive"
+        ],
+        "positional": [
+          "present"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "triggered"
+        ],
+        "emotional": [
+          "attentive"
+        ],
+        "mental": [
+          "deliberate or accidental"
+        ],
+        "positional": [
+          "influential"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "alert"
+        ],
+        "emotional": [
+          "stimulated"
+        ],
+        "mental": [
+          "aware"
+        ],
+        "positional": [
+          "responsive"
+        ]
+      }
+    },
+    {
+      "verb": "award",
+      "applicable_subjects": [
+        "authority",
+        "committee",
+        "system"
+      ],
+      "applicable_objects": [
+        "person",
+        "group",
+        "entity"
+      ],
+      "goals": [
+        "recognition",
+        "reward"
+      ],
+      "mechanisms": [
+        "selection",
+        "granting"
+      ],
+      "tools": [
+        "certificate",
+        "honor",
+        "decision"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able"
+        ],
+        "emotional": [
+          "just",
+          "celebratory"
+        ],
+        "mental": [
+          "evaluative"
+        ],
+        "positional": [
+          "above object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "eligible"
+        ],
+        "emotional": [
+          "expectant or surprised"
+        ],
+        "mental": [
+          "qualified"
+        ],
+        "positional": [
+          "visible to subject"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "bestowing"
+        ],
+        "emotional": [
+          "fulfilled"
+        ],
+        "mental": [
+          "judged"
+        ],
+        "positional": [
+          "in recognition role"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "rewarded"
+        ],
+        "emotional": [
+          "gratified"
+        ],
+        "mental": [
+          "acknowledged"
+        ],
+        "positional": [
+          "honored"
+        ]
+      }
+    }
+  ],
+  "completed": true
+}

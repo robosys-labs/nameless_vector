@@ -1,0 +1,107 @@
+{
+  "prefix": "ai",
+  "processed_verbs": [
+    "aid",
+    "aim",
+    "air"
+  ],
+  "outcomes": [
+    {
+      "verb": "aid",
+      "applicable_subjects": ["biological_body", "organization", "concept"],
+      "applicable_objects": ["biological_body", "group", "effort"],
+      "goals": ["support", "relief", "assistance"],
+      "mechanisms": ["intervention", "provision"],
+      "tools": ["resources", "skills", "intent"],
+      "required_subject_states": {
+        "physical": ["capable"],
+        "emotional": ["willing", "empathetic"],
+        "mental": ["aware"],
+        "positional": ["accessible"]
+      },
+      "required_object_states": {
+        "physical": ["needing help"],
+        "emotional": ["distressed", "overwhelmed"],
+        "mental": ["seeking"],
+        "positional": ["within reach"]
+      },
+      "final_subject_states": {
+        "physical": ["active"],
+        "emotional": ["supportive"],
+        "mental": ["satisfied"],
+        "positional": ["involved"]
+      },
+      "final_object_states": {
+        "physical": ["relieved", "improved"],
+        "emotional": ["grateful", "comforted"],
+        "mental": ["stabilized"],
+        "positional": ["supported"]
+      }
+    },
+    {
+      "verb": "aim",
+      "applicable_subjects": ["biological_body", "device", "concept"],
+      "applicable_objects": ["target", "goal", "objective"],
+      "goals": ["alignment", "focus"],
+      "mechanisms": ["direction", "positioning"],
+      "tools": ["vision", "intent", "interface"],
+      "required_subject_states": {
+        "physical": ["able to orient"],
+        "emotional": ["motivated"],
+        "mental": ["clear"],
+        "positional": ["facing object"]
+      },
+      "required_object_states": {
+        "physical": ["stationary"],
+        "emotional": ["neutral"],
+        "mental": ["defined"],
+        "positional": ["in line of sight"]
+      },
+      "final_subject_states": {
+        "physical": ["aligned"],
+        "emotional": ["focused"],
+        "mental": ["concentrated"],
+        "positional": ["directed toward target"]
+      },
+      "final_object_states": {
+        "physical": ["targeted"],
+        "emotional": ["neutral"],
+        "mental": ["recognized"],
+        "positional": ["within trajectory"]
+      }
+    },
+    {
+      "verb": "air",
+      "applicable_subjects": ["biological_body", "device", "medium"],
+      "applicable_objects": ["grievance", "idea", "space"],
+      "goals": ["ventilation", "expression", "exposure"],
+      "mechanisms": ["release", "circulation", "communication"],
+      "tools": ["speech", "medium", "motion"],
+      "required_subject_states": {
+        "physical": ["active"],
+        "emotional": ["expressive"],
+        "mental": ["ready"],
+        "positional": ["connected to output"]
+      },
+      "required_object_states": {
+        "physical": ["contained", "hidden"],
+        "emotional": ["bottled", "private"],
+        "mental": ["unshared"],
+        "positional": ["internal or sealed"]
+      },
+      "final_subject_states": {
+        "physical": ["relieved", "vented"],
+        "emotional": ["lighter"],
+        "mental": ["clarified"],
+        "positional": ["exposed"]
+      },
+      "final_object_states": {
+        "physical": ["expressed", "externalized"],
+        "emotional": ["released"],
+        "mental": ["shared"],
+        "positional": ["in public"]
+      }
+    }
+  ],
+  "completed": true
+}

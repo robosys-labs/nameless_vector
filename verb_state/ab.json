@@ -1,0 +1,1490 @@
+{
+  "prefix": "ab",
+  "processed_verbs": [
+    "abandon",
+    "abase",
+    "abate",
+    "abbreviate",
+    "abduct",    
+    "abhor",
+    "abide",    
+    "abjure",    
+    "ablate",
+    "abnegate",
+    "abominate",
+    "abound",
+    "abrade",
+    "abridge",
+    "abrogate",
+    "abscise",
+    "abscond",
+    "absolve",    
+    "absorb",
+    "abstract",
+    "abuse",
+    "abut"
+  ],
+  "outcomes": [
+    {
+      "verb": "abandon",
+      "applicable_subjects": [
+        "biological_body",
+        "concept"
+      ],
+      "applicable_objects": [
+        "object",
+        "biological_body",
+        "concept",
+        "place"
+      ],
+      "goals": [
+        "detachment",
+        "release",
+        "avoidance"
+      ],
+      "mechanisms": [
+        "decision",
+        "separation"
+      ],
+      "tools": [],
+      "required_subject_states": {
+        "physical": [
+          "exists"
+        ],
+        "emotional": [
+          "attached",
+          "burdened"
+        ],
+        "mental": [
+          "aware",
+          "resolved"
+        ],
+        "positional": [
+          "near object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "exists"
+        ],
+        "emotional": [
+          "valued"
+        ],
+        "mental": [
+          "known"
+        ],
+        "positional": [
+          "accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "separated"
+        ],
+        "emotional": [
+          "relieved",
+          "detached"
+        ],
+        "mental": [
+          "decided",
+          "less burdened"
+        ],
+        "positional": [
+          "away from object"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "unchanged"
+        ],
+        "emotional": [
+          "abandoned",
+          "ignored"
+        ],
+        "mental": [
+          "forgotten"
+        ],
+        "positional": [
+          "left behind"
+        ]
+      }
+    },
+    {
+      "verb": "abase",
+      "applicable_subjects": [
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "concept"
+      ],
+      "goals": [
+        "humility",
+        "submission"
+      ],
+      "mechanisms": [
+        "self-devaluation",
+        "external pressure"
+      ],
+      "tools": [],
+      "required_subject_states": {
+        "physical": [
+          "present"
+        ],
+        "emotional": [
+          "ashamed",
+          "fearful"
+        ],
+        "mental": [
+          "aware"
+        ],
+        "positional": [
+          "visible"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "present"
+        ],
+        "emotional": [
+          "dominant"
+        ],
+        "mental": [
+          "aware"
+        ],
+        "positional": [
+          "higher"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "lowered"
+        ],
+        "emotional": [
+          "diminished"
+        ],
+        "mental": [
+          "submissive"
+        ],
+        "positional": [
+          "beneath object"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "unchanged"
+        ],
+        "emotional": [
+          "elevated"
+        ],
+        "mental": [
+          "reinforced"
+        ],
+        "positional": [
+          "above subject"
+        ]
+      }
+    },
+    {
+      "verb": "abate",
+      "applicable_subjects": [
+        "concept",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "concept",
+        "object"
+      ],
+      "goals": [
+        "reduction",
+        "relief"
+      ],
+      "mechanisms": [
+        "diminishment",
+        "dissipation"
+      ],
+      "tools": [],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [
+          "distressed"
+        ],
+        "mental": [
+          "focused"
+        ],
+        "positional": [
+          "near object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "intense"
+        ],
+        "emotional": [
+          "agitating"
+        ],
+        "mental": [
+          "pressing"
+        ],
+        "positional": [
+          "affecting subject"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "relieved"
+        ],
+        "emotional": [
+          "calmer"
+        ],
+        "mental": [
+          "unburdened"
+        ],
+        "positional": [
+          "neutral"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "less intense"
+        ],
+        "emotional": [
+          "neutralized"
+        ],
+        "mental": [
+          "reduced"
+        ],
+        "positional": [
+          "retreated"
+        ]
+      }
+    },
+    {
+      "verb": "abbreviate",
+      "applicable_subjects": [
+        "biological_body",
+        "concept"
+      ],
+      "applicable_objects": [
+        "concept",
+        "object"
+      ],
+      "goals": [
+        "efficiency",
+        "compression"
+      ],
+      "mechanisms": [
+        "omission",
+        "simplification"
+      ],
+      "tools": [
+        "language",
+        "notation"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "analytical",
+          "intentional"
+        ],
+        "positional": [
+          "in context"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "present"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "comprehensible"
+        ],
+        "positional": [
+          "accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "unchanged"
+        ],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "simplified",
+          "condensed"
+        ],
+        "positional": [
+          "same"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "shortened"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "compressed"
+        ],
+        "positional": [
+          "within subject"
+        ]
+      }
+    },
+    {
+      "verb": "abduct",
+      "applicable_subjects": [
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "biological_body"
+      ],
+      "goals": [
+        "control",
+        "relocation",
+        "capture"
+      ],
+      "mechanisms": [
+        "force",
+        "coercion"
+      ],
+      "tools": [
+        "restraint",
+        "vehicle"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able",
+          "close to object"
+        ],
+        "emotional": [
+          "dominant"
+        ],
+        "mental": [
+          "intentional"
+        ],
+        "positional": [
+          "near object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "present"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "unaware"
+        ],
+        "positional": [
+          "free"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "relocated with object"
+        ],
+        "emotional": [
+          "in control"
+        ],
+        "mental": [
+          "accomplished"
+        ],
+        "positional": [
+          "with object"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "moved",
+          "possibly restrained"
+        ],
+        "emotional": [
+          "fearful",
+          "confused"
+        ],
+        "mental": [
+          "alerted"
+        ],
+        "positional": [
+          "no longer free"
+        ]
+      }
+    },
+    {
+      "verb": "abhor",
+      "applicable_subjects": [
+        "biological_body",
+        "concept"
+      ],
+      "applicable_objects": [
+        "concept",
+        "object",
+        "action"
+      ],
+      "goals": [
+        "avoidance",
+        "rejection"
+      ],
+      "mechanisms": [
+        "emotional repulsion"
+      ],
+      "tools": [],
+      "required_subject_states": {
+        "physical": [
+          "aware"
+        ],
+        "emotional": [
+          "disgusted"
+        ],
+        "mental": [
+          "opposed"
+        ],
+        "positional": [
+          "exposed to object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "present"
+        ],
+        "emotional": [
+          "offensive"
+        ],
+        "mental": [
+          "understood"
+        ],
+        "positional": [
+          "within perception"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "withdrawn"
+        ],
+        "emotional": [
+          "repulsed"
+        ],
+        "mental": [
+          "rejected"
+        ],
+        "positional": [
+          "distanced"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "unchanged"
+        ],
+        "emotional": [
+          "rejected"
+        ],
+        "mental": [
+          "dismissed"
+        ],
+        "positional": [
+          "ignored"
+        ]
+      }
+    },
+    {
+      "verb": "abide",
+      "applicable_subjects": [
+        "biological_body",
+        "concept"
+      ],
+      "applicable_objects": [
+        "concept",
+        "place"
+      ],
+      "goals": [
+        "conformity",
+        "endurance"
+      ],
+      "mechanisms": [
+        "compliance",
+        "residence"
+      ],
+      "tools": [],
+      "required_subject_states": {
+        "physical": [
+          "present"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "accepting"
+        ],
+        "positional": [
+          "in context"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "persistent"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "understood"
+        ],
+        "positional": [
+          "surrounding subject"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "still"
+        ],
+        "emotional": [
+          "resigned",
+          "neutral"
+        ],
+        "mental": [
+          "compliant",
+          "patient"
+        ],
+        "positional": [
+          "in place"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "unchanged"
+        ],
+        "emotional": [
+          "respected"
+        ],
+        "mental": [
+          "acknowledged"
+        ],
+        "positional": [
+          "maintained"
+        ]
+      }
+    },
+    {
+      "verb": "abjure",
+      "applicable_subjects": [
+        "biological_body",
+        "concept"
+      ],
+      "applicable_objects": [
+        "concept",
+        "belief"
+      ],
+      "goals": [
+        "disassociation",
+        "renunciation"
+      ],
+      "mechanisms": [
+        "formal rejection"
+      ],
+      "tools": [
+        "speech",
+        "oath"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable"
+        ],
+        "emotional": [
+          "disillusioned"
+        ],
+        "mental": [
+          "decisive"
+        ],
+        "positional": [
+          "in society"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "held by subject"
+        ],
+        "emotional": [
+          "trusted"
+        ],
+        "mental": [
+          "internalized"
+        ],
+        "positional": [
+          "within subject"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "unchanged"
+        ],
+        "emotional": [
+          "freed"
+        ],
+        "mental": [
+          "separated from belief"
+        ],
+        "positional": [
+          "outside former belief"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "renounced"
+        ],
+        "emotional": [
+          "rejected"
+        ],
+        "mental": [
+          "removed"
+        ],
+        "positional": [
+          "external"
+        ]
+      }
+    },
+    {
+      "verb": "ablate",
+      "applicable_subjects": [
+        "biological_body",
+        "object",
+        "concept"
+      ],
+      "applicable_objects": [
+        "object",
+        "biological_body"
+      ],
+      "goals": [
+        "removal",
+        "precision"
+      ],
+      "mechanisms": [
+        "surgery",
+        "erosion"
+      ],
+      "tools": [
+        "laser",
+        "instrument"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "precise",
+          "equipped"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "focused"
+        ],
+        "positional": [
+          "adjacent to object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "removable",
+          "present"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "targeted"
+        ],
+        "positional": [
+          "accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "succeeded"
+        ],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "accomplished"
+        ],
+        "positional": [
+          "unchanged"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "partially or wholly removed"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "resolved"
+        ],
+        "positional": [
+          "reduced"
+        ]
+      }
+    },
+    {
+      "verb": "abnegate",
+      "applicable_subjects": [
+        "biological_body",
+        "concept"
+      ],
+      "applicable_objects": [
+        "concept",
+        "desire"
+      ],
+      "goals": [
+        "denial",
+        "discipline"
+      ],
+      "mechanisms": [
+        "willpower",
+        "rejection"
+      ],
+      "tools": [],
+      "required_subject_states": {
+        "physical": [
+          "capable"
+        ],
+        "emotional": [
+          "tempted"
+        ],
+        "mental": [
+          "disciplined"
+        ],
+        "positional": [
+          "in moral context"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "desired"
+        ],
+        "emotional": [
+          "enticing"
+        ],
+        "mental": [
+          "conflicting"
+        ],
+        "positional": [
+          "accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "unchanged"
+        ],
+        "emotional": [
+          "disciplined",
+          "restrained"
+        ],
+        "mental": [
+          "freed from attachment"
+        ],
+        "positional": [
+          "same"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "unaffected"
+        ],
+        "emotional": [
+          "ignored"
+        ],
+        "mental": [
+          "disregarded"
+        ],
+        "positional": [
+          "unchanged"
+        ]
+      }
+    },
+    {
+      "verb": "abominate",
+      "applicable_subjects": [
+        "biological_body",
+        "concept"
+      ],
+      "applicable_objects": [
+        "concept",
+        "object",
+        "action"
+      ],
+      "goals": [
+        "rejection",
+        "moral distancing"
+      ],
+      "mechanisms": [
+        "moral judgment",
+        "emotional repulsion"
+      ],
+      "tools": [],
+      "required_subject_states": {
+        "physical": [
+          "aware"
+        ],
+        "emotional": [
+          "disgusted",
+          "angered"
+        ],
+        "mental": [
+          "morally opposed"
+        ],
+        "positional": [
+          "exposed to object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "present"
+        ],
+        "emotional": [
+          "disturbing"
+        ],
+        "mental": [
+          "recognized"
+        ],
+        "positional": [
+          "within awareness"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "distanced"
+        ],
+        "emotional": [
+          "repulsed"
+        ],
+        "mental": [
+          "morally separated"
+        ],
+        "positional": [
+          "away from object"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "unchanged"
+        ],
+        "emotional": [
+          "rejected"
+        ],
+        "mental": [
+          "condemned"
+        ],
+        "positional": [
+          "outside moral scope"
+        ]
+      }
+    },
+    {
+      "verb": "abound",
+      "applicable_subjects": [
+        "concept",
+        "object",
+        "place"
+      ],
+      "applicable_objects": [
+        "object",
+        "concept"
+      ],
+      "goals": [
+        "sufficiency",
+        "availability"
+      ],
+      "mechanisms": [
+        "proliferation",
+        "generation"
+      ],
+      "tools": [],
+      "required_subject_states": {
+        "physical": [
+          "capable"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "natural state"
+        ],
+        "positional": [
+          "within space"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "multipliable"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "expected"
+        ],
+        "positional": [
+          "in environment"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "rich",
+          "populated"
+        ],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "affirmed"
+        ],
+        "positional": [
+          "filled"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "many"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "present"
+        ],
+        "positional": [
+          "within subject"
+        ]
+      }
+    },
+    {
+      "verb": "above",
+      "applicable_subjects": ["biological_body", "concept"],
+      "applicable_objects": ["object", "concept", "biological_body"],
+      "goals": ["superiority", "dominance"],
+      "mechanisms": [],
+      "tools": [],
+      "required_subject_states": {
+        "physical": ["exists", "higher"],
+        "emotional": ["confident"],
+        "positional": ["over object"],
+        "mental": ["superior"]
+      },
+      "required_object_states": {
+        "physical": ["exists"],
+        "emotional": ["subordinate"],
+        "positional": ["under subject"],
+        "mental": ["inferior"]
+      },
+      "final_subject_states": {
+        "physical": ["unchanged"],
+        "emotional": ["triumphant", "dominant"],
+        "positional": ["unchanged"],
+        "mental": ["ascendant"]
+      },
+      "final_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["submissive"],
+        "positional": ["unchanged"],
+        "mental": ["subservient"]
+      }
+    },
+    {
+      "verb": "abrade",
+      "applicable_subjects": [
+        "biological_body",
+        "object"
+      ],
+      "applicable_objects": [
+        "object",
+        "biological_body"
+      ],
+      "goals": [
+        "erosion",
+        "damage",
+        "removal"
+      ],
+      "mechanisms": [
+        "friction",
+        "scraping"
+      ],
+      "tools": [
+        "abrasive",
+        "motion"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "in motion",
+          "contact with object"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "intentional or passive"
+        ],
+        "positional": [
+          "touching object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "exposed surface"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "stationary"
+        ],
+        "positional": [
+          "in contact"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "possibly worn"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "aware or indifferent"
+        ],
+        "positional": [
+          "same"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "surface damaged",
+          "material removed"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "affected"
+        ],
+        "positional": [
+          "worn"
+        ]
+      }
+    },
+    {
+      "verb": "abridge",
+      "applicable_subjects": ["concept", "biological_body"],
+      "applicable_objects": ["concept", "document", "communication"],
+      "goals": ["shorten", "compress", "condense"],
+      "mechanisms": ["removal", "summarization"],
+      "tools": ["editing", "language"],
+      "required_subject_states": {
+        "physical": ["capable"],
+        "emotional": ["focused"],
+        "mental": ["discerning"],
+        "positional": ["engaged with object"]
+      },
+      "required_object_states": {
+        "physical": ["extensive", "complete"],
+        "emotional": ["neutral"],
+        "mental": ["known"],
+        "positional": ["available"]
+      },
+      "final_subject_states": {
+        "physical": ["unchanged"],
+        "emotional": ["efficient"],
+        "mental": ["summarized"],
+        "positional": ["near object"]
+      },
+      "final_object_states": {
+        "physical": ["shortened"],
+        "emotional": ["neutral"],
+        "mental": ["condensed"],
+        "positional": ["within subject domain"]
+      }
+    },
+    {
+      "verb": "abrogate",
+      "applicable_subjects": [
+        "biological_body",
+        "concept"
+      ],
+      "applicable_objects": [
+        "concept",
+        "law",
+        "agreement"
+      ],
+      "goals": [
+        "cancellation",
+        "revocation"
+      ],
+      "mechanisms": [
+        "legal action",
+        "declaration"
+      ],
+      "tools": [
+        "authority",
+        "policy"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "authorized"
+        ],
+        "emotional": [
+          "resolved"
+        ],
+        "mental": [
+          "informed",
+          "deliberate"
+        ],
+        "positional": [
+          "within jurisdiction"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "in effect"
+        ],
+        "emotional": [
+          "accepted"
+        ],
+        "mental": [
+          "recognized"
+        ],
+        "positional": [
+          "active"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "unchanged"
+        ],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "resolved"
+        ],
+        "positional": [
+          "same"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "nullified"
+        ],
+        "emotional": [
+          "discontinued"
+        ],
+        "mental": [
+          "revoked"
+        ],
+        "positional": [
+          "inactive"
+        ]
+      }
+    },
+    {
+      "verb": "abscise",
+      "applicable_subjects": ["biological_body", "object"],
+      "applicable_objects": ["object", "biological_body part"],
+      "goals": ["separation", "shedding"],
+      "mechanisms": ["natural detachment", "biological process"],
+      "tools": [],
+      "required_subject_states": {
+        "physical": ["mature", "triggered"],
+        "emotional": ["neutral"],
+        "mental": ["passive or regulated"],
+        "positional": ["attached"]
+      },
+      "required_object_states": {
+        "physical": ["ready to detach"],
+        "emotional": ["neutral"],
+        "mental": ["inactive"],
+        "positional": ["connected"]
+      },
+      "final_subject_states": {
+        "physical": ["less burdened"],
+        "emotional": ["neutral"],
+        "mental": ["regulated"],
+        "positional": ["disconnected"]
+      },
+      "final_object_states": {
+        "physical": ["separated"],
+        "emotional": ["discarded"],
+        "mental": ["removed"],
+        "positional": ["on ground or away"]
+      }
+    },
+    {
+      "verb": "abscond",
+      "applicable_subjects": ["biological_body"],
+      "applicable_objects": ["place", "responsibility", "situation"],
+      "goals": ["escape", "avoidance"],
+      "mechanisms": ["flight", "evasion"],
+      "tools": [],
+      "required_subject_states": {
+        "physical": ["capable", "present"],
+        "emotional": ["fearful", "guilty"],
+        "mental": ["intentional"],
+        "positional": ["in context"]
+      },
+      "required_object_states": {
+        "physical": ["confining"],
+        "emotional": ["pressuring"],
+        "mental": ["known"],
+        "positional": ["surrounding subject"]
+      },
+      "final_subject_states": {
+        "physical": ["hidden or escaped"],
+        "emotional": ["anxious", "relieved"],
+        "mental": ["freed"],
+        "positional": ["unknown or distant"]
+      },
+      "final_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["abandoned"],
+        "mental": ["unresolved"],
+        "positional": ["left behind"]
+      }
+    },
+    {
+      "verb": "absolve",
+      "applicable_subjects": ["biological_body", "concept"],
+      "applicable_objects": ["biological_body", "concept"],
+      "goals": ["forgiveness", "release from obligation"],
+      "mechanisms": ["pardon", "clemency"],
+      "tools": ["authority", "ritual"],
+      "required_subject_states": {
+        "physical": ["empowered"],
+        "emotional": ["compassionate"],
+        "mental": ["judging"],
+        "positional": ["above object"]
+      },
+      "required_object_states": {
+        "physical": ["bound", "guilty"],
+        "emotional": ["repentant", "burdened"],
+        "mental": ["regretful"],
+        "positional": ["below or under subject"]
+      },
+      "final_subject_states": {
+        "physical": ["unchanged"],
+        "emotional": ["benevolent"],
+        "mental": ["resolved"],
+        "positional": ["neutral"]
+      },
+      "final_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["relieved"],
+        "mental": ["cleared"],
+        "positional": ["unbound"]
+      }
+    },
+    {
+      "verb": "abseil",
+      "applicable_subjects": ["biological_body"],
+      "applicable_objects": ["place"],
+      "goals": ["descent", "movement"],
+      "mechanisms": ["controlled descent"],
+      "tools": ["rope", "harness"],
+      "required_subject_states": {
+        "physical": ["equipped", "secure"],
+        "emotional": ["focused"],
+        "mental": ["trained"],
+        "positional": ["above"]
+      },
+      "required_object_states": {
+        "physical": ["vertical", "descendable"],
+        "emotional": ["neutral"],
+        "mental": ["assessed"],
+        "positional": ["below subject"]
+      },
+      "final_subject_states": {
+        "physical": ["lowered", "arrived"],
+        "emotional": ["relieved"],
+        "mental": ["accomplished"],
+        "positional": ["bottom of descent"]
+      },
+      "final_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["neutral"],
+        "mental": ["completed"],
+        "positional": ["behind"]
+      }
+    },
+    {
+      "verb": "absorb",
+      "applicable_subjects": ["object", "biological_body", "concept"],
+      "applicable_objects": ["object", "concept"],
+      "goals": ["integration", "retention"],
+      "mechanisms": ["osmosis", "learning", "consumption"],
+      "tools": [],
+      "required_subject_states": {
+        "physical": ["permeable", "capable"],
+        "emotional": ["neutral"],
+        "mental": ["receptive"],
+        "positional": ["adjacent to object"]
+      },
+      "required_object_states": {
+        "physical": ["available", "emittable"],
+        "emotional": ["neutral"],
+        "mental": ["encodable"],
+        "positional": ["accessible"]
+      },
+      "final_subject_states": {
+        "physical": ["saturated", "altered"],
+        "emotional": ["neutral"],
+        "mental": ["informed", "updated"],
+        "positional": ["unchanged"]
+      },
+      "final_object_states": {
+        "physical": ["reduced", "transferred"],
+        "emotional": ["neutral"],
+        "mental": ["partially retained"],
+        "positional": ["within subject"]
+      }
+    },
+    {
+      "verb": "abstain",
+      "applicable_subjects": ["biological_body", "concept"],
+      "applicable_objects": ["concept", "object"],
+      "goals": ["self-control", "avoidance"],
+      "mechanisms": ["restraint", "choice"],
+      "tools": [],
+      "required_subject_states": {
+        "physical": ["capable"],
+        "emotional": ["tempted"],
+        "mental": ["aware", "self-disciplined"],
+        "positional": ["able to act"]
+      },
+      "required_object_states": {
+        "physical": ["present"],
+        "emotional": ["enticing"],
+        "mental": ["recognized"],
+        "positional": ["accessible"]
+      },
+      "final_subject_states": {
+        "physical": ["unchanged"],
+        "emotional": ["disciplined"],
+        "mental": ["in control"],
+        "positional": ["stationary"]
+      },
+      "final_object_states": {
+        "physical": ["untouched"],
+        "emotional": ["ignored"],
+        "mental": ["bypassed"],
+        "positional": ["unchanged"]
+      }
+    },
+    {
+      "verb": "abstract",
+      "applicable_subjects": ["biological_body", "concept"],
+      "applicable_objects": ["concept", "object"],
+      "goals": ["simplification", "summarization"],
+      "mechanisms": ["extraction", "generalization"],
+      "tools": ["language", "notation"],
+      "required_subject_states": {
+        "physical": ["capable"],
+        "emotional": ["neutral"],
+        "mental": ["analytical"],
+        "positional": ["in context"]
+      },
+      "required_object_states": {
+        "physical": ["complex"],
+        "emotional": ["neutral"],
+        "mental": ["understood"],
+        "positional": ["internal"]
+      },
+      "final_subject_states": {
+        "physical": ["unchanged"],
+        "emotional": ["clarified"],
+        "mental": ["generalized", "informed"],
+        "positional": ["same"]
+      },
+      "final_object_states": {
+        "physical": ["compressed"],
+        "emotional": ["neutral"],
+        "mental": ["simplified"],
+        "positional": ["encapsulated"]
+      }
+    },
+    {
+      "verb": "abuse",
+      "applicable_subjects": ["biological_body"],
+      "applicable_objects": ["object", "biological_body", "concept"],
+      "goals": ["control", "exploitation", "harm"],
+      "mechanisms": ["force", "neglect", "misuse"],
+      "tools": ["power", "tools"],
+      "required_subject_states": {
+        "physical": ["capable"],
+        "emotional": ["angry", "disregarding"],
+        "mental": ["aware or reckless"],
+        "positional": ["over object"]
+      },
+      "required_object_states": {
+        "physical": ["vulnerable"],
+        "emotional": ["dependent"],
+        "mental": ["passive"],
+        "positional": ["accessible"]
+      },
+      "final_subject_states": {
+        "physical": ["dominant"],
+        "emotional": ["satisfied", "desensitized"],
+        "mental": ["reinforced"],
+        "positional": ["above or near"]
+      },
+      "final_object_states": {
+        "physical": ["harmed", "damaged"],
+        "emotional": ["traumatized"],
+        "mental": ["weakened"],
+        "positional": ["subjugated"]
+      }
+    },
+    {
+      "verb": "abut",
+      "applicable_subjects": ["place", "object"],
+      "applicable_objects": ["place", "object"],
+      "goals": ["contact", "adjacency"],
+      "mechanisms": ["alignment", "structure"],
+      "tools": [],
+      "required_subject_states": {
+        "physical": ["stable"],
+        "emotional": ["neutral"],
+        "mental": ["stationary"],
+        "positional": ["next to object"]
+      },
+      "required_object_states": {
+        "physical": ["adjacent"],
+        "emotional": ["neutral"],
+        "mental": ["present"],
+        "positional": ["stationary"]
+      },
+      "final_subject_states": {
+        "physical": ["touching"],
+        "emotional": ["neutral"],
+        "mental": ["aligned"],
+        "positional": ["contact"]
+      },
+      "final_object_states": {
+        "physical": ["contacted"],
+        "emotional": ["neutral"],
+        "mental": ["recognized"],
+        "positional": ["touching"]
+      }
+    }
+  ],
+  "completed": true
+}

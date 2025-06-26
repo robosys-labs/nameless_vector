@@ -35,13 +35,59 @@ const MAX_GENERATION_TOKENS: usize = 800;
 const GPU_BATCH_SIZE: usize = 8; // Larger batches for GPU efficiency
 const CPU_BATCH_SIZE: usize = 3; // Smaller batches for CPU to avoid memory pressure
 
+/// Enhanced language-agnostic verb outcome structure
+/// 
+/// This structure captures comprehensive information about verb actions in a way that
+/// can be applied across different languages and contexts:
+/// 
+/// - `applicable_subjects`: Types of entities that can perform this action
+///   - "concept": abstract ideas, emotions, thoughts
+///   - "biological_body": humans, animals, living organisms  
+///   - "object": physical items, tools, structures
+///   - "environment": locations, spaces, natural settings
+/// 
+/// - `applicable_objects`: Types of entities that can be affected by this action
+///   - Same categories as subjects
+/// 
+/// - `required_subject_states`: Prerequisites for the entity performing the action
+///   - "physical": body state, capabilities, presence
+///   - "emotional": feelings, attachments, mood
+///   - "positional": location, orientation, proximity
+///   - "mental": awareness, knowledge, intention
+/// 
+/// - `required_object_states`: Prerequisites for the entity being acted upon
+///   - Same state categories as subject
+/// 
+/// - `final_subject_states`: How the performing entity changes after the action
+///   - Same state categories, describing the end result
+/// 
+/// - `final_object_states`: How the affected entity changes after the action
+///   - Same state categories, describing the transformation
 #[derive(Debug, Serialize, Deserialize, Clone)]
 struct VerbOutcome {
     verb: String,
-    preconditions: Vec<String>,
-    physical_effects: Vec<String>,
-    emotional_effects: Vec<String>,
-    environmental_effects: Vec<String>,
+    applicable_subjects: Vec<String>, // concept, biological_body, object, environment
+    applicable_objects: Vec<String>,  // concept, biological_body, object, environment
+    required_subject_states: RequiredStates,
+    required_object_states: RequiredStates,
+    final_subject_states: FinalStates,
+    final_object_states: FinalStates,
+}
+
+#[derive(Debug, Serialize, Deserialize, Clone)]
+struct RequiredStates {
+    physical: Vec<String>,
+    emotional: Vec<String>,
+    positional: Vec<String>,
+    mental: Vec<String>,
+}
+
+#[derive(Debug, Serialize, Deserialize, Clone)]
+struct FinalStates {
+    physical: Vec<String>,
+    emotional: Vec<String>,
+    positional: Vec<String>,
+    mental: Vec<String>,
 }
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
@@ -98,10 +144,10 @@ impl ModelConfig {
                 model_type: ModelType::CodeLlama,
             }
         } else {
-            // Default to Llama-2
+            // Default to Llama-2 - use a simpler template for JSON generation
             Self {
                 chat_template: |prompt| {
-                    format!("<s>[INST] {} [/INST]", prompt)
+                    format!("<s>[INST] You are a JSON generator. Return only valid JSON arrays. {} [/INST]", prompt)
                 },
                 eos_token_id: 2, // </s>
                 model_type: ModelType::Llama,
@@ -1024,29 +1070,22 @@ impl AppState {
                 .join(", ")
         };
         
-        let prompt = format!(
-            r#"Generate {} NEW verbs starting with '{}' (excluding: {}).
+        // Use a more comprehensive and language-agnostic prompt structure
+        let prompt = if excluded_examples == "none" {
+            format!(
+                r#"[{{"verb":"abandon","applicable_subjects":["biological_body","concept"],"applicable_objects":["object","biological_body","concept"],"required_subject_states":{{"physical":["present"],"emotional":["attached"],"positional":["near_object"],"mental":["aware"]}},"required_object_states":{{"physical":["exists"],"emotional":["valued"],"positional":["accessible"],"mental":["known"]}},"final_subject_states":{{"physical":["separated"],"emotional":["detached","relieved"],"positional":["away_from_object"],"mental":["decided"]}},"final_object_states":{{"physical":["unchanged"],"emotional":["abandoned"],"positional":["left_behind"],"mental":["forgotten"]}}}}]
 
-JSON format only:
-[
-  {{
-    "verb": "abandon",
-    "preconditions": ["requirement1", "requirement2"],
-    "physical_effects": ["effect1", "effect2"],
-    "emotional_effects": ["feeling1", "feeling2"],
-    "environmental_effects": ["change1", "change2"]
-  }}
-]
+Generate {} verbs starting with '{}' in the same JSON format above:"#,
+                current_batch_size, prefix
+            )
+        } else {
+            format!(
+                r#"[{{"verb":"abandon","applicable_subjects":["biological_body","concept"],"applicable_objects":["object","biological_body","concept"],"required_subject_states":{{"physical":["present"],"emotional":["attached"],"positional":["near_object"],"mental":["aware"]}},"required_object_states":{{"physical":["exists"],"emotional":["valued"],"positional":["accessible"],"mental":["known"]}},"final_subject_states":{{"physical":["separated"],"emotional":["detached","relieved"],"positional":["away_from_object"],"mental":["decided"]}},"final_object_states":{{"physical":["unchanged"],"emotional":["abandoned"],"positional":["left_behind"],"mental":["forgotten"]}}}}]
 
-Rules:
-- {} different verbs starting with '{}'
-- Exclude: {}
-- Real English verbs only
-- Valid JSON array
-- Return [] if no new verbs exist"#,
-            current_batch_size, prefix, excluded_examples,
-            current_batch_size, prefix, excluded_examples
-        );
+Generate {} NEW verbs starting with '{}' (NOT: {}) in the same JSON format above:"#,
+                current_batch_size, prefix, excluded_examples
+            )
+        };
         
         // Generate response using the model with retry logic
         let mut attempts = 0;
@@ -1059,8 +1098,18 @@ Rules:
             let response_text = self.generate_with_model(&prompt).await
                 .context("Failed to generate verb outcomes")?;
             
+            // Debug: Show what the model generated
+            println!("🔍 Model response (first 200 chars): {}", 
+                    response_text.chars().take(200).collect::<String>());
+            
             // Extract and parse JSON
             let json_str = Self::extract_json(&response_text);
+            
+            // Debug: Show extracted JSON
+            if json_str != "[]" {
+                println!("🔍 Extracted JSON (first 200 chars): {}", 
+                        json_str.chars().take(200).collect::<String>());
+            }
             
             // Handle empty response case
             if json_str.trim() == "[]" || json_str.trim().is_empty() {
@@ -1084,7 +1133,7 @@ Rules:
                             let retry_prompt = format!(
                                 r#"Generate {} verbs starting with '{}' (excluding: {}).
                                 
-                                JSON only: [{{"verb":"example","preconditions":["req"],"physical_effects":["eff"],"emotional_effects":["feel"],"environmental_effects":["env"]}}]"#,
+                                JSON only: [{{"verb":"example","applicable_subjects":["biological_body"],"applicable_objects":["object"],"required_subject_states":{{"physical":["present"],"emotional":["neutral"],"positional":["available"],"mental":["aware"]}},"required_object_states":{{"physical":["exists"],"emotional":["neutral"],"positional":["accessible"],"mental":["known"]}},"final_subject_states":{{"physical":["changed"],"emotional":["affected"],"positional":["repositioned"],"mental":["informed"]}},"final_object_states":{{"physical":["modified"],"emotional":["impacted"],"positional":["altered"],"mental":["processed"]}}}}]"#,
                                 std::cmp::min(current_batch_size, 3), prefix, excluded_examples
                             );
                             
@@ -1196,7 +1245,7 @@ Rules:
             return "[]".to_string();
         }
         
-        // Find the JSON array bounds
+        // First, try to find a proper JSON array
         if let Some(start_bracket) = response_trimmed.find('[') {
             if let Some(end_bracket) = response_trimmed.rfind(']') {
                 if start_bracket < end_bracket {
@@ -1206,6 +1255,7 @@ Rules:
                     match Self::validate_and_fix_json(json_candidate) {
                         Ok(fixed_json) => return fixed_json,
                         Err(_) => {
+                            println!("🔧 Array format failed, trying object extraction...");
                             // If validation fails, try to extract complete objects
                             return Self::extract_complete_objects(json_candidate);
                         }
@@ -1218,9 +1268,63 @@ Rules:
             }
         }
         
-        // Fallback: return empty array if no valid JSON found
-        println!("⚠️  No valid JSON array found in response");
-        "[]".to_string()
+        // If no array found, try to extract individual JSON objects from the entire response
+        println!("🔧 No JSON array found, scanning for individual objects...");
+        let extracted = Self::extract_complete_objects(response_trimmed);
+        if extracted != "[]" {
+            return extracted;
+        }
+        
+        // Last resort: try to parse any JSON-like content
+        println!("🔧 Attempting aggressive JSON extraction...");
+        Self::aggressive_json_extraction(response_trimmed)
+    }
+    
+    fn aggressive_json_extraction(text: &str) -> String {
+        // Look for any content that might be verb data, even if not properly formatted
+        let lines: Vec<&str> = text.lines().collect();
+        let mut found_verbs = Vec::new();
+        
+        for line in lines {
+            let line_trimmed = line.trim();
+            
+            // Look for lines that might contain verb information
+            if line_trimmed.contains("verb") && line_trimmed.contains(":") {
+                // Try to extract verb name
+                if let Some(verb_start) = line_trimmed.find("verb") {
+                    if let Some(colon_pos) = line_trimmed[verb_start..].find(':') {
+                        let after_colon = &line_trimmed[verb_start + colon_pos + 1..];
+                        
+                        // Extract the verb name (remove quotes and whitespace)
+                        let verb_name = after_colon
+                            .trim()
+                            .trim_matches('"')
+                            .trim_matches('\'')
+                            .trim_matches(',')
+                            .trim();
+                        
+                        if !verb_name.is_empty() && verb_name.len() < 20 {
+                            // Create a minimal verb object with new structure
+                            let verb_obj = format!(
+                                r#"{{"verb":"{}","applicable_subjects":["biological_body"],"applicable_objects":["object"],"required_subject_states":{{"physical":["present"],"emotional":["neutral"],"positional":["available"],"mental":["aware"]}},"required_object_states":{{"physical":["exists"],"emotional":["neutral"],"positional":["accessible"],"mental":["known"]}},"final_subject_states":{{"physical":["changed"],"emotional":["affected"],"positional":["repositioned"],"mental":["informed"]}},"final_object_states":{{"physical":["modified"],"emotional":["impacted"],"positional":["altered"],"mental":["processed"]}}}}"#,
+                                verb_name
+                            );
+                            found_verbs.push(verb_obj);
+                            println!("🔧 Extracted verb from line: {}", verb_name);
+                        }
+                    }
+                }
+            }
+        }
+        
+        if found_verbs.is_empty() {
+            println!("⚠️  No verbs found in aggressive extraction");
+            return "[]".to_string();
+        }
+        
+        let result = format!("[{}]", found_verbs.join(","));
+        println!("✅ Aggressively extracted {} verbs", found_verbs.len());
+        result
     }
     
     fn validate_and_fix_json(json_str: &str) -> Result<String> {

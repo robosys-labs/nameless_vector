@@ -1,0 +1,849 @@
+{
+  "prefix": "as",
+  "processed_verbs": [
+    "ascend",
+    "ascertain",
+    "ask",
+    "assault",
+    "assemble",
+    "assert",
+    "assess",
+    "assign",
+    "assist",
+    "associate",
+    "assume",
+    "assure",
+    "astonish"
+  ],
+  "outcomes": [
+    {
+      "verb": "ascend",
+      "applicable_subjects": [
+        "biological_body",
+        "vehicle",
+        "object"
+      ],
+      "applicable_objects": [
+        "height",
+        "position",
+        "rank"
+      ],
+      "goals": [
+        "elevation",
+        "advancement"
+      ],
+      "mechanisms": [
+        "climbing",
+        "lifting",
+        "promotion"
+      ],
+      "tools": [
+        "effort",
+        "mechanism",
+        "support"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable of upward motion"
+        ],
+        "emotional": [
+          "motivated"
+        ],
+        "mental": [
+          "focused on progress"
+        ],
+        "positional": [
+          "below target"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "elevated"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "recognized"
+        ],
+        "positional": [
+          "above subject"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "elevated"
+        ],
+        "emotional": [
+          "accomplished"
+        ],
+        "mental": [
+          "aware of rise"
+        ],
+        "positional": [
+          "higher"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "occupied"
+        ],
+        "emotional": [
+          "unaffected"
+        ],
+        "mental": [
+          "in focus"
+        ],
+        "positional": [
+          "reached"
+        ]
+      }
+    },
+    {
+      "verb": "ascertain",
+      "applicable_subjects": [
+        "biological_body",
+        "analyst",
+        "system"
+      ],
+      "applicable_objects": [
+        "fact",
+        "truth",
+        "status"
+      ],
+      "goals": [
+        "verification",
+        "clarity"
+      ],
+      "mechanisms": [
+        "inquiry",
+        "analysis"
+      ],
+      "tools": [
+        "logic",
+        "observation",
+        "data"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "investigative"
+        ],
+        "emotional": [
+          "curious",
+          "objective"
+        ],
+        "mental": [
+          "uncertain"
+        ],
+        "positional": [
+          "in evaluation process"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "present",
+          "real"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "concealed or ambiguous"
+        ],
+        "positional": [
+          "discoverable"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "still"
+        ],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "informed",
+          "resolved"
+        ],
+        "positional": [
+          "above or behind knowledge"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "unchanged"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "clarified"
+        ],
+        "positional": [
+          "known"
+        ]
+      }
+    },
+    {
+      "verb": "assign",
+      "applicable_subjects": [
+        "authority",
+        "system",
+        "person"
+      ],
+      "applicable_objects": [
+        "task",
+        "role",
+        "value",
+        "label"
+      ],
+      "goals": [
+        "distribution",
+        "designation"
+      ],
+      "mechanisms": [
+        "delegation",
+        "labeling"
+      ],
+      "tools": [
+        "plan",
+        "interface",
+        "command"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "engaged"
+        ],
+        "emotional": [
+          "neutral or authoritative"
+        ],
+        "mental": [
+          "organized"
+        ],
+        "positional": [
+          "in control"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "available"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "receptive or pending"
+        ],
+        "positional": [
+          "assignable"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "delegated"
+        ],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "clarified"
+        ],
+        "positional": [
+          "instructive"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "designated"
+        ],
+        "emotional": [
+          "involved"
+        ],
+        "mental": [
+          "tasked"
+        ],
+        "positional": [
+          "connected"
+        ]
+      }
+    },
+    {
+      "verb": "ask",
+      "applicable_subjects": [
+        "biological_body",
+        "agent"
+      ],
+      "applicable_objects": [
+        "question",
+        "request",
+        "person"
+      ],
+      "goals": [
+        "information",
+        "permission",
+        "assistance"
+      ],
+      "mechanisms": [
+        "speech",
+        "gesture",
+        "submission"
+      ],
+      "tools": [
+        "language",
+        "expression"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [
+          "curious",
+          "needing"
+        ],
+        "mental": [
+          "inquisitive"
+        ],
+        "positional": [
+          "facing object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "present"
+        ],
+        "emotional": [
+          "neutral",
+          "attentive"
+        ],
+        "mental": [
+          "aware"
+        ],
+        "positional": [
+          "accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "expressed"
+        ],
+        "emotional": [
+          "hopeful"
+        ],
+        "mental": [
+          "inquiry made"
+        ],
+        "positional": [
+          "in waiting"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "unchanged"
+        ],
+        "emotional": [
+          "considering"
+        ],
+        "mental": [
+          "engaged"
+        ],
+        "positional": [
+          "responding"
+        ]
+      }
+    },
+    {
+      "verb": "assault",
+      "applicable_subjects": [
+        "biological_body",
+        "military_force"
+      ],
+      "applicable_objects": [
+        "person",
+        "area",
+        "structure"
+      ],
+      "goals": [
+        "harm",
+        "invasion",
+        "subjugation"
+      ],
+      "mechanisms": [
+        "attack",
+        "force"
+      ],
+      "tools": [
+        "weapon",
+        "body",
+        "aggression"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "aggressive"
+        ],
+        "emotional": [
+          "angry",
+          "dominant"
+        ],
+        "mental": [
+          "committed"
+        ],
+        "positional": [
+          "in reach"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "vulnerable",
+          "exposed"
+        ],
+        "emotional": [
+          "calm or alert"
+        ],
+        "mental": [
+          "unexpecting or defending"
+        ],
+        "positional": [
+          "targeted"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "engaged"
+        ],
+        "emotional": [
+          "violent",
+          "assertive"
+        ],
+        "mental": [
+          "focused"
+        ],
+        "positional": [
+          "invading or overpowering"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "harmed or damaged"
+        ],
+        "emotional": [
+          "traumatized"
+        ],
+        "mental": [
+          "shocked"
+        ],
+        "positional": [
+          "subdued or resisting"
+        ]
+      }
+    },
+    {
+      "verb": "assemble",
+      "applicable_subjects": [
+        "group",
+        "individual",
+        "system"
+      ],
+      "applicable_objects": [
+        "people",
+        "parts",
+        "components"
+      ],
+      "goals": [
+        "gathering",
+        "construction",
+        "organization"
+      ],
+      "mechanisms": [
+        "collection",
+        "connection"
+      ],
+      "tools": [
+        "plan",
+        "structure",
+        "space"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able"
+        ],
+        "emotional": [
+          "willing"
+        ],
+        "mental": [
+          "organized"
+        ],
+        "positional": [
+          "access to elements"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "separate",
+          "available"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "understood"
+        ],
+        "positional": [
+          "scattered or ungrouped"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "coordinated"
+        ],
+        "emotional": [
+          "productive"
+        ],
+        "mental": [
+          "engaged"
+        ],
+        "positional": [
+          "structuring"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "combined"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "organized"
+        ],
+        "positional": [
+          "arranged"
+        ]
+      }
+    },
+    {
+      "verb": "assert",
+      "applicable_subjects": [
+        "individual",
+        "authority"
+      ],
+      "applicable_objects": [
+        "opinion",
+        "position",
+        "right"
+      ],
+      "goals": [
+        "expression",
+        "defense",
+        "claim"
+      ],
+      "mechanisms": [
+        "statement",
+        "action"
+      ],
+      "tools": [
+        "voice",
+        "behavior",
+        "platform"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [
+          "confident"
+        ],
+        "mental": [
+          "convinced"
+        ],
+        "positional": [
+          "present"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "contextual"
+        ],
+        "emotional": [
+          "disputed or neutral"
+        ],
+        "mental": [
+          "challenged"
+        ],
+        "positional": [
+          "targeted"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "expressive"
+        ],
+        "emotional": [
+          "resolved"
+        ],
+        "mental": [
+          "affirmed"
+        ],
+        "positional": [
+          "standing ground"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "unchanged"
+        ],
+        "emotional": [
+          "confronted"
+        ],
+        "mental": [
+          "acknowledged"
+        ],
+        "positional": [
+          "addressed"
+        ]
+      }
+    },
+    {
+      "verb": "assess",
+      "applicable_subjects": [
+        "analyst",
+        "system",
+        "authority"
+      ],
+      "applicable_objects": [
+        "situation",
+        "person",
+        "performance"
+      ],
+      "goals": [
+        "evaluation",
+        "decision"
+      ],
+      "mechanisms": [
+        "observation",
+        "judgment"
+      ],
+      "tools": [
+        "criteria",
+        "instrument",
+        "test"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "present"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "analytical"
+        ],
+        "positional": [
+          "focused"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "observable"
+        ],
+        "emotional": [
+          "neutral"
+        ],
+        "mental": [
+          "available"
+        ],
+        "positional": [
+          "within scope"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "completed"
+        ],
+        "emotional": [
+          "informed"
+        ],
+        "mental": [
+          "evaluated"
+        ],
+        "positional": [
+          "above object"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "unchanged"
+        ],
+        "emotional": [
+          "impacted"
+        ],
+        "mental": [
+          "rated or understood"
+        ],
+        "positional": [
+          "categorized"
+        ]
+      }
+    },
+    {
+      "verb": "assist",
+      "applicable_subjects": ["individual", "group", "agent"],
+      "applicable_objects": ["person", "task", "process"],
+      "goals": ["support", "completion"],
+      "mechanisms": ["help", "collaboration"],
+      "tools": ["action", "skill", "resource"],
+      "required_subject_states": {
+        "physical": ["able"],
+        "emotional": ["willing", "empathetic"],
+        "mental": ["aware of need"],
+        "positional": ["close to object"]
+      },
+      "required_object_states": {
+        "physical": ["in progress or blocked"],
+        "emotional": ["receptive or struggling"],
+        "mental": ["focused"],
+        "positional": ["within support range"]
+      },
+      "final_subject_states": {
+        "physical": ["engaged"],
+        "emotional": ["supportive"],
+        "mental": ["collaborative"],
+        "positional": ["alongside object"]
+      },
+      "final_object_states": {
+        "physical": ["helped"],
+        "emotional": ["grateful"],
+        "mental": ["relieved", "encouraged"],
+        "positional": ["advanced"]
+      }
+    },
+    {
+      "verb": "associate",
+      "applicable_subjects": ["individual", "group", "concept"],
+      "applicable_objects": ["idea", "person", "organization"],
+      "goals": ["connection", "recognition"],
+      "mechanisms": ["linking", "relating"],
+      "tools": ["context", "memory", "label"],
+      "required_subject_states": {
+        "physical": ["active"],
+        "emotional": ["neutral"],
+        "mental": ["relational"],
+        "positional": ["aware of connection"]
+      },
+      "required_object_states": {
+        "physical": ["present or referenced"],
+        "emotional": ["neutral"],
+        "mental": ["defined"],
+        "positional": ["within conceptual range"]
+      },
+      "final_subject_states": {
+        "physical": ["unchanged"],
+        "emotional": ["understanding"],
+        "mental": ["connected"],
+        "positional": ["contextualized"]
+      },
+      "final_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["linked"],
+        "mental": ["related"],
+        "positional": ["associated"]
+      }
+    },
+    {
+      "verb": "assume",
+      "applicable_subjects": ["individual", "system"],
+      "applicable_objects": ["role", "responsibility", "fact"],
+      "goals": ["adoption", "inference"],
+      "mechanisms": ["taking on", "presumption"],
+      "tools": ["belief", "authority", "logic"],
+      "required_subject_states": {
+        "physical": ["capable or interpreting"],
+        "emotional": ["neutral or willing"],
+        "mental": ["prepared"],
+        "positional": ["in context"]
+      },
+      "required_object_states": {
+        "physical": ["available or observed"],
+        "emotional": ["neutral"],
+        "mental": ["suggested or implied"],
+        "positional": ["present"]
+      },
+      "final_subject_states": {
+        "physical": ["engaged"],
+        "emotional": ["determined or confident"],
+        "mental": ["accepted", "inferred"],
+        "positional": ["in role or belief"]
+      },
+      "final_object_states": {
+        "physical": ["adopted or accepted"],
+        "emotional": ["affirmed"],
+        "mental": ["considered true or active"],
+        "positional": ["internalized"]
+      }
+    },
+    {
+      "verb": "assure",
+      "applicable_subjects": ["person", "authority", "system"],
+      "applicable_objects": ["person", "audience", "stakeholder"],
+      "goals": ["confidence", "certainty"],
+      "mechanisms": ["statement", "guarantee"],
+      "tools": ["language", "evidence", "authority"],
+      "required_subject_states": {
+        "physical": ["expressive"],
+        "emotional": ["calm or assertive"],
+        "mental": ["confident"],
+        "positional": ["engaged with object"]
+      },
+      "required_object_states": {
+        "physical": ["present"],
+        "emotional": ["uncertain", "anxious"],
+        "mental": ["doubting"],
+        "positional": ["within communication range"]
+      },
+      "final_subject_states": {
+        "physical": ["still"],
+        "emotional": ["confident"],
+        "mental": ["persuasive"],
+        "positional": ["in control"]
+      },
+      "final_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["calmed"],
+        "mental": ["reassured"],
+        "positional": ["convinced"]
+      }
+    },
+    {
+      "verb": "astonish",
+      "applicable_subjects": ["event", "person", "object"],
+      "applicable_objects": ["person", "audience"],
+      "goals": ["surprise", "impact"],
+      "mechanisms": ["unexpected action", "remarkable feature"],
+      "tools": ["performance", "news", "outcome"],
+      "required_subject_states": {
+        "physical": ["active"],
+        "emotional": ["neutral"],
+        "mental": ["indirectly acting"],
+        "positional": ["visible or revealed"]
+      },
+      "required_object_states": {
+        "physical": ["attentive"],
+        "emotional": ["neutral"],
+        "mental": ["unaware"],
+        "positional": ["observing"]
+      },
+      "final_subject_states": {
+        "physical": ["noteworthy"],
+        "emotional": ["proud", "neutral"],
+        "mental": ["intentional or incidental"],
+        "positional": ["in spotlight"]
+      },
+      "final_object_states": {
+        "physical": ["alerted"],
+        "emotional": ["shocked", "delighted"],
+        "mental": ["surprised"],
+        "positional": ["focused on subject"]
+      }
+    }
+  ],
+  "completed": true
+}

@@ -1,0 +1,239 @@
+{
+  "prefix": "af",
+  "processed_verbs": [
+    "affect",
+    "affiliate",
+    "affirm",
+    "affix",
+    "afflict",
+    "afford",
+    "affront"
+  ],
+  "outcomes": [
+    {
+      "verb": "affect",
+      "applicable_subjects": ["biological_body", "concept"],
+      "applicable_objects": ["biological_body", "emotion", "condition"],
+      "goals": ["influence", "change"],
+      "mechanisms": ["exposure", "force", "expression"],
+      "tools": [],
+      "required_subject_states": {
+        "physical": ["present"],
+        "emotional": ["engaged"],
+        "mental": ["intentional or passive"],
+        "positional": ["in contact or range"]
+      },
+      "required_object_states": {
+        "physical": ["susceptible"],
+        "emotional": ["sensitive"],
+        "mental": ["open"],
+        "positional": ["near subject"]
+      },
+      "final_subject_states": {
+        "physical": ["unchanged"],
+        "emotional": ["expressive"],
+        "mental": ["aware"],
+        "positional": ["adjacent"]
+      },
+      "final_object_states": {
+        "physical": ["altered or impacted"],
+        "emotional": ["disturbed", "elevated", "depressed"],
+        "mental": ["engaged"],
+        "positional": ["reactive"]
+      }
+    },
+    {
+      "verb": "affiliate",
+      "applicable_subjects": ["biological_body", "organization", "concept"],
+      "applicable_objects": ["group", "institution", "network"],
+      "goals": ["connection", "alignment", "membership"],
+      "mechanisms": ["application", "agreement"],
+      "tools": ["structure", "protocol"],
+      "required_subject_states": {
+        "physical": ["active"],
+        "emotional": ["willing"],
+        "mental": ["aligned"],
+        "positional": ["outside or unconnected"]
+      },
+      "required_object_states": {
+        "physical": ["existing"],
+        "emotional": ["welcoming"],
+        "mental": ["structured"],
+        "positional": ["available"]
+      },
+      "final_subject_states": {
+        "physical": ["associated"],
+        "emotional": ["included"],
+        "mental": ["aligned"],
+        "positional": ["within or linked"]
+      },
+      "final_object_states": {
+        "physical": ["expanded"],
+        "emotional": ["integrated"],
+        "mental": ["inclusive"],
+        "positional": ["hosting"]
+      }
+    },
+    {
+      "verb": "affirm",
+      "applicable_subjects": ["biological_body", "concept"],
+      "applicable_objects": ["statement", "belief", "truth"],
+      "goals": ["confirmation", "support"],
+      "mechanisms": ["declaration", "repetition"],
+      "tools": ["speech", "gesture", "writing"],
+      "required_subject_states": {
+        "physical": ["able to express"],
+        "emotional": ["confident"],
+        "mental": ["convinced"],
+        "positional": ["in communication"]
+      },
+      "required_object_states": {
+        "physical": ["defined"],
+        "emotional": ["neutral"],
+        "mental": ["stable"],
+        "positional": ["available"]
+      },
+      "final_subject_states": {
+        "physical": ["expressive"],
+        "emotional": ["assertive"],
+        "mental": ["resolved"],
+        "positional": ["in public or declarative space"]
+      },
+      "final_object_states": {
+        "physical": ["confirmed"],
+        "emotional": ["validated"],
+        "mental": ["reinforced"],
+        "positional": ["endorsed"]
+      }
+    },
+    {
+      "verb": "affix",
+      "applicable_subjects": ["biological_body", "tool"],
+      "applicable_objects": ["object", "label", "seal"],
+      "goals": ["attachment", "labeling"],
+      "mechanisms": ["pressing", "application"],
+      "tools": ["adhesive", "fastener"],
+      "required_subject_states": {
+        "physical": ["active"],
+        "emotional": ["neutral"],
+        "mental": ["purposeful"],
+        "positional": ["holding object"]
+      },
+      "required_object_states": {
+        "physical": ["available", "movable"],
+        "emotional": ["neutral"],
+        "mental": ["classified"],
+        "positional": ["ready for joining"]
+      },
+      "final_subject_states": {
+        "physical": ["complete"],
+        "emotional": ["done"],
+        "mental": ["directed"],
+        "positional": ["attached to object"]
+      },
+      "final_object_states": {
+        "physical": ["fixed", "labeled"],
+        "emotional": ["neutral"],
+        "mental": ["categorized"],
+        "positional": ["bound to surface"]
+      }
+    },
+    {
+      "verb": "afflict",
+      "applicable_subjects": ["biological_body", "disease", "condition"],
+      "applicable_objects": ["biological_body", "population"],
+      "goals": ["harm", "disruption"],
+      "mechanisms": ["infection", "impact"],
+      "tools": [],
+      "required_subject_states": {
+        "physical": ["active"],
+        "emotional": ["malignant"],
+        "mental": ["non-applicable"],
+        "positional": ["in contact or transmissible"]
+      },
+      "required_object_states": {
+        "physical": ["vulnerable"],
+        "emotional": ["neutral"],
+        "mental": ["unaware"],
+        "positional": ["within reach"]
+      },
+      "final_subject_states": {
+        "physical": ["unchanged"],
+        "emotional": ["indifferent"],
+        "mental": ["non-applicable"],
+        "positional": ["adjacent"]
+      },
+      "final_object_states": {
+        "physical": ["weakened", "injured", "sickened"],
+        "emotional": ["distressed"],
+        "mental": ["preoccupied"],
+        "positional": ["immobilized or isolated"]
+      }
+    },
+    {
+      "verb": "afford",
+      "applicable_subjects": ["biological_body", "concept", "organization"],
+      "applicable_objects": ["object", "experience", "action"],
+      "goals": ["provision", "access", "capability"],
+      "mechanisms": ["allocation", "availability"],
+      "tools": ["resources", "status"],
+      "required_subject_states": {
+        "physical": ["resourced"],
+        "emotional": ["willing"],
+        "mental": ["evaluating"],
+        "positional": ["in position of control"]
+      },
+      "required_object_states": {
+        "physical": ["available"],
+        "emotional": ["desirable"],
+        "mental": ["considered"],
+        "positional": ["optional or aspirational"]
+      },
+      "final_subject_states": {
+        "physical": ["unchanged"],
+        "emotional": ["content", "sacrificing"],
+        "mental": ["decided"],
+        "positional": ["after expenditure"]
+      },
+      "final_object_states": {
+        "physical": ["acquired", "engaged"],
+        "emotional": ["satisfying"],
+        "mental": ["possessed or utilized"],
+        "positional": ["within subject's domain"]
+      }
+    },
+    {
+      "verb": "affront",
+      "applicable_subjects": ["biological_body"],
+      "applicable_objects": ["biological_body", "group"],
+      "goals": ["offense", "provocation"],
+      "mechanisms": ["speech", "gesture", "disrespect"],
+      "tools": ["language", "tone"],
+      "required_subject_states": {
+        "physical": ["present"],
+        "emotional": ["hostile", "dismissive"],
+        "mental": ["aware"],
+        "positional": ["facing object"]
+      },
+      "required_object_states": {
+        "physical": ["present"],
+        "emotional": ["neutral or unaware"],
+        "mental": ["receptive"],
+        "positional": ["in proximity"]
+      },
+      "final_subject_states": {
+        "physical": ["unchanged"],
+        "emotional": ["assertive", "unapologetic"],
+        "mental": ["dominant"],
+        "positional": ["distanced"]
+      },
+      "final_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["offended", "humiliated"],
+        "mental": ["alerted", "injured"],
+        "positional": ["withdrawn"]
+      }
+    }
+  ],
+  "completed": true
+}

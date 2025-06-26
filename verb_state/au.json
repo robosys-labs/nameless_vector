@@ -1,0 +1,173 @@
+{
+  "prefix": "au",
+  "processed_verbs": [
+    "audit",
+    "augment",
+    "author",
+    "authorize",
+    "automate"
+  ],
+  "outcomes": [
+    {
+      "verb": "audit",
+      "applicable_subjects": ["system", "individual", "organization"],
+      "applicable_objects": ["process", "records", "performance"],
+      "goals": ["verification", "compliance"],
+      "mechanisms": ["inspection", "review"],
+      "tools": ["criteria", "data", "report"],
+      "required_subject_states": {
+        "physical": ["equipped"],
+        "emotional": ["neutral or diligent"],
+        "mental": ["analytical"],
+        "positional": ["with access to object"]
+      },
+      "required_object_states": {
+        "physical": ["completed", "recorded"],
+        "emotional": ["neutral"],
+        "mental": ["static"],
+        "positional": ["available"]
+      },
+      "final_subject_states": {
+        "physical": ["informed"],
+        "emotional": ["objective"],
+        "mental": ["evaluated"],
+        "positional": ["over object"]
+      },
+      "final_object_states": {
+        "physical": ["unchanged"],
+        "emotional": ["exposed"],
+        "mental": ["classified"],
+        "positional": ["assessed"]
+      }
+    },
+    {
+      "verb": "augment",
+      "applicable_subjects": ["system", "individual", "process"],
+      "applicable_objects": ["ability", "output", "data", "volume"],
+      "goals": ["enhancement", "expansion"],
+      "mechanisms": ["increase", "addition"],
+      "tools": ["resource", "technology", "component"],
+      "required_subject_states": {
+        "physical": ["active"],
+        "emotional": ["motivated"],
+        "mental": ["improvement-oriented"],
+        "positional": ["near or within system"]
+      },
+      "required_object_states": {
+        "physical": ["existing"],
+        "emotional": ["neutral"],
+        "mental": ["structured"],
+        "positional": ["scalable"]
+      },
+      "final_subject_states": {
+        "physical": ["contributing"],
+        "emotional": ["accomplished"],
+        "mental": ["satisfied"],
+        "positional": ["linked to enhancement"]
+      },
+      "final_object_states": {
+        "physical": ["expanded", "increased"],
+        "emotional": ["neutral"],
+        "mental": ["enriched"],
+        "positional": ["enhanced"]
+      }
+    },
+    {
+      "verb": "author",
+      "applicable_subjects": ["individual", "group"],
+      "applicable_objects": ["document", "book", "article"],
+      "goals": ["creation", "communication"],
+      "mechanisms": ["writing", "composition"],
+      "tools": ["language", "medium", "structure"],
+      "required_subject_states": {
+        "physical": ["engaged"],
+        "emotional": ["motivated"],
+        "mental": ["conceptualizing"],
+        "positional": ["initiating"]
+      },
+      "required_object_states": {
+        "physical": ["nonexistent or draft"],
+        "emotional": ["neutral"],
+        "mental": ["unexpressed"],
+        "positional": ["to be created"]
+      },
+      "final_subject_states": {
+        "physical": ["productive"],
+        "emotional": ["accomplished"],
+        "mental": ["clarified"],
+        "positional": ["credited"]
+      },
+      "final_object_states": {
+        "physical": ["created"],
+        "emotional": ["engaging"],
+        "mental": ["informative"],
+        "positional": ["published or recorded"]
+      }
+    },
+    {
+      "verb": "authorize",
+      "applicable_subjects": ["individual", "institution", "system"],
+      "applicable_objects": ["action", "user", "access", "operation"],
+      "goals": ["permission", "enablement"],
+      "mechanisms": ["approval", "granting"],
+      "tools": ["credential", "signature", "token"],
+      "required_subject_states": {
+        "physical": ["empowered"],
+        "emotional": ["neutral or confident"],
+        "mental": ["decisive"],
+        "positional": ["above or governing"]
+      },
+      "required_object_states": {
+        "physical": ["restricted"],
+        "emotional": ["requesting or idle"],
+        "mental": ["awaiting"],
+        "positional": ["pending activation"]
+      },
+      "final_subject_states": {
+        "physical": ["still"],
+        "emotional": ["in control"],
+        "mental": ["validated"],
+        "positional": ["approving"]
+      },
+      "final_object_states": {
+        "physical": ["enabled"],
+        "emotional": ["empowered"],
+        "mental": ["cleared"],
+        "positional": ["active"]
+      }
+    },
+    {
+      "verb": "automate",
+      "applicable_subjects": ["engineer", "developer", "system"],
+      "applicable_objects": ["process", "task", "workflow"],
+      "goals": ["efficiency", "autonomy"],
+      "mechanisms": ["programming", "scripting"],
+      "tools": ["software", "machine", "logic"],
+      "required_subject_states": {
+        "physical": ["capable"],
+        "emotional": ["strategic"],
+        "mental": ["systematic"],
+        "positional": ["interfacing with task"]
+      },
+      "required_object_states": {
+        "physical": ["manual", "repeatable"],
+        "emotional": ["neutral"],
+        "mental": ["defined"],
+        "positional": ["under control"]
+      },
+      "final_subject_states": {
+        "physical": ["detached from task"],
+        "emotional": ["relieved", "optimized"],
+        "mental": ["abstracted"],
+        "positional": ["in oversight"]
+      },
+      "final_object_states": {
+        "physical": ["self-running"],
+        "emotional": ["neutral"],
+        "mental": ["routine"],
+        "positional": ["automated"]
+      }
+    }
+  ],
+  "completed": true
+}
