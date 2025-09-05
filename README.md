@@ -186,8 +186,7 @@ Each prefix generates a JSON file with verb outcomes:
 5. Submit a pull request
 
 ## License
-
-[Add your license information here]
+MIT License
 
 ## Support
 
