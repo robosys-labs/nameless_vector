@@ -1,0 +1,393 @@
+{
+    "prefix": "cu",
+    "processed_verbs": [
+
+    ],
+    "outcomes": [
+        {
+            "verb": "cuddle",
+            "applicable_subjects": ["biological_body", "physical_agent"],
+            "applicable_objects": ["biological_body", "object", "physical_agent"],
+            "goals": ["express affection", "provide warmth or comfort"],
+            "mechanisms": ["embracing", "holding close"],
+            "tools": ["hand", "body"],
+            "required_subject_states": {
+              "physical": ["capable", "proximate"],
+              "emotional": ["affectionate"],
+              "mental": ["willing"],
+              "positional": ["adjacent to or surrounding object"]
+            },
+            "required_object_states": {
+              "physical": ["receptive", "accessible"],
+              "emotional": [],
+              "mental": [],
+              "positional": ["within subject’s immediate physical space"]
+            },
+            "final_subject_states": {
+              "physical": ["in contact"],
+              "emotional": ["comforted", "connected"],
+              "mental": ["engaged"],
+              "positional": []
+            },
+            "final_object_states": {
+              "physical": ["held", "supported"],
+              "emotional": ["soothed"],
+              "mental": [],
+              "positional": []
+            }
+          },
+          {
+            "verb": "cudgel",
+            "applicable_subjects": ["biological_body", "physical_agent", "software_agent"],
+            "applicable_objects": ["biological_body", "object", "concept"],
+            "goals": ["strike forcibly", "mentally struggle (figurative)"],
+            "mechanisms": ["forceful impact", "intense thinking"],
+            "tools": ["blunt instrument", "mental effort"],
+            "required_subject_states": {
+              "physical": ["strong"],
+              "emotional": ["determined"],
+              "mental": ["prepared"],
+              "positional": ["over or near object"]
+            },
+            "required_object_states": {
+              "physical": ["accessible", "exposed"],
+              "emotional": [],
+              "mental": ["complex"],
+              "positional": ["beneath or facing subject"]
+            },
+            "final_subject_states": {
+              "physical": ["expended effort"],
+              "emotional": ["resolved"],
+              "mental": ["exhausted"],
+              "positional": []
+            },
+            "final_object_states": {
+              "physical": ["damaged"],
+              "emotional": [],
+              "mental": ["considered"],
+              "positional": []
+            }
+          },
+          {
+            "verb": "cue",
+            "applicable_subjects": ["biological_body", "physical_agent", "software_agent"],
+            "applicable_objects": ["biological_body", "physical_agent", "software_agent", "virtual_object"],
+            "goals": ["prompt action", "initiate response"],
+            "mechanisms": ["signaling", "communication"],
+            "tools": [],
+            "required_subject_states": {
+              "physical": [],
+              "emotional": ["intentional"],
+              "mental": ["aware"],
+              "positional": ["near or in communicative range of object"]
+            },
+            "required_object_states": {
+              "physical": ["ready"],
+              "emotional": [],
+              "mental": ["attentive"],
+              "positional": ["reachable by subject"]
+            },
+            "final_subject_states": {
+              "physical": [],
+              "emotional": ["alert"],
+              "mental": ["completed prompt"],
+              "positional": []
+            },
+            "final_object_states": {
+              "physical": [],
+              "emotional": [],
+              "mental": ["activated", "responding"],
+              "positional": []
+            }
+          },
+          {
+            "verb": "cull",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent", "software_agent"],
+            "applicable_objects": ["biological_body", "micro_biological_entity", "object", "virtual_object", "concept"],
+            "goals": ["remove unwanted elements", "select best"],
+            "mechanisms": ["selection", "elimination"],
+            "tools": [],
+            "required_subject_states": {
+              "physical": ["active"],
+              "emotional": ["discerning"],
+              "mental": ["evaluative"],
+              "positional": ["within or over collection of objects"]
+            },
+            "required_object_states": {
+              "physical": ["available", "accessible"],
+              "emotional": [],
+              "mental": [],
+              "positional": ["grouped within subject’s scope"]
+            },
+            "final_subject_states": {
+              "physical": ["reduced load"],
+              "emotional": ["satisfied"],
+              "mental": ["refined"],
+              "positional": []
+            },
+            "final_object_states": {
+              "physical": ["removed", "retained"],
+              "emotional": [],
+              "mental": [],
+              "positional": []
+            }
+          },
+          {
+            "verb": "cultivate",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent", "software_agent"],
+            "applicable_objects": ["object", "concept", "virtual_object", "biological_body"],
+            "goals": ["develop progressively", "enhance growth"],
+            "mechanisms": ["nurturing", "improvement"],
+            "tools": [],
+            "required_subject_states": {
+              "physical": ["capable"],
+              "emotional": ["dedicated"],
+              "mental": ["strategic"],
+              "positional": ["over or closely interacting with object"]
+            },
+            "required_object_states": {
+              "physical": ["responsive"],
+              "emotional": [],
+              "mental": [],
+              "positional": ["accessible to subject"]
+            },
+            "final_subject_states": {
+              "physical": [],
+              "emotional": ["fulfilled"],
+              "mental": ["accomplished"],
+              "positional": []
+            },
+            "final_object_states": {
+              "physical": ["grown", "improved"],
+              "emotional": [],
+              "mental": ["developed"],
+              "positional": []
+            }
+          },
+          {
+            "verb": "curb",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent", "software_agent"],
+            "applicable_objects": ["object", "concept", "virtual_object", "biological_body", "micro_biological_entity"],
+            "goals": ["restrain", "limit"],
+            "mechanisms": ["control", "restriction"],
+            "tools": [],
+            "required_subject_states": {
+              "physical": ["strong"],
+              "emotional": ["determined"],
+              "mental": ["focused"],
+              "positional": ["around or enclosing object"]
+            },
+            "required_object_states": {
+              "physical": ["active", "expansive"],
+              "emotional": [],
+              "mental": [],
+              "positional": ["within reach or under subject’s scope"]
+            },
+            "final_subject_states": {
+              "physical": ["steady"],
+              "emotional": ["confident"],
+              "mental": ["controlled"],
+              "positional": []
+            },
+            "final_object_states": {
+              "physical": ["restricted"],
+              "emotional": [],
+              "mental": [],
+              "positional": []
+            }
+          },
+          {
+            "verb": "cure",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent", "software_agent"],
+            "applicable_objects": ["biological_body", "micro_biological_entity", "object", "concept", "virtual_object"],
+            "goals": ["restore health", "eliminate defect"],
+            "mechanisms": ["treatment", "repair", "elimination"],
+            "tools": ["medicine", "procedure", "algorithm", "device"],
+            "required_subject_states": {
+              "physical": ["capable"],
+              "emotional": ["committed"],
+              "mental": ["knowledgeable"],
+              "positional": ["near or applied to object"]
+            },
+            "required_object_states": {
+              "physical": ["impaired", "infected", "defective"],
+              "emotional": [],
+              "mental": [],
+              "positional": ["accessible to subject"]
+            },
+            "final_subject_states": {
+              "physical": [],
+              "emotional": ["satisfied"],
+              "mental": ["resolved"],
+              "positional": []
+            },
+            "final_object_states": {
+              "physical": ["restored", "healed", "corrected"],
+              "emotional": [],
+              "mental": [],
+              "positional": []
+            }
+          },
+          {
+            "verb": "curl",
+            "applicable_subjects": ["biological_body", "physical_agent"],
+            "applicable_objects": ["object", "biological_body", "physical_agent"],
+            "goals": ["form into spiral", "reduce linear shape"],
+            "mechanisms": ["bending", "rolling"],
+            "tools": ["hand", "manipulator", "body"],
+            "required_subject_states": {
+              "physical": ["flexible", "capable"],
+              "emotional": [],
+              "mental": ["intentional"],
+              "positional": ["touching or enclosing object"]
+            },
+            "required_object_states": {
+              "physical": ["flexible", "pliable"],
+              "emotional": [],
+              "mental": [],
+              "positional": ["within manipulation range"]
+            },
+            "final_subject_states": {
+              "physical": ["engaged"],
+              "emotional": [],
+              "mental": ["completed bend"],
+              "positional": []
+            },
+            "final_object_states": {
+              "physical": ["curved", "coiled"],
+              "emotional": [],
+              "mental": [],
+              "positional": []
+            }
+          },
+          {
+            "verb": "curse",
+            "applicable_subjects": ["biological_body", "organization", "software_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept", "virtual_object"],
+            "goals": ["invoke misfortune", "express anger"],
+            "mechanisms": ["verbal expression", "command"],
+            "tools": ["speech", "text", "script"],
+            "required_subject_states": {
+              "physical": [],
+              "emotional": ["angry", "resentful"],
+              "mental": ["focused"],
+              "positional": ["in communicative range or symbolic targeting"]
+            },
+            "required_object_states": {
+              "physical": [],
+              "emotional": [],
+              "mental": ["aware"],
+              "positional": ["targeted by subject"]
+            },
+            "final_subject_states": {
+              "physical": [],
+              "emotional": ["relieved", "vindicated"],
+              "mental": ["expressed"],
+              "positional": []
+            },
+            "final_object_states": {
+              "physical": [],
+              "emotional": ["disturbed"],
+              "mental": ["influenced", "targeted"],
+              "positional": []
+            }
+          },
+          {
+            "verb": "curve",
+            "applicable_subjects": ["biological_body", "physical_agent"],
+            "applicable_objects": ["object", "biological_body", "concept"],
+            "goals": ["create arc shape", "deviate from straight line"],
+            "mechanisms": ["bending", "guiding"],
+            "tools": ["hand", "manipulator", "design instrument"],
+            "required_subject_states": {
+              "physical": ["capable"],
+              "emotional": [],
+              "mental": ["intentional"],
+              "positional": ["along or around object"]
+            },
+            "required_object_states": {
+              "physical": ["pliable", "guidable"],
+              "emotional": [],
+              "mental": [],
+              "positional": ["within manipulation scope"]
+            },
+            "final_subject_states": {
+              "physical": ["active"],
+              "emotional": [],
+              "mental": ["satisfied"],
+              "positional": []
+            },
+            "final_object_states": {
+              "physical": ["curved"],
+              "emotional": [],
+              "mental": [],
+              "positional": []
+            }
+          },
+          {
+            "verb": "cushion",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["object", "biological_body", "concept"],
+            "goals": ["reduce impact", "soften effect"],
+            "mechanisms": ["absorption", "deflection"],
+            "tools": ["padding", "barrier", "material"],
+            "required_subject_states": {
+              "physical": ["capable"],
+              "emotional": [],
+              "mental": ["protective"],
+              "positional": ["under or around object"]
+            },
+            "required_object_states": {
+              "physical": ["vulnerable", "impact-prone"],
+              "emotional": [],
+              "mental": [],
+              "positional": ["supported or buffered by subject"]
+            },
+            "final_subject_states": {
+              "physical": ["supporting"],
+              "emotional": [],
+              "mental": ["protective action completed"],
+              "positional": []
+            },
+            "final_object_states": {
+              "physical": ["protected", "less impacted"],
+              "emotional": [],
+              "mental": [],
+              "positional": []
+            }
+          },
+          {
+            "verb": "customize",
+            "applicable_subjects": ["biological_body", "organization", "software_agent", "physical_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept"],
+            "goals": ["tailor to needs", "personalize"],
+            "mechanisms": ["modification", "adaptation"],
+            "tools": ["interface", "toolkit", "code"],
+            "required_subject_states": {
+              "physical": ["capable"],
+              "emotional": ["intentional"],
+              "mental": ["creative", "strategic"],
+              "positional": ["applied to or interacting with object"]
+            },
+            "required_object_states": {
+              "physical": ["modifiable"],
+              "emotional": [],
+              "mental": [],
+              "positional": ["accessible to subject"]
+            },
+            "final_subject_states": {
+              "physical": [],
+              "emotional": ["satisfied"],
+              "mental": ["goal accomplished"],
+              "positional": []
+            },
+            "final_object_states": {
+              "physical": ["adapted", "personalized"],
+              "emotional": [],
+              "mental": [],
+              "positional": []
+            }
+          }
+    ],
+    "completed": true
+}

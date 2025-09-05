@@ -1,0 +1,83 @@
+{
+    "prefix": "cy",
+    "processed_verbs": [
+        "cycle"
+    ],
+    "outcomes": [
+        {
+            "verb": "cycle",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "physical_agent",
+                "software_agent"
+            ],
+            "applicable_objects": [
+                "object",
+                "concept",
+                "virtual_object"
+            ],
+            "goals": [
+                "repeat process",
+                "move in sequence"
+            ],
+            "mechanisms": [
+                "rotation",
+                "repetition",
+                "iteration"
+            ],
+            "tools": [
+                "wheel",
+                "algorithm",
+                "loop mechanism"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable"
+                ],
+                "emotional": [
+                    "persistent"
+                ],
+                "mental": [
+                    "structured"
+                ],
+                "positional": [
+                    "within or around process scope"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "repeatable",
+                    "reusable"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "accessible in process"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "active"
+                ],
+                "emotional": [
+                    "steady"
+                ],
+                "mental": [
+                    "iterative"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "cycled",
+                    "processed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

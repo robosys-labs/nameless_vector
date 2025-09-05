@@ -1,0 +1,680 @@
+{
+  "prefix": "ce",
+  "processed_verbs": [],
+  "outcomes": [
+    {
+      "verb": "cease",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "system",
+        "event"
+      ],
+      "applicable_objects": [
+        "action",
+        "process",
+        "behavior",
+        "event"
+      ],
+      "goals": [
+        "stop",
+        "bring to an end"
+      ],
+      "mechanisms": [
+        "inhibition",
+        "withdrawal",
+        "decision"
+      ],
+      "tools": [
+        "will",
+        "command",
+        "condition"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [
+          "resolved"
+        ],
+        "mental": [
+          "intentional"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [
+          "ongoing"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [
+          "inactive"
+        ],
+        "emotional": [
+          "neutral",
+          "relieved"
+        ],
+        "mental": [
+          "resolved"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "halted"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      }
+    },
+    {
+      "verb": "cede",
+      "applicable_subjects": [
+        "organization",
+        "biological_body",
+        "government",
+        "planetary_body"
+      ],
+      "applicable_objects": [
+        "territory",
+        "resource",
+        "authority"
+      ],
+      "goals": [
+        "transfer ownership",
+        "relinquish control"
+      ],
+      "mechanisms": [
+        "agreement",
+        "submission",
+        "force"
+      ],
+      "tools": [
+        "treaty",
+        "document",
+        "negotiation"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "in possession"
+        ],
+        "emotional": [
+          "resigned",
+          "coerced"
+        ],
+        "mental": [
+          "aware",
+          "accepting"
+        ],
+        "positional": [
+          "within control of object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "controlled"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "under subject"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "detached"
+        ],
+        "emotional": [
+          "resigned"
+        ],
+        "mental": [
+          "relinquished"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "transferred"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "under new authority"
+        ]
+      }
+    },
+    {
+      "verb": "ceil",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "system"
+      ],
+      "applicable_objects": [
+        "structure",
+        "room",
+        "interior"
+      ],
+      "goals": [
+        "cover from above",
+        "enclose overhead"
+      ],
+      "mechanisms": [
+        "installation",
+        "construction"
+      ],
+      "tools": [
+        "panel",
+        "tile",
+        "ceiling material"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "equipped",
+          "in reach"
+        ],
+        "emotional": [
+          "focused"
+        ],
+        "mental": [
+          "deliberate"
+        ],
+        "positional": [
+          "below object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "exposed",
+          "open"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "above subject"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "expended"
+        ],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "completed"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "covered",
+          "sealed"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "above",
+          "enclosed"
+        ]
+      }
+    },
+    {
+      "verb": "celebrate",
+      "applicable_subjects": [
+        "biological_body",
+        "group",
+        "spiritual_entity",
+        "event"
+      ],
+      "applicable_objects": [
+        "event",
+        "achievement",
+        "milestone",
+        "person"
+      ],
+      "goals": [
+        "honor",
+        "rejoice",
+        "commemorate"
+      ],
+      "mechanisms": [
+        "gathering",
+        "ritual",
+        "expression"
+      ],
+      "tools": [
+        "ceremony",
+        "music",
+        "words",
+        "symbols"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "gathered",
+          "active"
+        ],
+        "emotional": [
+          "joyful",
+          "proud"
+        ],
+        "mental": [
+          "intentional"
+        ],
+        "positional": [
+          "around object",
+          "near",
+          "within setting"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "completed",
+          "recognized"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [
+          "exerted"
+        ],
+        "emotional": [
+          "uplifted"
+        ],
+        "mental": [
+          "acknowledged"
+        ],
+        "positional": [
+          "surrounding",
+          "within shared space"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [
+          "honored"
+        ],
+        "mental": [
+          "remembered"
+        ],
+        "positional": [
+          "central"
+        ]
+      }
+    },
+    {
+      "verb": "cement",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "object"
+      ],
+      "applicable_objects": [
+        "bond",
+        "relationship",
+        "structure"
+      ],
+      "goals": [
+        "solidify",
+        "strengthen",
+        "bind permanently"
+      ],
+      "mechanisms": [
+        "adhesion",
+        "reinforcement",
+        "binding"
+      ],
+      "tools": [
+        "cement",
+        "agreement",
+        "action"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable",
+          "engaged"
+        ],
+        "emotional": [
+          "committed"
+        ],
+        "mental": [
+          "intentional"
+        ],
+        "positional": [
+          "in contact"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "separate",
+          "loose"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "adjacent"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "connected"
+        ],
+        "emotional": [
+          "affirmed"
+        ],
+        "mental": [
+          "resolved"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "bonded",
+          "reinforced"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "fixed",
+          "joined"
+        ]
+      }
+    },
+    {
+      "verb": "center",
+      "applicable_subjects": ["biological_body", "organization", "system", "object"],
+      "applicable_objects": ["object", "attention", "focus", "structure"],
+      "goals": ["align to middle", "focus attention", "stabilize"],
+      "mechanisms": ["adjustment", "positioning", "balancing"],
+      "tools": ["hands", "mind", "instrument"],
+      "required_subject_states": {
+        "physical": ["capable"],
+        "emotional": ["focused"],
+        "mental": ["intentional"],
+        "positional": ["near object"]
+      },
+      "required_object_states": {
+        "physical": ["movable", "misaligned"],
+        "emotional": [],
+        "mental": [],
+        "positional": ["off-center"]
+      },
+      "final_subject_states": {
+        "physical": ["stabilized"],
+        "emotional": ["satisfied"],
+        "mental": ["aligned"],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": ["centered"],
+        "emotional": [],
+        "mental": [],
+        "positional": ["middle"]
+      }
+    },
+    {
+      "verb": "censor",
+      "applicable_subjects": ["organization", "government", "biological_body"],
+      "applicable_objects": ["information", "speech", "content"],
+      "goals": ["suppress", "restrict", "control dissemination"],
+      "mechanisms": ["review", "removal", "blocking"],
+      "tools": ["authority", "policy", "technology"],
+      "required_subject_states": {
+        "physical": ["active"],
+        "emotional": ["strict", "protective"],
+        "mental": ["decisive"],
+        "positional": ["overseeing content"]
+      },
+      "required_object_states": {
+        "physical": ["present", "expressed"],
+        "emotional": [],
+        "mental": [],
+        "positional": ["public", "visible"]
+      },
+      "final_subject_states": {
+        "physical": ["exerted"],
+        "emotional": ["controlled"],
+        "mental": ["assertive"],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": ["restricted", "altered"],
+        "emotional": [],
+        "mental": [],
+        "positional": ["hidden", "reduced"]
+      }
+    },
+    {
+      "verb": "censure",
+      "applicable_subjects": ["organization", "biological_body", "group"],
+      "applicable_objects": ["person", "action", "behavior"],
+      "goals": ["criticize formally", "express disapproval"],
+      "mechanisms": ["verbal condemnation", "official statement"],
+      "tools": ["speech", "document", "meeting"],
+      "required_subject_states": {
+        "physical": ["assembled", "present"],
+        "emotional": ["displeased"],
+        "mental": ["judgmental"],
+        "positional": ["facing object"]
+      },
+      "required_object_states": {
+        "physical": ["active", "observable"],
+        "emotional": [],
+        "mental": [],
+        "positional": ["within audience view"]
+      },
+      "final_subject_states": {
+        "physical": ["expressed"],
+        "emotional": ["affirmed"],
+        "mental": ["resolved"],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": ["shamed"],
+        "mental": ["aware of disapproval"],
+        "positional": ["exposed"]
+      }
+    },
+    {
+      "verb": "certify",
+      "applicable_subjects": ["organization", "biological_body", "system"],
+      "applicable_objects": ["document", "competence", "process", "product"],
+      "goals": ["confirm authenticity", "verify compliance"],
+      "mechanisms": ["inspection", "evaluation", "approval"],
+      "tools": ["certificate", "audit", "standard"],
+      "required_subject_states": {
+        "physical": ["authorized"],
+        "emotional": ["responsible"],
+        "mental": ["knowledgeable"],
+        "positional": ["overseeing object"]
+      },
+      "required_object_states": {
+        "physical": ["complete", "available"],
+        "emotional": [],
+        "mental": [],
+        "positional": ["presented"]
+      },
+      "final_subject_states": {
+        "physical": ["fulfilled"],
+        "emotional": ["satisfied"],
+        "mental": ["confirmed"],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": ["validated"],
+        "emotional": [],
+        "mental": ["recognized"],
+        "positional": ["accepted"]
+      }
+    },
+    {
+      "verb": "cerebrate",
+      "applicable_subjects": ["biological_body", "spiritual_entity", "concept"],
+      "applicable_objects": ["problem", "idea", "stimulus"],
+      "goals": ["think deeply", "analyze"],
+      "mechanisms": ["reasoning", "reflection", "mental processing"],
+      "tools": ["mind", "experience", "logic"],
+      "required_subject_states": {
+        "physical": ["awake"],
+        "emotional": ["calm"],
+        "mental": ["engaged", "focused"],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": ["present", "available"],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": ["satisfied"],
+        "mental": ["resolved", "enlightened"],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": ["processed", "understood"],
+        "positional": []
+      }
+    },
+    {
+      "verb": "cessate",
+      "applicable_subjects": ["organization", "biological_body", "system", "event"],
+      "applicable_objects": ["action", "operation", "process"],
+      "goals": ["bring to a stop", "terminate"],
+      "mechanisms": ["withdrawal", "deactivation", "decision"],
+      "tools": ["authority", "command", "internal control"],
+      "required_subject_states": {
+        "physical": ["active"],
+        "emotional": ["resolute"],
+        "mental": ["decisive"],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": ["active"],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": ["inactive"],
+        "emotional": ["neutral", "relieved"],
+        "mental": ["resolved"],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": ["ceased", "stopped"],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      }
+    },
+    {
+      "verb": "centrifuge",
+      "applicable_subjects": ["system", "organization", "biological_body"],
+      "applicable_objects": ["substance", "mixture", "sample"],
+      "goals": ["separate components", "extract layers"],
+      "mechanisms": ["spinning", "centrifugal force"],
+      "tools": ["centrifuge device"],
+      "required_subject_states": {
+        "physical": ["operational"],
+        "emotional": [],
+        "mental": ["technical"],
+        "positional": ["around or enclosing object"]
+      },
+      "required_object_states": {
+        "physical": ["mixed", "combined"],
+        "emotional": [],
+        "mental": [],
+        "positional": ["inside device"]
+      },
+      "final_subject_states": {
+        "physical": ["used"],
+        "emotional": [],
+        "mental": ["completed"],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": ["separated", "layered"],
+        "emotional": [],
+        "mental": [],
+        "positional": ["distributed radially"]
+      }
+    },
+    {
+      "verb": "centralize",
+      "applicable_subjects": ["organization", "system", "government"],
+      "applicable_objects": ["power", "resource", "decision"],
+      "goals": ["consolidate control", "concentrate"],
+      "mechanisms": ["aggregation", "coordination", "restructuring"],
+      "tools": ["policy", "structure", "strategy"],
+      "required_subject_states": {
+        "physical": ["active"],
+        "emotional": ["dominant"],
+        "mental": ["strategic"],
+        "positional": ["over distributed elements"]
+      },
+      "required_object_states": {
+        "physical": ["distributed"],
+        "emotional": [],
+        "mental": [],
+        "positional": ["spread out"]
+      },
+      "final_subject_states": {
+        "physical": ["consolidated"],
+        "emotional": ["empowered"],
+        "mental": ["controlled"],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": ["gathered", "integrated"],
+        "emotional": [],
+        "mental": [],
+        "positional": ["central"]
+      }
+    },
+    {
+      "verb": "certificiate",
+      "applicable_subjects": ["organization", "system", "biological_body"],
+      "applicable_objects": ["person", "product", "document"],
+      "goals": ["grant certification", "formally endorse"],
+      "mechanisms": ["evaluation", "approval", "documentation"],
+      "tools": ["certificate", "standard", "assessment"],
+      "required_subject_states": {
+        "physical": ["authorized"],
+        "emotional": ["formal"],
+        "mental": ["evaluative"],
+        "positional": ["above or overseeing object"]
+      },
+      "required_object_states": {
+        "physical": ["eligible", "completed"],
+        "emotional": [],
+        "mental": [],
+        "positional": ["presented"]
+      },
+      "final_subject_states": {
+        "physical": ["fulfilled"],
+        "emotional": ["affirmed"],
+        "mental": ["validated"],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": ["certified"],
+        "emotional": [],
+        "mental": ["recognized"],
+        "positional": ["accepted"]
+      }
+    }
+  ],
+  "completed": true
+}

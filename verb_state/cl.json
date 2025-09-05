@@ -1,0 +1,2021 @@
+{
+  "prefix": "cl",
+  "processed_verbs": [
+    "clack",
+    "claim",
+    "clamp",
+    "clap",
+    "clash",
+    "clasp",
+    "clatter",
+    "claw",
+    "classify",
+    "clean",
+    "clear",
+    "cleanse",
+    "cleave",
+    "clench",
+    "click",
+    "climb",
+    "cling",
+    "clink",
+    "clinch",
+    "clip",
+    "cloak",
+    "clog",
+    "close",
+    "clot",
+    "clothe",
+    "cloud",
+    "clout",
+    "cloy",
+    "club",
+    "clue",
+    "cluster",
+    "clump",
+    "clutch",
+    "clutter"
+  ],
+  "outcomes": [
+    {
+      "verb": "clack",
+      "applicable_subjects": [
+        "biological_body",
+        "object",
+        "environment"
+      ],
+      "applicable_objects": [
+        "air",
+        "surface"
+      ],
+      "goals": [
+        "produce sharp sound",
+        "signal presence"
+      ],
+      "mechanisms": [
+        "striking",
+        "rapid contact"
+      ],
+      "tools": [
+        "mouth",
+        "object",
+        "mechanism"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [],
+        "mental": [
+          "aware"
+        ],
+        "positional": [
+          "near object or open air"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "solid",
+          "resonant"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "contact zone"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "expressed"
+        ],
+        "emotional": [],
+        "mental": [
+          "alerted"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "vibrated"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "sounded"
+        ]
+      }
+    },
+    {
+      "verb": "claim",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "concept"
+      ],
+      "applicable_objects": [
+        "right",
+        "reward",
+        "territory",
+        "idea"
+      ],
+      "goals": [
+        "assert ownership",
+        "declare entitlement"
+      ],
+      "mechanisms": [
+        "verbal statement",
+        "legal act"
+      ],
+      "tools": [
+        "speech",
+        "document",
+        "gesture"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [
+          "confident"
+        ],
+        "mental": [
+          "decisive"
+        ],
+        "positional": [
+          "facing or addressing object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "available"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "open for taking"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "asserted"
+        ],
+        "emotional": [
+          "empowered"
+        ],
+        "mental": [
+          "resolved"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "possessed",
+          "contested"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "held"
+        ]
+      }
+    },
+    {
+      "verb": "clamp",
+      "applicable_subjects": [
+        "biological_body",
+        "tool",
+        "object"
+      ],
+      "applicable_objects": [
+        "object",
+        "material",
+        "structure"
+      ],
+      "goals": [
+        "secure firmly",
+        "prevent movement"
+      ],
+      "mechanisms": [
+        "compression",
+        "locking"
+      ],
+      "tools": [
+        "clamp",
+        "hand",
+        "device"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "strong",
+          "active"
+        ],
+        "emotional": [],
+        "mental": [
+          "focused"
+        ],
+        "positional": [
+          "around or on object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "movable",
+          "flexible"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "placed"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "engaged"
+        ],
+        "emotional": [],
+        "mental": [
+          "secure"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "fixed",
+          "immobilized"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "held"
+        ]
+      }
+    },
+    {
+      "verb": "clash",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "object"
+      ],
+      "applicable_objects": [
+        "opponent",
+        "idea",
+        "force"
+      ],
+      "goals": [
+        "oppose",
+        "collide",
+        "conflict"
+      ],
+      "mechanisms": [
+        "forceful contact",
+        "direct opposition"
+      ],
+      "tools": [
+        "body",
+        "weapon",
+        "strategy"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active",
+          "prepared"
+        ],
+        "emotional": [
+          "determined"
+        ],
+        "mental": [
+          "resolute"
+        ],
+        "positional": [
+          "facing or advancing toward object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "resisting",
+          "approaching"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "opposing"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "impacted"
+        ],
+        "emotional": [
+          "intense"
+        ],
+        "mental": [
+          "tested"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "impacted",
+          "disrupted"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "in collision"
+        ]
+      }
+    },
+    {
+      "verb": "clasp",
+      "applicable_subjects": [
+        "biological_body",
+        "object"
+      ],
+      "applicable_objects": [
+        "object",
+        "person",
+        "material"
+      ],
+      "goals": [
+        "hold firmly",
+        "secure"
+      ],
+      "mechanisms": [
+        "gripping",
+        "closing"
+      ],
+      "tools": [
+        "hand",
+        "clasp mechanism"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active",
+          "able"
+        ],
+        "emotional": [
+          "supportive",
+          "affectionate"
+        ],
+        "mental": [
+          "intentional"
+        ],
+        "positional": [
+          "in contact with object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "reachable"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "within grasp"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "engaged"
+        ],
+        "emotional": [
+          "connected"
+        ],
+        "mental": [
+          "steady"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "held",
+          "secured"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "enclosed"
+        ]
+      }
+    },
+    {
+      "verb": "classify",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "concept"
+      ],
+      "applicable_objects": [
+        "data",
+        "items",
+        "concepts",
+        "entities"
+      ],
+      "goals": [
+        "organize",
+        "categorize",
+        "systematize"
+      ],
+      "mechanisms": [
+        "analysis",
+        "grouping"
+      ],
+      "tools": [
+        "criteria",
+        "framework",
+        "labels"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [],
+        "mental": [
+          "analytical",
+          "systematic"
+        ],
+        "positional": [
+          "reviewing or overseeing object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "distinct",
+          "present"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "available"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "engaged"
+        ],
+        "emotional": [],
+        "mental": [
+          "satisfied",
+          "resolved"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "organized"
+        ],
+        "positional": [
+          "sorted"
+        ]
+      }
+    },
+    {
+      "verb": "clean",
+      "applicable_subjects": [
+        "biological_body",
+        "object",
+        "organization"
+      ],
+      "applicable_objects": [
+        "surface",
+        "space",
+        "item"
+      ],
+      "goals": [
+        "remove dirt",
+        "restore order",
+        "purify"
+      ],
+      "mechanisms": [
+        "wiping",
+        "washing",
+        "scrubbing"
+      ],
+      "tools": [
+        "cloth",
+        "water",
+        "detergent"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active",
+          "able"
+        ],
+        "emotional": [],
+        "mental": [
+          "intentional"
+        ],
+        "positional": [
+          "near or on object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "dirty",
+          "accessible"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "reachable"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "exerted"
+        ],
+        "emotional": [],
+        "mental": [
+          "satisfied"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "clean",
+          "restored"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "ordered"
+        ]
+      }
+    },
+    {
+      "verb": "clear",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "object"
+      ],
+      "applicable_objects": [
+        "space",
+        "obstacle",
+        "task",
+        "path"
+      ],
+      "goals": [
+        "remove blockage",
+        "make open",
+        "resolve"
+      ],
+      "mechanisms": [
+        "removal",
+        "displacement"
+      ],
+      "tools": [
+        "hands",
+        "tools",
+        "force"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [],
+        "mental": [
+          "intentional"
+        ],
+        "positional": [
+          "in front of or near object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "occupied",
+          "blocked"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "obstructing"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "exerted"
+        ],
+        "emotional": [],
+        "mental": [
+          "resolved"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "open",
+          "unblocked"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "freed"
+        ]
+      }
+    },
+    {
+      "verb": "cleanse",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "spiritual_entity"
+      ],
+      "applicable_objects": [
+        "body",
+        "space",
+        "mind",
+        "spirit"
+      ],
+      "goals": [
+        "purify",
+        "detoxify",
+        "sanctify"
+      ],
+      "mechanisms": [
+        "washing",
+        "ritual",
+        "meditation"
+      ],
+      "tools": [
+        "water",
+        "prayer",
+        "ritual tools"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [
+          "intentional"
+        ],
+        "mental": [
+          "focused"
+        ],
+        "positional": [
+          "near or surrounding object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "impure",
+          "affected"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "exerted"
+        ],
+        "emotional": [
+          "calm"
+        ],
+        "mental": [
+          "resolved"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "pure",
+          "restored"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "renewed"
+        ]
+      }
+    },
+    {
+      "verb": "cleave",
+      "applicable_subjects": [
+        "biological_body",
+        "object",
+        "tool"
+      ],
+      "applicable_objects": [
+        "material",
+        "surface",
+        "obstacle"
+      ],
+      "goals": [
+        "split",
+        "separate forcefully"
+      ],
+      "mechanisms": [
+        "cutting",
+        "striking"
+      ],
+      "tools": [
+        "axe",
+        "knife",
+        "sharp edge"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "strong",
+          "active"
+        ],
+        "emotional": [],
+        "mental": [
+          "focused"
+        ],
+        "positional": [
+          "above or against object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "solid",
+          "divisible"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "held or stationary"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "exerted"
+        ],
+        "emotional": [],
+        "mental": [
+          "resolved"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "split",
+          "divided"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "separated"
+        ]
+      }
+    },
+    {
+      "verb": "click",
+      "applicable_subjects": [
+        "biological_body",
+        "object",
+        "system"
+      ],
+      "applicable_objects": [
+        "button",
+        "link",
+        "mechanism"
+      ],
+      "goals": [
+        "activate",
+        "select",
+        "engage"
+      ],
+      "mechanisms": [
+        "pressing",
+        "snapping"
+      ],
+      "tools": [
+        "finger",
+        "device",
+        "mouse"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [],
+        "mental": [
+          "intentional"
+        ],
+        "positional": [
+          "over or on object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "available",
+          "responsive"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "reachable"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "engaged"
+        ],
+        "emotional": [],
+        "mental": [
+          "resolved"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "activated"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "triggered"
+        ]
+      }
+    },
+    {
+      "verb": "climb",
+      "applicable_subjects": [
+        "biological_body",
+        "object"
+      ],
+      "applicable_objects": [
+        "structure",
+        "surface",
+        "path"
+      ],
+      "goals": [
+        "ascend",
+        "reach higher point"
+      ],
+      "mechanisms": [
+        "pulling",
+        "pushing"
+      ],
+      "tools": [
+        "limbs",
+        "gear",
+        "support"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active",
+          "strong"
+        ],
+        "emotional": [
+          "motivated"
+        ],
+        "mental": [
+          "focused"
+        ],
+        "positional": [
+          "below or at base of object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "supporting",
+          "scalable"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "above"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "elevated"
+        ],
+        "emotional": [
+          "accomplished"
+        ],
+        "mental": [
+          "determined"
+        ],
+        "positional": [
+          "above or atop object"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "used",
+          "contacted"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "below"
+        ]
+      }
+    },
+    {
+      "verb": "cling",
+      "applicable_subjects": [
+        "biological_body",
+        "object"
+      ],
+      "applicable_objects": [
+        "surface",
+        "person",
+        "support"
+      ],
+      "goals": [
+        "hold tightly",
+        "maintain contact"
+      ],
+      "mechanisms": [
+        "gripping",
+        "pressing"
+      ],
+      "tools": [
+        "limbs",
+        "adhesive surface"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active",
+          "able"
+        ],
+        "emotional": [
+          "anxious",
+          "affectionate"
+        ],
+        "mental": [
+          "intentional"
+        ],
+        "positional": [
+          "against or around object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "stable",
+          "supporting"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "nearby"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "secured"
+        ],
+        "emotional": [
+          "reassured"
+        ],
+        "mental": [
+          "focused"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "supporting"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "contacted"
+        ]
+      }
+    },
+    {
+      "verb": "clinch",
+      "applicable_subjects": [
+        "biological_body",
+        "organization"
+      ],
+      "applicable_objects": [
+        "deal",
+        "victory",
+        "grip"
+      ],
+      "goals": [
+        "secure",
+        "finalize"
+      ],
+      "mechanisms": [
+        "locking",
+        "holding firmly"
+      ],
+      "tools": [
+        "hands",
+        "strategy",
+        "leverage"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active",
+          "strong"
+        ],
+        "emotional": [
+          "determined"
+        ],
+        "mental": [
+          "decisive"
+        ],
+        "positional": [
+          "near or in contact with object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "attainable",
+          "available"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "within reach"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "secured"
+        ],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "resolved"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "captured",
+          "finalized"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "held"
+        ]
+      }
+    },
+    {
+      "verb": "clip",
+      "applicable_subjects": [
+        "biological_body",
+        "tool"
+      ],
+      "applicable_objects": [
+        "material",
+        "hair",
+        "document"
+      ],
+      "goals": [
+        "trim",
+        "cut",
+        "attach"
+      ],
+      "mechanisms": [
+        "snipping",
+        "pressing"
+      ],
+      "tools": [
+        "scissors",
+        "clipper",
+        "clip"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [],
+        "mental": [
+          "intentional"
+        ],
+        "positional": [
+          "above or on object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "extended",
+          "separable"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "expended"
+        ],
+        "emotional": [],
+        "mental": [
+          "precise"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "cut",
+          "trimmed",
+          "secured"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "organized"
+        ]
+      }
+    },
+    {
+      "verb": "cloak",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "concept"
+      ],
+      "applicable_objects": [
+        "action",
+        "appearance",
+        "identity"
+      ],
+      "goals": [
+        "conceal",
+        "protect",
+        "disguise"
+      ],
+      "mechanisms": [
+        "covering",
+        "obscuring"
+      ],
+      "tools": [
+        "fabric",
+        "device",
+        "strategy"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [
+          "intentional"
+        ],
+        "mental": [
+          "strategic"
+        ],
+        "positional": [
+          "around or over object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "visible",
+          "exposed"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "open to view"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "engaged"
+        ],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "confident"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "hidden",
+          "covered"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "obscured"
+        ]
+      }
+    },
+    {
+      "verb": "clog",
+      "applicable_subjects": [
+        "object",
+        "biological_body",
+        "environment"
+      ],
+      "applicable_objects": [
+        "pipe",
+        "pathway",
+        "system"
+      ],
+      "goals": [
+        "block",
+        "obstruct"
+      ],
+      "mechanisms": [
+        "accumulation",
+        "compression"
+      ],
+      "tools": [
+        "debris",
+        "material",
+        "substance"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "present",
+          "dense"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "inside or within object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "hollow",
+          "flowing"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "open"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "accumulated"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "blocked",
+          "obstructed"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "filled"
+        ]
+      }
+    },
+    {
+      "verb": "close",
+      "applicable_subjects": [
+        "biological_body",
+        "object",
+        "organization"
+      ],
+      "applicable_objects": [
+        "door",
+        "gap",
+        "deal",
+        "operation"
+      ],
+      "goals": [
+        "seal",
+        "end",
+        "secure"
+      ],
+      "mechanisms": [
+        "moving together",
+        "shutting"
+      ],
+      "tools": [
+        "hands",
+        "mechanism",
+        "agreement"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [
+          "intentional"
+        ],
+        "mental": [
+          "decisive"
+        ],
+        "positional": [
+          "adjacent to or facing object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "open",
+          "separated"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "expended"
+        ],
+        "emotional": [
+          "resolved"
+        ],
+        "mental": [
+          "settled"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "sealed",
+          "ended"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "joined"
+        ]
+      }
+    },
+    {
+      "verb": "clot",
+      "applicable_subjects": [
+        "biological_body",
+        "substance"
+      ],
+      "applicable_objects": [
+        "blood",
+        "liquid"
+      ],
+      "goals": [
+        "solidify",
+        "stop flow"
+      ],
+      "mechanisms": [
+        "coagulation",
+        "aggregation"
+      ],
+      "tools": [
+        "platelets",
+        "proteins",
+        "chemicals"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "inside object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "liquid",
+          "flowing"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "moving"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "solidified"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "blocked",
+          "coagulated"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "stopped"
+        ]
+      }
+    },
+    {
+      "verb": "clothe",
+      "applicable_subjects": [
+        "biological_body",
+        "organization"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "figure",
+        "representation"
+      ],
+      "goals": [
+        "cover",
+        "protect",
+        "adorn"
+      ],
+      "mechanisms": [
+        "dressing",
+        "layering"
+      ],
+      "tools": [
+        "fabric",
+        "garment",
+        "material"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [
+          "caring",
+          "thoughtful"
+        ],
+        "mental": [
+          "intentional"
+        ],
+        "positional": [
+          "around or near object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "bare",
+          "exposed"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "standing or presented"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "engaged"
+        ],
+        "emotional": [
+          "fulfilled"
+        ],
+        "mental": [
+          "completed"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "covered",
+          "protected",
+          "adorned"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "dressed"
+        ]
+      }
+    },
+    {
+      "verb": "cloud",
+      "applicable_subjects": [
+        "environment",
+        "biological_body",
+        "concept"
+      ],
+      "applicable_objects": [
+        "sky",
+        "judgment",
+        "vision"
+      ],
+      "goals": [
+        "obscure",
+        "darken",
+        "confuse"
+      ],
+      "mechanisms": [
+        "covering",
+        "spreading"
+      ],
+      "tools": [
+        "moisture",
+        "thought",
+        "emotion"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "expanding"
+        ],
+        "emotional": [
+          "conflicted"
+        ],
+        "mental": [
+          "unsettled"
+        ],
+        "positional": [
+          "above or around object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "visible",
+          "clear"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "exposed"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "spread"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "obscured",
+          "dimmed"
+        ],
+        "emotional": [],
+        "mental": [
+          "confused"
+        ],
+        "positional": [
+          "covered"
+        ]
+      }
+    },
+    {
+      "verb": "clout",
+      "applicable_subjects": [
+        "biological_body",
+        "object"
+      ],
+      "applicable_objects": [
+        "opponent",
+        "surface",
+        "situation"
+      ],
+      "goals": [
+        "strike powerfully",
+        "influence strongly"
+      ],
+      "mechanisms": [
+        "hitting",
+        "asserting force"
+      ],
+      "tools": [
+        "hand",
+        "weapon",
+        "power"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "strong",
+          "active"
+        ],
+        "emotional": [
+          "assertive"
+        ],
+        "mental": [
+          "decisive"
+        ],
+        "positional": [
+          "near or directly facing object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "exposed",
+          "reachable"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "within striking range"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "expended force"
+        ],
+        "emotional": [
+          "dominant"
+        ],
+        "mental": [
+          "affirmed"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "struck",
+          "impacted"
+        ],
+        "emotional": [],
+        "mental": [
+          "disrupted"
+        ],
+        "positional": [
+          "moved"
+        ]
+      }
+    },
+    {
+      "verb": "cloy",
+      "applicable_subjects": [
+        "object",
+        "experience",
+        "concept"
+      ],
+      "applicable_objects": [
+        "sense",
+        "emotion",
+        "appetite"
+      ],
+      "goals": [
+        "overwhelm",
+        "saturate"
+      ],
+      "mechanisms": [
+        "excessive sweetness",
+        "intensity"
+      ],
+      "tools": [
+        "flavor",
+        "emotion",
+        "experience"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "abundant"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "directed toward object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "receptive"
+        ],
+        "emotional": [
+          "open"
+        ],
+        "mental": [],
+        "positional": [
+          "within reach"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "expended"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [
+          "overwhelmed",
+          "satiated"
+        ],
+        "mental": [
+          "disenchanted"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "club",
+      "applicable_subjects": [
+        "biological_body",
+        "object"
+      ],
+      "applicable_objects": [
+        "opponent",
+        "animal",
+        "object"
+      ],
+      "goals": [
+        "strike",
+        "disable"
+      ],
+      "mechanisms": [
+        "swinging",
+        "hitting"
+      ],
+      "tools": [
+        "club",
+        "bat",
+        "stick"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "strong",
+          "active"
+        ],
+        "emotional": [
+          "aggressive"
+        ],
+        "mental": [
+          "focused"
+        ],
+        "positional": [
+          "near or above object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "reachable",
+          "vulnerable"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "within striking range"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "expended"
+        ],
+        "emotional": [
+          "assertive"
+        ],
+        "mental": [
+          "resolved"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "hit",
+          "damaged"
+        ],
+        "emotional": [],
+        "mental": [
+          "stunned"
+        ],
+        "positional": [
+          "lowered"
+        ]
+      }
+    },
+    {
+      "verb": "clue",
+      "applicable_subjects": [
+        "biological_body",
+        "organization"
+      ],
+      "applicable_objects": [
+        "person",
+        "audience",
+        "investigation"
+      ],
+      "goals": [
+        "inform",
+        "guide",
+        "hint"
+      ],
+      "mechanisms": [
+        "communicating",
+        "signaling"
+      ],
+      "tools": [
+        "words",
+        "gestures",
+        "symbols"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [],
+        "mental": [
+          "knowledgeable",
+          "intentional"
+        ],
+        "positional": [
+          "near or addressing object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [
+          "curious"
+        ],
+        "mental": [
+          "unaware"
+        ],
+        "positional": [
+          "reachable"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "engaged"
+        ],
+        "emotional": [],
+        "mental": [
+          "shared"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [
+          "aware"
+        ],
+        "mental": [
+          "informed"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "cluster",
+      "applicable_subjects": [
+        "biological_body",
+        "object",
+        "concept"
+      ],
+      "applicable_objects": [
+        "group",
+        "area",
+        "topic"
+      ],
+      "goals": [
+        "gather closely",
+        "form a group"
+      ],
+      "mechanisms": [
+        "moving together",
+        "aggregating"
+      ],
+      "tools": [
+        "space",
+        "movement"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "active"
+        ],
+        "emotional": [],
+        "mental": [
+          "focused"
+        ],
+        "positional": [
+          "near object or area"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "dispersed",
+          "spread"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "open"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "gathered"
+        ],
+        "emotional": [],
+        "mental": [
+          "cohesive"
+        ],
+        "positional": [
+          "grouped"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "formed cluster"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "condensed"
+        ]
+      }
+    },
+    {
+      "verb": "clamor",
+      "applicable_subjects": ["biological_body", "group", "concept"],
+      "applicable_objects": ["attention", "support", "change"],
+      "goals": ["demand loudly", "express strongly"],
+      "mechanisms": ["shouting", "repeated noise"],
+      "tools": ["voice", "sound", "crowd"],
+      "required_subject_states": {
+        "physical": ["active"],
+        "emotional": ["passionate"],
+        "mental": ["resolved"],
+        "positional": ["near object or public space"]
+      },
+      "required_object_states": {
+        "physical": ["receivable"],
+        "emotional": [],
+        "mental": ["open to influence"],
+        "positional": ["reachable"]
+      },
+      "final_subject_states": {
+        "physical": ["exerted"],
+        "emotional": ["expressed"],
+        "mental": ["affirmed"],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": ["pressured"],
+        "mental": ["aware"],
+        "positional": []
+      }
+    },
+    {
+      "verb": "clap",
+      "applicable_subjects": ["biological_body"],
+      "applicable_objects": ["hands", "audience", "performance"],
+      "goals": ["create sound", "express approval"],
+      "mechanisms": ["striking hands together"],
+      "tools": ["hands"],
+      "required_subject_states": {
+        "physical": ["active"],
+        "emotional": ["pleased", "encouraging"],
+        "mental": ["intentional"],
+        "positional": ["near audience or performer"]
+      },
+      "required_object_states": {
+        "physical": ["audible"],
+        "emotional": [],
+        "mental": [],
+        "positional": ["nearby"]
+      },
+      "final_subject_states": {
+        "physical": ["engaged"],
+        "emotional": ["satisfied"],
+        "mental": ["expressed"],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": ["motivated"],
+        "mental": [],
+        "positional": []
+      }
+    },
+    {
+      "verb": "clench",
+      "applicable_subjects": ["biological_body"],
+      "applicable_objects": ["fist", "jaw", "teeth"],
+      "goals": ["tighten grip", "hold firmly"],
+      "mechanisms": ["muscle contraction"],
+      "tools": ["body"],
+      "required_subject_states": {
+        "physical": ["active", "tense"],
+        "emotional": ["angry", "determined"],
+        "mental": ["focused"],
+        "positional": ["around or against object"]
+      },
+      "required_object_states": {
+        "physical": ["flexible"],
+        "emotional": [],
+        "mental": [],
+        "positional": ["within grip"]
+      },
+      "final_subject_states": {
+        "physical": ["tightened"],
+        "emotional": ["controlled"],
+        "mental": ["resolved"],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": ["compressed"],
+        "emotional": [],
+        "mental": [],
+        "positional": ["held"]
+      }
+    }
+  ],
+  "completed": true
+}
