@@ -1,0 +1,503 @@
+{
+    "prefix": "go",
+    "processed_verbs": [
+        "go",
+        "goad",
+        "gobble",
+        "gobsmack",
+        "goggle",
+        "google",
+        "goof",
+        "golf",
+        "gore",
+        "gorge",
+        "goose",
+        "gossip",
+        "gouge",
+        "govern",
+        "gown"
+    ],
+    "outcomes": [
+        {
+            "verb": "go",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["place", "concept", "process"],
+            "goals": ["move", "travel", "proceed_with_task"],
+            "mechanisms": ["locomotion", "navigation", "execution"],
+            "tools": ["legs", "vehicle", "routing_system"],
+            "required_subject_states": {
+                "physical": ["mobile"],
+                "emotional": [],
+                "mental": ["destination_or_plan_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["progress_made"],
+                "positional": ["advanced_toward_destination"]
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "goad",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["provoke_action", "incite_response", "motivate"],
+            "mechanisms": ["taunting", "pressure", "challenge"],
+            "tools": ["words", "gestures", "stakes"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["assertive"],
+                "mental": ["desired_action_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["provocation_delivered"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["provoked_if_sentient"],
+                "mental": ["pressure_registered"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gobble",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["object"],
+            "goals": ["eat_quickly", "consume_ravenously"],
+            "mechanisms": ["rapid_ingestion", "large_bites"],
+            "tools": ["mouth", "utensil"],
+            "required_subject_states": {
+                "physical": ["able_to_chew"],
+                "emotional": [],
+                "mental": ["focus_on_consumption"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["edible_or_ingestible"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["food_consumed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["consumed_or_reduced"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gobsmack",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["shock_deeply", "surprise", "render_speechless"],
+            "mechanisms": ["unexpected_news", "sudden_action", "dramatic_reveal"],
+            "tools": ["words", "events", "media"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["surprise_content_ready"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["shock_delivered"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["stunned_if_sentient"],
+                "mental": ["momentarily_speechless"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "goggle",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object", "concept"],
+            "goals": ["stare_widely", "express_surprise", "take_in_sight"],
+            "mechanisms": ["wide_eyed_stare", "fixation"],
+            "tools": ["eyes", "visual_sensors"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["surprised_or_amazed"],
+                "mental": ["attention_locked"],
+                "positional": ["line_of_sight"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": ["visible"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["still_surprised"],
+                "mental": ["image_seared"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["noted"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "google",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["virtual_object", "concept", "object"],
+            "goals": ["search_online", "retrieve_information", "verify_fact"],
+            "mechanisms": ["web_query", "index_lookup", "retrieval"],
+            "tools": ["search_engine", "internet_connection", "browser"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["query_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["keywords_available"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["search_results_reviewed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["information_retrieved"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "goof",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["process", "concept", "virtual_object"],
+            "goals": ["make_error", "act_playfully", "waste_time"],
+            "mechanisms": ["carelessness", "pranks", "lack_of_attention"],
+            "tools": ["hands", "interface", "playful_actions"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["playful_or_distracted"],
+                "mental": ["attention_low"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["mistake_realized_or_fun_had"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["process_disrupted_or_played_with"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "golf",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "place", "concept"],
+            "goals": ["play_golf", "score_under_par", "complete_course"],
+            "mechanisms": ["swinging_club", "aiming", "course_navigation"],
+            "tools": ["golf_club", "golf_ball", "scorecard"],
+            "required_subject_states": {
+                "physical": ["able_to_swing"],
+                "emotional": [],
+                "mental": ["rules_understood"],
+                "positional": ["on_course"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": ["hole_layout_defined"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied_or_frustrated"],
+                "mental": ["round_completed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["score_recorded"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gore",
+            "applicable_subjects": ["biological_body", "physical_agent"],
+            "applicable_objects": ["biological_body", "object"],
+            "goals": ["pierce", "wound", "impale"],
+            "mechanisms": ["thrusting_horn_or_blade", "forceful_puncture"],
+            "tools": ["horn", "sharp_object"],
+            "required_subject_states": {
+                "physical": ["armed_or_horned"],
+                "emotional": [],
+                "mental": ["aim_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["strike_delivered"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["pierced_or_wounded"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gorge",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["object", "concept"],
+            "goals": ["eat_excessively", "consume_abundantly"],
+            "mechanisms": ["rapid_ingestion", "repeated_helpings"],
+            "tools": ["mouth", "utensil"],
+            "required_subject_states": {
+                "physical": ["able_to_digest"],
+                "emotional": [],
+                "mental": ["impulse_to_overeat"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["edible_or_ingestible"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": ["overfull"],
+                "emotional": [],
+                "mental": ["craving_sated"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["consumed_substantially"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gossip",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "biological_body", "organization"],
+            "goals": ["share_rumor", "socialize", "spread_information"],
+            "mechanisms": ["conversation", "messaging", "whisper_network"],
+            "tools": ["voice", "chat", "posts"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["curious"],
+                "mental": ["story_available"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["reputation_subject_available"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["socially_engaged"],
+                "mental": ["rumor_shared"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["affected_if_sentient"],
+                "mental": ["story_propagated"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gouge",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "biological_body", "concept"],
+            "goals": ["scoop_out", "carve", "overcharge"],
+            "mechanisms": ["prying", "carving", "pricing_manipulation"],
+            "tools": ["chisel", "knife", "pricing_power"],
+            "required_subject_states": {
+                "physical": ["sharp_tool_ready"],
+                "emotional": [],
+                "mental": ["target_area_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["material_removed_or_price_set"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["material_removed_or_price_set"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "govern",
+            "applicable_subjects": ["organization", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["organization", "place", "process", "virtual_object"],
+            "goals": ["direct", "regulate", "administer"],
+            "mechanisms": ["policy_setting", "oversight", "enforcement"],
+            "tools": ["laws", "rules", "control_system"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["authority_or_mandate"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["governance_exercised"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["under_rules_or_direction"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gown",
+            "applicable_subjects": ["biological_body", "organization"],
+            "applicable_objects": ["biological_body", "object"],
+            "goals": ["dress_in_gown", "prepare_formally", "equip_for_procedure"],
+            "mechanisms": ["garment_application", "fastening", "draping"],
+            "tools": ["gown", "fasteners"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["intent_to_dress"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gowning_completed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["gowned_or_covered"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "goose",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object", "process"],
+            "goals": ["prod_forward", "stimulate_action", "accelerate"],
+            "mechanisms": ["light_poke", "sudden_push", "incentive_application"],
+            "tools": ["hand", "stake", "feedback"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["intent_to_propel"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["goosing_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["surprised_if_sentient"],
+                "mental": ["prompted_to_move"],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

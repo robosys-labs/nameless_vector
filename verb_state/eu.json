@@ -1,0 +1,107 @@
+{
+    "prefix": "eu",
+    "processed_verbs": [
+        "eulogize",
+        "euphemize",
+        "euthanize"
+    ],
+    "outcomes": [
+        {
+            "verb": "eulogize",
+            "applicable_subjects": ["biological_body", "organization", "interactive_app"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["honor_memory", "celebrate_life", "offer_praise"],
+            "mechanisms": ["speech_delivery", "storytelling", "tribute_compilation"],
+            "tools": ["microphone", "written_tribute", "archival_media"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["respectful"],
+                "mental": ["biography_prepared"],
+                "positional": ["at_ceremony"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["life_events_documented"],
+                "positional": ["acknowledged_as_honoree"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["solemn"],
+                "mental": ["tribute_delivered"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["honored"],
+                "mental": ["legacy_highlighted"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "euphemize",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["concept", "virtual_object"],
+            "goals": ["soften_expression", "reduce_offense", "maintain_tact"],
+            "mechanisms": ["word_substitution", "framing_adjustment", "tone_modulation"],
+            "tools": ["style_guide", "thesaurus", "communication_policy"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["considerate"],
+                "mental": ["audience_profiled"],
+                "positional": ["within_dialogue"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["sensitive_topic_identified"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["assured"],
+                "mental": ["phrase_softened"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["less_impactful"],
+                "mental": ["message_tempered"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "euthanize",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["biological_body"],
+            "goals": ["end_suffering", "provide_humane_death", "follow_medical_directive"],
+            "mechanisms": ["controlled_medication", "medical_protocol", "ethical_procedure"],
+            "tools": ["sedative", "injection_device", "monitoring_equipment"],
+            "required_subject_states": {
+                "physical": ["medical_training"],
+                "emotional": ["compassionate"],
+                "mental": ["consent_verified"],
+                "positional": ["at_care_location"]
+            },
+            "required_object_states": {
+                "physical": ["critical_condition"],
+                "emotional": [],
+                "mental": ["decision_documented"],
+                "positional": ["in_care_area"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["somber"],
+                "mental": ["procedure_completed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["deceased"],
+                "emotional": [],
+                "mental": ["suffering_ended"],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

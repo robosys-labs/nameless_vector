@@ -1,0 +1,34 @@
+{
+    "prefix": "ly",
+    "processed_verbs": [
+        "lynch",
+        "lyse"
+    ],
+    "outcomes": [
+        {
+            "verb": "lynch",
+            "applicable_subjects": ["group", "mob", "autonomous_agent"],
+            "applicable_objects": ["biological_body"],
+            "goals": ["execute_without_trial", "punish_extrajudicially"],
+            "mechanisms": ["collective_force", "hanging_or_violence"],
+            "tools": ["rope", "weapon", "restraint"],
+            "required_subject_states": {"physical": ["able_to_overpower"], "emotional": ["hostile"], "mental": ["intent_to_execute"], "positional": ["co_located_with_target"]},
+            "required_object_states": {"physical": ["restrainable_or_captive"], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": ["incited"], "mental": ["lynching_committed"], "positional": []},
+            "final_object_states": {"physical": ["killed_or_severely_harmed"], "emotional": [], "mental": [], "positional": ["left_on_site"]}
+        },
+        {
+            "verb": "lyse",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "laboratory_operator"],
+            "applicable_objects": ["cell", "microorganism"],
+            "goals": ["rupture_cells", "release_contents"],
+            "mechanisms": ["chemical_disruption", "osmotic_shock", "mechanical_shear"],
+            "tools": ["lysis_buffer", "detergent", "sonicator", "bead_beater"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["protocol_known"], "positional": ["at_lab_setup"]},
+            "required_object_states": {"physical": ["intact_cells"], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["lysis_completed"], "positional": []},
+            "final_object_states": {"physical": ["cell_membranes_disrupted", "lysate_available"], "emotional": [], "mental": [], "positional": []}
+        }
+    ],
+    "completed": true
+}

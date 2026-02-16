@@ -1,0 +1,47 @@
+{
+    "prefix": "ke",
+    "processed_verbs": [
+        "keel",
+        "keep",
+        "key"
+    ],
+    "outcomes": [
+        {
+            "verb": "keel",
+            "applicable_subjects": ["vehicle", "vessel", "object"],
+            "applicable_objects": ["vehicle", "vessel", "object"],
+            "goals": ["lean_sharply", "capsize_or_tilt"],
+            "mechanisms": ["ballast_shift", "external_force", "course_adjustment"],
+            "tools": ["rudder", "ballast", "hydrodynamic_force"],
+            "required_subject_states": {"physical": ["buoyant_or_movable"], "emotional": [], "mental": [], "positional": ["in_contact_with_water_or_surface"]},
+            "required_object_states": {"physical": ["buoyant_or_balanced"], "emotional": [], "mental": [], "positional": ["subject_to_force"]},
+            "final_subject_states": {"physical": ["tilted_or_listed"], "emotional": [], "mental": [], "positional": ["off_upright_axis"]},
+            "final_object_states": {"physical": ["tilted_or_capsized"], "emotional": [], "mental": [], "positional": ["off_upright_axis"]}
+        },
+        {
+            "verb": "keep",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "resource", "condition", "practice"],
+            "goals": ["maintain_possession", "sustain_state", "prevent_loss"],
+            "mechanisms": ["holding", "monitoring", "guarding"],
+            "tools": ["storage", "policy", "attention"],
+            "required_subject_states": {"physical": ["capable_of_control"], "emotional": [], "mental": ["retention_intent"], "positional": ["access_to_object"]},
+            "required_object_states": {"physical": ["retainable"], "emotional": [], "mental": [], "positional": ["within_reach_or_control"]},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["possession_secured"], "positional": ["with_object"]},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["maintained_state"], "positional": ["under_subject_control"]}
+        },
+        {
+            "verb": "key",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "technician"],
+            "applicable_objects": ["lock", "device", "data_entry_field"],
+            "goals": ["lock_or_unlock", "encode_or_input"],
+            "mechanisms": ["inserting_key", "turning_mechanism", "entering_code"],
+            "tools": ["physical_key", "keypad", "software_input"],
+            "required_subject_states": {"physical": ["dexterity_available"], "emotional": [], "mental": ["access_granted_or_code_known"], "positional": ["at_interface"]},
+            "required_object_states": {"physical": ["lockable_or_input_ready"], "emotional": [], "mental": [], "positional": ["accessible"]},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["access_granted_or_action_completed"], "positional": []},
+            "final_object_states": {"physical": ["locked_or_unlocked_if_lock"], "emotional": [], "mental": ["data_received_if_input"], "positional": []}
+        }
+    ],
+    "completed": true
+}

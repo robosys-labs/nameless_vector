@@ -1,0 +1,69 @@
+{
+  "prefix": "om",
+  "processed_verbs": [
+    "omit"
+  ],
+  "outcomes": [
+    {
+      "verb": "omit",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "concept",
+        "object",
+        "virtual_object"
+      ],
+      "goals": [
+        "exclude",
+        "leave_out"
+      ],
+      "mechanisms": [
+        "skipping",
+        "removing_from_list",
+        "filtering_out"
+      ],
+      "tools": [
+        "editor",
+        "policy",
+        "filter"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "aware_of_candidates",
+          "decision_made"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "eligible_for_exclusion"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "exclusion_recorded"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "left_out"
+        ],
+        "positional": []
+      }
+    }
+  ],
+  "completed": true
+}

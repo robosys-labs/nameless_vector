@@ -1,0 +1,34 @@
+{
+    "prefix": "ig",
+    "processed_verbs": [
+        "ignite",
+        "ignore"
+    ],
+    "outcomes": [
+        {
+            "verb": "ignite",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "physical_agent", "organization"],
+            "applicable_objects": ["object", "place", "process"],
+            "goals": ["start_fire", "spark_reaction", "stimulate_interest"],
+            "mechanisms": ["providing_heat", "introducing_spark", "friction", "provocative_message"],
+            "tools": ["matches", "lighter", "ignition_source", "catalyst"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["target_identified"], "positional": []},
+            "required_object_states": {"physical": ["combustible_or_reactive"], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["ignition_attempted"], "positional": []},
+            "final_object_states": {"physical": ["burning_or_reacting"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "ignore",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "object", "concept", "signal"],
+            "goals": ["withhold_attention", "dismiss"],
+            "mechanisms": ["not_listening", "filtering", "turning_away"],
+            "tools": ["focus_shift", "silencing", "policy"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["awareness_then_disregard"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["attention_withheld"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": ["neglected_if_sentient"], "mental": ["unacknowledged"], "positional": []}
+        }
+    ],
+    "completed": true
+}

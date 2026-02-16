@@ -1,0 +1,569 @@
+{
+    "prefix": "fe",
+    "processed_verbs": [
+        "feast",
+        "feather",
+        "feature",
+        "federate",
+        "federalize",
+        "feed",
+        "feel",
+        "feign",
+        "fence",
+        "fend",
+        "ferment",
+        "ferret",
+        "ferry",
+        "fertilize",
+        "fester",
+        "festoon",
+        "fetch"
+    ],
+    "outcomes": [
+        {
+            "verb": "feast",
+            "applicable_subjects": ["biological_body", "organization"],
+            "applicable_objects": ["food", "event", "occasion"],
+            "goals": ["celebrate_with_food", "share_abundance", "mark_occasion"],
+            "mechanisms": ["communal_dining", "meal_preparation", "hosting"],
+            "tools": ["banquet_table", "catering", "utensils"],
+            "required_subject_states": {
+                "physical": ["hungry"],
+                "emotional": ["festive"],
+                "mental": ["menu_planned"],
+                "positional": ["at_venue"]
+            },
+            "required_object_states": {
+                "physical": ["prepared_food"],
+                "emotional": [],
+                "mental": ["invites_sent"],
+                "positional": ["arranged_for_service"]
+            },
+            "final_subject_states": {
+                "physical": ["satiated"],
+                "emotional": ["joyful"],
+                "mental": ["celebration_noted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["consumed"],
+                "emotional": [],
+                "mental": ["event_recorded"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "feather",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["object", "surface", "edge"],
+            "goals": ["soften_edge", "apply_feathers", "taper_boundary"],
+            "mechanisms": ["layering", "smoothing", "tapering"],
+            "tools": ["feather", "brush", "sanding_tool"],
+            "required_subject_states": {
+                "physical": ["manual_precision"],
+                "emotional": ["patient"],
+                "mental": ["finish_known"],
+                "positional": ["aligned_with_edge"]
+            },
+            "required_object_states": {
+                "physical": ["edge_exposed"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["stable_position"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied"],
+                "mental": ["feathering_completed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["softened_edge"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "feature",
+            "applicable_subjects": ["organization", "interactive_app", "autonomous_agent"],
+            "applicable_objects": ["concept", "organization", "biological_body"],
+            "goals": ["highlight", "showcase", "promote"],
+            "mechanisms": ["spotlight", "curation", "presentation"],
+            "tools": ["media_slot", "display_area", "announcement"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["supportive"],
+                "mental": ["selection_made"],
+                "positional": ["at_platform"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["ready_for_showcase"],
+                "positional": ["available_for_display"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["proud"],
+                "mental": ["highlight_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["noticed"],
+                "mental": ["visibility_increased"],
+                "positional": ["in_spotlight"]
+            }
+        },
+        {
+            "verb": "federalize",
+            "applicable_subjects": ["organization", "autonomous_agent"],
+            "applicable_objects": ["organization", "place"],
+            "goals": ["bring_under_federal_control", "standardize_governance", "centralize_authority"],
+            "mechanisms": ["legal_integration", "policy_alignment", "administrative_transfer"],
+            "tools": ["legislation", "executive_order", "governance_framework"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["determined"],
+                "mental": ["legal_basis_prepared"],
+                "positional": ["within_jurisdiction"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["eligible_for_federal_scope"],
+                "positional": ["within_federal_boundary"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["assertive"],
+                "mental": ["integration_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["under_federal_governance"],
+                "positional": ["within_federal_system"]
+            }
+        },
+        {
+            "verb": "federate",
+            "applicable_subjects": ["organization", "autonomous_agent"],
+            "applicable_objects": ["organization", "place"],
+            "goals": ["form_union", "share_governance", "coordinate_policies"],
+            "mechanisms": ["treaty_creation", "charter_alignment", "joint_council"],
+            "tools": ["federation_charter", "negotiation_table", "governance_protocol"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["collaborative"],
+                "mental": ["terms_drafted"],
+                "positional": ["within_negotiation_forum"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["membership_considered"],
+                "positional": ["within_proposed_union"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["aligned"],
+                "mental": ["federation_established"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["union_member"],
+                "positional": ["inside_federation"]
+            }
+        },
+        {
+            "verb": "feel",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "object", "biological_body"],
+            "goals": ["perceive_sensation", "experience_emotion", "assess_state"],
+            "mechanisms": ["sensory_input", "affective_response", "intuitive_judgment"],
+            "tools": ["sensory_organs", "haptic_device", "context_cues"],
+            "required_subject_states": {
+                "physical": ["sensing_ability"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["contact_or_proximity"]
+            },
+            "required_object_states": {
+                "physical": ["present"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["within_range"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["affected"],
+                "mental": ["sensation_noted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["experience_imprinted"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "feign",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["emotion", "condition", "response"],
+            "goals": ["pretend", "simulate_state", "mislead"],
+            "mechanisms": ["acting", "false_presentation", "deceptive_signaling"],
+            "tools": ["facial_expression", "script", "signal_control"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["calculated"],
+                "mental": ["script_planned"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["observer_present"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["concealing"],
+                "mental": ["pretense_maintained"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["misled"],
+                "mental": ["false_impression"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fence",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["object", "place"],
+            "goals": ["enclose_area", "deter_intrusion", "define_boundary"],
+            "mechanisms": ["barrier_installation", "perimeter_setup", "panel_alignment"],
+            "tools": ["fence_panel", "post_driver", "fastener"],
+            "required_subject_states": {
+                "physical": ["capable_of_construction"],
+                "emotional": ["diligent"],
+                "mental": ["layout_planned"],
+                "positional": ["around_target_area"]
+            },
+            "required_object_states": {
+                "physical": ["boundary_line_marked"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["accessible_site"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["secure"],
+                "mental": ["boundary_established"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["enclosed"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fertilize",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["place", "biological_body", "object"],
+            "goals": ["increase_fertility", "enable_growth", "nourish"],
+            "mechanisms": ["nutrient_application", "soil_enrichment", "chemical_treatment"],
+            "tools": ["fertilizer", "spreader", "irrigation"],
+            "required_subject_states": {
+                "physical": ["materials_ready"],
+                "emotional": ["careful"],
+                "mental": ["application_rate_known"],
+                "positional": ["at_target_area"]
+            },
+            "required_object_states": {
+                "physical": ["receptive_surface"],
+                "emotional": [],
+                "mental": ["needs_assessed"],
+                "positional": ["accessible"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied"],
+                "mental": ["treatment_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["nourished"],
+                "emotional": [],
+                "mental": ["growth_supported"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "feed",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["biological_body", "physical_agent", "object"],
+            "goals": ["provide_nourishment", "sustain_energy", "supply_input"],
+            "mechanisms": ["delivery_of_resources", "portioning", "guided_intake"],
+            "tools": ["food_supply", "dispenser", "feeding_utensil"],
+            "required_subject_states": {
+                "physical": ["resources_on_hand"],
+                "emotional": ["attentive"],
+                "mental": ["diet_requirements_known"],
+                "positional": ["adjacent_to_recipient"]
+            },
+            "required_object_states": {
+                "physical": ["able_to_receive"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["within_reach"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["helpful"],
+                "mental": ["provision_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["nourished"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fend",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["organization", "biological_body", "object"],
+            "goals": ["ward_off", "deflect_threat", "maintain_space"],
+            "mechanisms": ["block_motion", "parry_action", "establish_barrier"],
+            "tools": ["protective_gear", "shield", "deflection_tool"],
+            "required_subject_states": {
+                "physical": ["ready_stance"],
+                "emotional": ["alert"],
+                "mental": ["threat_identified"],
+                "positional": ["between_threat_and_space"]
+            },
+            "required_object_states": {
+                "physical": ["approaching"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["within_range"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["determined"],
+                "mental": ["defense_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["kept_at_bay"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["outside_boundary"]
+            }
+        },
+        {
+            "verb": "ferment",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept"],
+            "goals": ["cause_transformation", "develop_flavor", "spark_change"],
+            "mechanisms": ["controlled_reaction", "time_based_process", "catalyst_application"],
+            "tools": ["fermentation_vessel", "culture_starter", "temperature_controller"],
+            "required_subject_states": {
+                "physical": ["materials_prepared"],
+                "emotional": [],
+                "mental": ["process_parameters_set"],
+                "positional": ["at_preparation_area"]
+            },
+            "required_object_states": {
+                "physical": ["mixture_ready"],
+                "emotional": [],
+                "mental": ["composition_known"],
+                "positional": ["sealed_environment"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["anticipatory"],
+                "mental": ["process_monitored"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["transformed"],
+                "emotional": [],
+                "mental": ["profile_changed"],
+                "positional": ["ready_for_next_stage"]
+            }
+        },
+        {
+            "verb": "ferret",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["concept", "organization", "object"],
+            "goals": ["search_thoroughly", "uncover_hidden", "locate_information"],
+            "mechanisms": ["systematic_probe", "trail_following", "signal_analysis"],
+            "tools": ["search_interface", "sensor_suite", "investigation_kit"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["persistent"],
+                "mental": ["clues_collected"],
+                "positional": ["within_search_area"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["hidden_or_disguised"],
+                "positional": ["somewhere_in_domain"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied"],
+                "mental": ["discovery_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["revealed"],
+                "positional": ["identified_location"]
+            }
+        },
+        {
+            "verb": "ferry",
+            "applicable_subjects": ["organization", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object", "virtual_object"],
+            "goals": ["transport_between_points", "shuttle_repeatedly", "bridge_distance"],
+            "mechanisms": ["route_repetition", "load_transfer", "scheduled_trips"],
+            "tools": ["vehicle", "dock", "loading_ramp"],
+            "required_subject_states": {
+                "physical": ["operational_vehicle"],
+                "emotional": [],
+                "mental": ["route_known"],
+                "positional": ["at_departure_point"]
+            },
+            "required_object_states": {
+                "physical": ["ready_for_transport"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["at_boarding_area"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["responsible"],
+                "mental": ["trip_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["relocated"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["at_destination"]
+            }
+        },
+        {
+            "verb": "fester",
+            "applicable_subjects": ["concept", "organization", "biological_body"],
+            "applicable_objects": ["concept", "place"],
+            "goals": ["worsen_over_time", "accumulate_irritation", "spread_decay"],
+            "mechanisms": ["neglect", "stagnation", "persistent_irritant"],
+            "tools": ["time", "lack_of_intervention", "confinement"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["unaddressed_issue_present"],
+                "positional": ["within_affected_context"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["tension_or_decay_present"],
+                "positional": ["contained_environment"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["aggravated"],
+                "mental": ["problem_intensified"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["condition_degraded"],
+                "positional": ["more_entrenched"]
+            }
+        },
+        {
+            "verb": "festoon",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["place", "object"],
+            "goals": ["decorate_elaborately", "add_oraments", "create_festive_atmosphere"],
+            "mechanisms": ["draping", "hanging", "arranging_decor"],
+            "tools": ["garlands", "lights", "fabric"],
+            "required_subject_states": {
+                "physical": ["access_to_site"],
+                "emotional": ["creative"],
+                "mental": ["design_planned"],
+                "positional": ["at_decoration_area"]
+            },
+            "required_object_states": {
+                "physical": ["structure_available"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["ready_for_decor"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["pleased"],
+                "mental": ["decor_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["decorated"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["set_for_display"]
+            }
+        },
+        {
+            "verb": "fetch",
+            "applicable_subjects": ["biological_body", "physical_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "virtual_object"],
+            "goals": ["retrieve_item", "bring_back", "collect_resource"],
+            "mechanisms": ["locate_and_carry", "download_and_return", "pickup_and_deliver"],
+            "tools": ["carrier", "gripper", "transfer_protocol"],
+            "required_subject_states": {
+                "physical": ["mobile"],
+                "emotional": ["obedient"],
+                "mental": ["target_known"],
+                "positional": ["able_to_reach_location"]
+            },
+            "required_object_states": {
+                "physical": ["available_to_pick"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["at_specified_location"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["helpful"],
+                "mental": ["retrieval_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["delivered"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["returned_to_requester"]
+            }
+        }
+    ],
+    "completed": true
+}

@@ -1,0 +1,565 @@
+{
+  "prefix": "op",
+  "processed_verbs": [
+    "open",
+    "operate",
+    "operationalize",
+    "opine",
+    "oppose",
+    "oppress",
+    "opt",
+    "optimize"
+  ],
+  "outcomes": [
+    {
+      "verb": "open",
+      "applicable_subjects": [
+        "biological_body",
+        "physical_agent",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "place",
+        "virtual_object"
+      ],
+      "goals": [
+        "allow access",
+        "create passage"
+      ],
+      "mechanisms": [
+        "unlocking",
+        "pulling",
+        "activating"
+      ],
+      "tools": [
+        "keys",
+        "handles",
+        "codes"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to manipulate"
+        ],
+        "emotional": [],
+        "mental": [
+          "aware of closure"
+        ],
+        "positional": [
+          "near target entry"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "closed"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "exerted"
+        ],
+        "emotional": [],
+        "mental": [
+          "granted access"
+        ],
+        "positional": [
+          "at opened point"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "open"
+        ],
+        "emotional": [],
+        "mental": [
+          "accessible"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "operate",
+      "applicable_subjects": [
+        "biological_body",
+        "autonomous_agent",
+        "organization"
+      ],
+      "applicable_objects": [
+        "object",
+        "virtual_object",
+        "place"
+      ],
+      "goals": [
+        "run function",
+        "control performance"
+      ],
+      "mechanisms": [
+        "activating",
+        "configuring",
+        "monitoring"
+      ],
+      "tools": [
+        "controls",
+        "interfaces",
+        "procedures"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to use controls"
+        ],
+        "emotional": [],
+        "mental": [
+          "trained",
+          "aware of procedure"
+        ],
+        "positional": [
+          "at console or site"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "powered",
+          "available"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "managing operation"
+        ],
+        "positional": [
+          "at control point"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "functioning"
+        ],
+        "emotional": [],
+        "mental": [
+          "under supervision"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "operationalize",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "concept",
+        "policy",
+        "virtual_object"
+      ],
+      "goals": [
+        "implement in practice",
+        "make actionable"
+      ],
+      "mechanisms": [
+        "defining procedures",
+        "building workflows",
+        "assigning ownership"
+      ],
+      "tools": [
+        "runbooks",
+        "systems",
+        "training"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "understands strategy",
+          "authorized"
+        ],
+        "positional": [
+          "within organization"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "defined",
+          "approved"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "process established"
+        ],
+        "positional": [
+          "embedded in operations"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "actionable",
+          "implemented"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "opine",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "concept",
+        "organization",
+        "biological_body"
+      ],
+      "goals": [
+        "express opinion",
+        "influence perception"
+      ],
+      "mechanisms": [
+        "stating view",
+        "writing commentary",
+        "broadcasting"
+      ],
+      "tools": [
+        "speech",
+        "text",
+        "media"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "composed"
+        ],
+        "mental": [
+          "formed opinion",
+          "aware of topic"
+        ],
+        "positional": [
+          "in communication channel"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "presented topic"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "expressed"
+        ],
+        "mental": [
+          "opinion recorded"
+        ],
+        "positional": [
+          "noted in discourse"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "commented upon"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "oppose",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "concept",
+        "organization",
+        "virtual_object"
+      ],
+      "goals": [
+        "resist",
+        "prevent"
+      ],
+      "mechanisms": [
+        "arguing",
+        "blocking",
+        "countering"
+      ],
+      "tools": [
+        "evidence",
+        "policy",
+        "presence"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "determined"
+        ],
+        "mental": [
+          "aware of issue"
+        ],
+        "positional": [
+          "at decision venue"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "proposed"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "resolute"
+        ],
+        "mental": [
+          "registered dissent"
+        ],
+        "positional": [
+          "at decision venue"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "contested"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "oppress",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "organization"
+      ],
+      "goals": [
+        "dominate",
+        "suppress"
+      ],
+      "mechanisms": [
+        "imposing constraints",
+        "applying coercion",
+        "withholding rights"
+      ],
+      "tools": [
+        "force",
+        "policy",
+        "surveillance"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to enforce"
+        ],
+        "emotional": [
+          "controlling"
+        ],
+        "mental": [
+          "intent to dominate"
+        ],
+        "positional": [
+          "in power position"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [
+          "vulnerable"
+        ],
+        "mental": [
+          "aware of restrictions"
+        ],
+        "positional": [
+          "within controlled domain"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "enforcing"
+        ],
+        "emotional": [
+          "dominant"
+        ],
+        "mental": [
+          "control maintained"
+        ],
+        "positional": [
+          "atop hierarchy"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "constrained"
+        ],
+        "emotional": [
+          "suppressed"
+        ],
+        "mental": [
+          "subjugated"
+        ],
+        "positional": [
+          "within control"
+        ]
+      }
+    },
+    {
+      "verb": "opt",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "concept",
+        "virtual_object"
+      ],
+      "goals": [
+        "select",
+        "choose preference"
+      ],
+      "mechanisms": [
+        "selecting",
+        "configuring",
+        "committing"
+      ],
+      "tools": [
+        "menus",
+        "settings",
+        "forms"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "informed",
+          "aware of options"
+        ],
+        "positional": [
+          "at selection interface"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "presented options"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "preference set"
+        ],
+        "positional": [
+          "recorded in system"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "selected"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "optimize",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "physical_agent"
+      ],
+      "applicable_objects": [
+        "concept",
+        "virtual_object",
+        "object"
+      ],
+      "goals": [
+        "improve efficiency",
+        "maximize performance"
+      ],
+      "mechanisms": [
+        "measuring",
+        "tuning",
+        "iterating"
+      ],
+      "tools": [
+        "data",
+        "analytics",
+        "configuration"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "aware of baseline",
+          "analysis ready"
+        ],
+        "positional": [
+          "within control environment"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "measured",
+          "modifiable"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "improvement confirmed"
+        ],
+        "positional": [
+          "at control environment"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "enhanced",
+          "tuned"
+        ],
+        "positional": []
+      }
+    }
+  ],
+  "completed": true
+}

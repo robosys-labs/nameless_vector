@@ -1,0 +1,137 @@
+{
+    "prefix": "gh",
+    "processed_verbs": [
+        "ghost",
+        "ghostwrite"
+    ],
+    "outcomes": [
+        {
+            "verb": "ghost",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "autonomous_agent",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "organization",
+                "concept",
+                "virtual_object"
+            ],
+            "goals": [
+                "cease_contact",
+                "avoid_confrontation",
+                "terminate_relationship"
+            ],
+            "mechanisms": [
+                "sudden_disengagement",
+                "communication_silence",
+                "access_blocking"
+            ],
+            "tools": [
+                "communication_channel",
+                "access_controls",
+                "device"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "detached_or_avoidant"
+                ],
+                "mental": [
+                    "decision_to_disengage"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "distant"
+                ],
+                "mental": [
+                    "communication_stopped"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "confused_or_rejected"
+                ],
+                "mental": [
+                    "contact_lost"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "ghostwrite",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "concept",
+                "virtual_object"
+            ],
+            "goals": [
+                "produce_content_anonymously",
+                "represent_another_voice",
+                "deliver_publishable_material"
+            ],
+            "mechanisms": [
+                "drafting",
+                "style_emulation",
+                "revisions"
+            ],
+            "tools": [
+                "text_editor",
+                "reference_material",
+                "style_guide"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "topic_understood",
+                    "voice_to_emulate_known"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "brief_or_outline_provided"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "ghostwriting_completed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "content_created",
+                    "attribution_hidden"
+                ],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

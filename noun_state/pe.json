@@ -1,0 +1,13 @@
+{
+  "prefix": "pe",
+  "processed_nouns": [
+    "person"
+  ],
+  "nouns": [
+    {
+      "noun": "person",
+      "types": ["biological_body"]
+    }
+  ],
+  "completed": true
+}

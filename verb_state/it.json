@@ -1,0 +1,86 @@
+{
+    "prefix": "it",
+    "processed_verbs": [
+        "itch",
+        "italicize",
+        "itinerate",
+        "itemize",
+        "iterate",
+        "titivate"
+    ],
+    "outcomes": [
+        {
+            "verb": "itch",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "concept"],
+            "goals": ["feel_pruritus", "cause_desire_to_scratch"],
+            "mechanisms": ["irritation", "allergen_trigger", "signal"],
+            "tools": ["irritants", "signals"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["exposure_or_signal"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["itch_experienced"], "positional": []},
+            "final_object_states": {"physical": ["itching_area"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "italicize",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "organization"],
+            "applicable_objects": ["text", "virtual_object"],
+            "goals": ["render_italics", "emphasize"],
+            "mechanisms": ["formatting", "styling"],
+            "tools": ["editor", "markup", "stylesheet"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["text_selected"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["italics_applied"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["italicized"], "positional": []}
+        },
+        {
+            "verb": "itinerate",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "organization"],
+            "applicable_objects": ["place", "region", "route"],
+            "goals": ["travel_on_route", "make_rounds"],
+            "mechanisms": ["scheduled_travel", "circuit_journey"],
+            "tools": ["transport", "itinerary", "maps"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["route_planned_or_assigned"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["itinerary_executed"], "positional": ["traveled_route"]},
+            "final_object_states": {"physical": [], "emotional": [], "mental": [], "positional": ["visited_or_serviced"]}
+        },
+        {
+            "verb": "itemize",
+            "applicable_subjects": ["organization", "biological_body", "autonomous_agent"],
+            "applicable_objects": ["list", "items", "expenses", "virtual_object"],
+            "goals": ["enumerate", "detail"],
+            "mechanisms": ["listing", "breaking_into_components"],
+            "tools": ["forms", "software", "documents"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["items_known"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["itemization_completed"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["items_listed"], "positional": []}
+        },
+        {
+            "verb": "iterate",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["process", "design", "algorithm", "concept"],
+            "goals": ["repeat_for_improvement", "loop"],
+            "mechanisms": ["repetition", "incremental_change", "feedback_cycle"],
+            "tools": ["versioning", "experiments", "loops"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["iteration_plan"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["iteration_done"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["updated_version"], "positional": []}
+        },
+        {
+            "verb": "titivate",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object", "place"],
+            "goals": ["adorn", "spruce_up", "smartly_arrange"],
+            "mechanisms": ["decorating", "grooming", "tidying"],
+            "tools": ["cosmetics", "accessories", "cleaning_tools"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["beautification_intent"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["titivation_completed"], "positional": []},
+            "final_object_states": {"physical": ["more_orderly_or_adorned"], "emotional": [], "mental": [], "positional": []}
+        }
+    ],
+    "completed": true
+}

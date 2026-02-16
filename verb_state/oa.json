@@ -1,0 +1,83 @@
+{
+  "prefix": "oa",
+  "processed_verbs": [
+    "oar"
+  ],
+  "outcomes": [
+    {
+      "verb": "oar",
+      "applicable_subjects": [
+        "biological_body",
+        "physical_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "place"
+      ],
+      "goals": [
+        "propulsion",
+        "travel"
+      ],
+      "mechanisms": [
+        "paddling",
+        "rowing"
+      ],
+      "tools": [
+        "oars",
+        "hands"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to grip",
+          "balanced"
+        ],
+        "emotional": [
+          "focused"
+        ],
+        "mental": [
+          "coordinated"
+        ],
+        "positional": [
+          "in vessel on water"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "buoyant vessel",
+          "supportive water surface"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "floating"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "exerted",
+          "moved forward"
+        ],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "rhythmic"
+        ],
+        "positional": [
+          "advanced on water"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "propelled"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "shifted along water"
+        ]
+      }
+    }
+  ],
+  "completed": true
+}

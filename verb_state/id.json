@@ -1,0 +1,73 @@
+{
+    "prefix": "id",
+    "processed_verbs": [
+        "idealize",
+        "ideate",
+        "identify",
+        "idle",
+        "idolize"
+    ],
+    "outcomes": [
+        {
+            "verb": "idealize",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept", "process"],
+            "goals": ["view_as_perfect", "elevate_in_perception"],
+            "mechanisms": ["selective_emphasis", "positive_projection", "comparison_to_ideal"],
+            "tools": ["narrative", "imagery", "internal_projection"],
+            "required_subject_states": {"physical": [], "emotional": ["admiring"], "mental": ["ideal_standard_present"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": ["reverent"], "mental": ["idealized_view"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["perceived_as_ideal"], "positional": []}
+        },
+        {
+            "verb": "ideate",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "process", "virtual_object"],
+            "goals": ["generate_ideas", "formulate_concepts"],
+            "mechanisms": ["brainstorming", "divergent_thinking", "structured_creativity"],
+            "tools": ["whiteboard", "notes", "ideation_frameworks"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["problem_space_understood"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["ideas_generated"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["candidate_ideas_present"], "positional": []}
+        },
+        {
+            "verb": "identify",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "object", "concept", "signal"],
+            "goals": ["recognize", "classify", "verify_identity"],
+            "mechanisms": ["observation", "comparison", "credential_check"],
+            "tools": ["id_cards", "biometrics", "databases"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["identification_intent"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["identity_determined"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["classified_or_verified"], "positional": []}
+        },
+        {
+            "verb": "idle",
+            "applicable_subjects": ["biological_body", "object", "autonomous_agent", "organization"],
+            "applicable_objects": ["process", "object", "place"],
+            "goals": ["remain_inactive", "stay_ready"],
+            "mechanisms": ["low_power_state", "waiting", "pausing_activity"],
+            "tools": ["idling_mode", "neutral_setting", "scheduler"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["pause_command_or_no_task"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": ["low_activity"], "emotional": [], "mental": ["idle_state"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "idolize",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["adore", "venerate"],
+            "mechanisms": ["constant_praise", "devotion", "emulation"],
+            "tools": ["rituals", "artifacts", "media"],
+            "required_subject_states": {"physical": [], "emotional": ["admiring"], "mental": ["idol_identified"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": ["devotional"], "mental": ["idolization_established"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": ["revered_if_sentient"], "mental": ["elevated_status"], "positional": []}
+        }
+    ],
+    "completed": true
+}

@@ -1,0 +1,725 @@
+{
+    "prefix": "ec",
+    "processed_verbs": [
+        "ecchymose",
+        "eccoriate",
+        "eclaircise",
+        "eche",
+        "echelon",
+        "echo",
+        "eclose",
+        "eclipse",
+        "economise",
+        "economize"
+    ],
+    "outcomes": [
+        {
+            "verb": "ecchymose",
+            "applicable_subjects": [
+                "biological bodies",
+                "medical systems"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "tissues"
+            ],
+            "goals": [
+                "induce or identify subcutaneous discoloration for diagnosis or procedure"
+            ],
+            "mechanisms": [
+                "controlled pressure",
+                "impact simulation",
+                "vascular assessment"
+            ],
+            "tools": [
+                "medical instruments",
+                "training simulators",
+                "diagnostic dyes"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "precise"
+                ],
+                "emotional": [
+                    "calm"
+                ],
+                "mental": [
+                    "aware of safety limits"
+                ],
+                "positional": [
+                    "adjacent to target tissue"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "vascularized",
+                    "unobstructed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "accessible"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "steady"
+                ],
+                "emotional": [
+                    "observant"
+                ],
+                "mental": [
+                    "evaluating coloration"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "discolored",
+                    "marked for study"
+                ],
+                "emotional": [],
+                "mental": [
+                    "documented"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "eccoriate",
+            "applicable_subjects": [
+                "biological bodies",
+                "environmental forces"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "surfaces"
+            ],
+            "goals": [
+                "abrade or strip an outer layer"
+            ],
+            "mechanisms": [
+                "scraping",
+                "chemical etching",
+                "erosive contact"
+            ],
+            "tools": [
+                "abrasives",
+                "corrosives",
+                "friction devices"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "forceful"
+                ],
+                "emotional": [],
+                "mental": [
+                    "aware of thresholds"
+                ],
+                "positional": [
+                    "aligned with surface"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "exposed",
+                    "removable layer"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "secured"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "expended effort"
+                ],
+                "emotional": [],
+                "mental": [
+                    "assessing damage"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "abraded",
+                    "uncovered"
+                ],
+                "emotional": [],
+                "mental": [
+                    "reclassified"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "eclaircise",
+            "applicable_subjects": [
+                "biological bodies",
+                "concepts"
+            ],
+            "applicable_objects": [
+                "concepts",
+                "communications"
+            ],
+            "goals": [
+                "clarify or illuminate complex information"
+            ],
+            "mechanisms": [
+                "explanation",
+                "analogy",
+                "structured demonstration"
+            ],
+            "tools": [
+                "language",
+                "visual aids",
+                "frameworks"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "patient"
+                ],
+                "mental": [
+                    "insightful"
+                ],
+                "positional": [
+                    "engaged with audience"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "receptive"
+                ],
+                "mental": [
+                    "confused",
+                    "incomplete"
+                ],
+                "positional": [
+                    "within dialogue"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "supportive"
+                ],
+                "mental": [
+                    "articulated"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "assured"
+                ],
+                "mental": [
+                    "clarified",
+                    "contextualized"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "eche",
+            "applicable_subjects": [
+                "biological bodies",
+                "systems"
+            ],
+            "applicable_objects": [
+                "resources",
+                "outputs"
+            ],
+            "goals": [
+                "augment a quantity by gradual addition"
+            ],
+            "mechanisms": [
+                "incremental supplementation",
+                "rationing",
+                "stretching supplies"
+            ],
+            "tools": [
+                "reserves",
+                "measurement instruments",
+                "scheduling"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "disciplined"
+                ],
+                "mental": [
+                    "calculating"
+                ],
+                "positional": [
+                    "overseeing stores"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "divisible",
+                    "storable"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "contained"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "assured"
+                ],
+                "mental": [
+                    "tracking inventory"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "extended",
+                    "redistributed"
+                ],
+                "emotional": [],
+                "mental": [
+                    "accounted"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "echelon",
+            "applicable_subjects": [
+                "organizations",
+                "systems",
+                "biological bodies"
+            ],
+            "applicable_objects": [
+                "teams",
+                "vehicles",
+                "process units"
+            ],
+            "goals": [
+                "arrange elements in staggered formation"
+            ],
+            "mechanisms": [
+                "sequenced deployment",
+                "offset positioning",
+                "spacing calibration"
+            ],
+            "tools": [
+                "layout plans",
+                "navigation aids",
+                "command signals"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "coordinated"
+                ],
+                "emotional": [
+                    "responsive"
+                ],
+                "mental": [
+                    "formation-aware"
+                ],
+                "positional": [
+                    "relative to leader"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "mobile",
+                    "spaced"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "able to offset"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "aligned"
+                ],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "synchronized"
+                ],
+                "positional": [
+                    "staggered"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "distributed",
+                    "mutually visible"
+                ],
+                "emotional": [],
+                "mental": [
+                    "role-assigned"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "echo",
+            "applicable_subjects": [
+                "biological bodies",
+                "systems",
+                "devices"
+            ],
+            "applicable_objects": [
+                "sounds",
+                "messages",
+                "signals"
+            ],
+            "goals": [
+                "reproduce or reinforce an earlier emission"
+            ],
+            "mechanisms": [
+                "repetition",
+                "reflection",
+                "amplification"
+            ],
+            "tools": [
+                "voice",
+                "acoustic chambers",
+                "transceivers"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "able to project"
+                ],
+                "emotional": [],
+                "mental": [
+                    "attentive"
+                ],
+                "positional": [
+                    "within carrying distance"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "present signal"
+                ],
+                "emotional": [],
+                "mental": [
+                    "identifiable content"
+                ],
+                "positional": [
+                    "within medium"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "resonating"
+                ],
+                "emotional": [],
+                "mental": [
+                    "acknowledging"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "propagated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "reinforced context"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "eclose",
+            "applicable_subjects": [
+                "biological bodies",
+                "automated habitats"
+            ],
+            "applicable_objects": [
+                "enclosures",
+                "developmental stages"
+            ],
+            "goals": [
+                "emerge from a protective casing"
+            ],
+            "mechanisms": [
+                "rupturing membrane",
+                "expansion",
+                "pushing through seam"
+            ],
+            "tools": [
+                "musculature",
+                "environmental cues",
+                "timers"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "matured"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "confined"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "thinned shell",
+                    "supportive humidity"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "stable"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "free",
+                    "expanded"
+                ],
+                "emotional": [],
+                "mental": [
+                    "responsive"
+                ],
+                "positional": [
+                    "outside casing"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "ruptured shell",
+                    "discarded"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "eclipse",
+            "applicable_subjects": [
+                "celestial bodies",
+                "objects",
+                "concepts"
+            ],
+            "applicable_objects": [
+                "light sources",
+                "achievements",
+                "signals"
+            ],
+            "goals": [
+                "obscure or surpass the visibility of another subject"
+            ],
+            "mechanisms": [
+                "interposition",
+                "outshining",
+                "contrast manipulation"
+            ],
+            "tools": [
+                "trajectory control",
+                "lighting systems",
+                "performance metrics"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable of coverage"
+                ],
+                "emotional": [],
+                "mental": [
+                    "timing-aware"
+                ],
+                "positional": [
+                    "aligned with object and observer"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "radiant",
+                    "observable"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "opposite observer"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "foregrounded"
+                ],
+                "emotional": [],
+                "mental": [
+                    "dominant"
+                ],
+                "positional": [
+                    "between observer and source"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "dimmed",
+                    "partially hidden"
+                ],
+                "emotional": [],
+                "mental": [
+                    "deprioritized"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "economise",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations",
+                "systems"
+            ],
+            "applicable_objects": [
+                "resources",
+                "processes",
+                "budgets"
+            ],
+            "goals": [
+                "reduce expenditure while preserving core outcomes"
+            ],
+            "mechanisms": [
+                "efficiency review",
+                "prioritization",
+                "waste elimination"
+            ],
+            "tools": [
+                "budgets",
+                "analytics",
+                "policies"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "disciplined"
+                ],
+                "mental": [
+                    "analytical"
+                ],
+                "positional": [
+                    "authority over spending"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "trackable",
+                    "divisible"
+                ],
+                "emotional": [],
+                "mental": [
+                    "costed"
+                ],
+                "positional": [
+                    "within control"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "assured"
+                ],
+                "mental": [
+                    "optimized plan"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "conserved",
+                    "reallocated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "documented savings"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "economize",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations",
+                "systems"
+            ],
+            "applicable_objects": [
+                "resources",
+                "processes",
+                "budgets"
+            ],
+            "goals": [
+                "lower consumption or cost through efficiency"
+            ],
+            "mechanisms": [
+                "process redesign",
+                "automation",
+                "scale adjustment"
+            ],
+            "tools": [
+                "financial dashboards",
+                "policies",
+                "metrics"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "accountable"
+                ],
+                "mental": [
+                    "data-driven"
+                ],
+                "positional": [
+                    "empowered to change spending"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "measurable",
+                    "flexible"
+                ],
+                "emotional": [],
+                "mental": [
+                    "budgeted"
+                ],
+                "positional": [
+                    "subject to policy"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "validated savings"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "reduced outlay",
+                    "repurposed capacity"
+                ],
+                "emotional": [],
+                "mental": [
+                    "reported"
+                ],
+                "positional": []
+            }
+        }
+    ],
+    "completed": false
+}

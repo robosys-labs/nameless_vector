@@ -1,0 +1,1960 @@
+{
+    "prefix": "dr",
+    "processed_verbs": [
+        "draft",
+        "drag",
+        "drain",
+        "dramatize",
+        "drape",
+        "draw",
+        "drawl",
+        "dread",
+        "dream",
+        "dredge",
+        "drench",
+        "dress",
+        "dribble",
+        "drift",
+        "drill",
+        "drink",
+        "drip",
+        "drive",
+        "drizzle",
+        "drone",
+        "drool",
+        "droop",
+        "drop",
+        "drown",
+        "drowse",
+        "drudge",
+        "drum",
+        "dry"
+    ],
+    "outcomes": [
+        {
+            "verb": "draft",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations",
+                "software agents"
+            ],
+            "applicable_objects": [
+                "documents",
+                "plans",
+                "contracts",
+                "messages"
+            ],
+            "goals": [
+                "produce a preliminary version of content",
+                "capture ideas before finalization"
+            ],
+            "mechanisms": [
+                "writing",
+                "sketching",
+                "templating"
+            ],
+            "tools": [
+                "text editors",
+                "design software",
+                "pen and paper"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "focused"
+                ],
+                "mental": [
+                    "conceptual clarity",
+                    "organizational intent"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "undefined",
+                    "flexible"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied",
+                    "anticipatory"
+                ],
+                "mental": [
+                    "ideas externalized"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "documented",
+                    "ready for revision"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drag",
+            "applicable_subjects": [
+                "biological bodies",
+                "machines",
+                "software agents"
+            ],
+            "applicable_objects": [
+                "objects",
+                "files",
+                "concepts"
+            ],
+            "goals": [
+                "pull something across a surface",
+                "reposition content through sustained movement"
+            ],
+            "mechanisms": [
+                "continuous force",
+                "click-and-hold",
+                "towing"
+            ],
+            "tools": [
+                "hands",
+                "ropes",
+                "user interfaces"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "grip strength",
+                    "coordination"
+                ],
+                "emotional": [],
+                "mental": [
+                    "awareness of destination"
+                ],
+                "positional": [
+                    "connected to object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "movable",
+                    "not fixed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "exerted"
+                ],
+                "emotional": [],
+                "mental": [
+                    "task completed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "relocated",
+                    "possibly scuffed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "new location reached"
+                ]
+            }
+        },
+        {
+            "verb": "drain",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations",
+                "machines"
+            ],
+            "applicable_objects": [
+                "liquids",
+                "resources",
+                "energy levels"
+            ],
+            "goals": [
+                "remove fluid or energy from a container or system",
+                "reduce capacity to a lower level"
+            ],
+            "mechanisms": [
+                "gravity flow",
+                "pumping",
+                "extraction"
+            ],
+            "tools": [
+                "hoses",
+                "valves",
+                "siphons",
+                "api calls"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "access to outlet"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intentional control"
+                ],
+                "positional": [
+                    "near source"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "filled",
+                    "contains removable content"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "volume reduced"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "emptied",
+                    "dry",
+                    "depleted"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dramatize",
+            "applicable_subjects": [
+                "writers",
+                "producers",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "events",
+                "stories",
+                "issues"
+            ],
+            "goals": [
+                "adapt or present with heightened emotional impact",
+                "emphasize conflict for audience engagement"
+            ],
+            "mechanisms": [
+                "scriptwriting",
+                "staging",
+                "narrative amplification"
+            ],
+            "tools": [
+                "dialogue",
+                "lighting",
+                "editing"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "expressive"
+                ],
+                "mental": [
+                    "interpretive",
+                    "story-aware"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "base material",
+                    "core conflict"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "message amplified"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "evocative"
+                ],
+                "mental": [
+                    "reframed",
+                    "heightened"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drape",
+            "applicable_subjects": [
+                "biological bodies",
+                "designers",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "fabrics",
+                "objects",
+                "spaces",
+                "biological bodies"
+            ],
+            "goals": [
+                "arrange flexible material gracefully",
+                "cover or accentuate a form with flowing layers"
+            ],
+            "mechanisms": [
+                "hanging",
+                "folding",
+                "pinning"
+            ],
+            "tools": [
+                "fabric",
+                "pins",
+                "mannequins",
+                "rigging"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "dexterous"
+                ],
+                "emotional": [
+                    "aesthetic focus"
+                ],
+                "mental": [
+                    "spatial awareness"
+                ],
+                "positional": [
+                    "near target surface"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "flexible material",
+                    "supporting structure"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "pleased"
+                ],
+                "mental": [
+                    "composition resolved"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "covered in flowing lines"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "draw",
+            "applicable_subjects": [
+                "biological bodies",
+                "software agents"
+            ],
+            "applicable_objects": [
+                "images",
+                "concepts",
+                "objects",
+                "attention"
+            ],
+            "goals": [
+                "create visual representation",
+                "attract or pull toward oneself"
+            ],
+            "mechanisms": [
+                "sketching",
+                "rendering",
+                "magnetic appeal"
+            ],
+            "tools": [
+                "pencils",
+                "stylus",
+                "graphics tablets",
+                "marketing channels"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "fine motor control"
+                ],
+                "emotional": [],
+                "mental": [
+                    "visualization",
+                    "creative intent"
+                ],
+                "positional": [
+                    "near medium"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "blank surface",
+                    "responsive audience"
+                ],
+                "emotional": [],
+                "mental": [
+                    "open to interpretation"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "expressed"
+                ],
+                "emotional": [
+                    "fulfilled"
+                ],
+                "mental": [
+                    "concept externalized"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "marked",
+                    "closer"
+                ],
+                "emotional": [],
+                "mental": [
+                    "captured",
+                    "engaged"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drawl",
+            "applicable_subjects": [
+                "biological bodies"
+            ],
+            "applicable_objects": [
+                "speech",
+                "conversations",
+                "audiences"
+            ],
+            "goals": [
+                "speak slowly with elongated vowels",
+                "convey relaxed or regional tone"
+            ],
+            "mechanisms": [
+                "prolonged articulation",
+                "reduced tempo"
+            ],
+            "tools": [
+                "voice",
+                "microphone"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "controlled breathing"
+                ],
+                "emotional": [
+                    "unhurried"
+                ],
+                "mental": [
+                    "deliberate pacing"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "listening audience"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "relaxed"
+                ],
+                "mental": [
+                    "message delivered"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "either charmed or impatient"
+                ],
+                "mental": [
+                    "impression of drawl noted"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dread",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "events",
+                "obligations",
+                "encounters"
+            ],
+            "goals": [
+                "anticipate with fear",
+                "prepare emotionally for an unwanted outcome"
+            ],
+            "mechanisms": [
+                "rumination",
+                "scenario projection",
+                "risk assessment"
+            ],
+            "tools": [
+                "memory",
+                "news",
+                "advisors"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "anxious"
+                ],
+                "mental": [
+                    "aware of threat"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "perceived danger",
+                    "pending occurrence"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "fearful"
+                ],
+                "mental": [
+                    "contingency plans formed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "looming",
+                    "salient"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dream",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "concepts",
+                "futures",
+                "projects"
+            ],
+            "goals": [
+                "imagine scenarios beyond current reality",
+                "generate aspirational direction"
+            ],
+            "mechanisms": [
+                "subconscious processing",
+                "visioning",
+                "ideation sessions"
+            ],
+            "tools": [
+                "sleep",
+                "workshops",
+                "storyboards"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "resting",
+                    "safe"
+                ],
+                "emotional": [
+                    "open",
+                    "hopeful"
+                ],
+                "mental": [
+                    "unbounded thinking"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "undefined opportunity"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "rested"
+                ],
+                "emotional": [
+                    "inspired"
+                ],
+                "mental": [
+                    "ideas formed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "imagined",
+                    "conceptualized"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dredge",
+            "applicable_subjects": [
+                "organizations",
+                "machines",
+                "biological bodies"
+            ],
+            "applicable_objects": [
+                "waterways",
+                "sediment",
+                "archives"
+            ],
+            "goals": [
+                "excavate material from depth",
+                "recover hidden information"
+            ],
+            "mechanisms": [
+                "scooping",
+                "dragline removal",
+                "systematic searching"
+            ],
+            "tools": [
+                "dredgers",
+                "buckets",
+                "data queries"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "access to target area"
+                ],
+                "emotional": [],
+                "mental": [
+                    "persistent",
+                    "methodical"
+                ],
+                "positional": [
+                    "positioned over deposit"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "buried material",
+                    "accumulated silt"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "submerged or archived"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "equipment worked"
+                ],
+                "emotional": [],
+                "mental": [
+                    "findings cataloged"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "exposed channel",
+                    "retrieved artifacts"
+                ],
+                "emotional": [],
+                "mental": [
+                    "information resurfaced"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drench",
+            "applicable_subjects": [
+                "biological bodies",
+                "weather",
+                "machines"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "objects",
+                "surfaces"
+            ],
+            "goals": [
+                "soak completely with liquid",
+                "deliver overwhelming moisture"
+            ],
+            "mechanisms": [
+                "pouring",
+                "spraying",
+                "immersion"
+            ],
+            "tools": [
+                "hoses",
+                "buckets",
+                "rainstorms"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "control of liquid source"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intentional"
+                ],
+                "positional": [
+                    "within splash range"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "absorbent or exposable"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "saturation achieved"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "waterlogged",
+                    "dripping"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dress",
+            "applicable_subjects": [
+                "biological bodies",
+                "caregivers",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "wounds",
+                "food items"
+            ],
+            "goals": [
+                "cover appropriately",
+                "prepare surface for presentation or protection"
+            ],
+            "mechanisms": [
+                "garment placement",
+                "bandaging",
+                "seasoning"
+            ],
+            "tools": [
+                "clothing",
+                "medical supplies",
+                "ingredients"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "dexterous"
+                ],
+                "emotional": [
+                    "attentive"
+                ],
+                "mental": [
+                    "aware of context"
+                ],
+                "positional": [
+                    "adjacent to object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "exposed",
+                    "needs covering"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "reassured"
+                ],
+                "mental": [
+                    "task fulfilled"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "covered",
+                    "protected",
+                    "presentable"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dribble",
+            "applicable_subjects": [
+                "athletes",
+                "biological bodies",
+                "fluids"
+            ],
+            "applicable_objects": [
+                "balls",
+                "liquids",
+                "concepts"
+            ],
+            "goals": [
+                "control intermittent motion in small drops or bounces",
+                "advance while maintaining possession"
+            ],
+            "mechanisms": [
+                "tapping",
+                "small release",
+                "drip feed"
+            ],
+            "tools": [
+                "hands",
+                "feet",
+                "valves"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "coordination",
+                    "light touch"
+                ],
+                "emotional": [
+                    "focused"
+                ],
+                "mental": [
+                    "timing awareness"
+                ],
+                "positional": [
+                    "moving with object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "responsive ball",
+                    "viscous liquid"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "engaged"
+                ],
+                "emotional": [
+                    "intent"
+                ],
+                "mental": [
+                    "rhythm maintained"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "advanced incrementally",
+                    "dispensed in droplets"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drift",
+            "applicable_subjects": [
+                "vehicles",
+                "biological bodies",
+                "concepts"
+            ],
+            "applicable_objects": [
+                "spaces",
+                "currents",
+                "topics"
+            ],
+            "goals": [
+                "move gradually without firm control",
+                "allow change in focus or position"
+            ],
+            "mechanisms": [
+                "gliding",
+                "free floating",
+                "unstructured transition"
+            ],
+            "tools": [
+                "wind",
+                "water",
+                "open agenda"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "unanchored"
+                ],
+                "emotional": [
+                    "relaxed"
+                ],
+                "mental": [
+                    "letting go of strict plans"
+                ],
+                "positional": [
+                    "within medium of motion"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "low resistance"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "open pathway"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "repositioned"
+                ],
+                "emotional": [
+                    "calm"
+                ],
+                "mental": [
+                    "detached perspective"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "shifted location"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drill",
+            "applicable_subjects": [
+                "biological bodies",
+                "machines",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "materials",
+                "holes",
+                "teams",
+                "procedures"
+            ],
+            "goals": [
+                "bore openings or instill repeated practice",
+                "penetrate or train through repetition"
+            ],
+            "mechanisms": [
+                "rotational cutting",
+                "rehearsal cycles"
+            ],
+            "tools": [
+                "drill bits",
+                "presses",
+                "training scripts"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "steady grip",
+                    "strength"
+                ],
+                "emotional": [
+                    "patient"
+                ],
+                "mental": [
+                    "precision focus"
+                ],
+                "positional": [
+                    "aligned to target"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "drillable material",
+                    "recruits"
+                ],
+                "emotional": [],
+                "mental": [
+                    "teachable"
+                ],
+                "positional": [
+                    "secured"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "exerted"
+                ],
+                "emotional": [
+                    "disciplined"
+                ],
+                "mental": [
+                    "procedure internalized"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "hole formed",
+                    "trained response"
+                ],
+                "emotional": [],
+                "mental": [
+                    "conditioned"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drink",
+            "applicable_subjects": [
+                "biological bodies"
+            ],
+            "applicable_objects": [
+                "liquids"
+            ],
+            "goals": [
+                "ingest fluid for hydration or enjoyment"
+            ],
+            "mechanisms": [
+                "sipping",
+                "gulping",
+                "absorbing through straw"
+            ],
+            "tools": [
+                "cups",
+                "bottles",
+                "straws"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "able to swallow",
+                    "thirsty"
+                ],
+                "emotional": [],
+                "mental": [
+                    "aware of need"
+                ],
+                "positional": [
+                    "holding container"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "potable",
+                    "accessible"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "hydrated"
+                ],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "refreshed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "consumed",
+                    "empty container"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drip",
+            "applicable_subjects": [
+                "liquids",
+                "biological bodies",
+                "machines"
+            ],
+            "applicable_objects": [
+                "surfaces",
+                "containers",
+                "medical lines"
+            ],
+            "goals": [
+                "release fluid in slow drops",
+                "deliver substance gradually"
+            ],
+            "mechanisms": [
+                "gravity-fed droplets",
+                "perforation",
+                "infusion"
+            ],
+            "tools": [
+                "IV bags",
+                "pipettes",
+                "leaky valves"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "elevated reservoir"
+                ],
+                "emotional": [],
+                "mental": [
+                    "monitoring pace"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "liquid near release point"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "measured dosage completed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "spotted surface",
+                    "fluid transferred"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drive",
+            "applicable_subjects": [
+                "biological bodies",
+                "autonomous agents"
+            ],
+            "applicable_objects": [
+                "vehicles",
+                "processes",
+                "teams"
+            ],
+            "goals": [
+                "propel something toward a destination",
+                "direct progress or motivation"
+            ],
+            "mechanisms": [
+                "steering and acceleration",
+                "leadership",
+                "control signals"
+            ],
+            "tools": [
+                "vehicles",
+                "dashboards",
+                "command interfaces"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "awake",
+                    "coordinated"
+                ],
+                "emotional": [
+                    "responsible"
+                ],
+                "mental": [
+                    "attentive",
+                    "route aware"
+                ],
+                "positional": [
+                    "operator seat"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "operational",
+                    "fueled"
+                ],
+                "emotional": [],
+                "mental": [
+                    "configured"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "arrived",
+                    "expended focus"
+                ],
+                "emotional": [
+                    "accomplished"
+                ],
+                "mental": [
+                    "navigation complete"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "parked",
+                    "mission advanced"
+                ],
+                "emotional": [],
+                "mental": [
+                    "task executed"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drizzle",
+            "applicable_subjects": [
+                "weather systems",
+                "biological bodies",
+                "chefs"
+            ],
+            "applicable_objects": [
+                "surfaces",
+                "food",
+                "landscapes"
+            ],
+            "goals": [
+                "apply a light, fine spray or stream",
+                "moisten gently without saturation"
+            ],
+            "mechanisms": [
+                "sprinkling",
+                "slow pouring",
+                "mist generation"
+            ],
+            "tools": [
+                "bottles",
+                "spoons",
+                "nozzles",
+                "cloud formations"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "control over flow source"
+                ],
+                "emotional": [
+                    "deliberate"
+                ],
+                "mental": [
+                    "aiming for subtle coverage"
+                ],
+                "positional": [
+                    "above target"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "receptive surface"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "content"
+                ],
+                "mental": [
+                    "application measured"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "thinly coated",
+                    "slightly wet"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drone",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations",
+                "machines"
+            ],
+            "applicable_objects": [
+                "sounds",
+                "airspace",
+                "audiences"
+            ],
+            "goals": [
+                "produce a continuous low sound",
+                "operate unmanned aircraft for observation or delivery"
+            ],
+            "mechanisms": [
+                "sustained vibration",
+                "rotor propulsion",
+                "automation"
+            ],
+            "tools": [
+                "musical instruments",
+                "UAVs",
+                "speakers"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "steady output"
+                ],
+                "emotional": [],
+                "mental": [
+                    "monitoring controls"
+                ],
+                "positional": [
+                    "line of sight or control link"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "airspace clearance",
+                    "acoustic medium"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "steady"
+                ],
+                "mental": [
+                    "mission data gathered"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "area surveyed",
+                    "tone sustained"
+                ],
+                "emotional": [],
+                "mental": [
+                    "information collected"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drool",
+            "applicable_subjects": [
+                "biological bodies",
+                "animals"
+            ],
+            "applicable_objects": [
+                "mouth",
+                "surfaces",
+                "desired items"
+            ],
+            "goals": [
+                "release saliva unintentionally",
+                "express intense desire informally"
+            ],
+            "mechanisms": [
+                "salivation",
+                "mouth opening",
+                "figurative yearning"
+            ],
+            "tools": [
+                "physiology"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "overproduction of saliva",
+                    "relaxed jaw"
+                ],
+                "emotional": [
+                    "excited",
+                    "hungry"
+                ],
+                "mental": [
+                    "focused on stimulus"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "appealing food or sight"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "moist mouth"
+                ],
+                "emotional": [
+                    "anticipatory"
+                ],
+                "mental": [
+                    "desire highlighted"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "possibly dampened surface"
+                ],
+                "emotional": [],
+                "mental": [
+                    "perceived as tempting"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "droop",
+            "applicable_subjects": [
+                "biological bodies",
+                "plants",
+                "objects"
+            ],
+            "applicable_objects": [
+                "heads",
+                "branches",
+                "structures"
+            ],
+            "goals": [
+                "sink or bend downward from fatigue or weight",
+                "signal decline in energy"
+            ],
+            "mechanisms": [
+                "loss of tension",
+                "gravity pull"
+            ],
+            "tools": [
+                "none"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "tired",
+                    "dehydrated"
+                ],
+                "emotional": [
+                    "discouraged"
+                ],
+                "mental": [
+                    "diminished focus"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "slumped"
+                ],
+                "emotional": [
+                    "listless"
+                ],
+                "mental": [
+                    "low motivation"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "angled downward"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drop",
+            "applicable_subjects": [
+                "biological bodies",
+                "machines",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "objects",
+                "tasks",
+                "data packets"
+            ],
+            "goals": [
+                "let something fall",
+                "abandon or remove from consideration"
+            ],
+            "mechanisms": [
+                "release grip",
+                "dequeue",
+                "deprioritize"
+            ],
+            "tools": [
+                "hands",
+                "payload systems",
+                "software queues"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "holding item"
+                ],
+                "emotional": [],
+                "mental": [
+                    "decision to release"
+                ],
+                "positional": [
+                    "above destination"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "susceptible to gravity"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "hands free"
+                ],
+                "emotional": [
+                    "relieved",
+                    "detached"
+                ],
+                "mental": [
+                    "commitment reduced"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "fallen",
+                    "possibly damaged"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "resting at impact point"
+                ]
+            }
+        },
+        {
+            "verb": "drown",
+            "applicable_subjects": [
+                "biological bodies",
+                "environments"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "sounds",
+                "feelings"
+            ],
+            "goals": [
+                "submerge completely causing suffocation",
+                "overwhelm another sensation"
+            ],
+            "mechanisms": [
+                "immersion in liquid",
+                "noise masking",
+                "sensory overload"
+            ],
+            "tools": [
+                "water",
+                "loudspeakers",
+                "intense stimuli"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "control over medium"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intent to suppress"
+                ],
+                "positional": [
+                    "dominant position"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "exposed to medium",
+                    "unable to escape"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "grim",
+                    "assertive"
+                ],
+                "mental": [
+                    "effect achieved"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "submerged",
+                    "silenced"
+                ],
+                "emotional": [],
+                "mental": [
+                    "overwhelmed"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drowse",
+            "applicable_subjects": [
+                "biological bodies"
+            ],
+            "applicable_objects": [
+                "concepts",
+                "time"
+            ],
+            "goals": [
+                "enter a light sleep state",
+                "let alertness fade gradually"
+            ],
+            "mechanisms": [
+                "relaxation",
+                "stillness",
+                "partial disengagement"
+            ],
+            "tools": [
+                "comfortable seating",
+                "ambient sounds",
+                "warmth"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "fatigued",
+                    "supported"
+                ],
+                "emotional": [
+                    "calm"
+                ],
+                "mental": [
+                    "unfocused"
+                ],
+                "positional": [
+                    "resting posture"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "partially asleep"
+                ],
+                "emotional": [
+                    "soothed"
+                ],
+                "mental": [
+                    "drifting thoughts"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drudge",
+            "applicable_subjects": [
+                "biological bodies",
+                "workers"
+            ],
+            "applicable_objects": [
+                "tasks",
+                "labor",
+                "routines"
+            ],
+            "goals": [
+                "perform dull or menial work persistently",
+                "push through burdensome duties"
+            ],
+            "mechanisms": [
+                "repetition",
+                "manual effort"
+            ],
+            "tools": [
+                "basic equipment",
+                "workflow systems"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "endurance"
+                ],
+                "emotional": [
+                    "resigned"
+                ],
+                "mental": [
+                    "determined to complete"
+                ],
+                "positional": [
+                    "stationed at work area"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "tedious tasks"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "exhausted"
+                ],
+                "emotional": [
+                    "weary"
+                ],
+                "mental": [
+                    "tasks accomplished"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "work completed"
+                ],
+                "emotional": [],
+                "mental": [
+                    "duties cleared"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "drum",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "percussion instruments",
+                "surfaces",
+                "support"
+            ],
+            "goals": [
+                "produce rhythmic beats",
+                "build excitement or awareness"
+            ],
+            "mechanisms": [
+                "striking",
+                "campaigning",
+                "repetition"
+            ],
+            "tools": [
+                "drumsticks",
+                "hands",
+                "messaging platforms"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "sense of rhythm"
+                ],
+                "emotional": [
+                    "energized"
+                ],
+                "mental": [
+                    "synchronization"
+                ],
+                "positional": [
+                    "near striking surface"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "resonant surface",
+                    "audience"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "exerted"
+                ],
+                "emotional": [
+                    "motivated"
+                ],
+                "mental": [
+                    "beat established"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "vibrating membrane",
+                    "engaged supporters"
+                ],
+                "emotional": [],
+                "mental": [
+                    "message amplified"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dry",
+            "applicable_subjects": [
+                "biological bodies",
+                "machines",
+                "natural forces"
+            ],
+            "applicable_objects": [
+                "objects",
+                "surfaces",
+                "biological bodies"
+            ],
+            "goals": [
+                "remove moisture",
+                "return to a non-wet state"
+            ],
+            "mechanisms": [
+                "evaporation",
+                "absorption",
+                "heat application"
+            ],
+            "tools": [
+                "towels",
+                "heat lamps",
+                "airflow"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "access to absorbent or heat source"
+                ],
+                "emotional": [],
+                "mental": [
+                    "monitoring dryness"
+                ],
+                "positional": [
+                    "in contact with object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "wet surface"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [
+                    "task complete"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "free of moisture",
+                    "ready for reuse"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

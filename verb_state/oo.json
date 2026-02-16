@@ -1,0 +1,76 @@
+{
+  "prefix": "oo",
+  "processed_verbs": [
+    "ooze"
+  ],
+  "outcomes": [
+    {
+      "verb": "ooze",
+      "applicable_subjects": [
+        "object",
+        "place",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "substance",
+        "object",
+        "place"
+      ],
+      "goals": [
+        "exude",
+        "seep_out"
+      ],
+      "mechanisms": [
+        "slow_leakage",
+        "seeping_through_pores",
+        "exuding"
+      ],
+      "tools": [
+        "porous_surface",
+        "pressure",
+        "heat"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "containing_fluid",
+          "permeable_or_damaged"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [
+          "liquid",
+          "viscous"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "within_subject"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "leaking",
+          "surface_wetted"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "exposed",
+          "spread"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "outside_subject"
+        ]
+      }
+    }
+  ],
+  "completed": true
+}

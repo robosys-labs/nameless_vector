@@ -1,0 +1,23 @@
+{
+  "prefix": "bo",
+  "processed_nouns": [
+    "body",
+    "budget",
+    "belief"
+  ],
+  "nouns": [
+    {
+      "noun": "body",
+      "types": ["biological_body"]
+    },
+    {
+      "noun": "budget",
+      "types": ["resource"]
+    },
+    {
+      "noun": "belief",
+      "types": ["concept"]
+    }
+  ],
+  "completed": true
+}

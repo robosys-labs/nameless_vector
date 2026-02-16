@@ -1,0 +1,138 @@
+{
+    "prefix": "ki",
+    "processed_verbs": [
+        "kick",
+        "kid",
+        "kidnap",
+        "kill",
+        "kindle",
+        "kink",
+        "kip",
+        "kiss",
+        "kit",
+        "kite"
+    ],
+    "outcomes": [
+        {
+            "verb": "kick",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object", "ball"],
+            "goals": ["strike_with_foot", "propel_object"],
+            "mechanisms": ["swinging_leg", "driving_force"],
+            "tools": ["footwear", "prosthetic_limb"],
+            "required_subject_states": {"physical": ["able_to_balance", "leg_free"], "emotional": [], "mental": ["target_selected"], "positional": ["within_striking_range"]},
+            "required_object_states": {"physical": ["reachable"], "emotional": [], "mental": [], "positional": ["in_path_of_kick"]},
+            "final_subject_states": {"physical": ["force_exerted"], "emotional": [], "mental": ["action_completed"], "positional": []},
+            "final_object_states": {"physical": ["impacted_or_moved"], "emotional": ["startled_if_sentient"], "mental": [], "positional": []}
+        },
+        {
+            "verb": "kidnap",
+            "applicable_subjects": ["biological_body", "group", "organization"],
+            "applicable_objects": ["biological_body", "autonomous_agent"],
+            "goals": ["abduct", "detain"],
+            "mechanisms": ["force", "coercion", "deception"],
+            "tools": ["vehicle", "restraints", "threat"],
+            "required_subject_states": {"physical": ["able_to_control_object"], "emotional": ["determined"], "mental": ["plan_prepared"], "positional": ["access_to_target"]},
+            "required_object_states": {"physical": ["vulnerable_or_overpowered"], "emotional": [], "mental": [], "positional": ["reachable"]},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["control_established"], "positional": ["with_object_in_custody"]},
+            "final_object_states": {"physical": ["restrained_or_moved"], "emotional": ["distressed_if_sentient"], "mental": [], "positional": ["removed_from_original_location"]}
+        },
+        {
+            "verb": "kill",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "organization"],
+            "applicable_objects": ["biological_body", "autonomous_agent"],
+            "goals": ["end_life", "neutralize"],
+            "mechanisms": ["lethal_force", "poisoning", "destructive_action"],
+            "tools": ["weapon", "toxin", "instrument"],
+            "required_subject_states": {"physical": ["able_to_act"], "emotional": [], "mental": ["intentional"], "positional": ["within_effective_range"]},
+            "required_object_states": {"physical": ["alive"], "emotional": [], "mental": [], "positional": ["within_reach_or_effect"]},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["objective_completed"], "positional": []},
+            "final_object_states": {"physical": ["dead"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "kid",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "autonomous_agent"],
+            "goals": ["tease_playfully", "joke"],
+            "mechanisms": ["light_mocking", "humorous_statement"],
+            "tools": ["speech", "tone", "gestures"],
+            "required_subject_states": {"physical": [], "emotional": ["playful"], "mental": ["intent_not_harmful"], "positional": ["in_conversation"]},
+            "required_object_states": {"physical": [], "emotional": ["receptive_or_neutral"], "mental": ["understands_context"], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": ["engaged"], "mental": ["joke_delivered"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": ["amused_or_annoyed"], "mental": ["aware_of_jest"], "positional": []}
+        },
+        {
+            "verb": "kindle",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["fire", "material", "emotion"],
+            "goals": ["ignite", "spark_interest"],
+            "mechanisms": ["introducing_heat", "friction", "provocation"],
+            "tools": ["match", "lighter", "tinder", "words"],
+            "required_subject_states": {"physical": ["manipulative_ability"], "emotional": [], "mental": ["ignition_intent"], "positional": ["near_material_or_audience"]},
+            "required_object_states": {"physical": ["flammable_or_receptive"], "emotional": [], "mental": [], "positional": ["exposed_to_trigger"]},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["ignition_initiated"], "positional": []},
+            "final_object_states": {"physical": ["burning_or_excited"], "emotional": ["stirred_if_sentient"], "mental": [], "positional": []}
+        },
+        {
+            "verb": "kiss",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "autonomous_agent"],
+            "goals": ["express_affection", "greet"],
+            "mechanisms": ["lip_contact", "gentle_touch"],
+            "tools": ["lips", "gesture"],
+            "required_subject_states": {"physical": ["close_proximity"], "emotional": ["willing_or_affectionate"], "mental": ["consent_if_applicable"], "positional": ["within_contact_range"]},
+            "required_object_states": {"physical": ["within_reach"], "emotional": ["receptive_or_neutral"], "mental": ["aware_if_conscious"], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": ["connected"], "mental": ["gesture_completed"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": ["acknowledged_or_warmed"], "mental": [], "positional": []}
+        },
+        {
+            "verb": "kit",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["person", "team", "device"],
+            "goals": ["equip", "prepare_with_tools"],
+            "mechanisms": ["providing_equipment", "assembling_gear"],
+            "tools": ["equipment_set", "supplies", "packaging"],
+            "required_subject_states": {"physical": ["able_to_provide_items"], "emotional": [], "mental": ["preparation_intent"], "positional": ["access_to_items_and_object"]},
+            "required_object_states": {"physical": ["able_to_receive_equipment"], "emotional": [], "mental": [], "positional": ["available"]},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["equipment_assigned"], "positional": []},
+            "final_object_states": {"physical": ["equipped"], "emotional": [], "mental": ["ready_for_task"], "positional": []}
+        },
+        {
+            "verb": "kink",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["object", "hose", "cable"],
+            "goals": ["bend_sharply", "introduce_twist"],
+            "mechanisms": ["applying_pressure", "twisting"],
+            "tools": ["hands", "grip", "guide"],
+            "required_subject_states": {"physical": ["dexterous"], "emotional": [], "mental": ["target_identified"], "positional": ["able_to_reach_object"]},
+            "required_object_states": {"physical": ["flexible"], "emotional": [], "mental": [], "positional": ["available"]},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["manipulation_done"], "positional": []},
+            "final_object_states": {"physical": ["bent_or_twisted"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "kip",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["place"],
+            "goals": ["nap_briefly", "sleep_lightly"],
+            "mechanisms": ["resting", "lying_down"],
+            "tools": ["bed", "sofa", "quiet_space"],
+            "required_subject_states": {"physical": ["fatigued_or_willing_to_rest"], "emotional": [], "mental": ["permit_pause"], "positional": ["in_resting_place"]},
+            "required_object_states": {"physical": ["suitable_for_rest"], "emotional": [], "mental": [], "positional": ["available"]},
+            "final_subject_states": {"physical": ["rested"], "emotional": [], "mental": ["brief_sleep_taken"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": [], "positional": ["used_for_rest"]}
+        },
+        {
+            "verb": "kite",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["kite_device"],
+            "goals": ["fly_kite", "sustain_lift"],
+            "mechanisms": ["maneuvering_strings", "using_wind"],
+            "tools": ["kite", "string", "wind"],
+            "required_subject_states": {"physical": ["able_to_run_or_hold_line"], "emotional": [], "mental": ["wind_awareness"], "positional": ["open_space"]},
+            "required_object_states": {"physical": ["intact_kite"], "emotional": [], "mental": [], "positional": ["exposed_to_wind"]},
+            "final_subject_states": {"physical": [], "emotional": ["engaged_or_pleased"], "mental": ["flight_managed"], "positional": []},
+            "final_object_states": {"physical": ["aloft"], "emotional": [], "mental": [], "positional": ["in_air"]}
+        }
+    ],
+    "completed": true
+}

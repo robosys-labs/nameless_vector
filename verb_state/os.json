@@ -1,0 +1,274 @@
+{
+  "prefix": "os",
+  "processed_verbs": [
+    "oscillate",
+    "osculate",
+    "ossify",
+    "ostracize"
+  ],
+  "outcomes": [
+    {
+      "verb": "oscillate",
+      "applicable_subjects": [
+        "object",
+        "physical_agent",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "concept"
+      ],
+      "goals": [
+        "alternate_motion",
+        "maintain_cycle"
+      ],
+      "mechanisms": [
+        "swinging",
+        "vibrating",
+        "periodic_adjustment"
+      ],
+      "tools": [
+        "motor",
+        "controller",
+        "pivot"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able_to_move"
+        ],
+        "emotional": [],
+        "mental": [
+          "cycle_defined"
+        ],
+        "positional": [
+          "mounted_or_suspended"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "free_to_move"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [
+          "in_motion"
+        ],
+        "emotional": [],
+        "mental": [
+          "cycle_maintained"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      }
+    },
+    {
+      "verb": "osculate",
+      "applicable_subjects": [
+        "biological_body",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "biological_body"
+      ],
+      "goals": [
+        "kiss",
+        "express_affection"
+      ],
+      "mechanisms": [
+        "touching_lips",
+        "pressing_face"
+      ],
+      "tools": [
+        "lips"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "close_proximity"
+        ],
+        "emotional": [
+          "affectionate_or_formal"
+        ],
+        "mental": [
+          "intent_to_kiss"
+        ],
+        "positional": [
+          "facing_object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "present"
+        ],
+        "emotional": [],
+        "mental": [
+          "aware_of_interaction"
+        ],
+        "positional": [
+          "accessible_distance"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "affectionate"
+        ],
+        "mental": [
+          "connection_reinforced"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [
+          "acknowledged_or_warmed"
+        ],
+        "mental": [
+          "interaction_noted"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "ossify",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "concept"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "concept",
+        "process"
+      ],
+      "goals": [
+        "harden",
+        "make_rigid"
+      ],
+      "mechanisms": [
+        "calcifying",
+        "entrenching_policies",
+        "reducing_flexibility"
+      ],
+      "tools": [
+        "time",
+        "rules",
+        "mineral_deposition"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "committed_to_rigidity"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [
+          "modifiable"
+        ],
+        "emotional": [],
+        "mental": [
+          "process_in_place"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "fixed_structure"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "hardened"
+        ],
+        "emotional": [],
+        "mental": [
+          "inflexible"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "ostracize",
+      "applicable_subjects": [
+        "organization",
+        "biological_body",
+        "group"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "organization"
+      ],
+      "goals": [
+        "exclude_socially",
+        "isolate"
+      ],
+      "mechanisms": [
+        "withholding_invitations",
+        "removing_participation",
+        "public_rejection"
+      ],
+      "tools": [
+        "policy",
+        "social_pressure",
+        "communication"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "disapproving"
+        ],
+        "mental": [
+          "decision_to_exclude"
+        ],
+        "positional": [
+          "influence_over_group"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "identified_member"
+        ],
+        "positional": [
+          "within_group_until_excluded"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "assertive_or_cold"
+        ],
+        "mental": [
+          "exclusion_enforced"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [
+          "alienated"
+        ],
+        "mental": [
+          "excluded"
+        ],
+        "positional": [
+          "outside_group"
+        ]
+      }
+    }
+  ],
+  "completed": true
+}

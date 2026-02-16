@@ -1,0 +1,1407 @@
+{
+    "prefix": "du",
+    "processed_verbs": [
+        "dub",
+        "duck",
+        "duel",
+        "dull",
+        "dumbfound",
+        "dump",
+        "dun",
+        "dunk",
+        "dupe",
+        "duplicate",
+        "dust",
+        "duct",
+        "duet",
+        "duff",
+        "duke",
+        "dumb",
+        "dummy",
+        "dung",
+        "dusk"
+    ],
+    "outcomes": [
+        {
+            "verb": "dub",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "objects",
+                "concepts"
+            ],
+            "goals": [
+                "assign a name, title, or role",
+                "mark a transition in status"
+            ],
+            "mechanisms": [
+                "ceremonial declaration",
+                "recorded labeling",
+                "public proclamation"
+            ],
+            "tools": [
+                "voice",
+                "symbolic objects",
+                "media platform"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "decisive",
+                    "evaluative"
+                ],
+                "positional": [
+                    "in view of object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "receptive"
+                ],
+                "mental": [
+                    "recognized"
+                ],
+                "positional": [
+                    "present for declaration"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "resolved"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "validated"
+                ],
+                "mental": [
+                    "new identity acknowledged"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "duck",
+            "applicable_subjects": [
+                "biological bodies",
+                "autonomous devices"
+            ],
+            "applicable_objects": [
+                "objects",
+                "forces",
+                "projectiles"
+            ],
+            "goals": [
+                "avoid contact or detection",
+                "protect vulnerable areas"
+            ],
+            "mechanisms": [
+                "rapid lowering",
+                "side-step motion",
+                "cover-seeking"
+            ],
+            "tools": [
+                "body control",
+                "protective gear",
+                "environmental cover"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "agile",
+                    "responsive"
+                ],
+                "emotional": [
+                    "alert"
+                ],
+                "mental": [
+                    "anticipatory"
+                ],
+                "positional": [
+                    "near oncoming threat"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "in motion toward subject"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "on collision course"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "lowered",
+                    "offset"
+                ],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [
+                    "validated response"
+                ],
+                "positional": [
+                    "beneath or beside threat path"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "continues trajectory"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "past subject"
+                ]
+            }
+        },
+        {
+            "verb": "duel",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "organizations"
+            ],
+            "goals": [
+                "resolve a dispute through direct contest",
+                "demonstrate superiority or honor"
+            ],
+            "mechanisms": [
+                "formal combat",
+                "competitive engagement"
+            ],
+            "tools": [
+                "agreed weapons",
+                "rules of engagement",
+                "witnesses"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "combat-ready"
+                ],
+                "emotional": [
+                    "resolute"
+                ],
+                "mental": [
+                    "focused on tactics"
+                ],
+                "positional": [
+                    "within designated arena"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "equally prepared"
+                ],
+                "emotional": [
+                    "committed"
+                ],
+                "mental": [
+                    "aware of stakes"
+                ],
+                "positional": [
+                    "facing subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "expended effort"
+                ],
+                "emotional": [
+                    "vindicated",
+                    "defeated"
+                ],
+                "mental": [
+                    "lesson internalized"
+                ],
+                "positional": [
+                    "claiming ground"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "injured",
+                    "fatigued"
+                ],
+                "emotional": [
+                    "humbled",
+                    "triumphant"
+                ],
+                "mental": [
+                    "accepting outcome"
+                ],
+                "positional": [
+                    "yielding or holding position"
+                ]
+            }
+        },
+        {
+            "verb": "dull",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations",
+                "physical agents"
+            ],
+            "applicable_objects": [
+                "objects",
+                "senses",
+                "concepts"
+            ],
+            "goals": [
+                "lessen sharpness or brightness",
+                "reduce emotional or sensory intensity"
+            ],
+            "mechanisms": [
+                "abrasion",
+                "dampening",
+                "overexposure"
+            ],
+            "tools": [
+                "buffering materials",
+                "filters",
+                "monotone messaging"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "able to apply sustained pressure"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intentional"
+                ],
+                "positional": [
+                    "in contact or influence range"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "sharp",
+                    "vivid",
+                    "intense"
+                ],
+                "emotional": [],
+                "mental": [
+                    "stimulating"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "expended energy"
+                ],
+                "emotional": [],
+                "mental": [
+                    "achieved reduction"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "less sharp",
+                    "muted"
+                ],
+                "emotional": [
+                    "subdued"
+                ],
+                "mental": [
+                    "less stimulating"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dumbfound",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "audiences"
+            ],
+            "goals": [
+                "overwhelm comprehension with surprise",
+                "render someone speechless"
+            ],
+            "mechanisms": [
+                "dramatic revelation",
+                "unexpected action"
+            ],
+            "tools": [
+                "news",
+                "performance",
+                "spectacle"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "strategic",
+                    "aware of timing"
+                ],
+                "positional": [
+                    "able to command attention"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "trusting",
+                    "unprepared"
+                ],
+                "mental": [
+                    "unaware of upcoming event"
+                ],
+                "positional": [
+                    "focused on subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied",
+                    "amused"
+                ],
+                "mental": [
+                    "affirmed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "astonished"
+                ],
+                "mental": [
+                    "momentarily blank",
+                    "processing new reality"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dump",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations",
+                "machines"
+            ],
+            "applicable_objects": [
+                "objects",
+                "materials",
+                "data"
+            ],
+            "goals": [
+                "discard or release contents rapidly",
+                "transfer load without precision"
+            ],
+            "mechanisms": [
+                "tilting",
+                "offloading",
+                "bulk transmission"
+            ],
+            "tools": [
+                "containers",
+                "vehicles",
+                "data pipelines"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "carrying load"
+                ],
+                "emotional": [],
+                "mental": [
+                    "decisive",
+                    "willing to release control"
+                ],
+                "positional": [
+                    "above or adjacent to drop zone"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "contained",
+                    "accumulated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "unprocessed"
+                ],
+                "positional": [
+                    "ready to be relocated"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "unloaded"
+                ],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [
+                    "task completed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "scattered",
+                    "piled"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "residing in new location"
+                ]
+            }
+        },
+        {
+            "verb": "dun",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "organizations"
+            ],
+            "goals": [
+                "demand settlement of a debt",
+                "pressure for outstanding obligation"
+            ],
+            "mechanisms": [
+                "repeated communication",
+                "formal notice"
+            ],
+            "tools": [
+                "letters",
+                "calls",
+                "accounting systems"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "persistent"
+                ],
+                "mental": [
+                    "organized",
+                    "record-focused"
+                ],
+                "positional": [
+                    "engaged in communication channel"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "reluctant"
+                ],
+                "mental": [
+                    "aware of debt"
+                ],
+                "positional": [
+                    "reachable"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "assertive"
+                ],
+                "mental": [
+                    "records updated"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "pressured"
+                ],
+                "mental": [
+                    "obligated",
+                    "prompted to pay"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dunk",
+            "applicable_subjects": [
+                "biological bodies",
+                "machines"
+            ],
+            "applicable_objects": [
+                "objects",
+                "biological bodies",
+                "food items"
+            ],
+            "goals": [
+                "immerse briefly in liquid or space",
+                "score forceful basket (sports context)"
+            ],
+            "mechanisms": [
+                "plunging motion",
+                "vertical leap",
+                "control of trajectory"
+            ],
+            "tools": [
+                "hands",
+                "mechanical grippers",
+                "container of liquid",
+                "basketball hoop"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "strong grip",
+                    "explosive power"
+                ],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "timing awareness"
+                ],
+                "positional": [
+                    "above or aligned with target"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "graspable",
+                    "sized for immersion"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "near liquid or rim"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "extended",
+                    "impact absorbed"
+                ],
+                "emotional": [
+                    "energized"
+                ],
+                "mental": [
+                    "achievement registered"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "wet",
+                    "through hoop",
+                    "temporarily submerged"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "returns to original area"
+                ]
+            }
+        },
+        {
+            "verb": "dupe",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "organizations"
+            ],
+            "goals": [
+                "deceive for advantage",
+                "induce acceptance of falsehood"
+            ],
+            "mechanisms": [
+                "misrepresentation",
+                "fabricated evidence",
+                "social engineering"
+            ],
+            "tools": [
+                "false narratives",
+                "forged artifacts",
+                "digital manipulation"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "cunning"
+                ],
+                "mental": [
+                    "calculating",
+                    "aware of target bias"
+                ],
+                "positional": [
+                    "embedded in target's trust network"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "trusting"
+                ],
+                "mental": [
+                    "seeking confirmation"
+                ],
+                "positional": [
+                    "engaged with subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "smug",
+                    "anxious about exposure"
+                ],
+                "mental": [
+                    "tracking deception"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "embarrassed",
+                    "betrayed"
+                ],
+                "mental": [
+                    "holding false belief"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "duplicate",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations",
+                "software agents"
+            ],
+            "applicable_objects": [
+                "objects",
+                "data",
+                "concepts"
+            ],
+            "goals": [
+                "create an identical copy",
+                "preserve information without altering the source"
+            ],
+            "mechanisms": [
+                "replication",
+                "copying",
+                "mirroring"
+            ],
+            "tools": [
+                "printers",
+                "3d scanners",
+                "version control",
+                "cloning devices"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "access to source material"
+                ],
+                "emotional": [],
+                "mental": [
+                    "detail-oriented"
+                ],
+                "positional": [
+                    "co-located with object or data channel"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "intact",
+                    "readable"
+                ],
+                "emotional": [],
+                "mental": [
+                    "well-defined"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "assured"
+                ],
+                "mental": [
+                    "records updated"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "existing copy and original"
+                ],
+                "emotional": [],
+                "mental": [
+                    "information preserved"
+                ],
+                "positional": [
+                    "copy stored in target location"
+                ]
+            }
+        },
+        {
+            "verb": "dust",
+            "applicable_subjects": [
+                "biological bodies",
+                "physical agents"
+            ],
+            "applicable_objects": [
+                "objects",
+                "spaces",
+                "biological bodies"
+            ],
+            "goals": [
+                "remove fine particles",
+                "apply a thin powder coating"
+            ],
+            "mechanisms": [
+                "brushing",
+                "wiping",
+                "sprinkling"
+            ],
+            "tools": [
+                "cloth",
+                "brush",
+                "air blower",
+                "powder applicator"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "fine motor control"
+                ],
+                "emotional": [],
+                "mental": [
+                    "attention to detail"
+                ],
+                "positional": [
+                    "adjacent to surface"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "collecting residue",
+                    "exposed surface"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "hands engaged"
+                ],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "task completed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "clean surface",
+                    "fresh coating when applicable"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "duct",
+            "applicable_subjects": [
+                "organizations",
+                "physical agents",
+                "software agents"
+            ],
+            "applicable_objects": [
+                "airflows",
+                "fluids",
+                "signals",
+                "objects"
+            ],
+            "goals": [
+                "channel a flow through a controlled path",
+                "reroute material or energy to a destination"
+            ],
+            "mechanisms": [
+                "enclosure",
+                "piping",
+                "encapsulation"
+            ],
+            "tools": [
+                "ductwork",
+                "cable trays",
+                "conduits",
+                "software pipelines"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "access to infrastructure"
+                ],
+                "emotional": [],
+                "mental": [
+                    "plan for routing"
+                ],
+                "positional": [
+                    "spanning source and destination"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "flowing",
+                    "containable"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "flow managed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "contained",
+                    "directed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "arriving at outlet"
+                ]
+            }
+        },
+        {
+            "verb": "duet",
+            "applicable_subjects": [
+                "biological bodies",
+                "autonomous performers"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "compositions",
+                "audiences"
+            ],
+            "goals": [
+                "perform collaboratively as a pair",
+                "blend two voices or instruments harmoniously"
+            ],
+            "mechanisms": [
+                "synchronized performance",
+                "alternating phrases",
+                "harmonic blending"
+            ],
+            "tools": [
+                "voices",
+                "instruments",
+                "stage technology"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "rehearsed",
+                    "coordinated"
+                ],
+                "emotional": [
+                    "responsive"
+                ],
+                "mental": [
+                    "attentive to partner"
+                ],
+                "positional": [
+                    "within shared performance space"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "receptive audience"
+                ],
+                "mental": [
+                    "memorized composition"
+                ],
+                "positional": [
+                    "audience oriented toward performers"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "performed"
+                ],
+                "emotional": [
+                    "connected",
+                    "expressive"
+                ],
+                "mental": [
+                    "synchronized memory"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "moved",
+                    "entertained"
+                ],
+                "mental": [
+                    "shared experience recorded"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "duff",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "objects",
+                "tasks",
+                "performances"
+            ],
+            "goals": [
+                "bungle or spoil through clumsiness",
+                "produce something inferior"
+            ],
+            "mechanisms": [
+                "careless execution",
+                "misapplication of force"
+            ],
+            "tools": [
+                "faulty technique",
+                "inadequate equipment"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "attempting task"
+                ],
+                "emotional": [
+                    "distracted",
+                    "overconfident"
+                ],
+                "mental": [
+                    "unprepared"
+                ],
+                "positional": [
+                    "engaged with object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "sensitive to mishandling"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "embarrassed",
+                    "frustrated"
+                ],
+                "mental": [
+                    "aware of failure"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "damaged",
+                    "substandard"
+                ],
+                "emotional": [],
+                "mental": [
+                    "considered worthless"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "duke",
+            "applicable_subjects": [
+                "biological bodies"
+            ],
+            "applicable_objects": [
+                "biological bodies"
+            ],
+            "goals": [
+                "engage in fistfight or brawl",
+                "settle dispute physically"
+            ],
+            "mechanisms": [
+                "boxing motions",
+                "close-quarters striking"
+            ],
+            "tools": [
+                "hands",
+                "protective wraps"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "ready stance",
+                    "strength"
+                ],
+                "emotional": [
+                    "combative"
+                ],
+                "mental": [
+                    "focused on opponent"
+                ],
+                "positional": [
+                    "within striking range"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "similarly prepared"
+                ],
+                "emotional": [
+                    "provoked"
+                ],
+                "mental": [
+                    "committed to fight"
+                ],
+                "positional": [
+                    "facing subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "bruised",
+                    "spent"
+                ],
+                "emotional": [
+                    "vented",
+                    "victorious"
+                ],
+                "mental": [
+                    "conflict resolved"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "struck",
+                    "tiring"
+                ],
+                "emotional": [
+                    "subdued",
+                    "aggravated"
+                ],
+                "mental": [
+                    "accepting result"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dumb",
+            "applicable_subjects": [
+                "organizations",
+                "biological bodies",
+                "media creators"
+            ],
+            "applicable_objects": [
+                "concepts",
+                "communications",
+                "audiences"
+            ],
+            "goals": [
+                "simplify excessively or reduce sophistication",
+                "make comprehension possible by removing nuance"
+            ],
+            "mechanisms": [
+                "omitting detail",
+                "flattening vocabulary",
+                "limiting options"
+            ],
+            "tools": [
+                "editing guidelines",
+                "simplified templates",
+                "filters"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "aware of complexity",
+                    "intent on simplification"
+                ],
+                "positional": [
+                    "controlling content channel"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "complex",
+                    "nuanced"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "message diluted"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "simplified",
+                    "less informative"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dummy",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations",
+                "software agents"
+            ],
+            "applicable_objects": [
+                "objects",
+                "plays",
+                "data sets",
+                "opponents"
+            ],
+            "goals": [
+                "create a decoy or placeholder",
+                "feint to misdirect attention"
+            ],
+            "mechanisms": [
+                "mock-up construction",
+                "false signal emission",
+                "fake movement"
+            ],
+            "tools": [
+                "prototypes",
+                "dummy variables",
+                "body feints",
+                "simulators"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "able to manipulate decoy"
+                ],
+                "emotional": [
+                    "composed"
+                ],
+                "mental": [
+                    "strategic",
+                    "anticipating reaction"
+                ],
+                "positional": [
+                    "visible to target channel"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "capable of being imitated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "prone to misinterpretation"
+                ],
+                "positional": [
+                    "observing subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied",
+                    "anticipatory"
+                ],
+                "mental": [
+                    "advantage gained"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "confused"
+                ],
+                "mental": [
+                    "responding to decoy"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dung",
+            "applicable_subjects": [
+                "biological bodies",
+                "farm organizations"
+            ],
+            "applicable_objects": [
+                "soil",
+                "fields",
+                "plants"
+            ],
+            "goals": [
+                "fertilize using animal waste",
+                "enrich growth medium"
+            ],
+            "mechanisms": [
+                "spreading manure",
+                "mixing into soil"
+            ],
+            "tools": [
+                "pitchforks",
+                "spreaders",
+                "manual labor"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "able to transport material"
+                ],
+                "emotional": [],
+                "mental": [
+                    "aware of crop needs"
+                ],
+                "positional": [
+                    "within field plots"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "receiving soil",
+                    "adequate moisture"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "labor expended"
+                ],
+                "emotional": [],
+                "mental": [
+                    "application recorded"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "nutrient enriched",
+                    "covered with manure"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dusk",
+            "applicable_subjects": [
+                "natural cycles",
+                "biological bodies",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "spaces",
+                "events",
+                "lighting conditions"
+            ],
+            "goals": [
+                "cause or experience the onset of twilight",
+                "transition from daylight to low light"
+            ],
+            "mechanisms": [
+                "lowering illumination",
+                "shading",
+                "timed lighting sequences"
+            ],
+            "tools": [
+                "dimmers",
+                "environmental controls",
+                "natural horizon"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "control over light",
+                    "presence during evening"
+                ],
+                "emotional": [],
+                "mental": [
+                    "anticipating transition"
+                ],
+                "positional": [
+                    "within affected space"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "currently illuminated"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "calmed"
+                ],
+                "mental": [
+                    "aware of evening onset"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "dimly lit",
+                    "shadowed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

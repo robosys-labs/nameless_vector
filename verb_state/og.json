@@ -1,0 +1,75 @@
+{
+  "prefix": "og",
+  "processed_verbs": [
+    "ogle"
+  ],
+  "outcomes": [
+    {
+      "verb": "ogle",
+      "applicable_subjects": [
+        "biological_body",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "object"
+      ],
+      "goals": [
+        "stare",
+        "scrutinize"
+      ],
+      "mechanisms": [
+        "fixating_gaze",
+        "observing_intently"
+      ],
+      "tools": [
+        "eyes",
+        "optics"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "line_of_sight",
+          "able_to_focus"
+        ],
+        "emotional": [
+          "curious_or_desirous"
+        ],
+        "mental": [
+          "aware_of_target"
+        ],
+        "positional": [
+          "facing_target"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "visible"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "within_view"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "fascinated_or_lecherous"
+        ],
+        "mental": [
+          "visual_details_retained"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [
+          "uncomfortable_if_sentient"
+        ],
+        "mental": [],
+        "positional": []
+      }
+    }
+  ],
+  "completed": true
+}

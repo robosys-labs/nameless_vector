@@ -1,0 +1,371 @@
+{
+    "prefix": "eq",
+    "processed_verbs": [
+        "equal",
+        "equalize",
+        "equate",
+        "equip",
+        "equilibrate"
+    ],
+    "outcomes": [
+        {
+            "verb": "equal",
+            "applicable_subjects": [
+                "organization",
+                "biological_body",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "concept",
+                "object",
+                "outcome"
+            ],
+            "goals": [
+                "achieve_parity",
+                "balance_conditions",
+                "ensure_fairness"
+            ],
+            "mechanisms": [
+                "adjustment_action",
+                "normalization_step",
+                "alignment_process"
+            ],
+            "tools": [
+                "measurement_tool",
+                "calibration_framework",
+                "policy_rule"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "impartial"
+                ],
+                "mental": [
+                    "criteria_defined"
+                ],
+                "positional": [
+                    "within_scope_of_influence"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "current_state_measured"
+                ],
+                "positional": [
+                    "comparable_context"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "parity_confirmed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "balanced_state"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "equalize",
+            "applicable_subjects": [
+                "organization",
+                "physical_agent",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "system",
+                "object",
+                "environment"
+            ],
+            "goals": [
+                "reduce_difference",
+                "normalize_levels",
+                "balance_distribution"
+            ],
+            "mechanisms": [
+                "pressure_adjustment",
+                "volume_control",
+                "resource_balancing"
+            ],
+            "tools": [
+                "regulator",
+                "controller",
+                "balancing_valve"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "access_to_controls"
+                ],
+                "emotional": [
+                    "steady"
+                ],
+                "mental": [
+                    "target_range_known"
+                ],
+                "positional": [
+                    "at_adjustment_point"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "imbalanced"
+                ],
+                "emotional": [],
+                "mental": [
+                    "levels_measured"
+                ],
+                "positional": [
+                    "within_system"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "reassured"
+                ],
+                "mental": [
+                    "balance_achieved"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "balanced"
+                ],
+                "emotional": [],
+                "mental": [
+                    "levels_equalized"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "equate",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "concept",
+                "metric",
+                "policy"
+            ],
+            "goals": [
+                "establish_equivalence",
+                "define_mapping",
+                "standardize_understanding"
+            ],
+            "mechanisms": [
+                "conceptual_alignment",
+                "definition_statement",
+                "reference_mapping"
+            ],
+            "tools": [
+                "equivalence_table",
+                "terminology_glossary",
+                "reference_model"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "neutral"
+                ],
+                "mental": [
+                    "criteria_clarified"
+                ],
+                "positional": [
+                    "within_discussion_space"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "definitions_available"
+                ],
+                "positional": [
+                    "contextualized"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "assured"
+                ],
+                "mental": [
+                    "equivalence_stated"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "mapped_relation"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "equip",
+            "applicable_subjects": [
+                "organization",
+                "biological_body",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "physical_agent",
+                "object"
+            ],
+            "goals": [
+                "provide_tools",
+                "enable_capability",
+                "prepare_for_task"
+            ],
+            "mechanisms": [
+                "resource_distribution",
+                "gear_assignment",
+                "loadout_configuration"
+            ],
+            "tools": [
+                "equipment_kit",
+                "instruction_manual",
+                "supply_inventory"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "supportive"
+                ],
+                "mental": [
+                    "needs_assessed"
+                ],
+                "positional": [
+                    "proximate_to_recipient"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "available"
+                ],
+                "emotional": [],
+                "mental": [
+                    "task_defined"
+                ],
+                "positional": [
+                    "ready_for_loadout"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "provision_logged"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "equipped"
+                ],
+                "emotional": [],
+                "mental": [
+                    "instructions_received"
+                ],
+                "positional": [
+                    "ready_for_operation"
+                ]
+            }
+        },
+        {
+            "verb": "equilibrate",
+            "applicable_subjects": [
+                "biological_body",
+                "physical_agent",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "system",
+                "mixture",
+                "environment"
+            ],
+            "goals": [
+                "reach_balance",
+                "stabilize_conditions",
+                "minimize_gradient"
+            ],
+            "mechanisms": [
+                "diffusion_process",
+                "mixing_action",
+                "controlled_adjustment"
+            ],
+            "tools": [
+                "thermostat",
+                "agitator",
+                "balancing_interface"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "access_to_system"
+                ],
+                "emotional": [
+                    "patient"
+                ],
+                "mental": [
+                    "equilibrium_point_known"
+                ],
+                "positional": [
+                    "monitoring_position"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "unstable"
+                ],
+                "emotional": [],
+                "mental": [
+                    "parameters_measured"
+                ],
+                "positional": [
+                    "within_control_zone"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [
+                    "steady_state_reached"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "equilibrated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "stable_conditions"
+                ],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

@@ -1,0 +1,932 @@
+{
+    "prefix": "fr",
+    "processed_verbs": [
+        "fraction",
+        "fracture",
+        "fragment",
+        "frazzle",
+        "frame",
+        "franchise",
+        "frank",
+        "fraternize",
+        "fray",
+        "freak",
+        "free",
+        "freeze",
+        "freight",
+        "freshen",
+        "fret",
+        "frighten",
+        "fringe",
+        "frisk",
+        "fritter",
+        "frizz",
+        "frizzle",
+        "frolic",
+        "front",
+        "frost",
+        "froth",
+        "frown",
+        "frustrate",
+        "fry"
+    ],
+    "outcomes": [
+        {
+            "verb": "fraction",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["object", "concept", "virtual_object"],
+            "goals": ["divide_into_parts", "allocate_portions", "segment"],
+            "mechanisms": ["partitioning", "proportional_split", "segmentation"],
+            "tools": ["divider", "algorithm", "measurement"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["ratio_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["splittable"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["fraction_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["segmented"],
+                "emotional": [],
+                "mental": ["portioned"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fracture",
+            "applicable_subjects": ["biological_body", "physical_agent", "organization"],
+            "applicable_objects": ["object", "biological_body", "concept"],
+            "goals": ["break_partially", "create_crack", "compromise_integrity"],
+            "mechanisms": ["stress_application", "impact", "overload"],
+            "tools": ["force", "lever", "pressure_device"],
+            "required_subject_states": {
+                "physical": ["force_capable"],
+                "emotional": [],
+                "mental": ["target_identified"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["brittle_or_stressed"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["fracture_induced"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["cracked_or_split"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fragment",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["object", "concept", "virtual_object"],
+            "goals": ["break_into_pieces", "decompose", "shard"],
+            "mechanisms": ["forceful_division", "decomposition_process", "shattering"],
+            "tools": ["hammer", "explosive", "decomposition_algorithm"],
+            "required_subject_states": {
+                "physical": ["force_capable"],
+                "emotional": [],
+                "mental": ["fragmentation_plan"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["breakable"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["fragmentation_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["fragmented"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "frazzle",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "concept", "process"],
+            "goals": ["exhaust_completely", "wear_out", "fray_nerves"],
+            "mechanisms": ["overwork", "continuous_stress", "overstimulation"],
+            "tools": ["demanding_tasks", "pressure", "noise"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["stressed_or_intense"],
+                "mental": ["pressure_applied"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": ["sensitive_or_tired"],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["tired"],
+                "mental": ["aware_of_wear"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["frazzled"],
+                "mental": ["capacity_reduced"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "frame",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["object", "concept", "biological_body"],
+            "goals": ["enclose_structure", "shape_narrative", "set_context"],
+            "mechanisms": ["border_construction", "context_setting", "interpretation_guidance"],
+            "tools": ["frame", "story_outline", "schema"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["context_understood"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["content_present"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["frame_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["framed_or_bounded"],
+                "emotional": [],
+                "mental": ["interpreted_with_context"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "franchise",
+            "applicable_subjects": ["organization", "biological_body", "autonomous_agent"],
+            "applicable_objects": ["organization", "concept", "virtual_object"],
+            "goals": ["grant_rights", "license_brand", "expand_operations"],
+            "mechanisms": ["contractual_agreement", "brand_licensing", "territory_assignment"],
+            "tools": ["franchise_contract", "playbook", "brand_assets"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["terms_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["eligible_for_franchise"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["franchise_granted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["licensed"],
+                "positional": ["within_assigned_territory"]
+            }
+        },
+        {
+            "verb": "frank",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["speak_plainly", "remove_euphemism", "provide_honest_view"],
+            "mechanisms": ["direct_statement", "unfiltered_communication", "clarification"],
+            "tools": ["speech", "message", "report"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["willing_to_be_candid"],
+                "mental": ["opinion_formed"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["ready_to_receive_feedback"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["clear"],
+                "mental": ["candid_statement_made"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["informed_or_jarred"],
+                "mental": ["understanding_adjusted"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fraternize",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization"],
+            "goals": ["associate_familiarly", "build_camaderie", "socialize"],
+            "mechanisms": ["informal_meeting", "shared_activity", "conversation"],
+            "tools": ["gathering", "communication_channel", "shared_space"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["open"],
+                "mental": ["willing_to_socialize"],
+                "positional": ["near_counterpart"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": ["receptive"],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["connected"],
+                "mental": ["relationship_built"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["included"],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fray",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["object", "concept"],
+            "goals": ["wear_at_edges", "erode", "cause_tension"],
+            "mechanisms": ["rubbing", "abrasion", "sustained_stress"],
+            "tools": ["friction", "rough_surface", "pressure"],
+            "required_subject_states": {
+                "physical": ["contact_capable"],
+                "emotional": [],
+                "mental": ["aware_of_pressure"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["edge_exposed"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["fray_induced"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["worn_edges_or_tension"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "freak",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "event", "virtual_object"],
+            "goals": ["panic", "overreact", "cause_disturbance"],
+            "mechanisms": ["surprise", "overstimulation", "shock"],
+            "tools": ["unexpected_event", "alarming_signal", "sudden_change"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["unstable_or_startled"],
+                "mental": [],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["perceived_threat_or_shock"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["panicked"],
+                "mental": ["focus_disrupted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["disturbance"],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "free",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object", "concept"],
+            "goals": ["release_from_constraint", "liberate", "remove_cost"],
+            "mechanisms": ["unlocking", "permission_grant", "cost_waiver"],
+            "tools": ["key", "authorization", "pardon"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["willing"],
+                "mental": ["constraint_identified"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["constrained_or_bound"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["supportive"],
+                "mental": ["freedom_granted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["unbound_or_unlocked"],
+                "emotional": [],
+                "mental": ["liberated"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "freeze",
+            "applicable_subjects": ["environment", "organization", "synthetic_agent", "physical_agent"],
+            "applicable_objects": ["object", "process", "virtual_object"],
+            "goals": ["halt_motion", "solidify", "pause_state"],
+            "mechanisms": ["temperature_drop", "execution_pause", "resource_lock"],
+            "tools": ["cooling_system", "pause_command", "lock"],
+            "required_subject_states": {
+                "physical": ["cooling_or_control_ready"],
+                "emotional": [],
+                "mental": ["target_selected"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["susceptible_to_cold_or_stop"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["freeze_executed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["solid_or_stopped"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "freight",
+            "applicable_subjects": ["organization", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "virtual_object"],
+            "goals": ["transport_goods", "ship", "deliver"],
+            "mechanisms": ["logistics_routing", "cargo_handling", "scheduled_transport"],
+            "tools": ["vehicle", "container", "tracking_system"],
+            "required_subject_states": {
+                "physical": ["transport_capacity"],
+                "emotional": [],
+                "mental": ["route_and_manifest_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["packaged"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["ready_for_pickup"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["freight_in_transit"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["en_route"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["toward_destination"]
+            }
+        },
+        {
+            "verb": "freshen",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["object", "place", "concept"],
+            "goals": ["make_fresh", "renew", "reduce_staleness"],
+            "mechanisms": ["cleaning", "aeration", "scent_addition"],
+            "tools": ["freshener", "airflow", "cleaning_agent"],
+            "required_subject_states": {
+                "physical": ["supplies_ready"],
+                "emotional": [],
+                "mental": ["target_selected"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["stale_or_used"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["freshening_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["refreshed_or_cleaner"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fret",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "virtual_object", "process"],
+            "goals": ["worry", "wear_away", "erode"],
+            "mechanisms": ["rumination", "repetitive_contact", "persistent_anxiety"],
+            "tools": ["mental_loop", "abrasive_contact", "time"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["anxious"],
+                "mental": ["concern_present"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["subject_of_concern"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["fatigued_or_restless"],
+                "mental": ["concern_persisted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["slightly_worn_or_eroded"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fritter",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "resource", "virtual_object"],
+            "goals": ["waste_bit_by_bit", "dissipate", "use_idlely"],
+            "mechanisms": ["small_expenditures", "distraction", "piecemeal_use"],
+            "tools": ["time", "minor_tasks", "trivial_actions"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["attention_scattered"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["resource_available"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["regretful_or_indifferent"],
+                "mental": ["resource_spent"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["diminished"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "frizz",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["object", "biological_body"],
+            "goals": ["curl_tightly", "make_fuzzy", "create_texture"],
+            "mechanisms": ["heat_application", "humidity_exposure", "agitation"],
+            "tools": ["heat_tool", "moisture", "comb"],
+            "required_subject_states": {
+                "physical": ["manipulation_capable"],
+                "emotional": [],
+                "mental": ["style_intent"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["hair_or_fiber_exposed"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["frizz_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["frizzy_texture"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "frizzle",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["food", "hair", "object"],
+            "goals": ["sizzle_slightly", "crisp_edges", "cause_curl"],
+            "mechanisms": ["light_frying", "heat_curling", "sizzling"],
+            "tools": ["pan", "oil", "heat_source"],
+            "required_subject_states": {
+                "physical": ["heat_source_ready"],
+                "emotional": [],
+                "mental": ["low_heat_intent"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["heat_sensitive_item"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["frizzle_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["lightly_crisped_or_curled"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "frighten",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization"],
+            "goals": ["instill_fear", "deter", "startle"],
+            "mechanisms": ["sudden_threat", "ominous_signal", "intimidation"],
+            "tools": ["loud_noise", "visual_shock", "warning_message"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["threat_design"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": ["susceptible_to_fear"],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["fear_induced"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["fearful"],
+                "mental": ["alert_to_threat"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fringe",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["object", "place", "concept"],
+            "goals": ["edge_or_border", "decorate_boundary", "operate_at_periphery"],
+            "mechanisms": ["boundary_attachment", "margin_operation", "peripheral_alignment"],
+            "tools": ["trim", "edge_material", "perimeter_path"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["edge_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["edge_accessible"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["fringe_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["bordered_or_trimmed"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "frisk",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object"],
+            "goals": ["search_for_items", "check_for_weapons", "pat_down"],
+            "mechanisms": ["patting", "surface_scan", "manual_inspection"],
+            "tools": ["hands", "scanner", "detector"],
+            "required_subject_states": {
+                "physical": ["dexterous"],
+                "emotional": ["alert"],
+                "mental": ["search_protocol_known"],
+                "positional": ["within_arm_reach"]
+            },
+            "required_object_states": {
+                "physical": ["present"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["assured_or_alerted"],
+                "mental": ["frisk_completed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["cleared_or_flagged"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "frolic",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["place", "concept"],
+            "goals": ["play_lively", "move_joyfully", "express_spontaneity"],
+            "mechanisms": ["light_running", "jumping", "playful_motion"],
+            "tools": ["open_space", "companions", "music"],
+            "required_subject_states": {
+                "physical": ["mobile"],
+                "emotional": ["joyful"],
+                "mental": [],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": ["safe_area"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["delighted"],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "front",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["place", "concept", "organization"],
+            "goals": ["lead_from_front", "face_toward", "serve_as_cover"],
+            "mechanisms": ["forward_positioning", "representation", "cover_operation"],
+            "tools": ["positioning", "signage", "alias_entity"],
+            "required_subject_states": {
+                "physical": ["able_to_lead"],
+                "emotional": [],
+                "mental": ["role_understood"],
+                "positional": ["at_forefront"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["front_assumed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["represented_or_screened"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "frost",
+            "applicable_subjects": ["environment", "organization", "synthetic_agent"],
+            "applicable_objects": ["object", "place", "food"],
+            "goals": ["cover_with_ice", "chill_surface", "apply_icing"],
+            "mechanisms": ["temperature_drop", "moisture_condense", "icing_application"],
+            "tools": ["cooling_system", "frosting_tool", "environmental_chill"],
+            "required_subject_states": {
+                "physical": ["cooling_capable"],
+                "emotional": [],
+                "mental": ["target_identified"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["surface_exposed"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["frost_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["frosted_or_iced"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "froth",
+            "applicable_subjects": ["environment", "organization", "synthetic_agent"],
+            "applicable_objects": ["object", "liquid", "food"],
+            "goals": ["create_foam", "aerate", "agitate_to_bubbles"],
+            "mechanisms": ["whisking", "aeration", "chemical_reaction"],
+            "tools": ["frother", "whisk", "gas_injection"],
+            "required_subject_states": {
+                "physical": ["agitation_capable"],
+                "emotional": [],
+                "mental": ["froth_intent"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["liquid_or_foamage_ready"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["froth_completed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["foamy"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "frown",
+            "applicable_subjects": ["biological_body", "synthetic_agent"],
+            "applicable_objects": ["concept", "biological_body", "event"],
+            "goals": ["show_displeasure", "signal_concern", "express_thought"],
+            "mechanisms": ["facial_muscle_contraction", "brow_furrow", "expression_change"],
+            "tools": ["face", "display", "avatar"],
+            "required_subject_states": {
+                "physical": ["expression_capable"],
+                "emotional": [],
+                "mental": ["reaction_present"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["concerned_or_displeased"],
+                "mental": ["reaction_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["noticed_expression"],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "frustrate",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["thwart_progress", "cause_irritation", "block_goal"],
+            "mechanisms": ["obstruction", "delays", "contrary_actions"],
+            "tools": ["policy_barrier", "countermeasure", "noise"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["obstruction_strategy"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": ["goal_oriented"],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["frustration_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["frustrated"],
+                "mental": ["progress_blocked"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fry",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["food", "object", "virtual_object"],
+            "goals": ["cook_in_oil", "overheat", "destroy_with_heat"],
+            "mechanisms": ["immersion_in_oil", "surface_frying", "thermal_overload"],
+            "tools": ["pan", "oil", "heat_source"],
+            "required_subject_states": {
+                "physical": ["heat_source_ready"],
+                "emotional": [],
+                "mental": ["temperature_set"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["heat_tolerant_or_food_item"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["frying_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["cooked_or_overheated"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

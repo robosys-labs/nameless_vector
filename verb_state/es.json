@@ -1,0 +1,239 @@
+{
+    "prefix": "es",
+    "processed_verbs": [
+        "escalate",
+        "escape",
+        "eschew",
+        "escort",
+        "espouse",
+        "establish",
+        "estimate"
+    ],
+    "outcomes": [
+        {
+            "verb": "escalate",
+            "applicable_subjects": ["organization", "autonomous_agent", "biological_body"],
+            "applicable_objects": ["concept", "organization", "virtual_object"],
+            "goals": ["increase_intensity", "raise_priority", "force_resolution"],
+            "mechanisms": ["issue_elevation", "resource_amplification", "stakeholder_alert"],
+            "tools": ["escalation_channel", "communication_system", "priority_flag"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["concerned"],
+                "mental": ["impact_assessed"],
+                "positional": ["within_chain_of_command"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["unresolved"],
+                "positional": ["within_process"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["alert"],
+                "mental": ["attention_secured"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["higher_priority"],
+                "positional": ["at_upper_level"]
+            }
+        },
+        {
+            "verb": "escape",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["place", "organization", "concept"],
+            "goals": ["gain_freedom", "avoid_harm", "evade_capture"],
+            "mechanisms": ["evasion_route", "barrier_breach", "distraction_use"],
+            "tools": ["exit_path", "mobility_device", "cover"],
+            "required_subject_states": {
+                "physical": ["mobile"],
+                "emotional": ["urgent"],
+                "mental": ["route_identified"],
+                "positional": ["near_exit"]
+            },
+            "required_object_states": {
+                "physical": ["constraining"],
+                "emotional": [],
+                "mental": ["threatening"],
+                "positional": ["surrounding_subject"]
+            },
+            "final_subject_states": {
+                "physical": ["clear_of_zone"],
+                "emotional": ["relieved"],
+                "mental": ["safe_status_noted"],
+                "positional": ["outside_threat_area"]
+            },
+            "final_object_states": {
+                "physical": ["left_behind"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "escort",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["biological_body", "object"],
+            "goals": ["provide_protection", "ensure_arrival", "guide_route"],
+            "mechanisms": ["flanking_position", "route_management", "protective_presence"],
+            "tools": ["communication_device", "navigation_system", "protective_gear"],
+            "required_subject_states": {
+                "physical": ["ready_to_move"],
+                "emotional": ["vigilant"],
+                "mental": ["route_memorized"],
+                "positional": ["alongside_object"]
+            },
+            "required_object_states": {
+                "physical": ["mobile"],
+                "emotional": ["cooperative"],
+                "mental": ["destination_known"],
+                "positional": ["within_guard_formation"]
+            },
+            "final_subject_states": {
+                "physical": ["mission_complete"],
+                "emotional": ["responsible"],
+                "mental": ["transfer_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["arrived"],
+                "emotional": ["reassured"],
+                "mental": ["safe_status"],
+                "positional": ["at_destination"]
+            }
+        },
+        {
+            "verb": "eschew",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "object"],
+            "goals": ["avoid_practice", "reject_option", "maintain_standard"],
+            "mechanisms": ["intentional_refusal", "substitution_choice", "policy_adherence"],
+            "tools": ["guideline", "alternative_option", "self_control"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["committed"],
+                "mental": ["undesired_outcome_known"],
+                "positional": ["decision_point"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["identified_as_unsuitable"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["resolved"],
+                "mental": ["avoidance_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["excluded_choice"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "espouse",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept"],
+            "goals": ["adopt_cause", "support_position", "publicly_align"],
+            "mechanisms": ["declaration", "advocacy", "integration_into_practice"],
+            "tools": ["statement_platform", "campaign_material", "policy_document"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["convicted"],
+                "mental": ["belief_internalized"],
+                "positional": ["in_public_forum"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["cause_defined"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["committed"],
+                "mental": ["alignment_noted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["supported"],
+                "mental": ["backing_gained"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "establish",
+            "applicable_subjects": ["organization", "biological_body", "synthetic_agent"],
+            "applicable_objects": ["organization", "place", "concept"],
+            "goals": ["set_foundation", "create_structure", "make_official"],
+            "mechanisms": ["founding_action", "infrastructure_setup", "formalization"],
+            "tools": ["charter", "resource_pool", "implementation_plan"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["determined"],
+                "mental": ["plan_defined"],
+                "positional": ["within_target_region"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["requirements_documented"],
+                "positional": ["site_selected"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["accomplished"],
+                "mental": ["operations_active"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["operational"],
+                "emotional": [],
+                "mental": ["institutionalized"],
+                "positional": ["located"]
+            }
+        },
+        {
+            "verb": "estimate",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["concept", "virtual_object", "object"],
+            "goals": ["approximate_value", "plan_resources", "set_expectation"],
+            "mechanisms": ["sampling", "modeling", "historical_reference"],
+            "tools": ["calculator", "spreadsheet", "estimation_model"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["objective"],
+                "mental": ["inputs_collected"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["parameters_identified"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["informed"],
+                "mental": ["estimate_documented"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["value_approximated"],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

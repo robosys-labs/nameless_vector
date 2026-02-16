@@ -1,0 +1,170 @@
+{
+    "prefix": "ej",
+    "processed_verbs": [
+        "ejaculate",
+        "eject"
+    ],
+
+    "outcomes": [
+        {
+            "verb": "ejaculate",
+            "applicable_subjects": [
+                "biological_body",
+                "medical_system"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "concept"
+            ],
+            "goals": [
+                "expel_reproductive_fluid",
+                "relieve_internal_pressure"
+            ],
+            "mechanisms": [
+                "muscular_contraction",
+                "hormonal_trigger",
+                "neurological_signal"
+            ],
+            "tools": [
+                "biological_response",
+                "clinical_monitor",
+                "supportive_context"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "aroused",
+                    "vascular_response"
+                ],
+                "emotional": [
+                    "comfortable"
+                ],
+                "mental": [
+                    "consenting"
+                ],
+                "positional": [
+                    "proximate_to_recipient_or_collection_surface"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "receptive_surface"
+                ],
+                "emotional": [],
+                "mental": [
+                    "informed_of_procedure"
+                ],
+                "positional": [
+                    "within_dispersion_range"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "relaxed",
+                    "post_release"
+                ],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [
+                    "recording_experience"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "coated_with_fluids",
+                    "collected"
+                ],
+                "emotional": [],
+                "mental": [
+                    "documented_for_analysis"
+                ],
+                "positional": [
+                    "secured_in_container"
+                ]
+            }
+        },
+        {
+            "verb": "eject",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "autonomous_agent"
+            ],
+            "applicable_objects": [
+                "object",
+                "biological_body",
+                "virtual_object"
+            ],
+            "goals": [
+                "expel_entity_from_system",
+                "preserve_operational_safety"
+            ],
+            "mechanisms": [
+                "spring_release",
+                "thrust_application",
+                "access_revocation"
+            ],
+            "tools": [
+                "ejection_handle",
+                "control_console",
+                "security_policy"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "ready_stance"
+                ],
+                "emotional": [
+                    "decisive"
+                ],
+                "mental": [
+                    "risk_assessed"
+                ],
+                "positional": [
+                    "adjacent_to_exit_interface"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "unlocked",
+                    "detachable"
+                ],
+                "emotional": [],
+                "mental": [
+                    "revocation_triggered"
+                ],
+                "positional": [
+                    "aligned_with_escape_vector"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "clear_of_hazard"
+                ],
+                "emotional": [
+                    "reassured"
+                ],
+                "mental": [
+                    "incident_logged"
+                ],
+                "positional": [
+                    "at_safe_distance"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "displaced",
+                    "isolated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "flagged_for_follow_up"
+                ],
+                "positional": [
+                    "outside_operational_zone"
+                ]
+            }
+        }
+    ],
+    "completed": false
+}

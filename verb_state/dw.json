@@ -1,0 +1,224 @@
+{
+    "prefix": "dw",
+    "processed_verbs": [
+        "dwarf",
+        "dwell",
+        "dwindle"
+    ],
+    "outcomes": [
+        {
+            "verb": "dwarf",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations",
+                "objects"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "objects",
+                "concepts"
+            ],
+            "goals": [
+                "cause another thing to appear smaller by comparison",
+                "overshadow through scale or achievement"
+            ],
+            "mechanisms": [
+                "juxtaposition",
+                "magnification",
+                "performance superiority"
+            ],
+            "tools": [
+                "architecture",
+                "lighting",
+                "media exposure"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "prominent",
+                    "visible"
+                ],
+                "emotional": [],
+                "mental": [
+                    "aware of contrast"
+                ],
+                "positional": [
+                    "adjacent to object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "smaller",
+                    "less intense"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "within comparison frame"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "dominant"
+                ],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "validated"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "perceived smaller"
+                ],
+                "emotional": [
+                    "diminished"
+                ],
+                "mental": [
+                    "relegated"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dwell",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "places",
+                "concepts"
+            ],
+            "goals": [
+                "reside or remain in a location",
+                "focus attention repeatedly on a topic"
+            ],
+            "mechanisms": [
+                "habitation",
+                "rumination",
+                "continuous presence"
+            ],
+            "tools": [
+                "shelter",
+                    "records",
+                    "communication channels"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "settled"
+                ],
+                "emotional": [
+                    "attached"
+                ],
+                "mental": [
+                    "reflective"
+                ],
+                "positional": [
+                    "within chosen space"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "habitable",
+                    "accessible"
+                ],
+                "emotional": [],
+                "mental": [
+                    "meaningful"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "established"
+                ],
+                "emotional": [
+                    "rooted"
+                ],
+                "mental": [
+                    "contemplative"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "occupied"
+                ],
+                "emotional": [],
+                "mental": [
+                    "considered"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dwindle",
+            "applicable_subjects": [
+                "resources",
+                "organizations",
+                "biological bodies"
+            ],
+            "applicable_objects": [
+                "resources",
+                "populations",
+                "concepts"
+            ],
+            "goals": [
+                "gradually shrink in size or quantity",
+                "allow something to taper off"
+            ],
+            "mechanisms": [
+                "consumption",
+                "attrition",
+                "evaporation"
+            ],
+            "tools": [
+                "time",
+                "usage",
+                "neglect"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "limited reserves"
+                ],
+                "emotional": [],
+                "mental": [
+                    "unmonitored"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "finite"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "depleted"
+                ],
+                "emotional": [
+                    "concerned"
+                ],
+                "mental": [
+                    "aware of scarcity"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "reduced",
+                    "nearing exhaustion"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

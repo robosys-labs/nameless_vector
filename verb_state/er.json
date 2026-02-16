@@ -1,0 +1,206 @@
+{
+    "prefix": "er",
+    "processed_verbs": [
+        "eradicate",
+        "erase",
+        "erect",
+        "erode",
+        "err",
+        "erupt"
+    ],
+    "outcomes": [
+        {
+            "verb": "eradicate",
+            "applicable_subjects": ["organization", "biological_body", "synthetic_agent"],
+            "applicable_objects": ["concept", "micro_biological_entities", "object"],
+            "goals": ["eliminate_presence", "remove_threat", "achieve_purity"],
+            "mechanisms": ["targeted_removal", "sterilization_process", "systematic_purge"],
+            "tools": ["disinfection_agent", "removal_protocol", "containment_kit"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["resolved"],
+                "mental": ["threat_profiled"],
+                "positional": ["within_operational_zone"]
+            },
+            "required_object_states": {
+                "physical": ["identified"],
+                "emotional": [],
+                "mental": ["hazard_flagged"],
+                "positional": ["accessible_for_removal"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["assured"],
+                "mental": ["removal_confirmed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["eliminated"],
+                "emotional": [],
+                "mental": ["risk_resolved"],
+                "positional": ["absent_from_area"]
+            }
+        },
+        {
+            "verb": "erase",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["virtual_object", "object", "marking"],
+            "goals": ["remove_information", "clear_surface", "reset_state"],
+            "mechanisms": ["deletion_command", "physical_scrubbing", "overwrite_cycle"],
+            "tools": ["eraser", "wipe_solution", "delete_interface"],
+            "required_subject_states": {
+                "physical": ["control_of_tool"],
+                "emotional": ["careful"],
+                "mental": ["target_known"],
+                "positional": ["within_reach"]
+            },
+            "required_object_states": {
+                "physical": ["marked"],
+                "emotional": [],
+                "mental": ["content_present"],
+                "positional": ["accessible_surface"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied"],
+                "mental": ["clearing_verified"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["clean"],
+                "emotional": [],
+                "mental": ["data_removed"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "erect",
+            "applicable_subjects": ["organization", "physical_agent", "biological_body"],
+            "applicable_objects": ["structure", "barrier", "object"],
+            "goals": ["build_vertical_form", "establish_support", "create_boundary"],
+            "mechanisms": ["assembly_sequence", "lifting_operation", "anchoring_process"],
+            "tools": ["construction_kit", "fastening_tools", "lifting_equipment"],
+            "required_subject_states": {
+                "physical": ["able_to_lift"],
+                "emotional": ["focused"],
+                "mental": ["blueprint_understood"],
+                "positional": ["at_build_site"]
+            },
+            "required_object_states": {
+                "physical": ["materials_available"],
+                "emotional": [],
+                "mental": ["specifications_defined"],
+                "positional": ["staged_on_site"]
+            },
+            "final_subject_states": {
+                "physical": ["work_completed"],
+                "emotional": ["accomplished"],
+                "mental": ["structure_verified"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["standing"],
+                "emotional": [],
+                "mental": ["integrity_confirmed"],
+                "positional": ["fixed_in_place"]
+            }
+        },
+        {
+            "verb": "erode",
+            "applicable_subjects": ["environment", "process", "time"],
+            "applicable_objects": ["object", "surface", "landform"],
+            "goals": ["wear_down", "reduce_mass", "alter_shape"],
+            "mechanisms": ["abrasion", "chemical_weathering", "flow_action"],
+            "tools": ["fluid_motion", "particulate_flow", "reactive_agent"],
+            "required_subject_states": {
+                "physical": ["active_force"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["in_contact_with_object"]
+            },
+            "required_object_states": {
+                "physical": ["exposed"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["within_force_path"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["reduced", "shaped"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "err",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["action", "judgment", "calculation"],
+            "goals": ["deviate_from_correctness", "experience_mistake", "test_boundary"],
+            "mechanisms": ["misjudgment", "faulty_input", "incomplete_information"],
+            "tools": ["imperfect_data", "limited_time", "constraint_pressure"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["stressed"],
+                "mental": ["uncertain"],
+                "positional": ["within_decision_context"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["ambiguity_present"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["regretful"],
+                "mental": ["lesson_noted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["error_recorded"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "erupt",
+            "applicable_subjects": ["environment", "biological_body", "object"],
+            "applicable_objects": ["material", "emotion", "signal"],
+            "goals": ["release_force", "emit_contents", "signal_event"],
+            "mechanisms": ["pressure_build_up", "thermal_expansion", "sudden_release"],
+            "tools": ["vent_path", "propulsion_force", "rupture_point"],
+            "required_subject_states": {
+                "physical": ["pressurized"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["confined_space"]
+            },
+            "required_object_states": {
+                "physical": ["stored_material"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["ready_for_discharge"]
+            },
+            "final_subject_states": {
+                "physical": ["depressurized"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["dispersed"],
+                "emotional": [],
+                "mental": ["event_logged"],
+                "positional": ["spread_around"]
+            }
+        }
+    ],
+    "completed": true
+}

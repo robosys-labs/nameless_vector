@@ -1,0 +1,1532 @@
+{
+    "prefix": "do",
+    "processed_verbs": [
+        "do",
+        "dock",
+        "docket",
+        "doctor",
+        "document",
+        "dodge",
+        "dog",
+        "doff",
+        "dole",
+        "doll",
+        "dolly",
+        "domesticate",
+        "dominate",
+        "domineer",
+        "don",
+        "donate",
+        "doom",
+        "dope",
+        "dose",
+        "doodle",
+        "dote",
+        "dot",
+        "double",
+        "doubt",
+        "douse",
+        "dovetail",
+        "down",
+        "downplay",
+        "downscale",
+        "downshift",
+        "downsize",
+        "downgrade",
+        "download",
+        "downvote",
+        "doze"
+    ],
+
+    "outcomes": [
+        {
+            "verb": "do",
+            "applicable_subjects": [
+                "biological bodies",
+                "concepts"
+            ],
+            "applicable_objects": [
+                "objects",
+                "concepts"
+            ],
+            "goals": [
+                "perform or complete a defined task"
+            ],
+            "mechanisms": [
+                "execution",
+                "coordination",
+                "decision-making"
+            ],
+            "tools": [
+                "skills",
+                "available instruments"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "ready"
+                ],
+                "emotional": [
+                    "motivated"
+                ],
+                "mental": [
+                    "focused"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "accessible"
+                ],
+                "emotional": [],
+                "mental": [
+                    "defined"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "engaged"
+                ],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "accomplished"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "utilized"
+                ],
+                "emotional": [],
+                "mental": [
+                    "updated"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dock",
+            "applicable_subjects": [
+                "objects",
+                "biological bodies"
+            ],
+            "applicable_objects": [
+                "objects",
+                "places"
+            ],
+            "goals": [
+                "secure one body to another interface"
+            ],
+            "mechanisms": [
+                "alignment",
+                "approach control",
+                "latching"
+            ],
+            "tools": [
+                "docking clamps",
+                "guidance systems"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "maneuverable"
+                ],
+                "emotional": [],
+                "mental": [
+                    "attentive"
+                ],
+                "positional": [
+                    "near interface"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "stable",
+                    "available port"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "aligned"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "secured"
+                ],
+                "emotional": [],
+                "mental": [
+                    "confirmed"
+                ],
+                "positional": [
+                    "attached"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "receiving",
+                    "stabilized"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "occupied"
+                ]
+            }
+        },
+        {
+            "verb": "doctor",
+            "applicable_subjects": [
+                "biological bodies",
+                "concepts"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "concepts"
+            ],
+            "goals": [
+                "restore health or modify condition"
+            ],
+            "mechanisms": [
+                "diagnosis",
+                "treatment",
+                "monitoring"
+            ],
+            "tools": [
+                "medical instruments",
+                "pharmaceuticals",
+                "data"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "present"
+                ],
+                "emotional": [
+                    "empathetic"
+                ],
+                "mental": [
+                    "analytical"
+                ],
+                "positional": [
+                    "proximate"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "assessable"
+                ],
+                "emotional": [
+                    "trusting"
+                ],
+                "mental": [
+                    "communicative"
+                ],
+                "positional": [
+                    "stable"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "informed"
+                ],
+                "emotional": [
+                    "reassured"
+                ],
+                "mental": [
+                    "decisive"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "treated"
+                ],
+                "emotional": [
+                    "supported"
+                ],
+                "mental": [
+                    "guided"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "document",
+            "applicable_subjects": [
+                "biological bodies",
+                "concepts"
+            ],
+            "applicable_objects": [
+                "concepts",
+                "events",
+                "objects"
+            ],
+            "goals": [
+                "record details for reference or proof"
+            ],
+            "mechanisms": [
+                "observation",
+                "notation",
+                "archiving"
+            ],
+            "tools": [
+                "writing instruments",
+                "cameras",
+                "software"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "observant"
+                ],
+                "emotional": [],
+                "mental": [
+                    "organized"
+                ],
+                "positional": [
+                    "within view"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "visible"
+                ],
+                "emotional": [],
+                "mental": [
+                    "understood"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "completed notation"
+                ],
+                "emotional": [],
+                "mental": [
+                    "clarified"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "captured"
+                ],
+                "emotional": [],
+                "mental": [
+                    "memorialized"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dodge",
+            "applicable_subjects": [
+                "biological bodies",
+                "objects"
+            ],
+            "applicable_objects": [
+                "objects",
+                "concepts"
+            ],
+            "goals": [
+                "avoid impact or responsibility"
+            ],
+            "mechanisms": [
+                "rapid movement",
+                "deflection",
+                "reframing"
+            ],
+            "tools": [
+                "agility",
+                "cover",
+                "narrative"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "nimble"
+                ],
+                "emotional": [
+                    "alert"
+                ],
+                "mental": [
+                    "anticipatory"
+                ],
+                "positional": [
+                    "ready to pivot"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "approaching"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "on collision path"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "clear of threat"
+                ],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [
+                    "validated"
+                ],
+                "positional": [
+                    "offset"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "missed target"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "past subject"
+                ]
+            }
+        },
+        {
+            "verb": "doff",
+            "applicable_subjects": [
+                "biological bodies"
+            ],
+            "applicable_objects": [
+                "objects"
+            ],
+            "goals": [
+                "remove clothing or accessories"
+            ],
+            "mechanisms": [
+                "loosening",
+                "lifting",
+                "disengaging fasteners"
+            ],
+            "tools": [
+                "hands",
+                "assistive devices"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "dexterous"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intentional"
+                ],
+                "positional": [
+                    "supporting garment"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "worn",
+                    "unfastened"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "unencumbered"
+                ],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "removed",
+                    "folded"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "set aside"
+                ]
+            }
+        },
+        {
+            "verb": "domesticate",
+            "applicable_subjects": [
+                "biological bodies",
+                "concepts"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "concepts"
+            ],
+            "goals": [
+                "adapt a wild entity for cooperative living"
+            ],
+            "mechanisms": [
+                "conditioning",
+                "selective breeding",
+                "environment control"
+            ],
+            "tools": [
+                "habitats",
+                "reinforcements",
+                "rituals"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "patient"
+                ],
+                "emotional": [
+                    "gentle"
+                ],
+                "mental": [
+                    "observant"
+                ],
+                "positional": [
+                    "co-located"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "trainable"
+                ],
+                "emotional": [
+                    "capable of bonding"
+                ],
+                "mental": [
+                    "responsive"
+                ],
+                "positional": [
+                    "secured"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "coordinated"
+                ],
+                "emotional": [
+                    "bonded"
+                ],
+                "mental": [
+                    "knowledgeable"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "habituated"
+                ],
+                "emotional": [
+                    "trusting"
+                ],
+                "mental": [
+                    "trained"
+                ],
+                "positional": [
+                    "integrated"
+                ]
+            }
+        },
+        {
+            "verb": "dominate",
+            "applicable_subjects": [
+                "biological bodies",
+                "concepts"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "concepts",
+                "objects"
+            ],
+            "goals": [
+                "assert control or superiority"
+            ],
+            "mechanisms": [
+                "force",
+                "strategy",
+                "leverage"
+            ],
+            "tools": [
+                "authority",
+                "resources",
+                "presence"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable"
+                ],
+                "emotional": [
+                    "assertive"
+                ],
+                "mental": [
+                    "calculating"
+                ],
+                "positional": [
+                    "advantaged"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "exposed"
+                ],
+                "emotional": [
+                    "susceptible"
+                ],
+                "mental": [
+                    "less empowered"
+                ],
+                "positional": [
+                    "within reach"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "commanding"
+                ],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "controlling"
+                ],
+                "positional": [
+                    "above"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "constrained"
+                ],
+                "emotional": [
+                    "submissive"
+                ],
+                "mental": [
+                    "yielding"
+                ],
+                "positional": [
+                    "beneath"
+                ]
+            }
+        },
+        {
+            "verb": "domineer",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "concepts"
+            ],
+            "goals": [
+                "impose will in an overbearing way"
+            ],
+            "mechanisms": [
+                "commanding speech",
+                "micromanaging",
+                "withholding approval"
+            ],
+            "tools": [
+                "authority",
+                "rules",
+                "social leverage"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "controlling"
+                ],
+                "mental": [
+                    "rigid"
+                ],
+                "positional": [
+                    "in superior role"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "subordinate"
+                ],
+                "mental": [
+                    "susceptible to influence"
+                ],
+                "positional": [
+                    "within reach"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "self-assured"
+                ],
+                "mental": [
+                    "validated control"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "resentful"
+                ],
+                "mental": [
+                    "constrained"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "donate",
+            "applicable_subjects": [
+                "biological bodies",
+                "concepts"
+            ],
+            "applicable_objects": [
+                "objects",
+                "concepts",
+                "biological bodies"
+            ],
+            "goals": [
+                "transfer resources for support"
+            ],
+            "mechanisms": [
+                "gifting",
+                "allocation",
+                "distribution"
+            ],
+            "tools": [
+                "funds",
+                "goods",
+                "services"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "generous"
+                ],
+                "mental": [
+                    "committed"
+                ],
+                "positional": [
+                    "in possession"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "transferable"
+                ],
+                "emotional": [],
+                "mental": [
+                    "assigned value"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "fulfilled"
+                ],
+                "mental": [
+                    "aligned with cause"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "reallocated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "purposed"
+                ],
+                "positional": [
+                    "with recipient"
+                ]
+            }
+        },
+        {
+            "verb": "double",
+            "applicable_subjects": [
+                "biological bodies",
+                "objects",
+                "concepts"
+            ],
+            "applicable_objects": [
+                "objects",
+                "concepts"
+            ],
+            "goals": [
+                "increase quantity or effect by a factor of two"
+            ],
+            "mechanisms": [
+                "replication",
+                "amplification",
+                "scaling"
+            ],
+            "tools": [
+                "multipliers",
+                "resources",
+                "algorithms"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "calculating"
+                ],
+                "positional": [
+                    "control of inputs"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "divisible"
+                ],
+                "emotional": [],
+                "mental": [
+                    "quantified"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "confident in increase"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "scaled"
+                ],
+                "emotional": [],
+                "mental": [
+                    "recomputed"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "doubt",
+            "applicable_subjects": [
+                "biological bodies",
+                "concepts"
+            ],
+            "applicable_objects": [
+                "concepts",
+                "decisions",
+                "claims"
+            ],
+            "goals": [
+                "question the truth or reliability of something"
+            ],
+            "mechanisms": [
+                "reconsidering evidence",
+                "seeking corroboration",
+                "posing challenges"
+            ],
+            "tools": [
+                "logic",
+                "queries",
+                "comparative data"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "uncertain"
+                ],
+                "mental": [
+                    "analytical"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "asserted without full proof"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "skeptical"
+                ],
+                "mental": [
+                    "seeking validation"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "under scrutiny"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dose",
+            "applicable_subjects": [
+                "biological bodies",
+                "medical agents"
+            ],
+            "applicable_objects": [
+                "biological bodies"
+            ],
+            "goals": [
+                "administer a measured amount of a substance"
+            ],
+            "mechanisms": [
+                "measuring",
+                "delivering",
+                "monitoring response"
+            ],
+            "tools": [
+                "syringes",
+                "measuring spoons",
+                "dispensers"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "steady"
+                ],
+                "emotional": [
+                    "careful"
+                ],
+                "mental": [
+                    "aware of dosage"
+                ],
+                "positional": [
+                    "adjacent to recipient"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "prepared medicine",
+                    "receptive body"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "attentive"
+                ],
+                "mental": [
+                    "tracking effects"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "treated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "responding to medication"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "doodle",
+            "applicable_subjects": [
+                "biological bodies"
+            ],
+            "applicable_objects": [
+                "concepts",
+                "objects"
+            ],
+            "goals": [
+                "create informal marks while thinking"
+            ],
+            "mechanisms": [
+                "sketching",
+                "scribbling",
+                "tracing"
+            ],
+            "tools": [
+                "pen",
+                "pencil",
+                "stylus"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "holding instrument"
+                ],
+                "emotional": [
+                    "relaxed"
+                ],
+                "mental": [
+                    "wandering"
+                ],
+                "positional": [
+                    "near surface"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "blank or spare surface"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "lightened"
+                ],
+                "mental": [
+                    "expressed idle thoughts"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "decorated with marks"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dote",
+            "applicable_subjects": [
+                "biological bodies"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "concepts"
+            ],
+            "goals": [
+                "lavish affection or attention"
+            ],
+            "mechanisms": [
+                "praising",
+                "gifting",
+                "caretaking"
+            ],
+            "tools": [
+                "words",
+                "gifts",
+                "acts of service"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "adoring"
+                ],
+                "mental": [
+                    "preoccupied"
+                ],
+                "positional": [
+                    "near recipient"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "receptive"
+                ],
+                "mental": [
+                    "aware of attention"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "focused on recipient"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "cherished"
+                ],
+                "mental": [
+                    "affirmed"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dot",
+            "applicable_subjects": [
+                "biological bodies",
+                "objects"
+            ],
+            "applicable_objects": [
+                "objects",
+                "surfaces",
+                "concepts"
+            ],
+            "goals": [
+                "apply small marks or points"
+            ],
+            "mechanisms": [
+                "tapping",
+                "inking",
+                "clicking"
+            ],
+            "tools": [
+                "pen",
+                "brush",
+                "digital stylus"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "steady"
+                ],
+                "emotional": [],
+                "mental": [
+                    "precise"
+                ],
+                "positional": [
+                    "touching surface"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "accepting medium"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "pattern recorded"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "marked with dots"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dovetail",
+            "applicable_subjects": [
+                "biological bodies",
+                "objects"
+            ],
+            "applicable_objects": [
+                "objects",
+                "concepts"
+            ],
+            "goals": [
+                "join elements so they interlock precisely"
+            ],
+            "mechanisms": [
+                "measuring",
+                "cutting",
+                "fitting"
+            ],
+            "tools": [
+                "saws",
+                "chisels",
+                "templates"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "precise"
+                ],
+                "emotional": [],
+                "mental": [
+                    "meticulous"
+                ],
+                "positional": [
+                    "at work surface"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "prepared edges"
+                ],
+                "emotional": [],
+                "mental": [
+                    "designed complements"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "confident in fit"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "interlocked",
+                    "aligned"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "down",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations",
+                "objects"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "objects",
+                "systems"
+            ],
+            "goals": [
+                "bring something to the ground or end its operation"
+            ],
+            "mechanisms": [
+                "tackling",
+                "disabling",
+                "shooting"
+            ],
+            "tools": [
+                "force",
+                "projectiles",
+                "commands"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "forceful"
+                ],
+                "emotional": [
+                    "aggressive"
+                ],
+                "mental": [
+                    "targeted"
+                ],
+                "positional": [
+                    "within striking distance"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "upright",
+                    "operational"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "expended effort"
+                ],
+                "emotional": [
+                    "assertive"
+                ],
+                "mental": [
+                    "confirmed stoppage"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "grounded",
+                    "disabled"
+                ],
+                "emotional": [],
+                "mental": [
+                    "shut down"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "downshift",
+            "applicable_subjects": [
+                "biological bodies",
+                "objects",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "vehicles",
+                "processes",
+                "strategies"
+            ],
+            "goals": [
+                "transition to a lower speed, gear, or intensity"
+            ],
+            "mechanisms": [
+                "clutching",
+                "selecting lower gear",
+                "policy adjustment"
+            ],
+            "tools": [
+                "gear selector",
+                "controls",
+                "operational procedures"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "coordinated"
+                ],
+                "emotional": [
+                    "calm"
+                ],
+                "mental": [
+                    "anticipatory"
+                ],
+                "positional": [
+                    "at controls"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "in motion"
+                ],
+                "emotional": [],
+                "mental": [
+                    "responsive system"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "stabilized"
+                ],
+                "emotional": [
+                    "in control"
+                ],
+                "mental": [
+                    "adjusted plan"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "operating at lower range"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "downsize",
+            "applicable_subjects": [
+                "organizations"
+            ],
+            "applicable_objects": [
+                "organizations",
+                "workforces",
+                "facilities"
+            ],
+            "goals": [
+                "reduce scope or capacity"
+            ],
+            "mechanisms": [
+                "analysis",
+                "layoffs",
+                "asset sales"
+            ],
+            "tools": [
+                "budgets",
+                "reports",
+                "policy changes"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "resolved"
+                ],
+                "mental": [
+                    "strategic"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "overextended"
+                ],
+                "emotional": [],
+                "mental": [
+                    "documented inefficiencies"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "sober"
+                ],
+                "mental": [
+                    "aligned to new scale"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "smaller footprint"
+                ],
+                "emotional": [],
+                "mental": [
+                    "revised structure"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "downgrade",
+            "applicable_subjects": [
+                "organizations",
+                "biological bodies"
+            ],
+            "applicable_objects": [
+                "services",
+                "ratings",
+                "devices"
+            ],
+            "goals": [
+                "assign a lower rank or capability"
+            ],
+            "mechanisms": [
+                "reclassification",
+                "removal of features",
+                "public notice"
+            ],
+            "tools": [
+                "evaluation criteria",
+                "reports",
+                "configuration controls"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "objective"
+                ],
+                "mental": [
+                    "evaluative"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "operational history"
+                ],
+                "emotional": [],
+                "mental": [
+                    "performance data"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "resolved"
+                ],
+                "mental": [
+                    "communicated change"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "limited access or capacity"
+                ],
+                "emotional": [],
+                "mental": [
+                    "relabelled"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "downvote",
+            "applicable_subjects": [
+                "biological bodies",
+                "software agents"
+            ],
+            "applicable_objects": [
+                "concepts",
+                "content",
+                "proposals"
+            ],
+            "goals": [
+                "register disapproval within a voting system"
+            ],
+            "mechanisms": [
+                "button press",
+                "ballot marking",
+                "command execution"
+            ],
+            "tools": [
+                "voting interface",
+                "ballot",
+                "api request"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "access to interface"
+                ],
+                "emotional": [
+                    "displeased"
+                ],
+                "mental": [
+                    "decided"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "available for evaluation"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "expressed"
+                ],
+                "mental": [
+                    "record acknowledged"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "score decreased"
+                ],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

@@ -1,0 +1,79 @@
+{
+  "prefix": "ok",
+  "processed_verbs": [
+    "okay"
+  ],
+  "outcomes": [
+    {
+      "verb": "okay",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "concept",
+        "organization",
+        "virtual_object",
+        "biological_body"
+      ],
+      "goals": [
+        "approve",
+        "authorize"
+      ],
+      "mechanisms": [
+        "consenting",
+        "signing",
+        "verbal agreement"
+      ],
+      "tools": [
+        "signature",
+        "policy",
+        "communication"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "willing"
+        ],
+        "mental": [
+          "understands request",
+          "empowered"
+        ],
+        "positional": [
+          "reachable by requester"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "defined",
+          "proposed"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "supportive"
+        ],
+        "mental": [
+          "recorded approval"
+        ],
+        "positional": [
+          "noted in approval context"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "approved"
+        ],
+        "positional": []
+      }
+    }
+  ],
+  "completed": true
+}

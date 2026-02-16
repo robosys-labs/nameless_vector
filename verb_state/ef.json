@@ -1,0 +1,376 @@
+{
+    "prefix": "ef",
+    "processed_verbs": [
+        "efface",
+        "effect",
+        "effectuate",
+        "effervesce",
+        "effloresce"
+    ],
+
+    "outcomes": [
+        {
+            "verb": "efface",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "autonomous_agent"
+            ],
+            "applicable_objects": [
+                "concept",
+                "virtual_object",
+                "object"
+            ],
+            "goals": [
+                "remove_visible_marks",
+                "erase_traces_of_events"
+            ],
+            "mechanisms": [
+                "buffing",
+                "redacting",
+                "chemical_treatment"
+            ],
+            "tools": [
+                "abrasive_pad",
+                "solvent",
+                "revision_queue"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "steady"
+                ],
+                "emotional": [
+                    "patient"
+                ],
+                "mental": [
+                    "detail_oriented"
+                ],
+                "positional": [
+                    "adjacent_to_surface"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "marked",
+                    "accessible"
+                ],
+                "emotional": [],
+                "mental": [
+                    "documented_for_change"
+                ],
+                "positional": [
+                    "secured_in_work_area"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "tools_stowed"
+                ],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "confirmed_removal"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "smoothed",
+                    "cleared"
+                ],
+                "emotional": [],
+                "mental": [
+                    "reclassified_as_clean"
+                ],
+                "positional": [
+                    "ready_for_next_finish"
+                ]
+            }
+        },
+        {
+            "verb": "effect",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "autonomous_agent"
+            ],
+            "applicable_objects": [
+                "concept",
+                "process",
+                "policy"
+            ],
+            "goals": [
+                "bring_about_change",
+                "implement_defined_outcome"
+            ],
+            "mechanisms": [
+                "coordination",
+                "resource_allocation",
+                "directive_issue"
+            ],
+            "tools": [
+                "project_plan",
+                "authority_mandate",
+                "automation_pipeline"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "committed"
+                ],
+                "mental": [
+                    "strategic",
+                    "informed"
+                ],
+                "positional": [
+                    "embedded_in_decision_chain"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "specified",
+                    "approved"
+                ],
+                "positional": [
+                    "within_scope"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "resolved"
+                ],
+                "mental": [
+                    "tracking_impact"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "instituted",
+                    "monitored"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "effectuate",
+            "applicable_subjects": [
+                "organization",
+                "autonomous_agent",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "concept",
+                "policy",
+                "process"
+            ],
+            "goals": [
+                "translate_plan_into_action",
+                "enforce_agreed_change"
+            ],
+            "mechanisms": [
+                "workflow_activation",
+                "compliance_checks",
+                "feedback_loop"
+            ],
+            "tools": [
+                "orchestration_platform",
+                "standard_operating_procedure",
+                "telemetry_feed"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "accountable"
+                ],
+                "mental": [
+                    "process_fluent"
+                ],
+                "positional": [
+                    "authorized_within_system"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "modeled",
+                    "version_controlled"
+                ],
+                "positional": [
+                    "queued_for_execution"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "auditing_metrics"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "operationalized",
+                    "validated"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "effervesce",
+            "applicable_subjects": [
+                "biological_body",
+                "object",
+                "chemical_system"
+            ],
+            "applicable_objects": [
+                "solution",
+                "mixture",
+                "environment"
+            ],
+            "goals": [
+                "release_dissolved_gas",
+                "signal_reaction_progress"
+            ],
+            "mechanisms": [
+                "pressure_change",
+                "temperature_shift",
+                "agitation"
+            ],
+            "tools": [
+                "reaction_vessel",
+                "stirrer",
+                "temperature_probe"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "energized",
+                    "saturated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "monitored_by_operator"
+                ],
+                "positional": [
+                    "within_container"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "pressurized",
+                    "solvent_rich"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "sealed_in_vessel"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "depressurized",
+                    "aerated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "characterized"
+                ],
+                "positional": [
+                    "venting_to_surface"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "partially_degassed"
+                ],
+                "emotional": [],
+                "mental": [
+                    "logged_in_lab_book"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "effloresce",
+            "applicable_subjects": [
+                "chemical_system",
+                "object",
+                "place"
+            ],
+            "applicable_objects": [
+                "surface",
+                "structure",
+                "concept"
+            ],
+            "goals": [
+                "form_crystalline_deposit",
+                "reveal_underlying_composition"
+            ],
+            "mechanisms": [
+                "moisture_migration",
+                "evaporation",
+                "salt_transport"
+            ],
+            "tools": [
+                "hygrometer",
+                "thermal_lamp",
+                "inspection_camera"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "porous",
+                    "moisture_laden"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "exposed_to_airflow"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "contains_soluble_salts"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "adjacent_to_external_face"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "coated_with_crystals"
+                ],
+                "emotional": [],
+                "mental": [
+                    "measurement_ready"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "crystal_layer_visible"
+                ],
+                "emotional": [],
+                "mental": [
+                    "documented_condition"
+                ],
+                "positional": [
+                    "marked_for_treatment"
+                ]
+            }
+        }
+    ],
+    "completed": false
+}

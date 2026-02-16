@@ -1,0 +1,47 @@
+{
+    "prefix": "ka",
+    "processed_verbs": [
+        "karate-chop",
+        "kayak",
+        "kayo"
+    ],
+    "outcomes": [
+        {
+            "verb": "karate-chop",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["biological_body", "object"],
+            "goals": ["strike_with_edge", "break_or_disable"],
+            "mechanisms": ["hand_edge_strike", "direct_force_application"],
+            "tools": ["hand_edge", "arm_power", "training"],
+            "required_subject_states": {"physical": ["arm_free", "stance_set"], "emotional": [], "mental": ["target_identified"], "positional": ["within_striking_range"]},
+            "required_object_states": {"physical": ["reachable"], "emotional": [], "mental": [], "positional": ["within_range"]},
+            "final_subject_states": {"physical": ["force_exerted"], "emotional": [], "mental": ["strike_executed"], "positional": []},
+            "final_object_states": {"physical": ["impacted", "possibly_broken"], "emotional": ["stunned_if_sentient"], "mental": [], "positional": []}
+        },
+        {
+            "verb": "kayak",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["place", "waterway"],
+            "goals": ["travel_by_kayak", "navigate_water"],
+            "mechanisms": ["paddling", "balanced_manoeuvring"],
+            "tools": ["kayak", "paddle", "personal_floatation_device"],
+            "required_subject_states": {"physical": ["paddling_ability"], "emotional": [], "mental": ["route_or_water_conditions_known"], "positional": ["in_kayak_or_launch_point"]},
+            "required_object_states": {"physical": ["navigable_water"], "emotional": [], "mental": [], "positional": ["accessible"]},
+            "final_subject_states": {"physical": ["distance_covered"], "emotional": ["engaged"], "mental": ["navigation_performed"], "positional": ["along_or_at_destination"]},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["route_traveled"], "positional": ["waterway_used"]}
+        },
+        {
+            "verb": "kayo",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "autonomous_agent"],
+            "goals": ["knock_out", "render_unconscious"],
+            "mechanisms": ["punch", "strike", "sudden_force"],
+            "tools": ["fist", "striking_tool", "projectile"],
+            "required_subject_states": {"physical": ["able_to_strike"], "emotional": [], "mental": ["target_locked"], "positional": ["within_contact_range"]},
+            "required_object_states": {"physical": ["vulnerable_to_strike"], "emotional": [], "mental": [], "positional": ["within_range"]},
+            "final_subject_states": {"physical": ["force_exerted"], "emotional": [], "mental": ["neutralization_attempted"], "positional": []},
+            "final_object_states": {"physical": ["unconscious_or_down"], "emotional": [], "mental": ["stunned_or_blacked_out"], "positional": ["on_ground_or_supported"]}
+        }
+    ],
+    "completed": true
+}

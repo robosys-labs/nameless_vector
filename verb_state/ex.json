@@ -1,0 +1,206 @@
+{
+    "prefix": "ex",
+    "processed_verbs": [
+        "exclaim",
+        "exclude",
+        "excuse",
+        "execute",
+        "exhale",
+        "expand"
+    ],
+    "outcomes": [
+        {
+            "verb": "exclaim",
+            "applicable_subjects": ["biological_body", "organization", "interactive_app"],
+            "applicable_objects": ["concept", "virtual_object"],
+            "goals": ["express_emotion", "draw_attention", "emphasize_statement"],
+            "mechanisms": ["vocal_projection", "text_emphasis", "signal_burst"],
+            "tools": ["voice", "audio_channel", "display_output"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["charged"],
+                "mental": ["message_formed"],
+                "positional": ["within_audience_range"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["attention_available"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["relieved"],
+                "mental": ["statement_delivered"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["message_received"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "exclude",
+            "applicable_subjects": ["organization", "biological_body", "synthetic_agent"],
+            "applicable_objects": ["organization", "biological_body", "concept"],
+            "goals": ["limit_access", "define_boundary", "protect_scope"],
+            "mechanisms": ["rule_enforcement", "access_control", "filtering"],
+            "tools": ["policy", "permission_system", "gate"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["resolved"],
+                "mental": ["criteria_defined"],
+                "positional": ["at_boundary"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["noncompliant"],
+                "positional": ["requesting_entry"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["assured"],
+                "mental": ["boundary_maintained"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["denied"],
+                "positional": ["outside_scope"]
+            }
+        },
+        {
+            "verb": "excuse",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization"],
+            "goals": ["forgive_fault", "release_from_duty", "mitigate_responsibility"],
+            "mechanisms": ["formal_pardon", "acknowledgment", "duty_release"],
+            "tools": ["statement", "policy_clause", "authorization"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["considerate"],
+                "mental": ["context_understood"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["fault_identified"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["relieved"],
+                "mental": ["leniency_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["reassured"],
+                "mental": ["obligation_reduced"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "execute",
+            "applicable_subjects": ["organization", "synthetic_agent", "physical_agent"],
+            "applicable_objects": ["virtual_object", "process", "plan"],
+            "goals": ["carry_out_action", "complete_task", "implement_plan"],
+            "mechanisms": ["instruction_following", "command_execution", "workflow_run"],
+            "tools": ["runtime_environment", "script", "hardware_device"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["focused"],
+                "mental": ["steps_loaded"],
+                "positional": ["at_execution_context"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["ready_state"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["accomplished"],
+                "mental": ["completion_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["executed_state"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "exhale",
+            "applicable_subjects": ["biological_body", "physical_agent", "synthetic_agent"],
+            "applicable_objects": ["gas", "air", "vapor"],
+            "goals": ["release_breath", "regulate_pressure", "expel_air"],
+            "mechanisms": ["respiratory_motion", "venting", "pressure_release"],
+            "tools": ["lungs", "valve", "vent_port"],
+            "required_subject_states": {
+                "physical": ["able_to_breathe"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["contained_air"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["inside_subject"]
+            },
+            "final_subject_states": {
+                "physical": ["pressure_reduced"],
+                "emotional": ["relieved"],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["expelled"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["outside_subject"]
+            }
+        },
+        {
+            "verb": "expand",
+            "applicable_subjects": ["organization", "concept", "object"],
+            "applicable_objects": ["organization", "concept", "object"],
+            "goals": ["increase_size", "broaden_scope", "grow_capacity"],
+            "mechanisms": ["addition", "scaling_process", "extension"],
+            "tools": ["resources", "infrastructure", "plan"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["ambitious"],
+                "mental": ["growth_strategy_defined"],
+                "positional": ["within_operating_area"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["baseline_measured"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["motivated"],
+                "mental": ["expansion_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["larger"],
+                "emotional": [],
+                "mental": ["scope_broadened"],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

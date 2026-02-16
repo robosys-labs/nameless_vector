@@ -1,0 +1,668 @@
+{
+    "prefix": "fu",
+    "processed_verbs": [
+        "fuel",
+        "fulfill",
+        "fulminate",
+        "fumble",
+        "fume",
+        "fumigate",
+        "function",
+        "fund",
+        "fundraise",
+        "furbish",
+        "furl",
+        "furlough",
+        "furnish",
+        "funnel",
+        "furrow",
+        "further",
+        "fuse",
+        "fuss",
+        "fuzz",
+        "futurize"
+    ],
+    "outcomes": [
+        {
+            "verb": "fuel",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "virtual_object", "process", "concept"],
+            "goals": ["supply_energy", "sustain_operation", "stimulate_growth"],
+            "mechanisms": ["adding_fuel", "resource_infusion", "energizing"],
+            "tools": ["fuel", "energy_source", "resource"],
+            "required_subject_states": {
+                "physical": ["fuel_source_available"],
+                "emotional": [],
+                "mental": ["target_identified"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["energy_receivable"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["fuel_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["energized"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fulfill",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "virtual_object", "object"],
+            "goals": ["complete_requirement", "satisfy_obligation", "deliver"],
+            "mechanisms": ["execution", "delivery", "conformance"],
+            "tools": ["plan", "resources", "contract"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["requirements_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["request_defined"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied"],
+                "mental": ["obligation_met"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["fulfilled"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fulminate",
+            "applicable_subjects": ["environment", "biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "concept", "virtual_object"],
+            "goals": ["explode_violently", "denounce_fiercely", "discharge_force"],
+            "mechanisms": ["detonation", "heated_speech", "electric_discharge"],
+            "tools": ["explosive_charge", "voice", "broadcast_channel"],
+            "required_subject_states": {
+                "physical": ["energy_or_charge_ready"],
+                "emotional": ["angry_or_intense"],
+                "mental": ["grievance_or_target_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["susceptible_to_blast_or_message"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": ["force_expended"],
+                "emotional": ["vented_or_agitated"],
+                "mental": ["statement_or_discharge_made"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["shocked_or_damaged"],
+                "emotional": [],
+                "mental": ["rebuked_or_alerted"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fumble",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "concept", "process"],
+            "goals": ["handle_awkwardly", "lose_control", "err"],
+            "mechanisms": ["poor_grip", "misalignment", "coordination_error"],
+            "tools": ["hands", "manipulator", "input_device"],
+            "required_subject_states": {
+                "physical": ["contact_with_object"],
+                "emotional": [],
+                "mental": ["attention_divided"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["grasped_or_touched"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["embarrassed_or_frustrated"],
+                "mental": ["error_noted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["dropped_or_misaligned"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fume",
+            "applicable_subjects": ["environment", "biological_body", "organization"],
+            "applicable_objects": ["place", "object", "concept"],
+            "goals": ["emit_gas", "show_anger", "release_vapor"],
+            "mechanisms": ["chemical_reaction", "emotional_outburst", "combustion"],
+            "tools": ["heat", "pressure", "vent"],
+            "required_subject_states": {
+                "physical": ["heated_or_agitated"],
+                "emotional": ["angry_or_agitated"],
+                "mental": ["trigger_present"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["vented"],
+                "mental": ["release_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["gas_saturated_or_smoky"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fumigate",
+            "applicable_subjects": ["organization", "biological_body", "autonomous_agent"],
+            "applicable_objects": ["place", "object"],
+            "goals": ["disinfect_with_fumes", "exterminate_pests", "sanitize_area"],
+            "mechanisms": ["gas_release", "vapor_application", "sealed_exposure"],
+            "tools": ["fumigant", "sealed_enclosure", "dispersal_system"],
+            "required_subject_states": {
+                "physical": ["fumigant_ready"],
+                "emotional": [],
+                "mental": ["treatment_plan"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["accessible_for_fumigation"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["contained_area"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["fumigation_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["treated_or_disinfected"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "function",
+            "applicable_subjects": ["object", "synthetic_agent", "organization", "physical_agent"],
+            "applicable_objects": ["concept", "process", "virtual_object"],
+            "goals": ["operate_as_intended", "serve_purpose", "perform_role"],
+            "mechanisms": ["system_execution", "process_flow", "task_completion"],
+            "tools": ["internal_mechanism", "software", "protocol"],
+            "required_subject_states": {
+                "physical": ["operational"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": ["operating"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["served_or_processed"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fund",
+            "applicable_subjects": ["organization", "biological_body", "autonomous_agent"],
+            "applicable_objects": ["organization", "concept", "process", "project"],
+            "goals": ["provide_financing", "support_financially", "enable_execution"],
+            "mechanisms": ["capital_injection", "grant", "budget_allocation"],
+            "tools": ["currency", "budget", "investment"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["allocation_decided"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["proposal_or_need"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["funding_disbursed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["financed"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fundraise",
+            "applicable_subjects": ["organization", "biological_body", "autonomous_agent"],
+            "applicable_objects": ["organization", "concept", "virtual_object"],
+            "goals": ["collect_funds", "support_cause", "resource_gathering"],
+            "mechanisms": ["campaigning", "outreach", "donation_processing"],
+            "tools": ["donation_platform", "appeal_message", "event"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["motivated"],
+                "mental": ["cause_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["potential_supporters_identified"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["encouraged_or_tired"],
+                "mental": ["funds_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["funds_committed_or_collected"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "furbish",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "place"],
+            "goals": ["polish", "restore_gloss", "refurbish_lightly"],
+            "mechanisms": ["cleaning", "buffing", "minor_repair"],
+            "tools": ["polish_agent", "cloth", "buffer"],
+            "required_subject_states": {
+                "physical": ["polishing_tools_ready"],
+                "emotional": [],
+                "mental": ["finish_or_gloss_goal_set"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["accessible_surface"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["furbishing_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["polished_or_freshened"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "furl",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "virtual_object"],
+            "goals": ["roll_up", "wrap", "secure_compact"],
+            "mechanisms": ["rolling", "wrapping", "binding"],
+            "tools": ["hands", "roller", "secure_band"],
+            "required_subject_states": {
+                "physical": ["manipulation_capable"],
+                "emotional": [],
+                "mental": ["fold_or_wrap_intent"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["flexible_or_foldable"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["furling_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["furled_or_wrapped"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "furlough",
+            "applicable_subjects": ["organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization"],
+            "goals": ["grant_leave", "reduce_active_duty", "pause_employment"],
+            "mechanisms": ["official_notice", "schedule_adjustment", "status_change"],
+            "tools": ["leave_policy", "notice", "hr_system"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["decision_made"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["employment_or_duty_status"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["furlough_issued"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["on_furlough"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "furnish",
+            "applicable_subjects": ["organization", "biological_body", "autonomous_agent"],
+            "applicable_objects": ["place", "object", "virtual_object"],
+            "goals": ["equip", "provide_furniture", "supply_items"],
+            "mechanisms": ["delivery", "installation", "provision"],
+            "tools": ["inventory", "furniture", "equipment"],
+            "required_subject_states": {
+                "physical": ["items_available"],
+                "emotional": [],
+                "mental": ["layout_or_requirements_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["space_available"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["items_supplied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["furnished_or_equipped"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "funnel",
+            "applicable_subjects": ["organization", "biological_body", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "virtual_object", "process", "concept"],
+            "goals": ["channel_flow", "direct_into_path", "concentrate_stream"],
+            "mechanisms": ["guiding", "narrowing_path", "routing"],
+            "tools": ["funnel_device", "pipeline", "routing_rule"],
+            "required_subject_states": {
+                "physical": ["guidance_tool_ready"],
+                "emotional": [],
+                "mental": ["destination_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["able_to_flow_or_move"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["flow_redirected"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["channeled_or_collected"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["toward_destination"]
+            }
+        },
+        {
+            "verb": "furrow",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["place", "object", "biological_body"],
+            "goals": ["create_groove", "plow_trench", "crease_surface"],
+            "mechanisms": ["plowing", "pressing", "drawing_line"],
+            "tools": ["plow", "blade", "finger"],
+            "required_subject_states": {
+                "physical": ["force_capable"],
+                "emotional": [],
+                "mental": ["path_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["surface_soft_or_malleable"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["furrow_made"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["furrowed"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "further",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "process", "goal"],
+            "goals": ["advance", "promote", "extend_progress"],
+            "mechanisms": ["support", "resource_addition", "removal_of_barriers"],
+            "tools": ["funding", "advocacy", "optimization"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["objective_understood"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["in_progress"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["progress_supported"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["advanced"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fuse",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "concept", "virtual_object"],
+            "goals": ["join_into_one", "melt_together", "merge"],
+            "mechanisms": ["heat_application", "bonding", "logical_union"],
+            "tools": ["welder", "adhesive", "merge_algorithm"],
+            "required_subject_states": {
+                "physical": ["fusion_tool_ready"],
+                "emotional": [],
+                "mental": ["merge_plan"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["joinable_or_meltable"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["fusion_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["fused_or_merged"],
+                "emotional": [],
+                "mental": ["combined"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fuss",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "biological_body", "process"],
+            "goals": ["make_unnecessary_attention", "worry_over", "overhandle"],
+            "mechanisms": ["repeated_adjustment", "complaining", "overcare"],
+            "tools": ["hands", "voice", "messages"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["concerned_or_finicky"],
+                "mental": ["focus_on_details"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["subject_of_attention"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["still_concerned_or_reluctantly_satisfied"],
+                "mental": ["fussing_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["overattended"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fuzz",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept"],
+            "goals": ["blur_edges", "introduce_static", "soften_clarity"],
+            "mechanisms": ["noise_addition", "defocusing", "texture_overlay"],
+            "tools": ["filter", "noise_generator", "fabric"],
+            "required_subject_states": {
+                "physical": ["manipulation_or_filter_ready"],
+                "emotional": [],
+                "mental": ["obscure_intent"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["surface_or_signal_accessible"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["fuzz_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["softened_or_blurred"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "futurize",
+            "applicable_subjects": ["organization", "synthetic_agent", "biological_body"],
+            "applicable_objects": ["concept", "process", "place"],
+            "goals": ["modernize_for_future", "anticipate_needs", "project_forward"],
+            "mechanisms": ["innovation", "projection", "redesign"],
+            "tools": ["roadmap", "forecast", "design_update"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["future_requirements_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["current_state_documented"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["future_ready_design"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["modernized_or_projected"],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

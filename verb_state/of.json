@@ -1,0 +1,624 @@
+{
+  "prefix": "of",
+  "processed_verbs": [
+    "offboard",
+    "offend",
+    "offer",
+    "officiate",
+    "offgas",
+    "offload",
+    "offset",
+    "offshore"
+  ],
+  "outcomes": [
+    {
+      "verb": "offboard",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "physical_agent"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "autonomous_agent",
+        "virtual_object"
+      ],
+      "goals": [
+        "remove access",
+        "end participation"
+      ],
+      "mechanisms": [
+        "revoking credentials",
+        "collecting equipment",
+        "terminating accounts"
+      ],
+      "tools": [
+        "checklist",
+        "identity_system",
+        "badges"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "professional"
+        ],
+        "mental": [
+          "authorized",
+          "aware of policy"
+        ],
+        "positional": [
+          "at workplace or system console"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "has issued assets"
+        ],
+        "emotional": [],
+        "mental": [
+          "employed or enrolled"
+        ],
+        "positional": [
+          "reachable for collection or deactivation"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "completed collection"
+        ],
+        "emotional": [
+          "assured"
+        ],
+        "mental": [
+          "confirmed offboarding"
+        ],
+        "positional": [
+          "logged in policy system"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "assets returned"
+        ],
+        "emotional": [],
+        "mental": [
+          "access revoked"
+        ],
+        "positional": [
+          "removed from systems"
+        ]
+      }
+    },
+    {
+      "verb": "offend",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "organization",
+        "concept"
+      ],
+      "goals": [
+        "cause hurt",
+        "express disapproval"
+      ],
+      "mechanisms": [
+        "insulting",
+        "violating norms",
+        "provoking"
+      ],
+      "tools": [
+        "words",
+        "actions",
+        "media"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "agitated"
+        ],
+        "mental": [
+          "aware of norm"
+        ],
+        "positional": [
+          "interacting with target"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "holds expectation"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "defensive",
+          "regretful"
+        ],
+        "mental": [
+          "aware of impact"
+        ],
+        "positional": [
+          "near offended party"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [
+          "hurt",
+          "angered"
+        ],
+        "mental": [
+          "perceives disrespect"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "offer",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "concept",
+        "virtual_object",
+        "biological_body"
+      ],
+      "goals": [
+        "provide",
+        "support"
+      ],
+      "mechanisms": [
+        "presenting",
+        "proposing",
+        "supplying"
+      ],
+      "tools": [
+        "resources",
+        "time",
+        "permissions"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to give"
+        ],
+        "emotional": [
+          "willing"
+        ],
+        "mental": [
+          "aware of need"
+        ],
+        "positional": [
+          "near recipient"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "available"
+        ],
+        "emotional": [],
+        "mental": [
+          "requested"
+        ],
+        "positional": [
+          "reachable"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "relinquished"
+        ],
+        "emotional": [
+          "generous"
+        ],
+        "mental": [
+          "acknowledged offer"
+        ],
+        "positional": [
+          "near recipient"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "transferred"
+        ],
+        "emotional": [
+          "appreciated"
+        ],
+        "mental": [
+          "offered"
+        ],
+        "positional": [
+          "with recipient"
+        ]
+      }
+    },
+    {
+      "verb": "offgas",
+      "applicable_subjects": [
+        "physical_agent",
+        "organization"
+      ],
+      "applicable_objects": [
+        "object",
+        "place"
+      ],
+      "goals": [
+        "release volatile contents",
+        "reduce pressure"
+      ],
+      "mechanisms": [
+        "venting",
+        "opening valves",
+        "heat application"
+      ],
+      "tools": [
+        "vents",
+        "valves",
+        "exhaust_system"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to operate controls"
+        ],
+        "emotional": [
+          "cautious"
+        ],
+        "mental": [
+          "aware of safety procedures"
+        ],
+        "positional": [
+          "at release point"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "contains volatile compounds",
+          "sealed"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "in ventilated area"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "exposed to fumes minimized"
+        ],
+        "emotional": [
+          "relieved"
+        ],
+        "mental": [
+          "verified release"
+        ],
+        "positional": [
+          "clear of vent path"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "depressurized",
+          "vented"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "remaining in place"
+        ]
+      }
+    },
+    {
+      "verb": "officiate",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "concept",
+        "organization",
+        "place"
+      ],
+      "goals": [
+        "manage proceedings",
+        "ensure fairness"
+      ],
+      "mechanisms": [
+        "applying rules",
+        "adjudicating",
+        "overseeing ceremony"
+      ],
+      "tools": [
+        "rulebook",
+        "authority",
+        "documentation"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "present at venue"
+        ],
+        "emotional": [
+          "impartial"
+        ],
+        "mental": [
+          "understands rules",
+          "authorized"
+        ],
+        "positional": [
+          "at event location"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "assembled"
+        ],
+        "emotional": [],
+        "mental": [
+          "scheduled"
+        ],
+        "positional": [
+          "at venue"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "stationed"
+        ],
+        "emotional": [
+          "responsible"
+        ],
+        "mental": [
+          "decisions recorded"
+        ],
+        "positional": [
+          "at event location"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "concluded"
+        ],
+        "emotional": [],
+        "mental": [
+          "validated outcome"
+        ],
+        "positional": [
+          "unchanged"
+        ]
+      }
+    },
+    {
+      "verb": "offload",
+      "applicable_subjects": [
+        "organization",
+        "physical_agent",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "virtual_object"
+      ],
+      "goals": [
+        "transfer burden",
+        "reduce load"
+      ],
+      "mechanisms": [
+        "moving cargo",
+        "delegating",
+        "shifting responsibility"
+      ],
+      "tools": [
+        "vehicles",
+        "systems",
+        "contracts"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to carry"
+        ],
+        "emotional": [],
+        "mental": [
+          "aware of burden"
+        ],
+        "positional": [
+          "at transfer point"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "loaded"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "at transport location"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "unburdened"
+        ],
+        "emotional": [
+          "relieved"
+        ],
+        "mental": [
+          "aware of transfer"
+        ],
+        "positional": [
+          "at transfer point"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "relocated"
+        ],
+        "emotional": [],
+        "mental": [
+          "assigned"
+        ],
+        "positional": [
+          "at destination"
+        ]
+      }
+    },
+    {
+      "verb": "offset",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "physical_agent"
+      ],
+      "applicable_objects": [
+        "concept",
+        "virtual_object",
+        "object"
+      ],
+      "goals": [
+        "balance effect",
+        "compensate"
+      ],
+      "mechanisms": [
+        "counteraction",
+        "adjusting",
+        "crediting"
+      ],
+      "tools": [
+        "data",
+        "finance",
+        "policy"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "aware of imbalance"
+        ],
+        "positional": [
+          "within system"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "measurable effect"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "reassured"
+        ],
+        "mental": [
+          "satisfied with balance"
+        ],
+        "positional": [
+          "recorded in system"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "adjusted"
+        ],
+        "emotional": [],
+        "mental": [
+          "balanced"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "offshore",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "physical_agent"
+      ],
+      "applicable_objects": [
+        "concept",
+        "object",
+        "virtual_object",
+        "organization"
+      ],
+      "goals": [
+        "relocate operations",
+        "reduce cost"
+      ],
+      "mechanisms": [
+        "moving activities overseas",
+        "establishing remote facilities",
+        "shifting jurisdiction"
+      ],
+      "tools": [
+        "contracts",
+        "communications",
+        "infrastructure"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to relocate resources"
+        ],
+        "emotional": [
+          "strategic"
+        ],
+        "mental": [
+          "aware of locations",
+          "plans approved"
+        ],
+        "positional": [
+          "at origin site"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "transferable"
+        ],
+        "emotional": [],
+        "mental": [
+          "defined process"
+        ],
+        "positional": [
+          "located domestically"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "distributed"
+        ],
+        "emotional": [
+          "optimistic"
+        ],
+        "mental": [
+          "aware of offshore site"
+        ],
+        "positional": [
+          "linked to offshore location"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "relocated"
+        ],
+        "emotional": [],
+        "mental": [
+          "adapted to new jurisdiction"
+        ],
+        "positional": [
+          "at offshore site"
+        ]
+      }
+    }
+  ],
+  "completed": true
+}

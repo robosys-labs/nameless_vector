@@ -1,0 +1,79 @@
+{
+    "prefix": "ep",
+    "processed_verbs": [
+        "epitomize"
+    ],
+    "outcomes": [
+        {
+            "verb": "epitomize",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "concept"
+            ],
+            "applicable_objects": [
+                "concept",
+                "organization",
+                "product"
+            ],
+            "goals": [
+                "embody_essence",
+                "represent_paradigm",
+                "showcase_ideal"
+            ],
+            "mechanisms": [
+                "exemplary_action",
+                "model_presentation",
+                "reference_alignment"
+            ],
+            "tools": [
+                "case_study",
+                "demonstration",
+                "signature_feature"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "core_values_internalized"
+                ],
+                "positional": [
+                    "in_representative_context"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "defining_attributes_identified"
+                ],
+                "positional": [
+                    "visible_to_audience"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "validated"
+                ],
+                "mental": [
+                    "archetype_established"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "recognized_as_standard"
+                ],
+                "positional": [
+                    "anchored_as_reference"
+                ]
+            }
+        }
+    ],
+    "completed": true
+}

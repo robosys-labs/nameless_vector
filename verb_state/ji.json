@@ -1,0 +1,125 @@
+{
+    "prefix": "ji",
+    "processed_verbs": [
+        "jibe",
+        "jig",
+        "jiggle",
+        "jigsaw",
+        "jilt",
+        "jingle",
+        "jinx",
+        "jitter",
+        "jive"
+    ],
+    "outcomes": [
+        {
+            "verb": "jibe",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "statement", "plan"],
+            "goals": ["align", "agree", "conform"],
+            "mechanisms": ["reconciliation", "cross_checking", "adjustment"],
+            "tools": ["discussion", "revision", "comparison"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["intent_to_align"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": ["conflicting_or_pending_alignment"], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": ["satisfied"], "mental": ["alignment_achieved"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["consistent_or_in_agreement"], "positional": []}
+        },
+        {
+            "verb": "jig",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "organization"],
+            "applicable_objects": ["place", "concept", "virtual_object"],
+            "goals": ["dance_lively", "express_rhythm"],
+            "mechanisms": ["quick_steps", "hops", "sync_to_music"],
+            "tools": ["music", "dance_floor", "footwear"],
+            "required_subject_states": {"physical": ["able_to_move_freely"], "emotional": ["expressive"], "mental": ["aware_of_rhythm"], "positional": ["space_available"]},
+            "required_object_states": {"physical": [], "emotional": [], "mental": ["provides_rhythm_if_music"], "positional": ["accessible"]},
+            "final_subject_states": {"physical": ["exerted"], "emotional": ["uplifted"], "mental": ["rhythm_expressed"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["experience_enhanced_if_virtual_object"], "positional": ["occupied_by_dancer_if_place"]}
+        },
+        {
+            "verb": "jiggle",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "virtual_object"],
+            "goals": ["shake_slightly", "loosen", "test_responsiveness"],
+            "mechanisms": ["small_rapid_movements", "oscillation", "tapping"],
+            "tools": ["hands", "probe", "haptic_device"],
+            "required_subject_states": {"physical": ["able_to_apply_small_force"], "emotional": [], "mental": ["intentional_testing_or_loosening"], "positional": ["in_contact_or_adjacent"]},
+            "required_object_states": {"physical": ["movable_or_flexible"], "emotional": [], "mental": [], "positional": ["reachable"]},
+            "final_subject_states": {"physical": ["motion_applied"], "emotional": [], "mental": ["feedback_observed"], "positional": []},
+            "final_object_states": {"physical": ["slightly_displaced_or_loosened"], "emotional": [], "mental": ["response_noted_if_virtual"], "positional": []}
+        },
+        {
+            "verb": "jigsaw",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "virtual_object"],
+            "goals": ["cut_curves", "shape_material"],
+            "mechanisms": ["reciprocating_saw_motion", "guided_cutting"],
+            "tools": ["jigsaw_tool", "blade", "guide"],
+            "required_subject_states": {"physical": ["steady_control"], "emotional": [], "mental": ["cut_path_planned"], "positional": ["aligned_with_material"]},
+            "required_object_states": {"physical": ["cuttable_material"], "emotional": [], "mental": [], "positional": ["secured_in_place"]},
+            "final_subject_states": {"physical": ["effort_exerted"], "emotional": [], "mental": ["cut_completed"], "positional": []},
+            "final_object_states": {"physical": ["shaped_or_cut"], "emotional": [], "mental": [], "positional": ["segments_separated_if_removed"]}
+        },
+        {
+            "verb": "jilt",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "autonomous_agent"],
+            "goals": ["reject_relationship", "end_engagement"],
+            "mechanisms": ["abrupt_breakoff", "direct_refusal", "withdrawal"],
+            "tools": ["conversation", "message", "formal_notice"],
+            "required_subject_states": {"physical": [], "emotional": ["resolved_to_end"], "mental": ["decision_made"], "positional": ["co_located_or_connected"]},
+            "required_object_states": {"physical": [], "emotional": ["attached_or_expectant"], "mental": ["aware_of_relationship"], "positional": ["co_located_or_connected"]},
+            "final_subject_states": {"physical": [], "emotional": ["detached"], "mental": ["separation_confirmed"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": ["hurt"], "mental": ["relationship_ended"], "positional": []}
+        },
+        {
+            "verb": "jingle",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "virtual_object"],
+            "goals": ["make_ringing_sound", "attract_attention"],
+            "mechanisms": ["shaking", "tapping", "oscillating"],
+            "tools": ["bells", "keys", "metal_charms"],
+            "required_subject_states": {"physical": ["holding_or_access_to_object"], "emotional": [], "mental": ["intentional_noise"], "positional": ["near_object"]},
+            "required_object_states": {"physical": ["resonant_or_metallic"], "emotional": [], "mental": [], "positional": ["reachable"]},
+            "final_subject_states": {"physical": ["motion_applied"], "emotional": [], "mental": ["sound_produced"], "positional": []},
+            "final_object_states": {"physical": ["vibrating"], "emotional": [], "mental": ["attention_drawn_if_virtual"], "positional": []}
+        },
+        {
+            "verb": "jinx",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept", "object"],
+            "goals": ["cause_bad_luck", "cast_omen"],
+            "mechanisms": ["spoken_curse", "ominous_ritual", "symbolic_action"],
+            "tools": ["words", "ritual_items", "gestures"],
+            "required_subject_states": {"physical": [], "emotional": ["malicious_or_superstitious"], "mental": ["intent_to_curse"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": ["susceptible_in_belief_context"], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": ["satisfied_or_anxious"], "mental": ["curse_cast"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": ["uneasy_if_sentient"], "mental": ["perceived_as_cursed"], "positional": []}
+        },
+        {
+            "verb": "jitter",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "virtual_object"],
+            "goals": ["vibrate_slightly", "introduce_small_variation"],
+            "mechanisms": ["micro_movements", "rapid_shifts", "signal_variation"],
+            "tools": ["motors", "haptic_actuators", "timing_variation"],
+            "required_subject_states": {"physical": ["able_to_generate_vibration"], "emotional": [], "mental": ["intentional_variation"], "positional": ["in_contact_or_linked"]},
+            "required_object_states": {"physical": ["lightweight_or_mobile"], "emotional": [], "mental": ["receives_signal_if_virtual"], "positional": ["reachable"]},
+            "final_subject_states": {"physical": ["energy_expended"], "emotional": [], "mental": ["variation_applied"], "positional": []},
+            "final_object_states": {"physical": ["vibrating_or_trembling"], "emotional": [], "mental": ["signal_variation_experienced_if_virtual"], "positional": []}
+        },
+        {
+            "verb": "jive",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "virtual_object", "place"],
+            "goals": ["perform_lively_dance", "sync_with_music"],
+            "mechanisms": ["swing_steps", "partner_moves", "syncopated_rhythm"],
+            "tools": ["music", "dance_floor", "partner"],
+            "required_subject_states": {"physical": ["able_to_move"], "emotional": ["expressive"], "mental": ["sense_of_rhythm"], "positional": ["space_available"]},
+            "required_object_states": {"physical": [], "emotional": [], "mental": ["provides_rhythm_if_virtual_object"], "positional": ["accessible_as_venue_if_place"]},
+            "final_subject_states": {"physical": ["exerted"], "emotional": ["energized"], "mental": ["dance_expressed"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["experience_enhanced"], "positional": ["occupied_as_venue_if_place"]}
+        }
+    ],
+    "completed": true
+}

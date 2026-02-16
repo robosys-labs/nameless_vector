@@ -1,0 +1,73 @@
+{
+    "prefix": "ir",
+    "processed_verbs": [
+        "iron",
+        "irradiate",
+        "irrigate",
+        "irritate",
+        "irrupt"
+    ],
+    "outcomes": [
+        {
+            "verb": "iron",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["object", "fabric", "clothing"],
+            "goals": ["remove_wrinkles", "flatten"],
+            "mechanisms": ["heat_pressing", "steam_application"],
+            "tools": ["iron", "ironing_board", "steam"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["fabric_identified"], "positional": []},
+            "required_object_states": {"physical": ["wrinkled_or_folded"], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["ironing_completed"], "positional": []},
+            "final_object_states": {"physical": ["wrinkles_removed", "flattened"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "irradiate",
+            "applicable_subjects": ["organization", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["object", "food", "biological_body", "place"],
+            "goals": ["expose_to_radiation", "sterilize", "treat"],
+            "mechanisms": ["emitting_radiation", "controlled_dose"],
+            "tools": ["radiation_source", "accelerator", "shielding"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["dose_and_target_known"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["irradiation_executed"], "positional": []},
+            "final_object_states": {"physical": ["irradiated_or_sterilized"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "irrigate",
+            "applicable_subjects": ["organization", "biological_body", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["place", "field", "wound"],
+            "goals": ["supply_water", "flush"],
+            "mechanisms": ["channeling_water", "spraying", "flushing"],
+            "tools": ["irrigation_system", "hose", "saline"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["area_and_flow_rate_known"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["irrigation_completed"], "positional": []},
+            "final_object_states": {"physical": ["watered_or_flushed"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "irritate",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization"],
+            "goals": ["cause_irritation", "annoy", "inflame"],
+            "mechanisms": ["bothersome_stimulus", "chemical_irritant", "provocation"],
+            "tools": ["words", "allergens", "friction"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["intent_or_negligence"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["irritation_caused"], "positional": []},
+            "final_object_states": {"physical": ["inflamed_or_bothered"], "emotional": ["annoyed_if_sentient"], "mental": [], "positional": []}
+        },
+        {
+            "verb": "irrupt",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "organization"],
+            "applicable_objects": ["place", "population"],
+            "goals": ["burst_in", "sudden_increase"],
+            "mechanisms": ["sudden_entry", "population_surge"],
+            "tools": ["momentum", "numbers", "force"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["entry_or_surge_intent"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["irruption_occurred"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": [], "positional": ["sudden_presence"]}
+        }
+    ],
+    "completed": true
+}

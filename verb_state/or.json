@@ -1,0 +1,557 @@
+{
+  "prefix": "or",
+  "processed_verbs": [
+    "orbit",
+    "orchestrate",
+    "ordain",
+    "order",
+    "orate",
+    "organize",
+    "orient",
+    "originate"
+  ],
+  "outcomes": [
+    {
+      "verb": "orbit",
+      "applicable_subjects": [
+        "physical_agent",
+        "autonomous_agent",
+        "object"
+      ],
+      "applicable_objects": [
+        "object",
+        "place"
+      ],
+      "goals": [
+        "maintain_revolution",
+        "stay_in_path"
+      ],
+      "mechanisms": [
+        "gravitational_capture",
+        "thruster_adjustments",
+        "trajectory_alignment"
+      ],
+      "tools": [
+        "propulsion",
+        "navigation_system",
+        "stabilizers"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "stable_velocity",
+          "structurally_intact"
+        ],
+        "emotional": [],
+        "mental": [
+          "path_calculated"
+        ],
+        "positional": [
+          "within_gravitational_field"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "massive_body"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [
+          "in_stable_orbit"
+        ],
+        "emotional": [],
+        "mental": [
+          "tracking"
+        ],
+        "positional": [
+          "around_object"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      }
+    },
+    {
+      "verb": "orchestrate",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "process",
+        "organization",
+        "event",
+        "virtual_object"
+      ],
+      "goals": [
+        "coordinate",
+        "execute_plan"
+      ],
+      "mechanisms": [
+        "scheduling",
+        "delegating",
+        "directing_actions"
+      ],
+      "tools": [
+        "timeline",
+        "communication_channel",
+        "control_system"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "composed"
+        ],
+        "mental": [
+          "plan_prepared"
+        ],
+        "positional": [
+          "linked_to_participants"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "tasks_defined"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "in_control"
+        ],
+        "mental": [
+          "execution_monitored"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "coordinated",
+          "advanced"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "ordain",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "organization"
+      ],
+      "goals": [
+        "confer_authority",
+        "appoint"
+      ],
+      "mechanisms": [
+        "formal_ceremony",
+        "legal_declaration",
+        "ritual_laying_on_hands"
+      ],
+      "tools": [
+        "certificate",
+        "law",
+        "ritual"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "solemn"
+        ],
+        "mental": [
+          "authority_established",
+          "candidate_selected"
+        ],
+        "positional": [
+          "at_venue"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "eligible",
+          "prepared"
+        ],
+        "positional": [
+          "present_at_venue"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "affirming"
+        ],
+        "mental": [
+          "ordination_recorded"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [
+          "honored"
+        ],
+        "mental": [
+          "authorized",
+          "commissioned"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "order",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "organization",
+        "object",
+        "virtual_object",
+        "concept"
+      ],
+      "goals": [
+        "direct",
+        "organize_sequence"
+      ],
+      "mechanisms": [
+        "commanding",
+        "structuring",
+        "prioritizing"
+      ],
+      "tools": [
+        "voice",
+        "policy",
+        "instruction_set"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "authoritative"
+        ],
+        "mental": [
+          "objective_defined"
+        ],
+        "positional": [
+          "in_contact"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "identifiable"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "instructions_issued"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "directed_or_arranged"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "orate",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "audience",
+        "organization",
+        "concept"
+      ],
+      "goals": [
+        "deliver_speech",
+        "persuade_or_inform"
+      ],
+      "mechanisms": [
+        "formal_speaking",
+        "rhetorical_address",
+        "public_oration"
+      ],
+      "tools": [
+        "speech",
+        "podium",
+        "microphone"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "audible"
+        ],
+        "emotional": [
+          "confident"
+        ],
+        "mental": [
+          "content_prepared"
+        ],
+        "positional": [
+          "in_front_of_audience"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [
+          "attentive_or_present"
+        ],
+        "mental": [
+          "aware_of_topic"
+        ],
+        "positional": [
+          "within_hearing"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "expressed"
+        ],
+        "mental": [
+          "speech_delivered"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [
+          "moved_or_informed"
+        ],
+        "mental": [
+          "message_received"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "organize",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "place",
+        "process",
+        "virtual_object"
+      ],
+      "goals": [
+        "arrange",
+        "structure"
+      ],
+      "mechanisms": [
+        "sorting",
+        "categorizing",
+        "assigning_roles"
+      ],
+      "tools": [
+        "plan",
+        "folders",
+        "workflow"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "desired_order_known"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [
+          "separable_or_movable"
+        ],
+        "emotional": [],
+        "mental": [
+          "items_identified"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "order_established"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "arranged",
+          "classified"
+        ],
+        "emotional": [],
+        "mental": [
+          "organized"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "orient",
+      "applicable_subjects": [
+        "biological_body",
+        "autonomous_agent",
+        "interactive_app"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "object",
+        "virtual_object",
+        "place"
+      ],
+      "goals": [
+        "align_direction",
+        "establish_position"
+      ],
+      "mechanisms": [
+        "turning",
+        "calibrating_sensors",
+        "referencing_landmarks"
+      ],
+      "tools": [
+        "compass",
+        "map",
+        "gyroscope"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able_to_turn_or_adjust"
+        ],
+        "emotional": [],
+        "mental": [
+          "reference_points_known"
+        ],
+        "positional": [
+          "at_known_location"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "location_defined"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "confident"
+        ],
+        "mental": [
+          "direction_known"
+        ],
+        "positional": [
+          "aligned"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "placed_in_frame"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "originate",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "concept",
+        "process",
+        "virtual_object",
+        "object"
+      ],
+      "goals": [
+        "create",
+        "initiate"
+      ],
+      "mechanisms": [
+        "conceiving",
+        "starting_sequence",
+        "authoring"
+      ],
+      "tools": [
+        "ideas",
+        "inputs",
+        "authorization"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "motivated"
+        ],
+        "mental": [
+          "concept_defined",
+          "permission_or_capacity"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "absent_or_pending"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "accomplished"
+        ],
+        "mental": [
+          "origin_recorded"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "created",
+          "initiated"
+        ],
+        "positional": []
+      }
+    }
+  ],
+  "completed": true
+}

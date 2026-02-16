@@ -1,0 +1,74 @@
+{
+    "prefix": "ey",
+    "processed_verbs": [
+        "eye",
+        "eyeball"
+    ],
+    "outcomes": [
+        {
+            "verb": "eye",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["object", "biological_body", "concept"],
+            "goals": ["observe_closely", "assess_value", "monitor_target"],
+            "mechanisms": ["focused_gaze", "visual_scanning", "target_tracking"],
+            "tools": ["eyes", "camera", "visual_sensor"],
+            "required_subject_states": {
+                "physical": ["line_of_sight"],
+                "emotional": ["attentive"],
+                "mental": ["interest_declared"],
+                "positional": ["facing_target"]
+            },
+            "required_object_states": {
+                "physical": ["visible"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["within_view"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["informed"],
+                "mental": ["details_noted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["assessment_recorded"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "eyeball",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["object", "biological_body", "place"],
+            "goals": ["estimate_quickly", "inspect_informally", "size_up"],
+            "mechanisms": ["visual_estimation", "rough_measurement", "fast_scan"],
+            "tools": ["eyes", "camera", "visual_sensor"],
+            "required_subject_states": {
+                "physical": ["unobstructed_view"],
+                "emotional": ["curious"],
+                "mental": ["context_known"],
+                "positional": ["within_observation_range"]
+            },
+            "required_object_states": {
+                "physical": ["observable"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["in_line_of_sight"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied"],
+                "mental": ["rough_estimate_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["informally_assessed"],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

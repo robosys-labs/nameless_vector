@@ -1,0 +1,34 @@
+{
+    "prefix": "il",
+    "processed_verbs": [
+        "illuminate",
+        "illustrate"
+    ],
+    "outcomes": [
+        {
+            "verb": "illuminate",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["place", "object", "concept", "process"],
+            "goals": ["cast_light", "make_clear", "explain"],
+            "mechanisms": ["shining_light", "clarifying_explanation", "highlighting_key_points"],
+            "tools": ["lamp", "torch", "diagrams", "examples"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["target_identified"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["illumination_provided"], "positional": []},
+            "final_object_states": {"physical": ["lit_if_physical"], "emotional": [], "mental": ["clarified_if_concept"], "positional": []}
+        },
+        {
+            "verb": "illustrate",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "process", "virtual_object", "text"],
+            "goals": ["explain_with_examples", "provide_visuals"],
+            "mechanisms": ["drawing", "diagramming", "giving_examples"],
+            "tools": ["images", "charts", "anecdotes", "design_software"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["message_to_convey_defined"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["illustration_created"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["understanding_improved"], "positional": []}
+        }
+    ],
+    "completed": true
+}

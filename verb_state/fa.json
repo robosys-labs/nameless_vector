@@ -1,0 +1,272 @@
+{
+    "prefix": "fa",
+    "processed_verbs": [
+        "face",
+        "facilitate",
+        "fail",
+        "fall",
+        "falsify",
+        "fasten",
+        "favor",
+        "fathom"
+    ],
+    "outcomes": [
+        {
+            "verb": "face",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "organization", "biological_body"],
+            "goals": ["confront_challenge", "acknowledge_reality", "address_issue"],
+            "mechanisms": ["direct_engagement", "clear_statement", "steady_gaze"],
+            "tools": ["communication_channel", "support_person", "protective_equipment"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["courageous"],
+                "mental": ["situation_understood"],
+                "positional": ["in_front_of_object"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["presented_clearly"],
+                "positional": ["visible_to_subject"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["steady"],
+                "mental": ["issue_acknowledged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["received_attention"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "facilitate",
+            "applicable_subjects": ["organization", "synthetic_agent", "interactive_app"],
+            "applicable_objects": ["concept", "organization", "process"],
+            "goals": ["make_easier", "speed_progress", "remove_friction"],
+            "mechanisms": ["coordination", "resource_provision", "simplified_workflow"],
+            "tools": ["collaboration_platform", "guideline", "automation_tool"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["supportive"],
+                "mental": ["process_understood"],
+                "positional": ["within_workflow"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["goal_defined"],
+                "positional": ["ready_for_support"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["helpful"],
+                "mental": ["assistance_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["progress_improved"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fail",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "process", "goal"],
+            "goals": ["miss_target", "not_complete", "test_limit"],
+            "mechanisms": ["insufficient_action", "error_occurrence", "resource_shortfall"],
+            "tools": ["imperfect_data", "limited_time", "constrained_resources"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["attempting"],
+                "mental": ["objective_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["criteria_set"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["disappointed"],
+                "mental": ["lesson_noted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["goal_unmet"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fall",
+            "applicable_subjects": ["biological_body", "physical_agent", "object"],
+            "applicable_objects": ["place", "object"],
+            "goals": ["descend_unintentionally", "lose_balance", "change_level"],
+            "mechanisms": ["gravity", "loss_of_support", "slip"],
+            "tools": ["surface", "slope", "contact_point"],
+            "required_subject_states": {
+                "physical": ["unsteady"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["elevated_position"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": ["lowered", "possibly_injured"],
+                "emotional": [],
+                "mental": ["event_recorded"],
+                "positional": ["on_lower_surface"]
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "falsify",
+            "applicable_subjects": ["organization", "biological_body", "autonomous_agent"],
+            "applicable_objects": ["concept", "virtual_object", "document"],
+            "goals": ["misrepresent", "fabricate_data", "deceive"],
+            "mechanisms": ["data_alteration", "counterfeit_creation", "misleading_presentation"],
+            "tools": ["editing_tool", "forgery_kit", "manipulation_script"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["intentional"],
+                "mental": ["false_narrative_planned"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["authentic_version_exists"],
+                "positional": ["accessible_for_editing"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["anxious_or_bold"],
+                "mental": ["alteration_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["corrupted_truth"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fasten",
+            "applicable_subjects": ["biological_body", "physical_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "biological_body"],
+            "goals": ["secure_connection", "prevent_movement", "attach_firmly"],
+            "mechanisms": ["locking", "clasping", "tightening"],
+            "tools": ["buckle", "clamp", "fastener"],
+            "required_subject_states": {
+                "physical": ["dexterous"],
+                "emotional": ["careful"],
+                "mental": ["attachment_point_known"],
+                "positional": ["aligned_with_object"]
+            },
+            "required_object_states": {
+                "physical": ["alignable"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["within_reach"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["assured"],
+                "mental": ["connection_verified"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["secured"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "favor",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["show_preference", "grant_advantage", "support_choice"],
+            "mechanisms": ["preferential_selection", "positive_bias", "resource_allocation"],
+            "tools": ["selection_rule", "influence_channel", "benefit_package"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["inclined"],
+                "mental": ["preference_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["candidate_for_choice"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["content"],
+                "mental": ["preference_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["valued"],
+                "mental": ["benefit_received"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fathom",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["concept", "virtual_object", "organization"],
+            "goals": ["comprehend_deeply", "measure_depth", "make_sense"],
+            "mechanisms": ["analysis", "inference", "exploration"],
+            "tools": ["research_material", "analytic_model", "measurement_device"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["curious"],
+                "mental": ["question_formulated"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["information_available"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied"],
+                "mental": ["understanding_gained"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["depth_measured_or_meaning_explained"],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

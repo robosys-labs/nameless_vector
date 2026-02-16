@@ -1,0 +1,99 @@
+{
+    "prefix": "je",
+    "processed_verbs": [
+        "jeer",
+        "jeopardize",
+        "jerk",
+        "jest",
+        "jet",
+        "jettison",
+        "jewel"
+    ],
+    "outcomes": [
+        {
+            "verb": "jeer",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["mock_publicly", "belittle"],
+            "mechanisms": ["taunting", "derisive_chanting", "public_ridicule"],
+            "tools": ["voice", "crowd_noise", "messages"],
+            "required_subject_states": {"physical": ["able_to_vocalize_or_broadcast"], "emotional": ["contemptuous"], "mental": ["intentional_derision"], "positional": ["co_located_or_connected"]},
+            "required_object_states": {"physical": [], "emotional": [], "mental": ["aware_of_context"], "positional": ["within_audible_or_visible_range"]},
+            "final_subject_states": {"physical": [], "emotional": ["agitated"], "mental": ["derision_expressed"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": ["demeaned"], "mental": ["perceived_mockery"], "positional": []}
+        },
+        {
+            "verb": "jeopardize",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "object", "concept", "process"],
+            "goals": ["expose_to_risk", "endanger"],
+            "mechanisms": ["negligence", "reckless_action", "unsafe_decision"],
+            "tools": ["poor_planning", "hazardous_steps", "omissions"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["taking_risky_action"], "positional": []},
+            "required_object_states": {"physical": ["susceptible_to_harm"], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": ["concern"], "mental": ["risk_created"], "positional": []},
+            "final_object_states": {"physical": ["increased_exposure"], "emotional": ["anxious_if_sentient"], "mental": ["risk_state_recognized"], "positional": []}
+        },
+        {
+            "verb": "jerk",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "biological_body", "virtual_object"],
+            "goals": ["pull_sharply", "move_abruptly"],
+            "mechanisms": ["sudden_force", "rapid_pull_or_push"],
+            "tools": ["hands", "tether", "lever"],
+            "required_subject_states": {"physical": ["able_to_apply_force"], "emotional": [], "mental": ["intentional_abrupt_move"], "positional": ["in_contact_or_grasp"]},
+            "required_object_states": {"physical": ["graspable_or_movable"], "emotional": [], "mental": [], "positional": ["within_reach"]},
+            "final_subject_states": {"physical": ["force_exerted"], "emotional": [], "mental": ["motion_initiated"], "positional": []},
+            "final_object_states": {"physical": ["shifted_abruptly"], "emotional": ["startled_if_sentient"], "mental": [], "positional": ["displaced"]}
+        },
+        {
+            "verb": "jest",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["amuse", "lighten_mood"],
+            "mechanisms": ["joking", "playful_commentary", "humorous_performance"],
+            "tools": ["words", "stories", "media"],
+            "required_subject_states": {"physical": ["able_to_express"], "emotional": ["playful"], "mental": ["humor_intent"], "positional": ["co_located_or_connected"]},
+            "required_object_states": {"physical": [], "emotional": [], "mental": ["receptive_to_humor"], "positional": ["co_located_or_connected"]},
+            "final_subject_states": {"physical": [], "emotional": ["amused"], "mental": ["humor_expressed"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": ["amused"], "mental": ["joke_received"], "positional": []}
+        },
+        {
+            "verb": "jet",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["place", "object"],
+            "goals": ["move_quickly", "travel_by_air", "emit_stream"],
+            "mechanisms": ["propulsion", "pressurized_stream", "high_speed_motion"],
+            "tools": ["jet_engine", "nozzle", "vehicle"],
+            "required_subject_states": {"physical": ["powered_or_mobile"], "emotional": [], "mental": ["route_or_target_set"], "positional": ["ready_for_departure"]},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": ["reachable_or_direction_set"]},
+            "final_subject_states": {"physical": ["rapid_displacement"], "emotional": [], "mental": ["travel_executed"], "positional": ["at_new_location"]},
+            "final_object_states": {"physical": ["contact_with_stream_or_arrival"], "emotional": [], "mental": [], "positional": ["affected_by_flow_or_arrival"]}
+        },
+        {
+            "verb": "jettison",
+            "applicable_subjects": ["organization", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept"],
+            "goals": ["discard", "reduce_weight", "abandon"],
+            "mechanisms": ["release_overboard", "drop_intentionally", "eject"],
+            "tools": ["release_mechanism", "manual_discard", "ejection_system"],
+            "required_subject_states": {"physical": ["control_over_object"], "emotional": [], "mental": ["decision_to_discard"], "positional": ["at_disposal_point"]},
+            "required_object_states": {"physical": ["detachable"], "emotional": [], "mental": [], "positional": ["in_position_to_drop"]},
+            "final_subject_states": {"physical": ["lighter_or_unburdened"], "emotional": [], "mental": ["object_released"], "positional": []},
+            "final_object_states": {"physical": ["released_or_falling"], "emotional": [], "mental": [], "positional": ["separated_from_subject"]}
+        },
+        {
+            "verb": "jewel",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept"],
+            "goals": ["decorate", "enhance_value", "adorn"],
+            "mechanisms": ["embedding_gems", "adding_ornamentation", "stylizing"],
+            "tools": ["jewels", "adhesives_or_settings", "design_tools"],
+            "required_subject_states": {"physical": ["fine_motor_control"], "emotional": [], "mental": ["design_plan"], "positional": ["access_to_object"]},
+            "required_object_states": {"physical": ["surface_for_setting"], "emotional": [], "mental": [], "positional": ["accessible"]},
+            "final_subject_states": {"physical": [], "emotional": ["satisfied"], "mental": ["adornment_completed"], "positional": []},
+            "final_object_states": {"physical": ["adorned", "enhanced"], "emotional": [], "mental": [], "positional": []}
+        }
+    ],
+    "completed": true
+}

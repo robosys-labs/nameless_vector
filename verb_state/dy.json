@@ -1,0 +1,148 @@
+{
+    "prefix": "dy",
+    "processed_verbs": [
+        "dye",
+        "dyke"
+    ],
+    "outcomes": [
+        {
+            "verb": "dye",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations",
+                "physical agents"
+            ],
+            "applicable_objects": [
+                "objects",
+                "fabrics",
+                "hair",
+                "fluids"
+            ],
+            "goals": [
+                "impart color to a material",
+                "alter appearance for identification or aesthetics"
+            ],
+            "mechanisms": [
+                "immersion",
+                "application",
+                "chemical bonding"
+            ],
+            "tools": [
+                "dye baths",
+                "brushes",
+                "applicator bottles",
+                "fixatives"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "access to pigments"
+                ],
+                "emotional": [],
+                "mental": [
+                    "design intent"
+                ],
+                "positional": [
+                    "near treated object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "absorbent",
+                    "clean"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "design executed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "colored",
+                    "sealed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dyke",
+            "applicable_subjects": [
+                "organizations",
+                "physical agents"
+            ],
+            "applicable_objects": [
+                "waterways",
+                "flood zones",
+                "conceptual flows"
+            ],
+            "goals": [
+                "construct an embankment to restrain flow",
+                "fortify boundaries against intrusion"
+            ],
+            "mechanisms": [
+                "earthmoving",
+                "stacking",
+                "reinforcement"
+            ],
+            "tools": [
+                "soil",
+                "sandbags",
+                "machines",
+                "retaining walls"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capacity for heavy labor"
+                ],
+                "emotional": [],
+                "mental": [
+                    "planning layout"
+                ],
+                "positional": [
+                    "along threatened perimeter"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "unstable",
+                    "subject to flow"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "exerted"
+                ],
+                "emotional": [
+                    "cautiously optimistic"
+                ],
+                "mental": [
+                    "structure monitored"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "contained",
+                    "shielded"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

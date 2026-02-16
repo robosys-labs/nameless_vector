@@ -1,0 +1,107 @@
+{
+    "prefix": "gn",
+    "processed_verbs": [
+        "gnarl",
+        "gnash",
+        "gnaw"
+    ],
+    "outcomes": [
+        {
+            "verb": "gnarl",
+            "applicable_subjects": ["biological_body", "object", "place"],
+            "applicable_objects": ["object", "place"],
+            "goals": ["twist", "distort", "form_knots"],
+            "mechanisms": ["torsion", "growth_twist", "compression"],
+            "tools": ["hands", "tools", "environmental_pressure"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["intent_to_twist_or_known_force"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["flexible_or_malleable"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gnarling_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["twisted_or_knotted"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gnash",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["object", "concept"],
+            "goals": ["grind_teeth", "express_anger", "produce_noise"],
+            "mechanisms": ["forceful_teeth_contact", "jaw_motion"],
+            "tools": ["teeth", "jaw"],
+            "required_subject_states": {
+                "physical": ["teeth_intact"],
+                "emotional": ["angry_or_distressed"],
+                "mental": ["urge_to_grind"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": ["teeth_worn_slightly"],
+                "emotional": ["anger_expressed"],
+                "mental": ["tension_released_partially"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["exposure_to_noise"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gnaw",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["object", "concept"],
+            "goals": ["wear_down", "consume_slowly", "persistently_bite"],
+            "mechanisms": ["repeated_biting", "abrasion", "slow_consumption"],
+            "tools": ["teeth", "grinding_surface"],
+            "required_subject_states": {
+                "physical": ["biting_capability"],
+                "emotional": [],
+                "mental": ["focus_on_target"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["reachable"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["material_reduced"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["eroded_or_partially_consumed"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

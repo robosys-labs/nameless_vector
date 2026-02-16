@@ -31,6 +31,7 @@
         "disappear",
         "disarm",
         "disassemble",
+        "disavow",
         "disassociate",
         "disband",
         "discard",
@@ -40,22 +41,27 @@
         "disclaim",
         "disclose",
         "discolor",
+        "discomfit",
+        "disconcert",
         "disconnect",
         "discontinue",
         "discount",
         "discourage",
         "discover",
-        "discredit",        
+        "discredit",
         "discuss",
         "disdain",
         "disembowel",
+        "disenfrachise",
         "disengage",
+        "disentangle",
         "disfigure",
         "disguise",
         "disgust",
         "dish",
         "dishearten",
         "dishevel",
+        "dishonor",
         "disinfect",
         "disinherit",
         "disintegrate",
@@ -64,8 +70,12 @@
         "dismantle",
         "dismay",
         "dismiss",
+        "dismount",
         "disobey",
+        "disorder",
         "disorient",
+        "disown",
+        "disparage",
         "dispatch",
         "dispel",
         "dispense",
@@ -74,6 +84,7 @@
         "display",
         "displease",
         "dispose",
+        "dispossess",
         "dispute",
         "disregard",
         "disrupt",
@@ -81,6 +92,7 @@
         "disseminate",
         "dissent",
         "dissipate",
+        "dissociate",
         "dissolve",
         "dissuade",
         "distance",
@@ -1862,6 +1874,74 @@
             }
         },
         {
+            "verb": "disavow",
+            "applicable_subjects": [
+                "organization",
+                "biological_body"
+            ],
+            "applicable_objects": [
+                "concept",
+                "virtual_object",
+                "organization",
+                "biological_body"
+            ],
+            "goals": [
+                "deny association",
+                "reject responsibility",
+                "renounce connection"
+            ],
+            "mechanisms": [
+                "statement",
+                "public_notice",
+                "formal_declaration"
+            ],
+            "tools": [
+                "documents",
+                "media",
+                "speech"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "firm"
+                ],
+                "mental": [
+                    "aware_of_association",
+                    "intentional_denial"
+                ],
+                "positional": [
+                    "in_communication_space"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "previously_associated"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "resolved"
+                ],
+                "mental": [
+                    "disassociation_expressed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "disowned",
+                    "denied"
+                ],
+                "positional": []
+            }
+        },
+        {
             "verb": "disassociate",
             "applicable_subjects": [
                 "biological body",
@@ -2496,6 +2576,134 @@
             }
         },
         {
+            "verb": "discomfit",
+            "applicable_subjects": [
+                "biological_body",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body"
+            ],
+            "goals": [
+                "embarrass",
+                "confuse",
+                "unsettle"
+            ],
+            "mechanisms": [
+                "verbal_action",
+                "social_interaction"
+            ],
+            "tools": [
+                "words",
+                "gestures"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "present"
+                ],
+                "emotional": [],
+                "mental": [
+                    "active"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "present"
+                ],
+                "emotional": [
+                    "composed"
+                ],
+                "mental": [
+                    "neutral"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "dominant"
+                ],
+                "mental": [
+                    "superior"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "embarrassed",
+                    "unsettled"
+                ],
+                "mental": [
+                    "confused"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disconcert",
+            "applicable_subjects": [
+                "biological_body",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body"
+            ],
+            "goals": [
+                "disturb composure",
+                "unsettle"
+            ],
+            "mechanisms": [
+                "verbal_action",
+                "environmental_action"
+            ],
+            "tools": [
+                "words",
+                "situations"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "present"
+                ],
+                "emotional": [],
+                "mental": [
+                    "active"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "calm"
+                ],
+                "mental": [
+                    "composed"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "dominant"
+                ],
+                "mental": [
+                    "assertive"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "uneasy"
+                ],
+                "mental": [
+                    "unsettled"
+                ],
+                "positional": []
+            }
+        },
+        {
             "verb": "disconnect",
             "applicable_subjects": [
                 "biological_body",
@@ -2922,6 +3130,4221 @@
                     "credibility_diminished"
                 ],
                 "positional": []
+            }
+        },
+        {
+            "verb": "disavow",
+            "applicable_subjects": [
+                "organization",
+                "biological_body"
+            ],
+            "applicable_objects": [
+                "concept",
+                "virtual_object",
+                "organization",
+                "biological_body"
+            ],
+            "goals": [
+                "deny association",
+                "reject responsibility",
+                "renounce connection"
+            ],
+            "mechanisms": [
+                "statement",
+                "public_notice",
+                "formal_declaration"
+            ],
+            "tools": [
+                "documents",
+                "media",
+                "speech"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "firm"
+                ],
+                "mental": [
+                    "aware_of_association",
+                    "intentional_denial"
+                ],
+                "positional": [
+                    "in_communication_space"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "previously_associated"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "resolved"
+                ],
+                "mental": [
+                    "disassociation_expressed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "disowned",
+                    "denied"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "discuss",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "concept",
+                "virtual_object",
+                "organization"
+            ],
+            "goals": [
+                "exchange ideas",
+                "analyze",
+                "reach understanding"
+            ],
+            "mechanisms": [
+                "conversation",
+                "dialogue",
+                "debate"
+            ],
+            "tools": [
+                "speech",
+                "documents",
+                "communication_platforms"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "open",
+                    "collaborative"
+                ],
+                "mental": [
+                    "prepared",
+                    "engaged"
+                ],
+                "positional": [
+                    "in communication range or connected remotely"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "available_as_topic"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "informed"
+                ],
+                "mental": [
+                    "shared_understanding"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "analyzed",
+                    "considered"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disdain",
+            "applicable_subjects": [
+                "biological_body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "organization",
+                "concept",
+                "object"
+            ],
+            "goals": [
+                "show contempt",
+                "reject with scorn"
+            ],
+            "mechanisms": [
+                "criticism",
+                "dismissive_behavior",
+                "non_acceptance"
+            ],
+            "tools": [
+                "speech",
+                "gestures",
+                "behavior"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "prideful",
+                    "scornful"
+                ],
+                "mental": [
+                    "judgmental"
+                ],
+                "positional": [
+                    "in contact_or_awareness_of_object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "considered_unworthy"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "vindicated"
+                ],
+                "mental": [
+                    "reinforced_superiority"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "belittled"
+                ],
+                "mental": [
+                    "dismissed"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disembowel",
+            "applicable_subjects": [
+                "biological_body",
+                "physical_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "animal"
+            ],
+            "goals": [
+                "remove internal organs",
+                "cause harm"
+            ],
+            "mechanisms": [
+                "cutting",
+                "eviscerating"
+            ],
+            "tools": [
+                "knife",
+                "sharp_object"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable",
+                    "strong"
+                ],
+                "emotional": [
+                    "violent",
+                    "hostile"
+                ],
+                "mental": [
+                    "intentional"
+                ],
+                "positional": [
+                    "direct_contact"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "intact",
+                    "alive_or_dead"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "accessible_to_subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied_or_indifferent"
+                ],
+                "mental": [
+                    "action_completed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "eviscerated",
+                    "damaged"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disenfranchise",
+            "applicable_subjects": [
+                "institution",
+                "synthetic_agent",
+                "biological_body"
+            ],
+            "applicable_objects": [
+                "biological_body"
+            ],
+            "goals": [
+                "remove rights",
+                "deprive privilege"
+            ],
+            "mechanisms": [
+                "legal_action",
+                "social_action"
+            ],
+            "tools": [
+                "law",
+                "policy",
+                "rules"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable"
+                ],
+                "emotional": [],
+                "mental": [
+                    "active"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "enfranchised"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "detached"
+                ],
+                "mental": [
+                    "controlling"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "disempowered"
+                ],
+                "mental": [],
+                "positional": [
+                    "disenfranchised"
+                ]
+            }
+        },
+        {
+            "verb": "disengage",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "object",
+                "synthetic_agent",
+                "concept",
+                "organization"
+            ],
+            "goals": [
+                "separate",
+                "withdraw involvement"
+            ],
+            "mechanisms": [
+                "detachment",
+                "release",
+                "withdrawal"
+            ],
+            "tools": [
+                "hands",
+                "commands",
+                "strategies"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable"
+                ],
+                "emotional": [
+                    "detached"
+                ],
+                "mental": [
+                    "intentional"
+                ],
+                "positional": [
+                    "in_connection_or_contact"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "engaged",
+                    "connected"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "linked_to_subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "free",
+                    "independent"
+                ],
+                "mental": [
+                    "detachment_achieved"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "disconnected"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disentangle",
+            "applicable_subjects": [
+                "biological_body",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "objects",
+                "concepts",
+                "biological_body"
+            ],
+            "goals": [
+                "free from entanglement",
+                "clarify complexity"
+            ],
+            "mechanisms": [
+                "physical_action",
+                "mental_action"
+            ],
+            "tools": [
+                "hands",
+                "mind"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable"
+                ],
+                "emotional": [],
+                "mental": [
+                    "active"
+                ],
+                "positional": [
+                    "close to object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "entangled"
+                ],
+                "emotional": [],
+                "mental": [
+                    "confused"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [
+                    "satisfied"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "free"
+                ],
+                "emotional": [],
+                "mental": [
+                    "clarified"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disfigure",
+            "applicable_subjects": [
+                "biological_body",
+                "physical_agent",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "object"
+            ],
+            "goals": [
+                "damage appearance",
+                "spoil form"
+            ],
+            "mechanisms": [
+                "cutting",
+                "burning",
+                "altering_structure"
+            ],
+            "tools": [
+                "sharp_objects",
+                "chemicals",
+                "heat"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "able_to_damage"
+                ],
+                "emotional": [
+                    "violent_or_negligent"
+                ],
+                "mental": [
+                    "intentional_or_careless"
+                ],
+                "positional": [
+                    "in_contact_or_near_object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "intact",
+                    "undamaged"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "accessible_to_subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "resolved"
+                ],
+                "mental": [
+                    "alteration_executed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "damaged",
+                    "scarred",
+                    "deformed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disguise",
+            "applicable_subjects": [
+                "biological body",
+                "concept"
+            ],
+            "applicable_objects": [
+                "biological body",
+                "object",
+                "concept"
+            ],
+            "goals": [
+                "to conceal identity or nature",
+                "to mislead perception"
+            ],
+            "mechanisms": [
+                "altering appearance",
+                "masking attributes"
+            ],
+            "tools": [
+                "costume",
+                "cover",
+                "symbolic mask"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable of change"
+                ],
+                "emotional": [
+                    "motivated by concealment"
+                ],
+                "mental": [
+                    "intentional deception"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "visible form"
+                ],
+                "emotional": [],
+                "mental": [
+                    "recognizable identity"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "secretive"
+                ],
+                "mental": [
+                    "concealed intention"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "altered appearance"
+                ],
+                "emotional": [
+                    "confused perception"
+                ],
+                "mental": [
+                    "misidentified"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disgust",
+            "applicable_subjects": [
+                "biological body"
+            ],
+            "applicable_objects": [
+                "concept",
+                "object",
+                "biological body"
+            ],
+            "goals": [
+                "to evoke aversion",
+                "to repel"
+            ],
+            "mechanisms": [
+                "triggering negative sensory/emotional response"
+            ],
+            "tools": [],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "sensitive to aversion"
+                ],
+                "mental": [
+                    "evaluative judgment"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "unpleasant form"
+                ],
+                "emotional": [
+                    "repulsive qualities"
+                ],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "repelled",
+                    "displeased"
+                ],
+                "mental": [
+                    "rejecting"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "rejected"
+                ],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dish",
+            "applicable_subjects": [
+                "biological body"
+            ],
+            "applicable_objects": [
+                "object",
+                "concept"
+            ],
+            "goals": [
+                "to serve food",
+                "to reveal information"
+            ],
+            "mechanisms": [
+                "placing portions",
+                "sharing details"
+            ],
+            "tools": [
+                "plate",
+                "medium of expression"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable of handling"
+                ],
+                "emotional": [],
+                "mental": [
+                    "possessing content"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "edible form",
+                    "information"
+                ],
+                "emotional": [],
+                "mental": [
+                    "concealed fact"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "relieved of holding"
+                ],
+                "mental": [
+                    "shared knowledge"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "served",
+                    "transferred"
+                ],
+                "emotional": [],
+                "mental": [
+                    "revealed"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dishearten",
+            "applicable_subjects": [
+                "biological body"
+            ],
+            "applicable_objects": [
+                "biological body"
+            ],
+            "goals": [
+                "to reduce courage or confidence"
+            ],
+            "mechanisms": [
+                "discouraging words",
+                "demoralizing actions"
+            ],
+            "tools": [],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "influential"
+                ],
+                "mental": [
+                    "capable of discouragement"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "motivated"
+                ],
+                "mental": [
+                    "confident"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "dominant"
+                ],
+                "mental": [
+                    "in control of other's morale"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "discouraged",
+                    "weakened"
+                ],
+                "mental": [
+                    "less confident"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dishevel",
+            "applicable_subjects": [
+                "biological body"
+            ],
+            "applicable_objects": [
+                "object",
+                "biological body"
+            ],
+            "goals": [
+                "to make untidy or disordered"
+            ],
+            "mechanisms": [
+                "disturbing arrangement"
+            ],
+            "tools": [
+                "hands",
+                "external force"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable of manipulation"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intentional or careless"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "ordered form"
+                ],
+                "emotional": [],
+                "mental": [
+                    "recognizable arrangement"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied with disorder"
+                ],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "disordered",
+                    "untidy"
+                ],
+                "emotional": [],
+                "mental": [
+                    "less coherent"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dishonor",
+            "applicable_subjects": [
+                "biological_body",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "concepts"
+            ],
+            "goals": [
+                "bring shame",
+                "disrespect"
+            ],
+            "mechanisms": [
+                "social_action",
+                "verbal_action"
+            ],
+            "tools": [
+                "words",
+                "actions"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "active"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "neutral"
+                ],
+                "mental": [
+                    "esteemed"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "dominant"
+                ],
+                "mental": [
+                    "assertive"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "ashamed"
+                ],
+                "mental": [
+                    "degraded"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disinfect",
+            "applicable_subjects": [
+                "biological body",
+                "concept"
+            ],
+            "applicable_objects": [
+                "object",
+                "place"
+            ],
+            "goals": [
+                "to remove harmful microorganisms"
+            ],
+            "mechanisms": [
+                "applying chemicals",
+                "sterilizing methods"
+            ],
+            "tools": [
+                "disinfectant",
+                "UV light"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable of treatment"
+                ],
+                "emotional": [],
+                "mental": [
+                    "knowledge of sanitation"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "contaminated"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "assured of cleanliness"
+                ],
+                "mental": [
+                    "aware of reduced risk"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "clean",
+                    "sterilized"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disinherit",
+            "applicable_subjects": [
+                "biological body",
+                "concept"
+            ],
+            "applicable_objects": [
+                "biological body"
+            ],
+            "goals": [
+                "to deprive someone of inheritance or succession rights"
+            ],
+            "mechanisms": [
+                "legal exclusion",
+                "personal decision"
+            ],
+            "tools": [
+                "legal document",
+                "verbal declaration"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "motivated by rejection or punishment"
+                ],
+                "mental": [
+                    "intentional decision-making"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "expectant",
+                    "attached"
+                ],
+                "mental": [
+                    "anticipating inheritance"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "resolved",
+                    "separating"
+                ],
+                "mental": [
+                    "asserting control"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "hurt",
+                    "resentful"
+                ],
+                "mental": [
+                    "denied inheritance"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disintegrate",
+            "applicable_subjects": [
+                "object",
+                "concept"
+            ],
+            "applicable_objects": [
+                "object",
+                "concept"
+            ],
+            "goals": [
+                "to break into parts",
+                "to collapse structurally"
+            ],
+            "mechanisms": [
+                "physical decay",
+                "chemical breakdown",
+                "loss of cohesion"
+            ],
+            "tools": [
+                "force",
+                "time",
+                "external pressure"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "unstable form"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "coherent structure"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "fragmented"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "dispersed",
+                    "broken down"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disjoin",
+            "applicable_subjects": [
+                "concept",
+                "object",
+                "biological body"
+            ],
+            "applicable_objects": [
+                "object",
+                "concept"
+            ],
+            "goals": [
+                "to separate or disconnect parts"
+            ],
+            "mechanisms": [
+                "breaking links",
+                "undoing connection"
+            ],
+            "tools": [
+                "hands",
+                "cutting tool"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable of manipulation"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intentional separation"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "joined or connected"
+                ],
+                "emotional": [],
+                "mental": [
+                    "unified concept"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "achieved separation"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "disconnected",
+                    "separated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "distinct"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dislocate",
+            "applicable_subjects": [
+                "biological body",
+                "object"
+            ],
+            "applicable_objects": [
+                "biological body",
+                "object"
+            ],
+            "goals": [
+                "to move something from its proper place"
+            ],
+            "mechanisms": [
+                "forceful shift",
+                "removal from normal position"
+            ],
+            "tools": [
+                "force",
+                "impact"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "able to exert force"
+                ],
+                "emotional": [],
+                "mental": [
+                    "capable of intentional or accidental act"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "properly positioned"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "in correct place"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "aware of displacement"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "misaligned",
+                    "out of place"
+                ],
+                "emotional": [
+                    "distressed (if biological body)"
+                ],
+                "mental": [],
+                "positional": [
+                    "displaced"
+                ]
+            }
+        },
+        {
+            "verb": "dislodge",
+            "applicable_subjects": [
+                "biological body",
+                "object"
+            ],
+            "applicable_objects": [
+                "object",
+                "biological body"
+            ],
+            "goals": [
+                "to force out of a fixed position"
+            ],
+            "mechanisms": [
+                "pushing",
+                "loosening",
+                "breaking hold"
+            ],
+            "tools": [
+                "hands",
+                "lever",
+                "external force"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable of force"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intentional act"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "firmly placed or attached"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "secured in place"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "achieved displacement"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "loosened",
+                    "removed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "out of place"
+                ]
+            }
+        },
+        {
+            "verb": "dismantle",
+            "applicable_subjects": [
+                "biological body",
+                "concept"
+            ],
+            "applicable_objects": [
+                "object",
+                "concept"
+            ],
+            "goals": [
+                "to take apart",
+                "to remove essential components"
+            ],
+            "mechanisms": [
+                "unscrewing",
+                "disassembling",
+                "systematic removal"
+            ],
+            "tools": [
+                "hands",
+                "wrench",
+                "policies (conceptual)"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "able to handle parts"
+                ],
+                "emotional": [],
+                "mental": [
+                    "knowledge of assembly"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "assembled structure"
+                ],
+                "emotional": [],
+                "mental": [
+                    "coherent system"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied or destructive"
+                ],
+                "mental": [
+                    "aware of disassembly"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "taken apart"
+                ],
+                "emotional": [],
+                "mental": [
+                    "no longer whole"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dismay",
+            "applicable_subjects": [
+                "biological body"
+            ],
+            "applicable_objects": [
+                "biological body",
+                "concept"
+            ],
+            "goals": [
+                "to cause distress or alarm"
+            ],
+            "mechanisms": [
+                "shocking news",
+                "unexpected action"
+            ],
+            "tools": [
+                "words",
+                "events"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "capable of inducing fear or sadness"
+                ],
+                "mental": [
+                    "holding negative message"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "calm",
+                    "hopeful"
+                ],
+                "mental": [
+                    "expecting normalcy"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "detached",
+                    "influential"
+                ],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "alarmed",
+                    "distressed"
+                ],
+                "mental": [
+                    "disoriented"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dismiss",
+            "applicable_subjects": [
+                "biological body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "biological body",
+                "concept"
+            ],
+            "goals": [
+                "to remove from position",
+                "to reject or disregard"
+            ],
+            "mechanisms": [
+                "verbal command",
+                "official termination",
+                "mental rejection"
+            ],
+            "tools": [
+                "words",
+                "authority",
+                "policy"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "assertive",
+                    "decisive"
+                ],
+                "mental": [
+                    "judgmental",
+                    "evaluative"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "attached",
+                    "expectant"
+                ],
+                "mental": [
+                    "engaged",
+                    "participating"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "resolved"
+                ],
+                "mental": [
+                    "detached",
+                    "finalized decision"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "disappointed",
+                    "resentful"
+                ],
+                "mental": [
+                    "excluded",
+                    "rejected"
+                ],
+                "positional": [
+                    "removed from role or context"
+                ]
+            }
+        },
+        {
+            "verb": "dismount",
+            "applicable_subjects": [
+                "biological body"
+            ],
+            "applicable_objects": [
+                "object"
+            ],
+            "goals": [
+                "to get off a horse, bicycle, or elevated object"
+            ],
+            "mechanisms": [
+                "movement",
+                "descending"
+            ],
+            "tools": [
+                "body",
+                "balance"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "mounted",
+                    "balanced"
+                ],
+                "emotional": [],
+                "mental": [
+                    "aware of movement"
+                ],
+                "positional": [
+                    "above ground, on object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "supporting rider"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "carrying subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "standing on ground"
+                ],
+                "emotional": [],
+                "mental": [
+                    "completed action"
+                ],
+                "positional": [
+                    "beside object"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "unloaded"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disobey",
+            "applicable_subjects": [
+                "biological body",
+                "synthetic agent"
+            ],
+            "applicable_objects": [
+                "biological body",
+                "organization",
+                "concept"
+            ],
+            "goals": [
+                "to refuse or fail to comply with authority or rules"
+            ],
+            "mechanisms": [
+                "intentional resistance",
+                "neglect"
+            ],
+            "tools": [
+                "will",
+                "choice"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "willing to resist"
+                ],
+                "mental": [
+                    "capable of defiance"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "authoritative",
+                    "expectant"
+                ],
+                "mental": [
+                    "issuing commands"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "assertive",
+                    "rebellious"
+                ],
+                "mental": [
+                    "aware of disobedience"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "frustrated",
+                    "angered"
+                ],
+                "mental": [
+                    "command ignored"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disorder",
+            "applicable_subjects": [
+                "biological body",
+                "object",
+                "concept"
+            ],
+            "applicable_objects": [
+                "object",
+                "concept"
+            ],
+            "goals": [
+                "to disturb order or arrangement"
+            ],
+            "mechanisms": [
+                "mixing",
+                "disrupting",
+                "removing organization"
+            ],
+            "tools": [
+                "hands",
+                "external force",
+                "neglect"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable of movement"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intentionally or unintentionally disruptive"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "ordered",
+                    "arranged"
+                ],
+                "emotional": [],
+                "mental": [
+                    "structured"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "aware of disruption"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "disorganized",
+                    "scattered"
+                ],
+                "emotional": [],
+                "mental": [
+                    "lacking coherence"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disorient",
+            "applicable_subjects": [
+                "biological body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "biological body",
+                "synthetic agent"
+            ],
+            "goals": [
+                "to confuse direction or awareness"
+            ],
+            "mechanisms": [
+                "misleading",
+                "disturbing perception"
+            ],
+            "tools": [
+                "environmental change",
+                "false information"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "intentional or negligent"
+                ],
+                "mental": [
+                    "capable of causing confusion"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "oriented",
+                    "aware"
+                ],
+                "positional": [
+                    "situated in known context"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "detached or careless"
+                ],
+                "mental": [
+                    "aware of induced confusion"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "confused"
+                ],
+                "mental": [
+                    "disoriented",
+                    "uncertain"
+                ],
+                "positional": [
+                    "lost or misplaced in context"
+                ]
+            }
+        },
+        {
+            "verb": "disown",
+            "applicable_subjects": [
+                "biological_body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "organization",
+                "concept",
+                "virtual_object"
+            ],
+            "goals": [
+                "renounce association",
+                "deny responsibility",
+                "relinquish claim"
+            ],
+            "mechanisms": [
+                "public declaration",
+                "legal renunciation",
+                "withdrawal of support"
+            ],
+            "tools": [
+                "statement",
+                "press_release",
+                "legal_document",
+                "social_media"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable_of_communication"
+                ],
+                "emotional": [
+                    "resolute",
+                    "distressed"
+                ],
+                "mental": [
+                    "intentional",
+                    "aware_of_association"
+                ],
+                "positional": [
+                    "at_declaration_venue_or_within_communication_range"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "associated",
+                    "dependent"
+                ],
+                "mental": [
+                    "identified_as_associated"
+                ],
+                "positional": [
+                    "present_or_identifiable_within_communication_range"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "relieved",
+                    "resolved"
+                ],
+                "mental": [
+                    "disassociated"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "hurt",
+                    "abandoned"
+                ],
+                "mental": [
+                    "disowned",
+                    "denied"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disparage",
+            "applicable_subjects": [
+                "biological body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "biological body",
+                "organization",
+                "concept"
+            ],
+            "goals": [
+                "to belittle or speak of as unimportant"
+            ],
+            "mechanisms": [
+                "criticism",
+                "negative comparison"
+            ],
+            "tools": [
+                "words",
+                "tone",
+                "media"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "negative",
+                    "dismissive"
+                ],
+                "mental": [
+                    "judgmental",
+                    "critical"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "neutral or hopeful"
+                ],
+                "mental": [
+                    "valued"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "superior",
+                    "critical"
+                ],
+                "mental": [
+                    "reinforced negative opinion"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "hurt",
+                    "belittled"
+                ],
+                "mental": [
+                    "undermined",
+                    "devalued"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dispatch",
+            "applicable_subjects": [
+                "biological body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "biological body",
+                "object",
+                "message"
+            ],
+            "goals": [
+                "to send off promptly",
+                "to deal with efficiently"
+            ],
+            "mechanisms": [
+                "sending",
+                "assigning",
+                "executing"
+            ],
+            "tools": [
+                "orders",
+                "messenger",
+                "communication system"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "decisive"
+                ],
+                "mental": [
+                    "organized",
+                    "intentional"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "available",
+                    "prepared"
+                ],
+                "emotional": [],
+                "mental": [
+                    "ready for task"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "resolved",
+                    "relieved"
+                ],
+                "mental": [
+                    "delegated task"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "en route",
+                    "executed"
+                ],
+                "emotional": [],
+                "mental": [
+                    "carrying out mission"
+                ],
+                "positional": [
+                    "moved to destination or away from origin"
+                ]
+            }
+        },
+        {
+            "verb": "dispel",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "concept"
+            ],
+            "applicable_objects": [
+                "concept",
+                "emotional_state",
+                "mental_state"
+            ],
+            "goals": [
+                "cause to vanish",
+                "drive away",
+                "eliminate doubt or fear"
+            ],
+            "mechanisms": [
+                "argument",
+                "evidence",
+                "action",
+                "clarification"
+            ],
+            "tools": [
+                "words",
+                "documents",
+                "demonstrations"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "able_to_act"
+                ],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "intentional",
+                    "aware_of_target"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "present_as_fear_or_anxiety"
+                ],
+                "mental": [
+                    "present_as_doubt_or_belief"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [
+                    "clarified"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "vanished"
+                ],
+                "mental": [
+                    "eliminated"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dispense",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "machine"
+            ],
+            "applicable_objects": [
+                "object",
+                "concept",
+                "service"
+            ],
+            "goals": [
+                "distribute",
+                "provide",
+                "allocate"
+            ],
+            "mechanisms": [
+                "release",
+                "grant",
+                "issue"
+            ],
+            "tools": [
+                "machine",
+                "legal_authority",
+                "hand"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "in_possession_of_object_or_power"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intentional",
+                    "authorized"
+                ],
+                "positional": [
+                    "in_contact_with_recipient_or_distribution_point"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "available"
+                ],
+                "emotional": [],
+                "mental": [
+                    "prepared_for_distribution"
+                ],
+                "positional": [
+                    "within_subject’s_control"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "lighter_after_release"
+                ],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "fulfilled_duty"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "transferred_to_recipient"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "with_recipient"
+                ]
+            }
+        },
+        {
+            "verb": "disperse",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "force_of_nature"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "object",
+                "concept"
+            ],
+            "goals": [
+                "scatter",
+                "spread out",
+                "break up concentration"
+            ],
+            "mechanisms": [
+                "movement",
+                "force",
+                "command"
+            ],
+            "tools": [
+                "wind",
+                "police_order",
+                "physical_force"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable_of_action_or_force"
+                ],
+                "emotional": [
+                    "determined"
+                ],
+                "mental": [
+                    "intentional"
+                ],
+                "positional": [
+                    "near_cluster_or_group"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "gathered",
+                    "clustered"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "in_one_place"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "relieved",
+                    "authoritative"
+                ],
+                "mental": [
+                    "accomplished"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "scattered",
+                    "separated"
+                ],
+                "emotional": [
+                    "disrupted"
+                ],
+                "mental": [],
+                "positional": [
+                    "spread_out"
+                ]
+            }
+        },
+        {
+            "verb": "displace",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "object"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "object"
+            ],
+            "goals": [
+                "remove from usual position",
+                "take place of"
+            ],
+            "mechanisms": [
+                "force",
+                "replacement",
+                "movement"
+            ],
+            "tools": [
+                "hand",
+                "machine",
+                "policy"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "able_to_exert_force_or_influence"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intentional"
+                ],
+                "positional": [
+                    "in_contact_with_object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "occupying_position"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "in_original_place"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "in_new_position_or_control"
+                ],
+                "emotional": [
+                    "empowered"
+                ],
+                "mental": [
+                    "achieved_replacement"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "removed",
+                    "shifted"
+                ],
+                "emotional": [
+                    "disrupted"
+                ],
+                "mental": [],
+                "positional": [
+                    "out_of_original_place"
+                ]
+            }
+        },
+        {
+            "verb": "display",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "object"
+            ],
+            "applicable_objects": [
+                "object",
+                "concept",
+                "ability"
+            ],
+            "goals": [
+                "make visible",
+                "show publicly",
+                "demonstrate"
+            ],
+            "mechanisms": [
+                "arrangement",
+                "presentation",
+                "exposure"
+            ],
+            "tools": [
+                "screen",
+                "poster",
+                "gesture"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "possessing_object_or_ability"
+                ],
+                "emotional": [
+                    "willing"
+                ],
+                "mental": [
+                    "intentional"
+                ],
+                "positional": [
+                    "within_view_of_audience"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "complete",
+                    "presentable"
+                ],
+                "emotional": [],
+                "mental": [
+                    "ready_for_exposure"
+                ],
+                "positional": [
+                    "with_subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "proud",
+                    "neutral"
+                ],
+                "mental": [
+                    "communicated"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "visible"
+                ],
+                "emotional": [
+                    "admired",
+                    "judged"
+                ],
+                "mental": [
+                    "acknowledged"
+                ],
+                "positional": [
+                    "in_view"
+                ]
+            }
+        },
+        {
+            "verb": "displease",
+            "applicable_subjects": [
+                "biological_body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "organization"
+            ],
+            "goals": [
+                "cause displeasure",
+                "make unhappy"
+            ],
+            "mechanisms": [
+                "speech",
+                "action",
+                "decision"
+            ],
+            "tools": [
+                "words",
+                "policies",
+                "behavior"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "able_to_act"
+                ],
+                "emotional": [
+                    "indifferent",
+                    "negligent"
+                ],
+                "mental": [
+                    "intentional_or_unintentional"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "neutral_or_sensitive"
+                ],
+                "mental": [
+                    "perceptive"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "unconcerned",
+                    "possibly_guilty"
+                ],
+                "mental": [
+                    "aware_of_effect"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "annoyed",
+                    "disappointed",
+                    "angered"
+                ],
+                "mental": [
+                    "dissatisfied"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dispose",
+            "applicable_subjects": [
+                "biological_body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "object",
+                "concept"
+            ],
+            "goals": [
+                "get rid of",
+                "arrange",
+                "prepare"
+            ],
+            "mechanisms": [
+                "throw away",
+                "place",
+                "set in order"
+            ],
+            "tools": [
+                "hands",
+                "container",
+                "policy"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "in_possession_of_object"
+                ],
+                "emotional": [
+                    "willing"
+                ],
+                "mental": [
+                    "decisive"
+                ],
+                "positional": [
+                    "near_place_of_removal_or_arrangement"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "unwanted",
+                    "present_with_subject"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "within_subject_control"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "free_of_object"
+                ],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [
+                    "settled_decision"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "removed",
+                    "arranged"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "away_from_subject",
+                    "in_new_location"
+                ]
+            }
+        },
+        {
+            "verb": "dispossess",
+            "applicable_subjects": [
+                "institution",
+                "synthetic_agent",
+                "biological_body"
+            ],
+            "applicable_objects": [
+                "biological_body"
+            ],
+            "goals": [
+                "deprive of property",
+                "remove ownership"
+            ],
+            "mechanisms": [
+                "legal_action",
+                "physical_action"
+            ],
+            "tools": [
+                "law",
+                "force"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable"
+                ],
+                "emotional": [],
+                "mental": [
+                    "active"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "in_possession"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "dominant"
+                ],
+                "mental": [
+                    "controlling"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "powerless"
+                ],
+                "mental": [],
+                "positional": [
+                    "dispossessed"
+                ]
+            }
+        },
+        {
+            "verb": "dispute",
+            "applicable_subjects": [
+                "biological_body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "concept",
+                "decision",
+                "claim"
+            ],
+            "goals": [
+                "challenge validity",
+                "argue against",
+                "contest"
+            ],
+            "mechanisms": [
+                "argument",
+                "evidence",
+                "objection"
+            ],
+            "tools": [
+                "words",
+                "documents",
+                "legal_action"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "motivated",
+                    "displeased"
+                ],
+                "mental": [
+                    "critical",
+                    "aware_of_issue"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "asserted_as_true_or_valid"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "determined",
+                    "possibly_frustrated"
+                ],
+                "mental": [
+                    "engaged_in_argument"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "challenged",
+                    "undermined"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disregard",
+            "applicable_subjects": [
+                "biological_body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "concept",
+                "instruction",
+                "biological_body"
+            ],
+            "goals": [
+                "ignore",
+                "pay no attention"
+            ],
+            "mechanisms": [
+                "deliberate_inaction",
+                "mental_avoidance"
+            ],
+            "tools": [
+                "mental_focus_shift"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "indifferent"
+                ],
+                "mental": [
+                    "aware_but_unconcerned"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "seeking_attention_or_response"
+                ],
+                "mental": [
+                    "presented_as_information"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "unaffected"
+                ],
+                "mental": [
+                    "disengaged",
+                    "unresponsive"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "neglected",
+                    "dismissed"
+                ],
+                "mental": [
+                    "unacknowledged"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disrupt",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "event"
+            ],
+            "applicable_objects": [
+                "process",
+                "activity",
+                "organization"
+            ],
+            "goals": [
+                "disturb",
+                "interrupt normal function"
+            ],
+            "mechanisms": [
+                "force",
+                "interference",
+                "obstruction"
+            ],
+            "tools": [
+                "noise",
+                "protest",
+                "attack",
+                "policy_change"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable_of_interference"
+                ],
+                "emotional": [
+                    "determined"
+                ],
+                "mental": [
+                    "intentional_or_reckless"
+                ],
+                "positional": [
+                    "near_activity_or_process"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "functioning_normally"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied",
+                    "rebellious"
+                ],
+                "mental": [
+                    "achieved_interruption"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "halted",
+                    "interrupted"
+                ],
+                "emotional": [
+                    "frustrated"
+                ],
+                "mental": [
+                    "distracted"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dissect",
+            "applicable_subjects": [
+                "biological_body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "object",
+                "concept"
+            ],
+            "goals": [
+                "cut apart",
+                "analyze in detail"
+            ],
+            "mechanisms": [
+                "cutting",
+                "separation",
+                "analytical breakdown"
+            ],
+            "tools": [
+                "scalpel",
+                "knife",
+                "scientific_method"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "access_to_object"
+                ],
+                "emotional": [
+                    "curious",
+                    "neutral"
+                ],
+                "mental": [
+                    "analytical",
+                    "intentional"
+                ],
+                "positional": [
+                    "in_contact_with_object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "whole",
+                    "intact"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "enlightened"
+                ],
+                "mental": [
+                    "increased_understanding"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "cut_apart",
+                    "separated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "revealed_as_parts"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "disseminate",
+            "applicable_subjects": [
+                "biological_body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "concept",
+                "information",
+                "belief"
+            ],
+            "goals": [
+                "spread widely",
+                "distribute"
+            ],
+            "mechanisms": [
+                "communication",
+                "publication",
+                "broadcast"
+            ],
+            "tools": [
+                "words",
+                "media",
+                "documents"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "motivated"
+                ],
+                "mental": [
+                    "possessing_information",
+                    "intentional"
+                ],
+                "positional": [
+                    "connected_to_audience_or_channels"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "contained_as_information"
+                ],
+                "positional": [
+                    "with_subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "relieved",
+                    "satisfied"
+                ],
+                "mental": [
+                    "communicated"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "spread",
+                    "accessible"
+                ],
+                "positional": [
+                    "among_audience"
+                ]
+            }
+        },
+        {
+            "verb": "dissent",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "concept",
+                "organization"
+            ],
+            "goals": [
+                "express disagreement",
+                "oppose consensus"
+            ],
+            "mechanisms": [
+                "verbal expression",
+                "formal objection",
+                "vote or protest"
+            ],
+            "tools": [
+                "speech",
+                "document",
+                "petition",
+                "communication_channel"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "resolute",
+                    "confident"
+                ],
+                "mental": [
+                    "opinionated",
+                    "aware_of_issue"
+                ],
+                "positional": [
+                    "within communication range of forum or audience"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "established_as_consensus_or_proposal"
+                ],
+                "positional": [
+                    "presented or posted in a forum"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "firm"
+                ],
+                "mental": [
+                    "dissent_expressed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "challenged"
+                ],
+                "mental": [
+                    "questioned"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "dissipate",
+            "applicable_subjects": [
+                "physical_agent",
+                "biological_body",
+                "organization",
+                "concept"
+            ],
+            "applicable_objects": [
+                "object",
+                "place",
+                "concept"
+            ],
+            "goals": [
+                "cause concentration to disperse",
+                "reduce intensity or coherence"
+            ],
+            "mechanisms": [
+                "diffusion",
+                "scattering",
+                "loss over time"
+            ],
+            "tools": [
+                "wind",
+                "heat",
+                "time",
+                "crowd_movement",
+                "communication_channels"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "able_to_apply_force_or_influence"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intentional_or_passive_actor"
+                ],
+                "positional": [
+                    "adjacent to or overlapping target area"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "concentrated",
+                    "clustered",
+                    "high_intensity"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "located in a bounded area"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "action_effective_or_passed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "scattered",
+                    "reduced_intensity"
+                ],
+                "emotional": [],
+                "mental": [
+                    "less_coherent"
+                ],
+                "positional": [
+                    "spread_out"
+                ]
+            }
+        },
+        {
+            "verb": "dissociate",
+            "applicable_subjects": [
+                "biological_body",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "concepts",
+                "biological_body"
+            ],
+            "goals": [
+                "separate",
+                "detach from association"
+            ],
+            "mechanisms": [
+                "mental_action",
+                "social_action"
+            ],
+            "tools": [
+                "mind",
+                "speech"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "active"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "associated"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "neutral"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "dissociated"
+                ]
+            }
+        },
+        {
+            "verb": "dissolve",
+            "applicable_subjects": [
+                "physical_agent",
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "object",
+                "virtual_object",
+                "organization",
+                "concept"
+            ],
+            "goals": [
+                "cause to become liquid or cease formal existence",
+                "make component parts integrate or disappear"
+            ],
+            "mechanisms": [
+                "chemical reaction",
+                "mixing",
+                "legal/administrative action",
+                "algorithmic merge"
+            ],
+            "tools": [
+                "solvent",
+                "heat",
+                "legal_process",
+                "software_routine"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "in_contact_with_object_or_having_authority"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intentional",
+                    "authorized (for legal/organizational dissolution)"
+                ],
+                "positional": [
+                    "adjacent to or controlling object/location"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "soluble_or_able_to_be_integrated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "bound_by_contract_or_structure (for organizational/virtual dissolution)"
+                ],
+                "positional": [
+                    "accessible or within subject control"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "process_completed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "dissolved",
+                    "integrated",
+                    "liquefied"
+                ],
+                "emotional": [],
+                "mental": [
+                    "ceased",
+                    "terminated",
+                    "merged"
+                ],
+                "positional": [
+                    "no_longer_in_original_place"
+                ]
+            }
+        },
+        {
+            "verb": "dissuade",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "organization"
+            ],
+            "goals": [
+                "persuade not to act",
+                "reduce likelihood of a chosen action"
+            ],
+            "mechanisms": [
+                "argumentation",
+                "warning",
+                "offering alternatives",
+                "incentives/penalties"
+            ],
+            "tools": [
+                "evidence",
+                "authority",
+                "incentive",
+                "communication_channel"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "concerned",
+                    "practical"
+                ],
+                "mental": [
+                    "persuasive",
+                    "informed"
+                ],
+                "positional": [
+                    "within communication range of the target"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "motivated_to_act"
+                ],
+                "mental": [
+                    "considering_action"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "relieved_if_successful"
+                ],
+                "mental": [
+                    "persuasion_attempted"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "less_motivated"
+                ],
+                "mental": [
+                    "less_likely_to_act"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "distance",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "physical_agent",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "object",
+                "concept",
+                "place"
+            ],
+            "goals": [
+                "increase spatial separation",
+                "create relational separation"
+            ],
+            "mechanisms": [
+                "movement",
+                "policy change",
+                "boundary setting"
+            ],
+            "tools": [
+                "transport",
+                "rules",
+                "barrier",
+                "physical_move"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable_of_movement_or_policy_change"
+                ],
+                "emotional": [
+                    "intentional"
+                ],
+                "mental": [
+                    "desire_to_separate"
+                ],
+                "positional": [
+                    "near the object or within reach"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "within_proximity"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "located near subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "detached"
+                ],
+                "mental": [
+                    "separation_achieved"
+                ],
+                "positional": [
+                    "moved_away_or_restrictive_boundary_in_place"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "separated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "distanced_in_relation"
+                ],
+                "positional": [
+                    "further_from_subject"
+                ]
+            }
+        },
+        {
+            "verb": "distill",
+            "applicable_subjects": [
+                "physical_agent",
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "object",
+                "concept",
+                "virtual_object"
+            ],
+            "goals": [
+                "purify or extract essence",
+                "condense information to essentials"
+            ],
+            "mechanisms": [
+                "heating and condensing",
+                "analysis and summarization"
+            ],
+            "tools": [
+                "still",
+                "condenser",
+                "analysis_tools",
+                "algorithms"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable_of_processing_or_heating (for physical distillation)"
+                ],
+                "emotional": [],
+                "mental": [
+                    "knowledgeable",
+                    "methodical"
+                ],
+                "positional": [
+                    "in_control_of_source_material_or_data"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "contains_desired_components_or_information"
+                ],
+                "emotional": [],
+                "mental": [
+                    "complex_or_mixed"
+                ],
+                "positional": [
+                    "available_to_subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "understanding_enhanced"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "purified",
+                    "concentrated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "condensed",
+                    "clarified"
+                ],
+                "positional": [
+                    "collected_in_target_container_or_format"
+                ]
+            }
+        },
+        {
+            "verb": "distinguish",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "object",
+                "concept",
+                "virtual_object",
+                "biological_body"
+            ],
+            "goals": [
+                "recognize differences",
+                "differentiate entities",
+                "identify uniquely"
+            ],
+            "mechanisms": [
+                "observation",
+                "comparison",
+                "analysis"
+            ],
+            "tools": [
+                "senses",
+                "measurement_tools",
+                "algorithms"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable_of_perception_or_processing"
+                ],
+                "emotional": [],
+                "mental": [
+                    "attentive",
+                    "analytical"
+                ],
+                "positional": [
+                    "within_sensory_or_data_range"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "present",
+                    "observable"
+                ],
+                "emotional": [],
+                "mental": [
+                    "possessing_distinct_attributes"
+                ],
+                "positional": [
+                    "accessible_to_subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "able_to_differentiate"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "classified",
+                    "distinguished"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "distort",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent",
+                "physical_agent"
+            ],
+            "applicable_objects": [
+                "object",
+                "virtual_object",
+                "concept"
+            ],
+            "goals": [
+                "alter shape or meaning",
+                "misrepresent or deform"
+            ],
+            "mechanisms": [
+                "twisting",
+                "bending",
+                "selective representation",
+                "signal alteration"
+            ],
+            "tools": [
+                "hand",
+                "machine",
+                "software",
+                "media_channel"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable_of_exerting_force_or_control"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intentional_or_negligent"
+                ],
+                "positional": [
+                    "in_contact_or_influence_range"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "flexible_or_representable"
+                ],
+                "emotional": [],
+                "mental": [
+                    "capable_of_being_misrepresented"
+                ],
+                "positional": [
+                    "within_subject_influence"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "misrepresentation_completed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "deformed",
+                    "misaligned"
+                ],
+                "emotional": [],
+                "mental": [
+                    "misrepresented",
+                    "confused"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "distract",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "organization"
+            ],
+            "goals": [
+                "divert attention",
+                "reduce focus"
+            ],
+            "mechanisms": [
+                "interruption",
+                "attracting_attention_elsewhere"
+            ],
+            "tools": [
+                "noise",
+                "gesture",
+                "media",
+                "notification"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "motivated"
+                ],
+                "mental": [
+                    "capable_of_interruption"
+                ],
+                "positional": [
+                    "within_attention_range_of_object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "focused",
+                    "engaged_in_task"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "pleased_or_indifferent"
+                ],
+                "mental": [
+                    "diversion_executed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "unfocused",
+                    "attention_diverted"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "distress",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent",
+                "concept"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "organization"
+            ],
+            "goals": [
+                "cause anxiety",
+                "inflict suffering",
+                "generate hardship"
+            ],
+            "mechanisms": [
+                "emotional strain",
+                "physical hardship",
+                "negative influence"
+            ],
+            "tools": [
+                "words",
+                "actions",
+                "policies",
+                "conditions"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "intentional_or_indifferent"
+                ],
+                "mental": [
+                    "aware_of_action"
+                ],
+                "positional": [
+                    "influential_proximity_or_control"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "vulnerable"
+                ],
+                "emotional": [
+                    "stable_or_sensitive"
+                ],
+                "mental": [
+                    "conscious"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "empowered_or_unmoved"
+                ],
+                "mental": [
+                    "aware_of_effect"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "weakened",
+                    "strained"
+                ],
+                "emotional": [
+                    "anxious",
+                    "suffering"
+                ],
+                "mental": [
+                    "distracted",
+                    "unsettled"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "distribute",
+            "applicable_subjects": [
+                "organization",
+                "biological_body",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "object",
+                "virtual_object",
+                "concept"
+            ],
+            "goals": [
+                "deliver to multiple recipients",
+                "allocate resources"
+            ],
+            "mechanisms": [
+                "division",
+                "transportation",
+                "broadcasting"
+            ],
+            "tools": [
+                "vehicles",
+                "networks",
+                "hands",
+                "digital_platforms"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable_of_handling_or_transmitting"
+                ],
+                "emotional": [],
+                "mental": [
+                    "organized",
+                    "intentional"
+                ],
+                "positional": [
+                    "proximate_to_recipients_or_channels"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "divisible_or_distributable"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "within_subject_reach_or_system"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "task_completed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "dispersed",
+                    "shared"
+                ],
+                "emotional": [],
+                "mental": [
+                    "delivered"
+                ],
+                "positional": [
+                    "spread_across_recipients"
+                ]
+            }
+        },
+        {
+            "verb": "disturb",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent",
+                "physical_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "organization",
+                "object",
+                "place"
+            ],
+            "goals": [
+                "interrupt normal state",
+                "cause unrest or inconvenience"
+            ],
+            "mechanisms": [
+                "physical interference",
+                "noise",
+                "policy change",
+                "intrusion"
+            ],
+            "tools": [
+                "hand",
+                "device",
+                "words",
+                "regulation"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable_of_exerting_force_or_influence"
+                ],
+                "emotional": [
+                    "active_or_invasive"
+                ],
+                "mental": [
+                    "intentional_or_careless"
+                ],
+                "positional": [
+                    "within_proximity_or_range"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "stable",
+                    "at_rest"
+                ],
+                "emotional": [
+                    "calm"
+                ],
+                "mental": [
+                    "focused_or_at_peace"
+                ],
+                "positional": [
+                    "within_subject_influence"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied_or_indifferent"
+                ],
+                "mental": [
+                    "disturbance_initiated"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "disrupted",
+                    "moved",
+                    "unsettled"
+                ],
+                "emotional": [
+                    "agitated"
+                ],
+                "mental": [
+                    "distracted",
+                    "unsettled"
+                ],
+                "positional": [
+                    "altered_from_original_position_or_state"
+                ]
+            }
+        },
+        {
+            "verb": "diverge",
+            "applicable_subjects": [
+                "biological_body",
+                "synthetic_agent",
+                "objects"
+            ],
+            "applicable_objects": [
+                "concepts",
+                "paths"
+            ],
+            "goals": [
+                "separate",
+                "move in different directions"
+            ],
+            "mechanisms": [
+                "physical_action",
+                "mental_action"
+            ],
+            "tools": [
+                "body",
+                "mind"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "aligned"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "unified"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "separated"
+                ]
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "diverged"
+                ]
+            }
+        },
+        {
+            "verb": "diversify",
+            "applicable_subjects": [
+                "biological_body",
+                "synthetic_agent",
+                "institution"
+            ],
+            "applicable_objects": [
+                "concepts",
+                "objects"
+            ],
+            "goals": [
+                "make varied",
+                "expand into different forms"
+            ],
+            "mechanisms": [
+                "mental_action",
+                "creative_action"
+            ],
+            "tools": [
+                "mind",
+                "policy"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "active"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "uniform"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "innovative"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "diversified"
+                ],
+                "positional": [
+                    "expanded"
+                ]
+            }
+        },
+        {
+            "verb": "divert",
+            "applicable_subjects": [
+                "biological_body",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "objects",
+                "concepts"
+            ],
+            "goals": [
+                "redirect",
+                "change course",
+                "distract"
+            ],
+            "mechanisms": [
+                "physical_action",
+                "mental_action"
+            ],
+            "tools": [
+                "hands",
+                "words",
+                "force"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable"
+                ],
+                "emotional": [],
+                "mental": [
+                    "active"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "directed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "dominant"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "redirected"
+                ],
+                "emotional": [],
+                "mental": [
+                    "distracted"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "divide",
+            "applicable_subjects": [
+                "biological_body",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "objects",
+                "concepts",
+                "groups"
+            ],
+            "goals": [
+                "separate into parts",
+                "distribute"
+            ],
+            "mechanisms": [
+                "physical_action",
+                "mental_action"
+            ],
+            "tools": [
+                "hands",
+                "mind",
+                "cutting_tools"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "capable"
+                ],
+                "emotional": [],
+                "mental": [
+                    "active"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [
+                    "whole"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "controlling"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "divided"
+                ],
+                "emotional": [],
+                "mental": [
+                    "separated"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "divorce",
+            "applicable_subjects": [
+                "biological_body",
+                "institution"
+            ],
+            "applicable_objects": [
+                "biological_body"
+            ],
+            "goals": [
+                "legally separate",
+                "dissolve marriage"
+            ],
+            "mechanisms": [
+                "legal_action",
+                "social_action"
+            ],
+            "tools": [
+                "law",
+                "policy"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "active"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "married"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "resolved"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "detached"
+                ],
+                "mental": [],
+                "positional": [
+                    "divorced"
+                ]
+            }
+        },
+        {
+            "verb": "divulge",
+            "applicable_subjects": [
+                "biological_body",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "concepts",
+                "information"
+            ],
+            "goals": [
+                "reveal",
+                "disclose something private"
+            ],
+            "mechanisms": [
+                "verbal_action",
+                "informational_action"
+            ],
+            "tools": [
+                "speech",
+                "text"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "informed"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "hidden"
+                ],
+                "positional": [
+                    "undisclosed"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [
+                    "completed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "known"
+                ],
+                "positional": [
+                    "disclosed"
+                ]
             }
         }
     ],

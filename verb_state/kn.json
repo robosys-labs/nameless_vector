@@ -1,0 +1,99 @@
+{
+    "prefix": "kn",
+    "processed_verbs": [
+        "knead",
+        "kneel",
+        "knife",
+        "knit",
+        "knock",
+        "knot",
+        "know"
+    ],
+    "outcomes": [
+        {
+            "verb": "knead",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["dough", "material", "muscle"],
+            "goals": ["mix_by_pressing", "soften", "develop_structure"],
+            "mechanisms": ["pressing", "folding", "stretching"],
+            "tools": ["hands", "kneading_hook", "surface"],
+            "required_subject_states": {"physical": ["able_to_press"], "emotional": [], "mental": ["process_understood"], "positional": ["access_to_material"]},
+            "required_object_states": {"physical": ["pliable", "unmixed_or_tense"], "emotional": [], "mental": [], "positional": ["on_work_surface"]},
+            "final_subject_states": {"physical": ["effort_exerted"], "emotional": [], "mental": ["kneading_completed"], "positional": []},
+            "final_object_states": {"physical": ["elastic_or_relaxed"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "kneel",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["surface"],
+            "goals": ["lower_to_knees", "assume_submissive_or_stable_pose"],
+            "mechanisms": ["bending_knees", "lowering_body"],
+            "tools": ["knees", "support_surface"],
+            "required_subject_states": {"physical": ["knee_functional"], "emotional": [], "mental": ["intentional"], "positional": ["space_to_lower"]},
+            "required_object_states": {"physical": ["supportive_surface"], "emotional": [], "mental": [], "positional": ["beneath_subject"]},
+            "final_subject_states": {"physical": ["kneeling_pose"], "emotional": [], "mental": ["pose_assumed"], "positional": ["lowered"]},
+            "final_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "knife",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object"],
+            "goals": ["cut_or_stab"],
+            "mechanisms": ["thrusting_blade", "slashing_motion"],
+            "tools": ["knife", "blade"],
+            "required_subject_states": {"physical": ["able_to_wield"], "emotional": [], "mental": ["target_identified"], "positional": ["within_blade_range"]},
+            "required_object_states": {"physical": ["penetrable_or_cuttable"], "emotional": [], "mental": [], "positional": ["within_reach"]},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["action_executed"], "positional": []},
+            "final_object_states": {"physical": ["cut_or_punctured"], "emotional": ["distressed_if_sentient"], "mental": [], "positional": []}
+        },
+        {
+            "verb": "knit",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["fabric", "garment", "material"],
+            "goals": ["create_textile", "join_loops"],
+            "mechanisms": ["looping_yarn", "stitching"],
+            "tools": ["knitting_needles", "yarn", "pattern"],
+            "required_subject_states": {"physical": ["fine_motor_control"], "emotional": [], "mental": ["pattern_known"], "positional": ["holding_needles_and_yarn"]},
+            "required_object_states": {"physical": ["yarn_available"], "emotional": [], "mental": [], "positional": ["accessible"]},
+            "final_subject_states": {"physical": [], "emotional": ["satisfied_if_successful"], "mental": ["stitches_completed"], "positional": []},
+            "final_object_states": {"physical": ["fabric_grown_or_joined"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "knock",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["door", "surface", "biological_body"],
+            "goals": ["signal_presence", "request_entry", "strike_surface"],
+            "mechanisms": ["tapping", "raps", "striking"],
+            "tools": ["hand", "knuckles", "door_knocker"],
+            "required_subject_states": {"physical": ["able_to_strike"], "emotional": [], "mental": ["intent_to_signal_or_strike"], "positional": ["at_target_surface"]},
+            "required_object_states": {"physical": ["reachable_surface"], "emotional": [], "mental": [], "positional": ["in_front_of_subject"]},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["attempt_made"], "positional": []},
+            "final_object_states": {"physical": ["vibrated_or_impacted"], "emotional": ["alerted_if_sentient"], "mental": [], "positional": []}
+        },
+        {
+            "verb": "knot",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["rope", "cord", "thread"],
+            "goals": ["secure_by_tying", "create_loop_or_stop"],
+            "mechanisms": ["looping", "tucking", "tightening"],
+            "tools": ["hands", "rope", "cordage"],
+            "required_subject_states": {"physical": ["dexterous"], "emotional": [], "mental": ["knot_chosen"], "positional": ["access_to_material"]},
+            "required_object_states": {"physical": ["flexible_line"], "emotional": [], "mental": [], "positional": ["free_ends_available"]},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["knot_secured"], "positional": []},
+            "final_object_states": {"physical": ["tied", "secured"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "know",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "organization"],
+            "applicable_objects": ["fact", "person", "concept", "process"],
+            "goals": ["retain_information", "understand", "recognize"],
+            "mechanisms": ["learning", "observation", "memory_retrieval"],
+            "tools": ["training_data", "experience", "records"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["information_acquired_or_observed"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": ["defined_or_observable"], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["knowledge_held", "certainty"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["recognized_or_understood"], "positional": []}
+        }
+    ],
+    "completed": true
+}

@@ -1,0 +1,2279 @@
+{
+    "prefix": "em",
+    "processed_verbs": [
+        "emanate",
+        "emancipate",
+        "embalm",
+        "embargo",
+        "embark",
+        "embattle",
+        "embarrass",
+        "embed",
+        "embellish",
+        "embezzle",
+        "embitter",
+        "emblazon",
+        "embody",
+        "embolden",
+        "emboss",
+        "embrace",
+        "embroider",
+        "embroil",
+        "emend",
+        "emerge",
+        "emigrate",
+        "emit",
+        "emote",
+        "empanel",
+        "empathize",
+        "emphasize",
+        "emplace",
+        "employ",
+        "empower",
+        "empty",
+        "emulate",
+        "emulsify"
+    ],
+
+    "outcomes": [
+        {
+            "verb": "emanate",
+            "applicable_subjects": [
+                "biological_body",
+                "concept",
+                "object"
+            ],
+            "applicable_objects": [
+                "concept",
+                "place",
+                "biological_body"
+            ],
+            "goals": [
+                "radiate_quality",
+                "broadcast_signal",
+                "disperse_energy"
+            ],
+            "mechanisms": [
+                "gradual_release",
+                "wave_propagation",
+                "vibrational_transfer"
+            ],
+            "tools": [
+                "resonant_surface",
+                "broadcast_medium",
+                "diffusion_channel"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "charged_or_excited"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intentional_or_reflexive"
+                ],
+                "positional": [
+                    "centered_within_environment"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "receptive"
+                ],
+                "emotional": [],
+                "mental": [
+                    "perceptive"
+                ],
+                "positional": [
+                    "within_influence_radius"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "energy_released"
+                ],
+                "emotional": [],
+                "mental": [
+                    "effect_noted"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "impacted_by_wave"
+                ],
+                "emotional": [
+                    "stirred"
+                ],
+                "mental": [
+                    "aware_of_source"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "embroider",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "object",
+                "virtual_object"
+            ],
+            "goals": [
+                "stitch_decorative_pattern",
+                "reinforce_fabric",
+                "personalize_item"
+            ],
+            "mechanisms": [
+                "hand_stitching",
+                "machine_programming",
+                "thread_layering"
+            ],
+            "tools": [
+                "needle",
+                "embroidery_machine",
+                "hoop_frame"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "fine_motor_control"
+                ],
+                "emotional": [
+                    "patient"
+                ],
+                "mental": [
+                    "pattern_memorized"
+                ],
+                "positional": [
+                    "seated_at_workspace"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "tensioned_fabric"
+                ],
+                "emotional": [],
+                "mental": [
+                    "design_transfered"
+                ],
+                "positional": [
+                    "secured_in_frame"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "hands_steady"
+                ],
+                "emotional": [
+                    "content"
+                ],
+                "mental": [
+                    "motif_completed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "stitched_surface"
+                ],
+                "emotional": [],
+                "mental": [
+                    "pattern_documented"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "embroil",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "concept"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "organization",
+                "concept"
+            ],
+            "goals": [
+                "entangle_in_conflict",
+                "heighten_dispute",
+                "pull_into_complex_situation"
+            ],
+            "mechanisms": [
+                "provocation",
+                "rumor_spread",
+                "escalating_demands"
+            ],
+            "tools": [
+                "communications_network",
+                "legal_challenge",
+                "political_leverage"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "agitated"
+                ],
+                "mental": [
+                    "strategizing"
+                ],
+                "positional": [
+                    "embedded_in_dispute_space"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "reactive"
+                ],
+                "mental": [
+                    "issue_awareness"
+                ],
+                "positional": [
+                    "within_influence_radius"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "tense"
+                ],
+                "mental": [
+                    "conflict_amplified"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "frustrated"
+                ],
+                "mental": [
+                    "entangled_in_dispute"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "embarrass",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "organization",
+                "concept"
+            ],
+            "goals": [
+                "cause_social_discomfort",
+                "expose_mistake",
+                "impose_humility"
+            ],
+            "mechanisms": [
+                "public_comment",
+                "unexpected_reveal",
+                "social_pressure"
+            ],
+            "tools": [
+                "microphone",
+                "communication_channel",
+                "record"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "provocative"
+                ],
+                "mental": [
+                    "aware_of_object_vulnerabilities"
+                ],
+                "positional": [
+                    "within_public_view"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "sensitive"
+                ],
+                "mental": [
+                    "aware_of_observers"
+                ],
+                "positional": [
+                    "present_in_social_setting"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "amused",
+                    "regretful"
+                ],
+                "mental": [
+                    "dominance_asserted"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "ashamed",
+                    "anxious"
+                ],
+                "mental": [
+                    "self_conscious"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "emancipate",
+            "applicable_subjects": [
+                "organization",
+                "autonomous_agent",
+                "biological_body"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "concept",
+                "organization"
+            ],
+            "goals": [
+                "release_from_control",
+                "restore_agency",
+                "formalize_freedom"
+            ],
+            "mechanisms": [
+                "legal_declaration",
+                "barrier_removal",
+                "advocacy_campaign"
+            ],
+            "tools": [
+                "charter",
+                "judicial_order",
+                "negotiated_agreement"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "committed"
+                ],
+                "mental": [
+                    "understanding_of_constraints"
+                ],
+                "positional": [
+                    "authority_position"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "restricted"
+                ],
+                "emotional": [
+                    "hopeful"
+                ],
+                "mental": [
+                    "aware_of_limit"
+                ],
+                "positional": [
+                    "within_jurisdiction"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "resolved"
+                ],
+                "mental": [
+                    "obligation_met"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "unbound"
+                ],
+                "emotional": [
+                    "uplifted"
+                ],
+                "mental": [
+                    "self_directed"
+                ],
+                "positional": [
+                    "free_to_relocate"
+                ]
+            }
+        },
+        {
+            "verb": "embalm",
+            "applicable_subjects": [
+                "biological_body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "object"
+            ],
+            "goals": [
+                "preserve_remains",
+                "prepare_ceremonial_display",
+                "delay_decay"
+            ],
+            "mechanisms": [
+                "chemical_infusion",
+                "cavity_treatment",
+                "protective_wrapping"
+            ],
+            "tools": [
+                "embalming_table",
+                "pump_system",
+                "preservative_solution"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "sterile_equipment"
+                ],
+                "emotional": [
+                    "respectful"
+                ],
+                "mental": [
+                    "procedure_memorized"
+                ],
+                "positional": [
+                    "stationed_in_lab"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "deceased",
+                    "intact"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "on_preparation_surface"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "tools_sanitized"
+                ],
+                "emotional": [
+                    "solemn"
+                ],
+                "mental": [
+                    "process_logged"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "preserved",
+                    "sealed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "ready_for_viewing"
+                ]
+            }
+        },
+        {
+            "verb": "embargo",
+            "applicable_subjects": [
+                "organization",
+                "autonomous_agent"
+            ],
+            "applicable_objects": [
+                "organization",
+                "place",
+                "object"
+            ],
+            "goals": [
+                "restrict_trade",
+                "apply_diplomatic_pressure",
+                "control_supply_flow"
+            ],
+            "mechanisms": [
+                "legal_decree",
+                "port_closure",
+                "licensing_block"
+            ],
+            "tools": [
+                "sanction_order",
+                "customs_monitor",
+                "enforcement_agency"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "resolved"
+                ],
+                "mental": [
+                    "policy_framework_defined"
+                ],
+                "positional": [
+                    "authority_over_routes"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "trade_dependency"
+                ],
+                "positional": [
+                    "connected_to_supply_chain"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "assertive"
+                ],
+                "mental": [
+                    "sanction_enforced"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "shipments_halted"
+                ],
+                "emotional": [
+                    "pressured"
+                ],
+                "mental": [
+                    "compliance_weighed"
+                ],
+                "positional": [
+                    "isolated_from_trade"
+                ]
+            }
+        },
+        {
+            "verb": "embattle",
+            "applicable_subjects": [
+                "organization",
+                "biological_body",
+                "concept"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "organization",
+                "place"
+            ],
+            "goals": [
+                "prepare_for_conflict",
+                "fortify_position",
+                "engage_opposition"
+            ],
+            "mechanisms": [
+                "mobilization",
+                "defensive_construction",
+                "strategic_alignment"
+            ],
+            "tools": [
+                "armament_supply",
+                "command_structure",
+                "logistics_network"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "armed",
+                    "rested"
+                ],
+                "emotional": [
+                    "determined"
+                ],
+                "mental": [
+                    "battle_plan"
+                ],
+                "positional": [
+                    "at_staging_area"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "defensible",
+                    "strategic_value"
+                ],
+                "emotional": [],
+                "mental": [
+                    "threat_identified"
+                ],
+                "positional": [
+                    "within_conflict_zone"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "deployed"
+                ],
+                "emotional": [
+                    "resolute"
+                ],
+                "mental": [
+                    "engagement_underway"
+                ],
+                "positional": [
+                    "on_front"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "under_siege",
+                    "reinforced"
+                ],
+                "emotional": [],
+                "mental": [
+                    "status_reported"
+                ],
+                "positional": [
+                    "within_battle_lines"
+                ]
+            }
+        },
+        {
+            "verb": "embark",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "autonomous_agent"
+            ],
+            "applicable_objects": [
+                "place",
+                "concept",
+                "virtual_object"
+            ],
+            "goals": [
+                "initiate_journey",
+                "begin_project",
+                "commit_to_course"
+            ],
+            "mechanisms": [
+                "boarding_vehicle",
+                "project_kickoff",
+                "mission_briefing"
+            ],
+            "tools": [
+                "itinerary",
+                "launch_assets",
+                "authorization_packet"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "prepared_for_departure"
+                ],
+                "emotional": [
+                    "determined"
+                ],
+                "mental": [
+                    "plan_understood"
+                ],
+                "positional": [
+                    "at_departure_point"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "accessible_route"
+                ],
+                "emotional": [],
+                "mental": [
+                    "destination_defined"
+                ],
+                "positional": [
+                    "linked_to_origin"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "in_transit"
+                ],
+                "emotional": [
+                    "motivated"
+                ],
+                "mental": [
+                    "engaged_with_mission"
+                ],
+                "positional": [
+                    "departed_origin"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "journey_commenced"
+                ],
+                "emotional": [],
+                "mental": [
+                    "timeline_activated"
+                ],
+                "positional": [
+                    "route_active"
+                ]
+            }
+        },
+        {
+            "verb": "embed",
+            "applicable_subjects": [
+                "biological_body",
+                "physical_agent",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "object",
+                "virtual_object",
+                "concept"
+            ],
+            "goals": [
+                "secure_within_medium",
+                "integrate_component",
+                "stabilize_structure"
+            ],
+            "mechanisms": [
+                "insertion",
+                "adhesion",
+                "data_linking"
+            ],
+            "tools": [
+                "mounting_fixture",
+                "adhesive_matrix",
+                "markup_language"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "fine_motor_control"
+                ],
+                "emotional": [
+                    "focused"
+                ],
+                "mental": [
+                    "placement_plan"
+                ],
+                "positional": [
+                    "aligned_with_cavity"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "receiving_surface_prepared"
+                ],
+                "emotional": [],
+                "mental": [
+                    "mapping_defined"
+                ],
+                "positional": [
+                    "receptacle_open"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "precision_exerted"
+                ],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "integration_confirmed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "fixed_in_medium"
+                ],
+                "emotional": [],
+                "mental": [
+                    "referenced"
+                ],
+                "positional": [
+                    "encased"
+                ]
+            }
+        },
+        {
+            "verb": "embellish",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "object",
+                "concept",
+                "virtual_object"
+            ],
+            "goals": [
+                "enhance_appearance",
+                "add_detail",
+                "increase_appeal"
+            ],
+            "mechanisms": [
+                "ornamental_addition",
+                "story_enrichment",
+                "texture_layering"
+            ],
+            "tools": [
+                "decorative_material",
+                "editing_suite",
+                "styling_toolkit"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "imaginative"
+                ],
+                "mental": [
+                    "aesthetic_plan"
+                ],
+                "positional": [
+                    "within_design_workspace"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "surface_available"
+                ],
+                "emotional": [],
+                "mental": [
+                    "theme_defined"
+                ],
+                "positional": [
+                    "accessible_for_modification"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "expressive"
+                ],
+                "mental": [
+                    "concept_realized"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "embellished_surface"
+                ],
+                "emotional": [],
+                "mental": [
+                    "narrative_enhanced"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "embezzle",
+            "applicable_subjects": [
+                "biological_body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "object",
+                "virtual_object",
+                "concept"
+            ],
+            "goals": [
+                "misappropriate_assets",
+                "redirect_funds",
+                "conceal_theft"
+            ],
+            "mechanisms": [
+                "false_accounting",
+                "covert_transfers",
+                "record_tampering"
+            ],
+            "tools": [
+                "financial_system_access",
+                "shell_accounts",
+                "encryption"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "deceptive"
+                ],
+                "mental": [
+                    "knowledge_of_controls"
+                ],
+                "positional": [
+                    "embedded_in_financial_flow"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "fungible_assets"
+                ],
+                "emotional": [],
+                "mental": [
+                    "tracked_in_ledger"
+                ],
+                "positional": [
+                    "within_subject_access"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "anxious"
+                ],
+                "mental": [
+                    "cover_story_maintained"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "reallocated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "records_corrupted"
+                ],
+                "positional": [
+                    "moved_outside_original_account"
+                ]
+            }
+        },
+        {
+            "verb": "embitter",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "concept"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "organization"
+            ],
+            "goals": [
+                "instill_resentment",
+                "prolong_conflict",
+                "create_negativity"
+            ],
+            "mechanisms": [
+                "harsh_criticism",
+                "repeated_unfairness",
+                "toxic_rhetoric"
+            ],
+            "tools": [
+                "media_channel",
+                "policy_decision",
+                "pointed_language"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "angry"
+                ],
+                "mental": [
+                    "intent_to_harm_morale"
+                ],
+                "positional": [
+                    "influence_over_object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "sensitive"
+                ],
+                "mental": [
+                    "perceiving_injustice"
+                ],
+                "positional": [
+                    "within_subject_audience"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "vindictive"
+                ],
+                "mental": [
+                    "grievance_reinforced"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "resentful"
+                ],
+                "mental": [
+                    "trust_eroded"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "emblazon",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "object",
+                "virtual_object",
+                "concept"
+            ],
+            "goals": [
+                "display_symbol_prominently",
+                "brand_surface",
+                "broadcast_identity"
+            ],
+            "mechanisms": [
+                "painting",
+                "printing",
+                "projected_light"
+            ],
+            "tools": [
+                "stencil",
+                "laser_marker",
+                "vector_artwork"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "proud"
+                ],
+                "mental": [
+                    "design_finalized"
+                ],
+                "positional": [
+                    "aligned_with_target_surface"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "clean_surface"
+                ],
+                "emotional": [],
+                "mental": [
+                    "theme_contextualized"
+                ],
+                "positional": [
+                    "secured_for_application"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "accomplished"
+                ],
+                "mental": [
+                    "identity_presented"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "bearing_emblem"
+                ],
+                "emotional": [],
+                "mental": [
+                    "meaning_associated"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "embody",
+            "applicable_subjects": [
+                "biological_body",
+                "concept",
+                "organization"
+            ],
+            "applicable_objects": [
+                "concept",
+                "value_system",
+                "virtual_object"
+            ],
+            "goals": [
+                "represent_principle",
+                "manifest_identity",
+                "give_form_to_idea"
+            ],
+            "mechanisms": [
+                "consistent_behavior",
+                "symbolic_design",
+                "performance_execution"
+            ],
+            "tools": [
+                "uniform",
+                "charter_language",
+                "ritualized_practice"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "committed"
+                ],
+                "mental": [
+                    "internalized_values"
+                ],
+                "positional": [
+                    "visible_to_audience"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "defined_attributes"
+                ],
+                "positional": [
+                    "contextualized_in_culture"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "aligned"
+                ],
+                "mental": [
+                    "identity_reinforced"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "concept_materialized",
+                    "audience_associates_subject_with_values"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "embolden",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "organization",
+                "concept"
+            ],
+            "goals": [
+                "increase_courage",
+                "boost_initiative",
+                "reinforce_conviction"
+            ],
+            "mechanisms": [
+                "encouraging_speech",
+                "resource_provision",
+                "demonstrative_support"
+            ],
+            "tools": [
+                "mentorship_program",
+                "motivational_media",
+                "protective_guarantee"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "understanding_of_object_fears"
+                ],
+                "positional": [
+                    "close_contact"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "hesitant"
+                ],
+                "mental": [
+                    "seeking_validation"
+                ],
+                "positional": [
+                    "within_support_radius"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "supportive"
+                ],
+                "mental": [
+                    "impact_acknowledged"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "brave",
+                    "motivated"
+                ],
+                "mental": [
+                    "risk_assessed_as_manageable"
+                ],
+                "positional": [
+                    "ready_to_advance"
+                ]
+            }
+        },
+        {
+            "verb": "embrace",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "concept"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "concept",
+                "virtual_object"
+            ],
+            "goals": [
+                "show_affection",
+                "adopt_idea",
+                "formally_accept"
+            ],
+            "mechanisms": [
+                "physical_enclosure",
+                "policy_adoption",
+                "shared_commitment"
+            ],
+            "tools": [
+                "arms_or_supports",
+                "communication_platform",
+                "ceremonial_space"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "arms_free"
+                ],
+                "emotional": [
+                    "warm"
+                ],
+                "mental": [
+                    "open_minded"
+                ],
+                "positional": [
+                    "proximate_to_object"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "approachable"
+                ],
+                "emotional": [
+                    "receptive"
+                ],
+                "mental": [
+                    "willing"
+                ],
+                "positional": [
+                    "within_reach"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "contact_established"
+                ],
+                "emotional": [
+                    "connected"
+                ],
+                "mental": [
+                    "belief_shared"
+                ],
+                "positional": [
+                    "interlinked"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "supported"
+                ],
+                "emotional": [
+                    "valued"
+                ],
+                "mental": [
+                    "accepted"
+                ],
+                "positional": [
+                    "within_hold"
+                ]
+            }
+        },
+        {
+            "verb": "emend",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "virtual_object",
+                "concept",
+                "document"
+            ],
+            "goals": [
+                "correct_errors",
+                "revise_language",
+                "improve_accuracy"
+            ],
+            "mechanisms": [
+                "annotation",
+                "markups",
+                "version_update"
+            ],
+            "tools": [
+                "editing_interface",
+                "reference_style_guide",
+                "change_tracking"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "meticulous"
+                ],
+                "mental": [
+                    "rule_set_loaded"
+                ],
+                "positional": [
+                    "access_to_source_material"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "errors_identified"
+                ],
+                "positional": [
+                    "open_for_editing"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "revision_logged"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "corrected",
+                    "aligned_with_standard"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "emerge",
+            "applicable_subjects": [
+                "biological_body",
+                "object",
+                "concept"
+            ],
+            "applicable_objects": [
+                "place",
+                "concept"
+            ],
+            "goals": [
+                "come_into_view",
+                "manifest_form",
+                "surface_from_cover"
+            ],
+            "mechanisms": [
+                "gradual_ascent",
+                "threshold_crossing",
+                "signal_reveal"
+            ],
+            "tools": [
+                "opening",
+                "release_mechanism",
+                "announcement_system"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "ready_to_move"
+                ],
+                "emotional": [
+                    "resolved"
+                ],
+                "mental": [
+                    "timing_selected"
+                ],
+                "positional": [
+                    "beneath_or_behind_cover"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "entry_point_available"
+                ],
+                "emotional": [],
+                "mental": [
+                    "audience_expectant"
+                ],
+                "positional": [
+                    "surface_accessible"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "fully_visible"
+                ],
+                "emotional": [
+                    "energized"
+                ],
+                "mental": [
+                    "channel_engaged"
+                ],
+                "positional": [
+                    "in_open_space"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "audience_informed"
+                ],
+                "emotional": [
+                    "attentive"
+                ],
+                "mental": [
+                    "context_updated"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "emigrate",
+            "applicable_subjects": [
+                "biological_body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "place",
+                "organization"
+            ],
+            "goals": [
+                "leave_origin_country",
+                "resettle_elsewhere",
+                "seek_new_opportunity"
+            ],
+            "mechanisms": [
+                "legal_exit_process",
+                "transport_travel",
+                "documentation_transfer"
+            ],
+            "tools": [
+                "passport",
+                "visa_packet",
+                "transport_ticket"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "ready_for_travel"
+                ],
+                "emotional": [
+                    "resolved"
+                ],
+                "mental": [
+                    "destination_plan"
+                ],
+                "positional": [
+                    "present_in_origin_territory"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "entry_ports_defined"
+                ],
+                "emotional": [],
+                "mental": [
+                    "immigration_rules_known"
+                ],
+                "positional": [
+                    "border_controlled"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "relocated"
+                ],
+                "emotional": [
+                    "hopeful"
+                ],
+                "mental": [
+                    "transition_initiated"
+                ],
+                "positional": [
+                    "arrived_in_destination"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "origin_population_adjusted"
+                ],
+                "emotional": [],
+                "mental": [
+                    "records_updated"
+                ],
+                "positional": [
+                    "new_resident_registered"
+                ]
+            }
+        },
+        {
+            "verb": "emit",
+            "applicable_subjects": [
+                "biological_body",
+                "object",
+                "physical_agent"
+            ],
+            "applicable_objects": [
+                "concept",
+                "object",
+                "place"
+            ],
+            "goals": [
+                "release_energy",
+                "send_signal",
+                "disperse_material"
+            ],
+            "mechanisms": [
+                "radiation",
+                "pulse",
+                "expulsion"
+            ],
+            "tools": [
+                "emitter_array",
+                "speaker",
+                "vent"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "powered"
+                ],
+                "emotional": [],
+                "mental": [
+                    "intensity_set"
+                ],
+                "positional": [
+                    "oriented_toward_target"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "pathway_clear"
+                ],
+                "emotional": [],
+                "mental": [
+                    "listening_or_ready"
+                ],
+                "positional": [
+                    "within_projection_cone"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "energy_spent"
+                ],
+                "emotional": [],
+                "mental": [
+                    "output_logged"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "signal_received"
+                ],
+                "emotional": [],
+                "mental": [
+                    "data_registered"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "emote",
+            "applicable_subjects": [
+                "biological_body",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "concept",
+                "audience"
+            ],
+            "goals": [
+                "express_feelings",
+                "communicate_internal_state",
+                "influence_audience_emotion"
+            ],
+            "mechanisms": [
+                "facial_expression",
+                "voice_modulation",
+                "gesture"
+            ],
+            "tools": [
+                "theatrical_training",
+                "camera_feed",
+                "emote_library"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "control_over_expression"
+                ],
+                "emotional": [
+                    "attuned"
+                ],
+                "mental": [
+                    "intentional_communication"
+                ],
+                "positional": [
+                    "visible_to_audience"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "observant"
+                ],
+                "mental": [
+                    "interpreting_cues"
+                ],
+                "positional": [
+                    "within_viewing_range"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [
+                    "message_delivered"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "affected"
+                ],
+                "mental": [
+                    "emotional_context_understood"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "empanel",
+            "applicable_subjects": [
+                "organization",
+                "autonomous_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "organization"
+            ],
+            "goals": [
+                "form_review_board",
+                "seat_jury",
+                "assemble_evaluation_group"
+            ],
+            "mechanisms": [
+                "selection_process",
+                "credential_verification",
+                "formal_sworn_in"
+            ],
+            "tools": [
+                "registry_database",
+                "summons_notice",
+                "oath_document"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "impartial"
+                ],
+                "mental": [
+                    "criteria_defined"
+                ],
+                "positional": [
+                    "within_jurisdiction"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "willing_or_obligated"
+                ],
+                "mental": [
+                    "competent"
+                ],
+                "positional": [
+                    "available_for_service"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "assured"
+                ],
+                "mental": [
+                    "panel_confirmed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "responsible"
+                ],
+                "mental": [
+                    "mandate_received"
+                ],
+                "positional": [
+                    "seated_in_panel"
+                ]
+            }
+        },
+        {
+            "verb": "empathize",
+            "applicable_subjects": [
+                "biological_body",
+                "autonomous_agent",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "concept"
+            ],
+            "goals": [
+                "understand_feelings",
+                "validate_experience",
+                "provide_emotional_alignment"
+            ],
+            "mechanisms": [
+                "active_listening",
+                "mirroring_cues",
+                "contextual_reflection"
+            ],
+            "tools": [
+                "dialogue_space",
+                "sentiment_model",
+                "supportive_language"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "open_hearted"
+                ],
+                "mental": [
+                    "attention_focused"
+                ],
+                "positional": [
+                    "within_conversation_circle"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "expressive"
+                ],
+                "mental": [
+                    "willing_to_share"
+                ],
+                "positional": [
+                    "present_with_subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "connected"
+                ],
+                "mental": [
+                    "insightful"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "understood",
+                    "comforted"
+                ],
+                "mental": [
+                    "experience_validated"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "emphasize",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "concept",
+                "virtual_object",
+                "biological_body"
+            ],
+            "goals": [
+                "highlight_importance",
+                "draw_attention",
+                "reinforce_message"
+            ],
+            "mechanisms": [
+                "repetition",
+                "visual_accent",
+                "tonal_shift"
+            ],
+            "tools": [
+                "typography_style",
+                "signal_booster",
+                "speaking_cadence"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "focused"
+                ],
+                "mental": [
+                    "priority_ranked"
+                ],
+                "positional": [
+                    "in_front_of_audience"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "baseline_understanding"
+                ],
+                "positional": [
+                    "embedded_in_message_flow"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "point_delivered"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "salience_increased",
+                    "memory_prioritized"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "emplace",
+            "applicable_subjects": [
+                "biological_body",
+                "physical_agent",
+                "organization"
+            ],
+            "applicable_objects": [
+                "object",
+                "place",
+                "system"
+            ],
+            "goals": [
+                "position_securely",
+                "deploy_asset",
+                "prepare_installation"
+            ],
+            "mechanisms": [
+                "calibrated_alignment",
+                "anchoring",
+                "site_preparation"
+            ],
+            "tools": [
+                "crane_or_lifter",
+                "mounting_bracket",
+                "spatial_blueprint"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "coordination_maintained"
+                ],
+                "emotional": [
+                    "methodical"
+                ],
+                "mental": [
+                    "placement_coordinates"
+                ],
+                "positional": [
+                    "on_installation_site"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "transportable",
+                    "stabilized"
+                ],
+                "emotional": [],
+                "mental": [
+                    "configuration_defined"
+                ],
+                "positional": [
+                    "ready_for_positioning"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "effort_expended"
+                ],
+                "emotional": [
+                    "assured"
+                ],
+                "mental": [
+                    "placement_verified"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "secured_in_position"
+                ],
+                "emotional": [],
+                "mental": [
+                    "deployment_logged"
+                ],
+                "positional": [
+                    "aligned_with_operational_grid"
+                ]
+            }
+        },
+        {
+            "verb": "employ",
+            "applicable_subjects": [
+                "organization",
+                "biological_body",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "object",
+                "concept"
+            ],
+            "goals": [
+                "utilize_resources",
+                "assign_work",
+                "apply_strategy"
+            ],
+            "mechanisms": [
+                "contracting",
+                "task_assignment",
+                "tool_activation"
+            ],
+            "tools": [
+                "hiring_platform",
+                "workflow_system",
+                "usage_policy"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "purposeful"
+                ],
+                "mental": [
+                    "requirements_defined"
+                ],
+                "positional": [
+                    "connected_to_resources"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "available"
+                ],
+                "emotional": [
+                    "willing"
+                ],
+                "mental": [
+                    "capable"
+                ],
+                "positional": [
+                    "accessible"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "supported"
+                ],
+                "mental": [
+                    "resource_engaged"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "valued"
+                ],
+                "mental": [
+                    "task_understood"
+                ],
+                "positional": [
+                    "inserted_into_workflow"
+                ]
+            }
+        },
+        {
+            "verb": "empower",
+            "applicable_subjects": [
+                "organization",
+                "autonomous_agent",
+                "biological_body"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "organization",
+                "concept"
+            ],
+            "goals": [
+                "grant_authority",
+                "strengthen_capability",
+                "build_confidence"
+            ],
+            "mechanisms": [
+                "delegation",
+                "resource_transfer",
+                "skill_enablement"
+            ],
+            "tools": [
+                "training_program",
+                "access_credentials",
+                "funding_packet"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "supportive"
+                ],
+                "mental": [
+                    "trusting"
+                ],
+                "positional": [
+                    "in_position_of_authority"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "motivated"
+                ],
+                "mental": [
+                    "prepared_to_learn"
+                ],
+                "positional": [
+                    "engaged_with_subject"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "encouraged"
+                ],
+                "mental": [
+                    "support_documented"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "authorized"
+                ],
+                "positional": [
+                    "capable_of_independent_action"
+                ]
+            }
+        },
+        {
+            "verb": "empty",
+            "applicable_subjects": [
+                "biological_body",
+                "object",
+                "physical_agent"
+            ],
+            "applicable_objects": [
+                "object",
+                "place",
+                "virtual_object"
+            ],
+            "goals": [
+                "remove_contents",
+                "prepare_storage",
+                "reset_capacity"
+            ],
+            "mechanisms": [
+                "pouring",
+                "inversion",
+                "data_deletion"
+            ],
+            "tools": [
+                "container",
+                "drain",
+                "erase_command"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "able_to_lift"
+                ],
+                "emotional": [
+                    "deliberate"
+                ],
+                "mental": [
+                    "aware_of_contents"
+                ],
+                "positional": [
+                    "adjacent_to_receptacle"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "filled",
+                    "unsealed"
+                ],
+                "emotional": [],
+                "mental": [
+                    "inventory_logged"
+                ],
+                "positional": [
+                    "above_disposal_path"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "load_reduced"
+                ],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [
+                    "task_completed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "cleared",
+                    "dry"
+                ],
+                "emotional": [],
+                "mental": [
+                    "capacity_reset"
+                ],
+                "positional": [
+                    "ready_for_reuse"
+                ]
+            }
+        },
+        {
+            "verb": "emulate",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "concept",
+                "virtual_object"
+            ],
+            "goals": [
+                "match_performance",
+                "learn_through_imitation",
+                "replicate_behavior"
+            ],
+            "mechanisms": [
+                "observation",
+                "pattern_analysis",
+                "iterative_testing"
+            ],
+            "tools": [
+                "training_dataset",
+                "simulation_suite",
+                "step_by_step_protocol"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "motivated"
+                ],
+                "mental": [
+                    "attention_locked"
+                ],
+                "positional": [
+                    "within_learning_environment"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "exemplar_documented"
+                ],
+                "positional": [
+                    "observable"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "skill_replicated"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "benchmark_referenced"
+                ],
+                "positional": []
+            }
+        }
+    ],
+    "completed": false
+}

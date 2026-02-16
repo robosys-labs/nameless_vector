@@ -1,0 +1,338 @@
+{
+    "prefix": "ev",
+    "processed_verbs": [
+        "evacuate",
+        "evade",
+        "evaluate",
+        "evaporate",
+        "evict",
+        "evidence",
+        "evince",
+        "eviscerate",
+        "evoke",
+        "evolve"
+    ],
+    "outcomes": [
+        {
+            "verb": "evacuate",
+            "applicable_subjects": ["organization", "biological_body", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "place"],
+            "goals": ["remove_from_danger", "relocate_safely", "clear_area"],
+            "mechanisms": ["route_planning", "transport_execution", "area_clearance"],
+            "tools": ["transport_vehicle", "evacuation_plan", "communication_channel"],
+            "required_subject_states": {
+                "physical": ["mobile"],
+                "emotional": ["urgent"],
+                "mental": ["plan_known"],
+                "positional": ["at_staging_area"]
+            },
+            "required_object_states": {
+                "physical": ["present_in_zone"],
+                "emotional": [],
+                "mental": ["aware_of_instruction"],
+                "positional": ["within_evacuation_area"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["relieved"],
+                "mental": ["evacuation_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["moved_to_safe_zone"],
+                "emotional": [],
+                "mental": ["safety_confirmed"],
+                "positional": ["outside_hazard_area"]
+            }
+        },
+        {
+            "verb": "evade",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["organization", "physical_agent", "concept"],
+            "goals": ["avoid_detection", "escape_capture", "bypass_obligation"],
+            "mechanisms": ["concealment", "decoy_use", "route_change"],
+            "tools": ["cover", "misdirection", "mobility_aid"],
+            "required_subject_states": {
+                "physical": ["mobile"],
+                "emotional": ["alert"],
+                "mental": ["threat_identified"],
+                "positional": ["near_exit_or_cover"]
+            },
+            "required_object_states": {
+                "physical": ["active_pursuit"],
+                "emotional": [],
+                "mental": ["seeking_subject"],
+                "positional": ["in_subject_vicinity"]
+            },
+            "final_subject_states": {
+                "physical": ["clear_of_threat"],
+                "emotional": ["relieved"],
+                "mental": ["avoidance_recorded"],
+                "positional": ["out_of_line_of_sight"]
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["lost_contact"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "evaluate",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["concept", "virtual_object", "object"],
+            "goals": ["assess_quality", "measure_performance", "inform_decision"],
+            "mechanisms": ["criteria_application", "testing_protocol", "comparative_analysis"],
+            "tools": ["scorecard", "analytics_platform", "checklist"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["objective"],
+                "mental": ["criteria_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["data_available"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["informed"],
+                "mental": ["assessment_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["score_assigned"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "evaporate",
+            "applicable_subjects": ["environment", "physical_agent", "process"],
+            "applicable_objects": ["object", "virtual_object", "place"],
+            "goals": ["phase_change", "remove_moisture", "concentrate_solution"],
+            "mechanisms": ["heating", "airflow", "pressure_reduction"],
+            "tools": ["heater", "fan", "vacuum_chamber"],
+            "required_subject_states": {
+                "physical": ["energy_input_available"],
+                "emotional": [],
+                "mental": ["process_parameters_set"],
+                "positional": ["in_contact_with_medium"]
+            },
+            "required_object_states": {
+                "physical": ["liquid_state"],
+                "emotional": [],
+                "mental": ["composition_known"],
+                "positional": ["exposed_surface"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["evaporation_complete"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["vaporized"],
+                "emotional": [],
+                "mental": ["state_changed"],
+                "positional": ["dispersed"]
+            }
+        },
+        {
+            "verb": "evict",
+            "applicable_subjects": ["organization", "autonomous_agent", "biological_body"],
+            "applicable_objects": ["biological_body", "organization", "physical_agent"],
+            "goals": ["remove_occupant", "reclaim_space", "enforce_order"],
+            "mechanisms": ["legal_notice", "physical_removal", "access_revocation"],
+            "tools": ["eviction_order", "security_team", "access_control_system"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["resolved"],
+                "mental": ["rights_verified"],
+                "positional": ["at_property"]
+            },
+            "required_object_states": {
+                "physical": ["occupying"],
+                "emotional": [],
+                "mental": ["notice_served"],
+                "positional": ["on_premises"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["assertive"],
+                "mental": ["control_restored"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["removed"],
+                "emotional": [],
+                "mental": ["vacated"],
+                "positional": ["off_premises"]
+            }
+        },
+        {
+            "verb": "evidence",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["concept", "virtual_object", "organization"],
+            "goals": ["provide_proof", "support_argument", "document_facts"],
+            "mechanisms": ["data_presentation", "citation", "demonstration"],
+            "tools": ["documentation", "dataset", "visual_aid"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["objective"],
+                "mental": ["facts_collected"],
+                "positional": ["in_forum"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["claim_pending"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["credible"],
+                "mental": ["proof_submitted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["substantiated"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "evince",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["concept", "organization", "virtual_object"],
+            "goals": ["reveal_quality", "make_evident", "signal_state"],
+            "mechanisms": ["behavior_display", "explicit_statement", "data_signal"],
+            "tools": ["body_language", "communication_channel", "metrics"] ,
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["expressive"],
+                "mental": ["state_recognized"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["observation_possible"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["understood"],
+                "mental": ["signal_sent"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["state_perceived"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "eviscerate",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "concept", "organization"],
+            "goals": ["remove_core", "neutralize", "strip_contents"],
+            "mechanisms": ["extraction", "disassembly", "critical_attack"],
+            "tools": ["cutting_tool", "analysis_suite", "penetration_device"],
+            "required_subject_states": {
+                "physical": ["capable_of_force"],
+                "emotional": ["determined"],
+                "mental": ["target_understood"],
+                "positional": ["adjacent_to_target"]
+            },
+            "required_object_states": {
+                "physical": ["intact"],
+                "emotional": [],
+                "mental": ["structure_known"],
+                "positional": ["within_reach"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["resolved"],
+                "mental": ["core_removed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["hollowed"],
+                "emotional": [],
+                "mental": ["capacity_reduced"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "evoke",
+            "applicable_subjects": ["biological_body", "organization", "interactive_app"],
+            "applicable_objects": ["concept", "virtual_object"],
+            "goals": ["bring_to_mind", "trigger_feeling", "call_forth_response"],
+            "mechanisms": ["stimulus_presentation", "narrative_cue", "sensory_signal"],
+            "tools": ["imagery", "audio", "story"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["attuned"],
+                "mental": ["context_prepared"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": ["receptive"],
+                "mental": ["associative_links"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["connected"],
+                "mental": ["response_noted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["moved"],
+                "mental": ["memory_activated"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "evolve",
+            "applicable_subjects": ["biological_body", "organization", "concept"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["adapt_over_time", "increase_complexity", "improve_fitness"],
+            "mechanisms": ["variation", "selection", "iteration"],
+            "tools": ["environmental_pressure", "feedback_loop", "mutation_process"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["variation_exists"],
+                "positional": ["within_environment"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["heritability_present"],
+                "positional": ["exposed_to_selection"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["adaptation_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["traits_shifted"],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

@@ -1,0 +1,800 @@
+{
+    "prefix": "ga",
+    "processed_verbs": [
+        "gab",
+        "gag",
+        "gain",
+        "gall",
+        "gallivant",
+        "gallop",
+        "galvanize",
+        "gamble",
+        "gang",
+        "gape",
+        "garble",
+        "gargle",
+        "garner",
+        "garnish",
+        "garrison",
+        "gash",
+        "gasp",
+        "gas",
+        "gaslight",
+        "gate",
+        "gather",
+        "gauge",
+        "gawk",
+        "gaze"
+    ],
+    "outcomes": [
+        {
+            "verb": "gab",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "virtual_object"],
+            "goals": ["chat_casually", "pass_time_talking", "exchange_light_information"],
+            "mechanisms": ["informal_conversation", "small_talk", "banter"],
+            "tools": ["voice", "chat_channel", "messaging_app"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["sociable"],
+                "mental": ["topic_loose"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": ["receptive"],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["lighthearted"],
+                "mental": ["minor_updates_shared"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["included"],
+                "mental": ["minor_updates_received"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gag",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "concept", "virtual_object"],
+            "goals": ["suppress_speech", "induce_recoil", "trigger_gag_reflex"],
+            "mechanisms": ["physical_block", "shock_statement", "olfactory_trigger"],
+            "tools": ["gag_device", "policy_restriction", "odorant"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["intent_to_silence_or_trigger"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gag_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["speech_restricted_or_recoiling"],
+                "emotional": ["uncomfortable"],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gain",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "virtual_object", "object"],
+            "goals": ["acquire_more", "increase_amount", "achieve_advantage"],
+            "mechanisms": ["accumulation", "exchange", "growth"],
+            "tools": ["effort", "investment", "learning"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["motivated"],
+                "mental": ["goal_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["available_to_acquire"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied"],
+                "mental": ["gain_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["owned_or_increased"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gall",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization"],
+            "goals": ["irritate_deeply", "annoy", "abrade"],
+            "mechanisms": ["friction", "provocation", "persistent_irritation"],
+            "tools": ["harsh_words", "rough_surface", "pressure"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["provocative"],
+                "mental": ["intentional_or_careless"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": ["susceptible_to_irritation"],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["galling_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["chafed_if_physical"],
+                "emotional": ["resentful"],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gallivant",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["place", "concept"],
+            "goals": ["travel_for_fun", "wander_playfully", "roam_socially"],
+            "mechanisms": ["leisure_travel", "aimless_wandering", "social_outing"],
+            "tools": ["transport", "time", "companions"],
+            "required_subject_states": {
+                "physical": ["mobile"],
+                "emotional": ["playful_or_curious"],
+                "mental": ["free_time_allocated"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": ["pleasantly_tired"],
+                "emotional": ["amused_or_refreshed"],
+                "mental": ["experiences_accumulated"],
+                "positional": ["varied_locations_visited"]
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gallop",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["place"],
+            "goals": ["move_fast", "cover_distance_quickly", "rush_forward"],
+            "mechanisms": ["rapid_stride", "accelerated_motion"],
+            "tools": ["legs", "mobility_system", "open_space"],
+            "required_subject_states": {
+                "physical": ["locomotion_capable"],
+                "emotional": [],
+                "mental": ["path_clear"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": ["forward_path_open"]
+            },
+            "final_subject_states": {
+                "physical": ["exerted"],
+                "emotional": [],
+                "mental": ["destination_neared"],
+                "positional": ["advanced_along_path"]
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "galvanize",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["stimulate_action", "energize", "spur_change"],
+            "mechanisms": ["rousing_speech", "urgent_signal", "electric_charge"],
+            "tools": ["call_to_action", "incentive", "shock"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["urgent_or_passionate"],
+                "mental": ["desired_change_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": ["capable_of_response"],
+                "mental": ["aware_of_issue"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["motivated"],
+                "mental": ["galvanizing_delivered"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["energized"],
+                "mental": ["intent_to_act"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gamble",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "virtual_object", "object"],
+            "goals": ["risk_for_gain", "test_chance", "stake_value"],
+            "mechanisms": ["wagering", "probabilistic_play", "speculation"],
+            "tools": ["stakes", "game_of_chance", "risk_capital"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["risk_accepting"],
+                "mental": ["odds_understood"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["stake_available"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["thrilled_or_regretful"],
+                "mental": ["outcome_known"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["won_or_lost"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gang",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization"],
+            "goals": ["act_as_group_against", "overwhelm_target", "collaborate_forcefully"],
+            "mechanisms": ["group_alignment", "coordinated_action", "pressuring"],
+            "tools": ["numbers", "communication", "coercion"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["aligned_or_hostile"],
+                "mental": ["collective_intent"],
+                "positional": ["near_target"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["group_action_executed"],
+                "positional": ["around_target"]
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["pressured_or_intimidated"],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gape",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "object"],
+            "goals": ["stare_in_astonishment", "leave_opening", "express_wonder"],
+            "mechanisms": ["mouth_opening", "fixed_gaze", "pause"],
+            "tools": ["vision", "attention"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["surprised_or_awed"],
+                "mental": ["focus_on_object"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["awed_or_shocked"],
+                "mental": ["impression_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["observed_intensely"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "garble",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["virtual_object", "concept"],
+            "goals": ["distort_message", "make_unclear", "scramble_content"],
+            "mechanisms": ["noise_insertion", "misordering", "lossy_transmission"],
+            "tools": ["encryption_error", "poor_channel", "compression"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["handling_message"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["content_present"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["garbling_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["distorted_or_unclear"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gargle",
+            "applicable_subjects": ["biological_body"],
+            "applicable_objects": ["biological_body"],
+            "goals": ["rinse_throat", "cleanse_mouth", "soothe_irritation"],
+            "mechanisms": ["fluid_agitation", "throat_rinse"],
+            "tools": ["water", "mouthwash", "cup"],
+            "required_subject_states": {
+                "physical": ["liquid_ready"],
+                "emotional": [],
+                "mental": ["understand_action"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": ["throat_rinsed"],
+                "emotional": [],
+                "mental": ["gargle_completed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "garner",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "virtual_object", "object"],
+            "goals": ["collect", "amass", "gather_support"],
+            "mechanisms": ["collection", "appeal", "systematic_acquisition"],
+            "tools": ["campaign", "storage", "persuasion"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["persistent"],
+                "mental": ["target_listed"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["available_to_collect"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["collection_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["aggregated"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "garnish",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "concept", "virtual_object"],
+            "goals": ["decorate_lightly", "add_finishing_touch", "seize_wages"],
+            "mechanisms": ["topping_addition", "adornment", "legal_withholding"],
+            "tools": ["herbs", "design_element", "court_order"],
+            "required_subject_states": {
+                "physical": ["decor_item_ready"],
+                "emotional": [],
+                "mental": ["finishing_intent"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["presentable_surface_or_payment_stream"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["garnish_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["embellished_or_partially_withheld"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "garrison",
+            "applicable_subjects": ["organization", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["place"],
+            "goals": ["station_troops", "defend_location", "occupy_for_security"],
+            "mechanisms": ["deployment", "fortification", "watch_rotation"],
+            "tools": ["personnel", "equipment", "barracks"],
+            "required_subject_states": {
+                "physical": ["troops_ready"],
+                "emotional": [],
+                "mental": ["orders_received"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["location_identified"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["garrison_established"],
+                "positional": ["at_location"]
+            },
+            "final_object_states": {
+                "physical": ["secured_or_occupied"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gash",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object"],
+            "goals": ["cut_deeply", "slash", "create_long_wound"],
+            "mechanisms": ["sharp_force", "slashing_motion"],
+            "tools": ["knife", "blade", "sharp_edge"],
+            "required_subject_states": {
+                "physical": ["sharp_tool_ready"],
+                "emotional": [],
+                "mental": ["target_identified"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["exposed_surface"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gash_inflicted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["gashed_or_wounded"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gas",
+            "applicable_subjects": ["environment", "organization", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["place", "biological_body", "object"],
+            "goals": ["fill_with_gas", "emit_gas", "use_gas_as_weapon_or_tool"],
+            "mechanisms": ["release_canister", "ventilation", "combustion_byproduct"],
+            "tools": ["gas_canister", "valve", "burner"],
+            "required_subject_states": {
+                "physical": ["gas_source_ready"],
+                "emotional": [],
+                "mental": ["target_area_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": ["exposed_to_flow"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gas_released"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["gas_filled_or_exposed"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gasp",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "object", "place"],
+            "goals": ["inhale_sharply", "express_surprise", "recover_breath"],
+            "mechanisms": ["quick_inhalation", "reflex_breath"],
+            "tools": ["lungs", "airway"],
+            "required_subject_states": {
+                "physical": ["airway_unobstructed"],
+                "emotional": ["startled_or_exerted"],
+                "mental": [],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": ["oxygen_intake_increased"],
+                "emotional": ["surprised_or_relieved"],
+                "mental": ["event_noted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["noticed"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gaslight",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization"],
+            "goals": ["make_doubt_reality", "manipulate_perception", "undermine_confidence"],
+            "mechanisms": ["denial", "misdirection", "falsified_information"],
+            "tools": ["false_statements", "contradictory_evidence", "repetition"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["manipulative_or_cold"],
+                "mental": ["narrative_planned"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": ["trusting_or_vulnerable"],
+                "mental": ["memory_or_perception_targeted"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gaslighting_executed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["distressed_or_doubtful"],
+                "mental": ["perception_confused"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gate",
+            "applicable_subjects": ["organization", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["biological_body", "object", "concept"],
+            "goals": ["control_entry", "restrict_flow", "allow_or_block"],
+            "mechanisms": ["open_close", "permission_check", "signal_gate"],
+            "tools": ["gate_device", "policy", "signal_gate"],
+            "required_subject_states": {
+                "physical": ["control_interface_access"],
+                "emotional": [],
+                "mental": ["access_rules_set"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["seeking_entry_or_flowing"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["at_gate"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gating_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["allowed_through_or_blocked"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["past_gate_or_denied"]
+            }
+        },
+        {
+            "verb": "gather",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept"],
+            "goals": ["collect_together", "assemble", "aggregate"],
+            "mechanisms": ["collection", "invitation", "aggregation"],
+            "tools": ["container", "meeting", "data_pipeline"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["targets_identified"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["available_to_collect"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["collection_complete"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["collected_or_assembled"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gauge",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "concept"],
+            "goals": ["measure", "estimate", "assess_level"],
+            "mechanisms": ["measurement", "estimation", "calibration"],
+            "tools": ["gauge_instrument", "metrics", "sensors"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["metric_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["accessible_for_measurement"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["measurement_obtained"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["quantified_or_assessed"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gawk",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "biological_body", "concept"],
+            "goals": ["stare_rudely", "observe_curiously", "fixate"],
+            "mechanisms": ["open_stare", "halt_and_watch"],
+            "tools": ["eyes", "attention"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["curious_or_rude"],
+                "mental": ["focus_on_spectacle"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["spectacle_noted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["uncomfortable_or_observed"],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gaze",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "concept"],
+            "goals": ["look_intently", "observe_calmly", "focus_attention"],
+            "mechanisms": ["steady_look", "sustained_attention"],
+            "tools": ["vision", "optics"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["calm_or_contemplative"],
+                "mental": ["subject_of_focus"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["settled_or_reflective"],
+                "mental": ["details_noted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["observed_carefully"],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

@@ -1,0 +1,356 @@
+{
+    "prefix": "eb",
+    "processed_verbs": [
+        "ebb",
+        "ebionize",
+        "ebonize",
+        "ebriate",
+        "ebulliate",
+        "ebullize",
+        "eburnate"
+    ],
+
+    "outcomes": [
+        {
+            "verb": "ebb",
+            "applicable_subjects": [
+                "forces",
+                "fluids",
+                "systems"
+            ],
+            "applicable_objects": [
+                "shorelines",
+                "processes",
+                "concepts"
+            ],
+            "goals": [
+                "retreat from a high state toward equilibrium"
+            ],
+            "mechanisms": [
+                "gradual release",
+                "dissipation",
+                "redistribution"
+            ],
+            "tools": [
+                "tidal models",
+                "valves",
+                "calibrated vents"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "mobile"
+                ],
+                "emotional": [],
+                "mental": [
+                    "monitoring flow"
+                ],
+                "positional": [
+                    "connected to reservoirs"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "exposed",
+                    "receptive"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "down-gradient"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "lower energy"
+                ],
+                "emotional": [],
+                "mental": [
+                    "tracking baselines"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "revealed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "stabilized"
+                ]
+            }
+        },
+        {
+            "verb": "ebonize",
+            "applicable_subjects": [
+                "biological bodies",
+                "craft systems"
+            ],
+            "applicable_objects": [
+                "objects",
+                "surfaces"
+            ],
+            "goals": [
+                "darken a material to resemble ebony"
+            ],
+            "mechanisms": [
+                "staining",
+                "chemical treatment",
+                "heat setting"
+            ],
+            "tools": [
+                "dyes",
+                "brushes",
+                "curing lamps"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "steady"
+                ],
+                "emotional": [
+                    "patient"
+                ],
+                "mental": [
+                    "precise"
+                ],
+                "positional": [
+                    "near workstation"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "clean",
+                    "sandable"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "secured"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "completed finish"
+                ],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "evaluating sheen"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "darkened",
+                    "sealed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "display ready"
+                ]
+            }
+        },
+        {
+            "verb": "ebriate",
+            "applicable_subjects": [
+                "concepts",
+                "biological bodies"
+            ],
+            "applicable_objects": [
+                "biological bodies",
+                "experiences"
+            ],
+            "goals": [
+                "induce a state of intoxication or exhilaration"
+            ],
+            "mechanisms": [
+                "serving spirits",
+                "sensory overload",
+                "pharmacology"
+            ],
+            "tools": [
+                "beverages",
+                "aromas",
+                "compounds"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "permissive"
+                ],
+                "mental": [
+                    "aware of limits"
+                ],
+                "positional": [
+                    "close to recipient"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "ingestible"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "within reach"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "stimulated"
+                ],
+                "mental": [
+                    "monitoring safety"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "consumed"
+                ],
+                "emotional": [],
+                "mental": [
+                    "altered perception"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "ebullate",
+            "applicable_subjects": [
+                "liquids",
+                "systems"
+            ],
+            "applicable_objects": [
+                "liquids",
+                "mixtures"
+            ],
+            "goals": [
+                "drive a medium into vigorous boiling"
+            ],
+            "mechanisms": [
+                "heating",
+                "pressure reduction",
+                "agitation"
+            ],
+            "tools": [
+                "burners",
+                "reactor jackets",
+                "stirrers"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "resistant to heat"
+                ],
+                "emotional": [],
+                "mental": [
+                    "tracking thresholds"
+                ],
+                "positional": [
+                    "stationed at controls"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "contained",
+                    "saturated"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "focused"
+                ],
+                "mental": [
+                    "verifying boil"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "aerated",
+                    "vaporizing"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "eburnate",
+            "applicable_subjects": [
+                "biological bodies",
+                "craft systems"
+            ],
+            "applicable_objects": [
+                "objects",
+                "ornamentation"
+            ],
+            "goals": [
+                "render a surface ivory-like"
+            ],
+            "mechanisms": [
+                "polishing",
+                "pigment infusion",
+                "resin coating"
+            ],
+            "tools": [
+                "files",
+                "buffers",
+                "lacquers"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "dexterous"
+                ],
+                "emotional": [
+                    "meticulous"
+                ],
+                "mental": [
+                    "anticipating texture"
+                ],
+                "positional": [
+                    "at finishing bench"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "shaped",
+                    "smooth"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "steady hands"
+                ],
+                "emotional": [
+                    "pleased"
+                ],
+                "mental": [
+                    "judging luster"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "ivory toned",
+                    "sealed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "ready for display"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+  "prefix": "oi",
+  "processed_verbs": [
+    "oil"
+  ],
+  "outcomes": [
+    {
+      "verb": "oil",
+      "applicable_subjects": [
+        "biological_body",
+        "physical_agent",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "machine",
+        "surface"
+      ],
+      "goals": [
+        "lubricate",
+        "protect"
+      ],
+      "mechanisms": [
+        "applying_lubricant",
+        "coating_surface"
+      ],
+      "tools": [
+        "oil",
+        "applicator",
+        "cloth"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "access_to_target",
+          "able_to_apply"
+        ],
+        "emotional": [],
+        "mental": [
+          "knows_application_points"
+        ],
+        "positional": [
+          "at_target_location"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "clean_or_accessible",
+          "moving_parts_present"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "stable"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "maintenance_completed"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "lubricated",
+          "protected"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      }
+    }
+  ],
+  "completed": true
+}

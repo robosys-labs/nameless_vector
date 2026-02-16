@@ -1,0 +1,305 @@
+{
+    "prefix": "fi",
+    "processed_verbs": [
+        "file",
+        "fill",
+        "filter",
+        "find",
+        "finish",
+        "fire",
+        "fish",
+        "fit",
+        "fix"
+    ],
+    "outcomes": [
+        {
+            "verb": "fill",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["object", "virtual_object", "place"],
+            "goals": ["occupy_space", "reach_capacity", "provide_content"],
+            "mechanisms": ["pouring", "insertion", "data_ingestion"],
+            "tools": ["container", "funnel", "loader"],
+            "required_subject_states": {
+                "physical": ["material_ready"],
+                "emotional": [],
+                "mental": ["quantity_known"],
+                "positional": ["aligned_with_opening"]
+            },
+            "required_object_states": {
+                "physical": ["empty_or_partial"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["stable_position"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied"],
+                "mental": ["fill_completed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["filled"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "filter",
+            "applicable_subjects": ["organization", "physical_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept"],
+            "goals": ["remove_unwanted", "separate_components", "improve_purity"],
+            "mechanisms": ["sieving", "querying", "screening"],
+            "tools": ["filter_media", "query_engine", "strainer"],
+            "required_subject_states": {
+                "physical": ["access_to_flow"],
+                "emotional": [],
+                "mental": ["criteria_set"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["mixed"],
+                "emotional": [],
+                "mental": ["data_or_material_present"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["confident"],
+                "mental": ["filter_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["separated"],
+                "emotional": [],
+                "mental": ["cleaned_or_sorted"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "find",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept"],
+            "goals": ["locate_target", "identify_presence", "discover"],
+            "mechanisms": ["search", "scan", "inquiry"],
+            "tools": ["search_tool", "sensor", "questionnaire"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["curious"],
+                "mental": ["target_specified"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["exists_somewhere"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied"],
+                "mental": ["target_found"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["located"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "finish",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["concept", "object", "virtual_object"],
+            "goals": ["complete_task", "bring_to_end", "finalize"],
+            "mechanisms": ["last_step_execution", "polishing", "closure_action"],
+            "tools": ["task_list", "polishing_tool", "final_command"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["determined"],
+                "mental": ["steps_remaining_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["near_completion"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["accomplished"],
+                "mental": ["closure_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["completed"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fix",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["object", "virtual_object", "process"],
+            "goals": ["repair", "restore_function", "stabilize"],
+            "mechanisms": ["adjustment", "replacement", "patching"],
+            "tools": ["repair_kit", "patch", "diagnostic_tool"],
+            "required_subject_states": {
+                "physical": ["tools_available"],
+                "emotional": ["patient"],
+                "mental": ["fault_identified"],
+                "positional": ["access_to_fault"]
+            },
+            "required_object_states": {
+                "physical": ["damaged_or_faulty"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["reassured"],
+                "mental": ["repair_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["restored"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "file",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["virtual_object", "document", "concept"],
+            "goals": ["submit_record", "store_orderly", "formalize_entry"],
+            "mechanisms": ["categorization", "indexing", "official_submission"],
+            "tools": ["filesystem", "filing_cabinet", "form_interface"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["organized"],
+                "mental": ["metadata_known"],
+                "positional": ["at_submission_point"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["content_prepared"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["assured"],
+                "mental": ["record_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["stored_and_indexed"],
+                "positional": ["in_repository"]
+            }
+        },
+        {
+            "verb": "fire",
+            "applicable_subjects": ["organization", "biological_body", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "physical_agent", "object"],
+            "goals": ["discharge_weapon_or_projectile", "ignite", "terminate_employment"],
+            "mechanisms": ["trigger_activation", "combustion_initiation", "formal_dismissal"],
+            "tools": ["launcher", "ignition_source", "termination_notice"],
+            "required_subject_states": {
+                "physical": ["control_of_tool"],
+                "emotional": ["resolved"],
+                "mental": ["target_identified_or_decision_made"],
+                "positional": ["within_effective_range"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["decisive"],
+                "mental": ["action_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["affected_or_notified"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fish",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object", "concept"],
+            "goals": ["catch_fish_or_information", "retrieve_from_depth", "probe_for_response"],
+            "mechanisms": ["casting_line", "baiting", "iterative_questioning"],
+            "tools": ["fishing_rod", "net", "query_prompt"],
+            "required_subject_states": {
+                "physical": ["access_to_water_or_data_source"],
+                "emotional": ["patient"],
+                "mental": ["target_known"],
+                "positional": ["at_source_location"]
+            },
+            "required_object_states": {
+                "physical": ["present_in_medium"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["within_reach_of_tool"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["engaged"],
+                "mental": ["attempt_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["captured_or_identified"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fit",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["object", "biological_body", "concept"],
+            "goals": ["make_suitable", "ensure_alignment", "achieve_size_match"],
+            "mechanisms": ["measurement", "adjustment", "trial_alignment"],
+            "tools": ["measuring_tool", "adjuster", "template"],
+            "required_subject_states": {
+                "physical": ["access_to_object"],
+                "emotional": [],
+                "mental": ["dimensions_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["adjustable_or_measurable"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied"],
+                "mental": ["fit_confirmed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["properly_fitted"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

@@ -1,0 +1,34 @@
+{
+    "prefix": "my",
+    "processed_verbs": [
+        "mystify",
+        "mythologize"
+    ],
+    "outcomes": [
+        {
+            "verb": "mystify",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "organization"],
+            "applicable_objects": ["audience", "observer", "issue"],
+            "goals": ["confuse", "render_puzzling"],
+            "mechanisms": ["obscuring_explanation", "adding_complexity", "withholding_information"],
+            "tools": ["rhetoric", "smoke_and_mirrors", "ambiguous_language"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["motive_to_confuse"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": ["curious_optional"], "mental": ["seeking_understanding"], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["confusion_induced"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": ["bewildered_optional"], "mental": ["confused_or_baffled"], "positional": []}
+        },
+        {
+            "verb": "mythologize",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "organization"],
+            "applicable_objects": ["person", "event", "brand"],
+            "goals": ["elevate_to_legend", "craft_mythic_narrative"],
+            "mechanisms": ["embellishing", "selective_storytelling", "symbolizing"],
+            "tools": ["stories", "media", "artifacts"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["desired_legend_defined"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": ["some_notable_traits"], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["myth_created"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": ["awe_or_pride_optional"], "mental": ["legendary_or_symbolic"], "positional": []}
+        }
+    ],
+    "completed": true
+}

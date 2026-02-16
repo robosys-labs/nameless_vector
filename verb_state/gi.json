@@ -1,0 +1,437 @@
+{
+    "prefix": "gi",
+    "processed_verbs": [
+        "gibe",
+        "gibber",
+        "giddy",
+        "gild",
+        "gill",
+        "gig",
+        "giggle",
+        "ginger",
+        "gird",
+        "girdle",
+        "gift",
+        "gin",
+        "give"
+    ],
+    "outcomes": [
+        {
+            "verb": "gibe",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept", "virtual_object"],
+            "goals": ["taunt", "mock", "undermine_confidence"],
+            "mechanisms": ["verbal_barbs", "sarcasm", "ridicule"],
+            "tools": ["voice", "text_channel", "public_forum"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["contemptuous_or_derisive"],
+                "mental": ["intent_to_mock"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["mockery_delivered"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["belittled_if_sentient"],
+                "mental": ["message_received"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gibber",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["concept", "biological_body"],
+            "goals": ["speak_incoherently", "express_confusion", "release_nervous_energy"],
+            "mechanisms": ["rapid_speech", "disjointed_words", "rambling"],
+            "tools": ["voice", "communication_channel"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["anxious_or_excited"],
+                "mental": ["thoughts_fragmented"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["incoherence_expressed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["bemused_if_sentient"],
+                "mental": ["message_unclear"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gild",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "place", "concept", "virtual_object"],
+            "goals": ["apply_gold_layer", "decorate", "enhance_value"],
+            "mechanisms": ["coating", "leaf_application", "electroplating"],
+            "tools": ["gold_leaf", "adhesive", "brush", "plating_setup"],
+            "required_subject_states": {
+                "physical": ["steady_hands"],
+                "emotional": [],
+                "mental": ["design_planned"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["clean_surface"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gilding_complete"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["gold_coated"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "ginger",
+            "applicable_subjects": ["biological_body", "organization"],
+            "applicable_objects": ["biological_body", "object", "concept"],
+            "goals": ["add_spice", "invigorate", "add_flavor"],
+            "mechanisms": ["spicing", "motivation"],
+            "tools": ["ginger_root", "seasoning", "speech"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["intent_to_invigorate"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["encouraged"],
+                "mental": ["invigoration_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["spiced_or_invigorated"],
+                "emotional": ["stimulated_if_sentient"],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gird",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "biological_body", "concept", "place"],
+            "goals": ["encircle", "prepare_for_effort", "support"],
+            "mechanisms": ["belt_fastening", "reinforcement", "mental_preparation"],
+            "tools": ["belt", "strap", "support_band", "mental_focus"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["intent_to_support"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": ["equipped"],
+                "emotional": [],
+                "mental": ["prepared"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["encircled_or_supported"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "girdle",
+            "applicable_subjects": ["biological_body", "organization"],
+            "applicable_objects": ["biological_body", "object", "place"],
+            "goals": ["encircle_with_belt", "constrict", "outline_boundary"],
+            "mechanisms": ["belt_fastening", "encircling", "zoning"],
+            "tools": ["girdle", "strap", "boundary_marker"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["intent_to_encircle"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["encirclement_complete"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["encircled_or_constricted"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gift",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "object", "virtual_object", "concept"],
+            "goals": ["bestow_without_compensation", "honor_recipient", "celebrate"],
+            "mechanisms": ["presentation", "donation", "transfer"],
+            "tools": ["wrapped_item", "delivery_service", "digital_transfer"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["generous"],
+                "mental": ["gift_selected"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied"],
+                "mental": ["gift_delivered"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["transferred_if_physical"],
+                "emotional": [],
+                "mental": ["received_and_acknowledged"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gill",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object"],
+            "goals": ["remove_gills", "prepare_fish", "clean"],
+            "mechanisms": ["cutting", "excision", "cleaning"],
+            "tools": ["knife", "scalpel", "cutting_board"],
+            "required_subject_states": {
+                "physical": ["cutting_tool_ready"],
+                "emotional": [],
+                "mental": ["preparation_understood"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["fish_present"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gills_removed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["degilled"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "giddy",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "concept"],
+            "goals": ["make_dizzy", "excite_excessively", "disorient"],
+            "mechanisms": ["spinning", "rapid_movement", "overstimulating_news"],
+            "tools": ["motion", "information", "physical_contact"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["intent_to_dizzy_or_excite"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["giddying_action_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["unsteady_if_physical"],
+                "emotional": ["lightheaded_or_excited"],
+                "mental": ["disoriented"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gig",
+            "applicable_subjects": ["biological_body", "organization"],
+            "applicable_objects": ["concept", "place", "organization"],
+            "goals": ["perform_engagement", "fulfill_contract", "entertain_audience"],
+            "mechanisms": ["performance", "service_delivery", "contract_execution"],
+            "tools": ["instrument", "voice", "equipment"],
+            "required_subject_states": {
+                "physical": ["fit_for_performance"],
+                "emotional": ["composed"],
+                "mental": ["setlist_or_script_known"],
+                "positional": ["at_venue"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["audience_or_client_present"],
+                "positional": ["venue_ready"]
+            },
+            "final_subject_states": {
+                "physical": ["performance_completed"],
+                "emotional": ["satisfied_or_drained"],
+                "mental": ["gig_fulfilled"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["entertained_if_sentient"],
+                "mental": ["service_received"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "giggle",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["concept", "biological_body"],
+            "goals": ["express_amusement", "release_tension", "signal_playfulness"],
+            "mechanisms": ["short_laughs", "breath_control", "facial_expression"],
+            "tools": ["voice", "breath"],
+            "required_subject_states": {
+                "physical": ["able_to_breathe"],
+                "emotional": [],
+                "mental": ["amusement_present"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["amused"],
+                "mental": ["humor_expressed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["lightened_if_sentient"],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gin",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object", "concept"],
+            "goals": ["trap", "extract", "distill_spirit"],
+            "mechanisms": ["netting_or_snaring", "separation", "distillation"],
+            "tools": ["trap", "cotton_gin", "still"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["target_identified"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["ginning_completed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["trapped_or_processed"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "give",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["biological_body", "organization", "object", "virtual_object", "concept"],
+            "goals": ["transfer_possession", "provide_assistance", "offer_value"],
+            "mechanisms": ["handing_over", "donation", "data_transfer"],
+            "tools": ["hands", "transaction_channel", "delivery_service"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["willing"],
+                "mental": ["item_identified"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["item_released"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["transferred_if_physical"],
+                "emotional": [],
+                "mental": ["received_by_recipient"],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

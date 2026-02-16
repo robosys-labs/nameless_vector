@@ -1,0 +1,221 @@
+{
+  "prefix": "oc",
+  "processed_verbs": [
+    "occlude",
+    "occupy",
+    "occur"
+  ],
+  "outcomes": [
+    {
+      "verb": "occlude",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "physical_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "place",
+        "virtual_object"
+      ],
+      "goals": [
+        "block passage",
+        "limit access"
+      ],
+      "mechanisms": [
+        "covering",
+        "sealing",
+        "obstructing"
+      ],
+      "tools": [
+        "barrier",
+        "sealant",
+        "policy"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to position barrier"
+        ],
+        "emotional": [
+          "intentional"
+        ],
+        "mental": [
+          "aware of flow"
+        ],
+        "positional": [
+          "at opening or channel"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "open",
+          "passable"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "between origin and destination"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "stationed"
+        ],
+        "emotional": [
+          "controlled"
+        ],
+        "mental": [
+          "monitoring blockage"
+        ],
+        "positional": [
+          "at blocked point"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "sealed",
+          "blocked"
+        ],
+        "emotional": [],
+        "mental": [
+          "restricted"
+        ],
+        "positional": [
+          "unchanged location"
+        ]
+      }
+    },
+    {
+      "verb": "occupy",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "place",
+        "object",
+        "virtual_object"
+      ],
+      "goals": [
+        "take space",
+        "utilize"
+      ],
+      "mechanisms": [
+        "entering",
+        "holding position"
+      ],
+      "tools": [
+        "presence",
+        "authorization"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "mobile"
+        ],
+        "emotional": [
+          "assertive"
+        ],
+        "mental": [
+          "aware of boundaries"
+        ],
+        "positional": [
+          "adjacent to target"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "available"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "reachable"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "located at target"
+        ],
+        "emotional": [
+          "established"
+        ],
+        "mental": [
+          "holding control"
+        ],
+        "positional": [
+          "inside target space"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "occupied"
+        ],
+        "emotional": [],
+        "mental": [
+          "designated in use"
+        ],
+        "positional": [
+          "unchanged"
+        ]
+      }
+    },
+    {
+      "verb": "occur",
+      "applicable_subjects": [
+        "concept",
+        "place"
+      ],
+      "applicable_objects": [
+        "concept",
+        "place"
+      ],
+      "goals": [
+        "take place",
+        "manifest"
+      ],
+      "mechanisms": [
+        "arising conditions",
+        "triggered sequence"
+      ],
+      "tools": [
+        "preconditions"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "at designated location"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "anticipated"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "realized"
+        ],
+        "positional": [
+          "noted at location"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "completed"
+        ],
+        "positional": []
+      }
+    }
+  ],
+  "completed": true
+}

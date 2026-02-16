@@ -1,0 +1,866 @@
+{
+    "prefix": "fl",
+    "processed_verbs": [
+        "flag",
+        "flail",
+        "flare",
+        "flash",
+        "flank",
+        "flap",
+        "flatten",
+        "flavor",
+        "flee",
+        "flex",
+        "flick",
+        "flinch",
+        "fling",
+        "flip",
+        "flock",
+        "flood",
+        "flourish",
+        "flow",
+        "flower",
+        "fluctuate",
+        "flounder",
+        "flout",
+        "flush",
+        "fluster",
+        "fly",
+        "flutter"
+    ],
+    "outcomes": [
+        {
+            "verb": "flag",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["virtual_object", "concept", "event"],
+            "goals": ["mark_for_attention", "signal_status", "categorize"],
+            "mechanisms": ["labeling", "tagging", "notification"],
+            "tools": ["flag_marker", "metadata_tag", "alert_system"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["alert"],
+                "mental": ["criteria_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["state_identified"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["attentive"],
+                "mental": ["flag_logged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["marked"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flail",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "concept"],
+            "goals": ["struggle_wildly", "attempt_escape", "dislodge_constraint"],
+            "mechanisms": ["erratic_motion", "sweeping_limb_movement", "rapid_swings"],
+            "tools": ["limbs", "appendages", "extension_tool"],
+            "required_subject_states": {
+                "physical": ["unrestrained_motion"],
+                "emotional": ["distressed_or_agitated"],
+                "mental": ["intent_to_break_free"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["exerted"],
+                "mental": ["attempt_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flare",
+            "applicable_subjects": ["environment", "biological_body", "object"],
+            "applicable_objects": ["object", "concept"],
+            "goals": ["burst_briefly", "signal_attention", "expand_temporarily"],
+            "mechanisms": ["rapid_ignition", "intensity_spike", "sudden_brightening"],
+            "tools": ["flare_device", "chemical_agent", "signal_system"],
+            "required_subject_states": {
+                "physical": ["energy_or_fuel_available"],
+                "emotional": [],
+                "mental": ["trigger_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["flare_emitted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["briefly_bright"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flash",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept"],
+            "goals": ["signal_quickly", "expose_briefly", "emit_light"],
+            "mechanisms": ["short_pulse", "brief_display", "rapid_exposure"],
+            "tools": ["light_source", "display", "signal_flag"],
+            "required_subject_states": {
+                "physical": ["signal_device_ready"],
+                "emotional": [],
+                "mental": ["signal_intent_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["signal_sent"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["briefly_illuminated"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flank",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "object"],
+            "goals": ["guard_side", "encircle", "support_from_side"],
+            "mechanisms": ["side_positioning", "parallel_movement", "protective_alignment"],
+            "tools": ["formation", "communication_device", "positioning_system"],
+            "required_subject_states": {
+                "physical": ["mobile"],
+                "emotional": ["alert"],
+                "mental": ["route_known"],
+                "positional": ["at_lateral_position"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": ["center_of_formation"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["prepared"],
+                "mental": ["flank_held"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["supported"],
+                "mental": [],
+                "positional": ["shielded"]
+            }
+        },
+        {
+            "verb": "flap",
+            "applicable_subjects": ["biological_body", "physical_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "concept"],
+            "goals": ["create_lift", "signal_motion", "ventilate"],
+            "mechanisms": ["oscillating_wing", "hinged_movement", "repeated_swing"],
+            "tools": ["wing", "panel", "flap_mechanism"],
+            "required_subject_states": {
+                "physical": ["oscillation_capable"],
+                "emotional": [],
+                "mental": ["rhythm_set"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["flapping_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flatten",
+            "applicable_subjects": ["biological_body", "physical_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "place", "virtual_object"],
+            "goals": ["make_level", "compress_height", "remove_peaks"],
+            "mechanisms": ["pressing", "rolling", "smoothing"],
+            "tools": ["roller", "press", "flattening_tool"],
+            "required_subject_states": {
+                "physical": ["force_ready"],
+                "emotional": [],
+                "mental": ["area_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["shapeable"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["flattening_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["leveled"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flavor",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["object", "food", "concept"],
+            "goals": ["add_taste", "enhance_profile", "impart_character"],
+            "mechanisms": ["seasoning", "infusion", "blend_addition"],
+            "tools": ["spice", "extract", "mixing_tool"],
+            "required_subject_states": {
+                "physical": ["ingredients_ready"],
+                "emotional": [],
+                "mental": ["desired_profile_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["ready_for_seasoning"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["flavor_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["flavored"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flee",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["place", "organization", "concept"],
+            "goals": ["escape_quickly", "avoid_danger", "withdraw"],
+            "mechanisms": ["rapid_departure", "evasion_route", "retreat"],
+            "tools": ["mobility", "transport", "cover"],
+            "required_subject_states": {
+                "physical": ["mobile"],
+                "emotional": ["urgent"],
+                "mental": ["exit_known"],
+                "positional": ["able_to_depart"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["relieved"],
+                "mental": ["escape_noted"],
+                "positional": ["away_from_threat"]
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flex",
+            "applicable_subjects": ["biological_body", "physical_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "biological_body", "virtual_object"],
+            "goals": ["bend_without_breaking", "show_strength", "adjust_angle"],
+            "mechanisms": ["muscle_contraction", "hinge_motion", "adaptive_deformation"],
+            "tools": ["muscle", "joint", "flexible_material"],
+            "required_subject_states": {
+                "physical": ["flexible_structure"],
+                "emotional": [],
+                "mental": ["motion_intent_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["flexible_or_malleable"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["flexion_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["bent_or_showcased"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flick",
+            "applicable_subjects": ["biological_body", "physical_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "virtual_object"],
+            "goals": ["move_briefly", "toggle_lightly", "dislodge_small_item"],
+            "mechanisms": ["finger_snap", "quick_lever_action", "light_tap"],
+            "tools": ["finger", "switch", "small_tool"],
+            "required_subject_states": {
+                "physical": ["dexterous"],
+                "emotional": [],
+                "mental": ["target_identified"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["lightweight_or_toggleable"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["flick_action_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["moved_or_toggled"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flinch",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "threat"],
+            "goals": ["shrink_back", "avoid_pain", "react_to_threat"],
+            "mechanisms": ["reflexive_withdrawal", "sudden_motion", "defensive_reaction"],
+            "tools": ["reflex", "protective_posture", "sensor_input"],
+            "required_subject_states": {
+                "physical": ["responsive_nervous_system"],
+                "emotional": ["startled_or_cautious"],
+                "mental": [],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["perceived_as_threat"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["alert"],
+                "mental": ["threat_registered"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fling",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "virtual_object"],
+            "goals": ["propel_forcefully", "discard_quickly", "scatter"],
+            "mechanisms": ["arm_swing", "mechanical_launch", "rapid_release"],
+            "tools": ["hand", "launcher", "catapult"],
+            "required_subject_states": {
+                "physical": ["grip_on_object"],
+                "emotional": ["determined"],
+                "mental": ["direction_chosen"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["portable"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["within_grasp"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["released"],
+                "mental": ["trajectory_set"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["in_motion"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flip",
+            "applicable_subjects": ["biological_body", "physical_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "virtual_object"],
+            "goals": ["invert_quickly", "toggle_state", "turn_over"],
+            "mechanisms": ["wrist_motion", "mechanical_lever", "software_toggle"],
+            "tools": ["hand", "lever", "switch"],
+            "required_subject_states": {
+                "physical": ["able_to_toggle"],
+                "emotional": [],
+                "mental": ["target_selected"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["movable"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied"],
+                "mental": ["state_changed_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["state_toggled"],
+                "emotional": [],
+                "mental": ["state_toggled"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flock",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["place", "concept", "organization"],
+            "goals": ["gather_together", "move_as_group", "converge"],
+            "mechanisms": ["group_alignment", "cohesion_rules", "collective_motion"],
+            "tools": ["swarm_logic", "rendezvous_point", "communication_signal"],
+            "required_subject_states": {
+                "physical": ["mobile"],
+                "emotional": [],
+                "mental": ["group_target_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": ["destination_defined"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["grouped"],
+                "positional": ["at_convergence"]
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flood",
+            "applicable_subjects": ["environment", "organization", "physical_agent"],
+            "applicable_objects": ["place", "object", "virtual_object"],
+            "goals": ["inundate", "overwhelm", "saturate"],
+            "mechanisms": ["water_release", "volume_overload", "packet_surge"],
+            "tools": ["fluid_source", "network_traffic", "spillway"],
+            "required_subject_states": {
+                "physical": ["volume_control"],
+                "emotional": [],
+                "mental": ["flow_parameters_set"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["exposed_area"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["within_flow_path"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["flood_initiated"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["submerged_or_overloaded"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flourish",
+            "applicable_subjects": ["biological_body", "organization", "concept"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["thrive", "prosper", "grow_vigorously"],
+            "mechanisms": ["favorable_conditions", "resource_utilization", "creative_expression"],
+            "tools": ["support_network", "resources", "opportunity"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["capability_present"],
+                "positional": ["within_supportive_environment"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["confident"],
+                "mental": ["progress_noted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["thriving"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flow",
+            "applicable_subjects": ["environment", "organization", "physical_agent", "biological_body"],
+            "applicable_objects": ["object", "concept", "virtual_object", "place"],
+            "goals": ["move_smoothly", "circulate", "maintain_continuity"],
+            "mechanisms": ["continuous_motion", "stream_transfer", "sequential_transition"],
+            "tools": ["channel", "conduit", "pipeline"],
+            "required_subject_states": {
+                "physical": ["energy_or_pressure_available"],
+                "emotional": [],
+                "mental": ["path_defined"],
+                "positional": ["aligned_to_path"]
+            },
+            "required_object_states": {
+                "physical": ["within_pathway"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["open_route"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["flow_sustained"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["redistributed_or_progressed"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flower",
+            "applicable_subjects": ["biological_body", "organization", "concept"],
+            "applicable_objects": ["concept", "organization", "place"],
+            "goals": ["bloom", "reach_maturity", "express_full_potential"],
+            "mechanisms": ["growth_process", "resource_conversion", "display_emergence"],
+            "tools": ["nutrients", "light", "support_structure"],
+            "required_subject_states": {
+                "physical": ["growing_conditions_met"],
+                "emotional": [],
+                "mental": [],
+                "positional": ["rooted_or_located"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": ["blooming"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["maturity_signaled"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fluctuate",
+            "applicable_subjects": ["environment", "organization", "concept"],
+            "applicable_objects": ["concept", "virtual_object", "measurement"],
+            "goals": ["vary_over_time", "oscillate", "reflect_change"],
+            "mechanisms": ["cyclic_variation", "dynamic_balance", "external_influence"],
+            "tools": ["feedback_loop", "variable_input", "monitoring_system"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["changing_conditions_present"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["subject_to_variation"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["variation_observed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["state_shifted"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flounder",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "process", "situation"],
+            "goals": ["struggle_clumsily", "make_little_progress", "seek_stability"],
+            "mechanisms": ["uncoordinated_effort", "stop_and_start_motion", "trial_and_error"],
+            "tools": ["imperfect_information", "limited_resources", "partial_plan"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["frustrated_or_uncertain"],
+                "mental": ["situation_confusing"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["fatigued_or_determined"],
+                "mental": ["lessons_gathered"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["partial_progress"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flout",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "rule", "organization"],
+            "goals": ["openly_disobey", "show_contempt", "defy_norm"],
+            "mechanisms": ["intentional_violation", "public_noncompliance", "rule_breaking"],
+            "tools": ["statement_of_defiance", "noncompliant_action", "symbolic_gesture"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["defiant"],
+                "mental": ["rule_understood"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["rule_defined"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["emboldened"],
+                "mental": ["defiance_expressed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["rule_challenged"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flush",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["place", "object", "biological_body"],
+            "goals": ["wash_out", "drive_out", "clear_blockage"],
+            "mechanisms": ["fluid_flow", "forced_purge", "pressure_release"],
+            "tools": ["water", "solvent", "flush_mechanism"],
+            "required_subject_states": {
+                "physical": ["flow_source_ready"],
+                "emotional": [],
+                "mental": ["target_area_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["accessible_for_flow"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["flushing_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["cleared_or_cleansed"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fluster",
+            "applicable_subjects": ["biological_body", "organization"],
+            "applicable_objects": ["biological_body", "organization"],
+            "goals": ["disconcert", "unsettle", "disturb_composure"],
+            "mechanisms": ["rapid_questions", "unexpected_demands", "crowding"],
+            "tools": ["pressure", "time_constraint", "disruptive_signal"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["agitated_or_stressed"],
+                "mental": ["multitasking"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["susceptible_to_pressure"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["flustered"],
+                "mental": ["focus_disrupted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["unsettled"],
+                "mental": ["composure_reduced"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fly",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "biological_body", "virtual_object"],
+            "goals": ["travel_through_air", "hover_above", "move_quickly_over_distance"],
+            "mechanisms": ["wing_beating", "thrust_lift", "aerodynamic_support"],
+            "tools": ["wings", "aircraft", "propulsion_system"],
+            "required_subject_states": {
+                "physical": ["lift_capable"],
+                "emotional": [],
+                "mental": ["route_known"],
+                "positional": ["ready_for_takeoff"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["flight_recorded"],
+                "positional": ["airborne_or_at_destination"]
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "flutter",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "concept"],
+            "goals": ["vibrate_lightly", "hover_with_rapid_motion", "signal_subtly"],
+            "mechanisms": ["rapid_small_movements", "wing_tremor", "oscillating_motion"],
+            "tools": ["wings", "feathers", "light_panel"],
+            "required_subject_states": {
+                "physical": ["rapid_motion_capable"],
+                "emotional": [],
+                "mental": ["pattern_intended"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["flutter_action_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

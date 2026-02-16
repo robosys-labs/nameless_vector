@@ -1,0 +1,23 @@
+{
+  "prefix": "co",
+  "processed_nouns": [
+    "community",
+    "concept",
+    "crowd"
+  ],
+  "nouns": [
+    {
+      "noun": "community",
+      "types": ["group"]
+    },
+    {
+      "noun": "concept",
+      "types": ["concept"]
+    },
+    {
+      "noun": "crowd",
+      "types": ["group"]
+    }
+  ],
+  "completed": true
+}

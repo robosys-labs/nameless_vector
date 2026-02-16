@@ -1,0 +1,303 @@
+{
+  "prefix": "od",
+  "processed_verbs": [
+    "od",
+    "odorise",
+    "odorize",
+    "odourize"
+  ],
+  "outcomes": [
+    {
+      "verb": "od",
+      "applicable_subjects": [
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "biological_body"
+      ],
+      "goals": [
+        "excessive_intake",
+        "self_harm"
+      ],
+      "mechanisms": [
+        "consuming_excess",
+        "injecting_excess",
+        "ingesting_rapidly"
+      ],
+      "tools": [
+        "drug",
+        "substance",
+        "delivery_device"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "access_to_substance",
+          "able_to_consume"
+        ],
+        "emotional": [
+          "reckless_or_distressed"
+        ],
+        "mental": [
+          "impaired_judgment_or_negligent"
+        ],
+        "positional": [
+          "near_substance"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "potent",
+          "available"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "within_reach"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "intoxicated_or_injured",
+          "at_risk"
+        ],
+        "emotional": [
+          "distressed"
+        ],
+        "mental": [
+          "impaired_awareness"
+        ],
+        "positional": [
+          "collapsed_or_medically_observed"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "administered"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      }
+    },
+    {
+      "verb": "odorise",
+      "applicable_subjects": [
+        "organization",
+        "physical_agent",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "place",
+        "virtual_object"
+      ],
+      "goals": [
+        "add_scent",
+        "enable_detection"
+      ],
+      "mechanisms": [
+        "injecting_odorous_compound",
+        "coating_with_odorant"
+      ],
+      "tools": [
+        "odorant",
+        "injection_system",
+        "sprayer"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "access_to_target",
+          "able_to_apply_odorant"
+        ],
+        "emotional": [
+          "intentional"
+        ],
+        "mental": [
+          "required_concentration_known"
+        ],
+        "positional": [
+          "at_target_location"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "odorless_or_low_scent",
+          "able_to_absorb_or_mix"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "odorization_applied"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "scented",
+          "detectable_by_smell"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "at_target_location"
+        ]
+      }
+    },
+    {
+      "verb": "odorize",
+      "applicable_subjects": [
+        "organization",
+        "physical_agent",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "place",
+        "virtual_object"
+      ],
+      "goals": [
+        "add_scent",
+        "enable_detection"
+      ],
+      "mechanisms": [
+        "injecting_odorous_compound",
+        "coating_with_odorant"
+      ],
+      "tools": [
+        "odorant",
+        "injection_system",
+        "sprayer"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "access_to_target",
+          "able_to_apply_odorant"
+        ],
+        "emotional": [
+          "intentional"
+        ],
+        "mental": [
+          "required_concentration_known"
+        ],
+        "positional": [
+          "at_target_location"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "odorless_or_low_scent",
+          "able_to_absorb_or_mix"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "odorization_applied"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "scented",
+          "detectable_by_smell"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "at_target_location"
+        ]
+      }
+    },
+    {
+      "verb": "odourize",
+      "applicable_subjects": [
+        "organization",
+        "physical_agent",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "place",
+        "virtual_object"
+      ],
+      "goals": [
+        "add_scent",
+        "enable_detection"
+      ],
+      "mechanisms": [
+        "injecting_odorous_compound",
+        "coating_with_odorant"
+      ],
+      "tools": [
+        "odorant",
+        "injection_system",
+        "sprayer"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "access_to_target",
+          "able_to_apply_odorant"
+        ],
+        "emotional": [
+          "intentional"
+        ],
+        "mental": [
+          "required_concentration_known"
+        ],
+        "positional": [
+          "at_target_location"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "odorless_or_low_scent",
+          "able_to_absorb_or_mix"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "odorization_applied"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "scented",
+          "detectable_by_smell"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "at_target_location"
+        ]
+      }
+    }
+  ],
+  "completed": true
+}

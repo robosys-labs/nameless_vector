@@ -1,0 +1,47 @@
+{
+    "prefix": "is",
+    "processed_verbs": [
+        "island",
+        "isolate",
+        "issue"
+    ],
+    "outcomes": [
+        {
+            "verb": "island",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["place", "object", "network"],
+            "goals": ["surround_with_water_or_barrier", "isolate"],
+            "mechanisms": ["creating_barrier", "surrounding", "segmenting"],
+            "tools": ["earthworks", "water", "network_segmentation"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["target_area_defined"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["islanding_completed"], "positional": []},
+            "final_object_states": {"physical": ["isolated_by_barrier"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "isolate",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object", "process", "network"],
+            "goals": ["separate", "quarantine", "protect"],
+            "mechanisms": ["physical_separation", "logical_segmentation", "containment"],
+            "tools": ["barriers", "policies", "air_gaps"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["isolation_intent"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["isolation_performed"], "positional": []},
+            "final_object_states": {"physical": ["separated"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "issue",
+            "applicable_subjects": ["organization", "biological_body", "autonomous_agent"],
+            "applicable_objects": ["document", "order", "statement", "resource"],
+            "goals": ["release", "distribute", "announce"],
+            "mechanisms": ["publishing", "sending", "authorizing"],
+            "tools": ["printing", "messaging", "approval"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["content_or_resource_ready"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["issuance_completed"], "positional": []},
+            "final_object_states": {"physical": ["released_or_distributed"], "emotional": [], "mental": [], "positional": []}
+        }
+    ],
+    "completed": true
+}

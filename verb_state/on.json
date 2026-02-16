@@ -1,0 +1,74 @@
+{
+  "prefix": "on",
+  "processed_verbs": [
+    "onboard"
+  ],
+  "outcomes": [
+    {
+      "verb": "onboard",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "interactive_app"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "organization",
+        "virtual_object"
+      ],
+      "goals": [
+        "integrate",
+        "orient"
+      ],
+      "mechanisms": [
+        "introducing_processes",
+        "providing_training",
+        "granting_access"
+      ],
+      "tools": [
+        "documentation",
+        "training",
+        "credentials"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "ready_to_support",
+          "process_defined"
+        ],
+        "positional": [
+          "connected_to_system"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "candidate_identified"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "member_added"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "oriented",
+          "granted_access"
+        ],
+        "positional": [
+          "placed_in_system"
+        ]
+      }
+    }
+  ],
+  "completed": true
+}

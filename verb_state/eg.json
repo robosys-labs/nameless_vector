@@ -1,0 +1,410 @@
+{
+    "prefix": "eg",
+    "processed_verbs": [
+        "egalitarianize",
+        "egest",
+        "egg",
+        "eggcrate",
+        "egress"
+    ],
+
+    "outcomes": [
+        {
+            "verb": "egalitarianize",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "synthetic_agent"
+            ],
+            "applicable_objects": [
+                "organization",
+                "policy",
+                "concept"
+            ],
+            "goals": [
+                "reduce_structural_disparity",
+                "balance_access_to_resources"
+            ],
+            "mechanisms": [
+                "policy_revision",
+                "resource_reallocation",
+                "transparency_audit"
+            ],
+            "tools": [
+                "equity_dashboard",
+                "facilitation_framework",
+                "enforcement_mandate"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "present_in_deliberation_space"
+                ],
+                "emotional": [
+                    "empathetic"
+                ],
+                "mental": [
+                    "systems_thinking"
+                ],
+                "positional": [
+                    "situated_within_governance_forum"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "documented",
+                    "traceable"
+                ],
+                "emotional": [],
+                "mental": [
+                    "inequity_identified"
+                ],
+                "positional": [
+                    "embedded_across_departments"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "completed_consultations"
+                ],
+                "emotional": [
+                    "assured"
+                ],
+                "mental": [
+                    "monitoring_outcomes"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "updated_controls"
+                ],
+                "emotional": [],
+                "mental": [
+                    "codified_as_equity_policy"
+                ],
+                "positional": [
+                    "circulated_through_operations"
+                ]
+            }
+        },
+        {
+            "verb": "egest",
+            "applicable_subjects": [
+                "biological_body",
+                "medical_system"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "waste_stream"
+            ],
+            "goals": [
+                "expel_accumulated_matter",
+                "relieve_internal_pressure"
+            ],
+            "mechanisms": [
+                "peristaltic_contraction",
+                "pressure_regulation",
+                "venting"
+            ],
+            "tools": [
+                "hydration_support",
+                "monitoring_sensor",
+                "clinical_guidance"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "hydrated",
+                    "muscular_control"
+                ],
+                "emotional": [
+                    "calm"
+                ],
+                "mental": [
+                    "body_awareness"
+                ],
+                "positional": [
+                    "situated_in_privacy_bay"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "containable",
+                    "segmented"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "aligned_with_disposal_path"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "decompressed",
+                    "cleaned"
+                ],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [
+                    "noting_signals"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "isolated",
+                    "neutralized"
+                ],
+                "emotional": [],
+                "mental": [
+                    "logged_for_analysis"
+                ],
+                "positional": [
+                    "contained_in_bio_bin"
+                ]
+            }
+        },
+        {
+            "verb": "egg",
+            "applicable_subjects": [
+                "biological_body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "biological_body",
+                "concept",
+                "event"
+            ],
+            "goals": [
+                "incite_decisive_action",
+                "sustain_momentum"
+            ],
+            "mechanisms": [
+                "verbal_prompting",
+                "symbolic_show_of_support",
+                "coordinated_chant"
+            ],
+            "tools": [
+                "megaphone",
+                "gesture_script",
+                "digital_campaign"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "energized_posture"
+                ],
+                "emotional": [
+                    "enthusiastic"
+                ],
+                "mental": [
+                    "observing_cues"
+                ],
+                "positional": [
+                    "proximate_to_target_group"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "within_earshot"
+                ],
+                "emotional": [
+                    "receptive"
+                ],
+                "mental": [
+                    "ambivalent"
+                ],
+                "positional": [
+                    "clustered_in_activation_area"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "voice_rest"
+                ],
+                "emotional": [
+                    "encouraged"
+                ],
+                "mental": [
+                    "tracking_response"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "mobilizing"
+                ],
+                "emotional": [
+                    "motivated"
+                ],
+                "mental": [
+                    "committed_to_action"
+                ],
+                "positional": [
+                    "moving_toward_objective"
+                ]
+            }
+        },
+        {
+            "verb": "eggcrate",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "physical_agent"
+            ],
+            "applicable_objects": [
+                "object",
+                "virtual_object"
+            ],
+            "goals": [
+                "cushion_fragile_items",
+                "organize_dense_inventory"
+            ],
+            "mechanisms": [
+                "modular_partitioning",
+                "foam_cutting",
+                "stack_alignment"
+            ],
+            "tools": [
+                "grid_template",
+                "cutting_table",
+                "labeler"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "steady_hands",
+                    "protective_gloves"
+                ],
+                "emotional": [
+                    "meticulous"
+                ],
+                "mental": [
+                    "spatial_planning"
+                ],
+                "positional": [
+                    "stationed_at_packout_bench"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "fragile",
+                    "dimensioned"
+                ],
+                "emotional": [],
+                "mental": [
+                    "serialized"
+                ],
+                "positional": [
+                    "queued_on_loading_table"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "completed_partitions"
+                ],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "inventory_logged"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "nested_in_crate",
+                    "shock_isolated"
+                ],
+                "emotional": [],
+                "mental": [
+                    "manifest_updated"
+                ],
+                "positional": [
+                    "stacked_in_transit_zone"
+                ]
+            }
+        },
+        {
+            "verb": "egress",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "autonomous_agent"
+            ],
+            "applicable_objects": [
+                "place",
+                "structure",
+                "virtual_object"
+            ],
+            "goals": [
+                "exit_controlled_area",
+                "restore_safe_spacing"
+            ],
+            "mechanisms": [
+                "door_cycle",
+                "airlock_sequence",
+                "routing_signal"
+            ],
+            "tools": [
+                "badge_reader",
+                "wayfinding_display",
+                "evacuation_script"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "mobile",
+                    "oriented"
+                ],
+                "emotional": [
+                    "composed"
+                ],
+                "mental": [
+                    "route_awareness"
+                ],
+                "positional": [
+                    "clustered_near_exit_node"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "unlocked",
+                    "pressure_balanced"
+                ],
+                "emotional": [],
+                "mental": [
+                    "clearance_logged"
+                ],
+                "positional": [
+                    "connected_to_corridor"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "outside_enclosure"
+                ],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [
+                    "accounted"
+                ],
+                "positional": [
+                    "assembled_in_muster_area"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "door_reset",
+                    "flow_ceased"
+                ],
+                "emotional": [],
+                "mental": [
+                    "event_logged"
+                ],
+                "positional": [
+                    "secured_after_cycle"
+                ]
+            }
+        }
+    ],
+    "completed": false
+}

@@ -1,0 +1,34 @@
+{
+    "prefix": "ko",
+    "processed_verbs": [
+        "ko",
+        "kowtow"
+    ],
+    "outcomes": [
+        {
+            "verb": "ko",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "organization"],
+            "applicable_objects": ["biological_body", "autonomous_agent"],
+            "goals": ["knock_out", "render_unconscious"],
+            "mechanisms": ["strike", "impact", "overwhelming_force"],
+            "tools": ["fist", "weapon", "projectile"],
+            "required_subject_states": {"physical": ["able_to_strike"], "emotional": [], "mental": ["target_identified"], "positional": ["within_contact_range"]},
+            "required_object_states": {"physical": ["conscious", "vulnerable"], "emotional": [], "mental": [], "positional": ["within_reach"]},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["attempt_completed"], "positional": []},
+            "final_object_states": {"physical": ["unconscious"], "emotional": [], "mental": ["blacked_out"], "positional": ["down_or_supported"]}
+        },
+        {
+            "verb": "kowtow",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "organization"],
+            "applicable_objects": ["authority_figure", "custom", "culture"],
+            "goals": ["show_obedience", "pay_respect", "submit"],
+            "mechanisms": ["bowing", "kneeling", "deferential_gesture"],
+            "tools": ["body_posture", "ritual"],
+            "required_subject_states": {"physical": ["able_to_bow"], "emotional": ["willing_or_deferential"], "mental": ["recognizes_authority"], "positional": ["in_presence_of_object"]},
+            "required_object_states": {"physical": [], "emotional": [], "mental": ["acknowledged_as_authority_or_tradition"], "positional": ["present_or_invoked"]},
+            "final_subject_states": {"physical": ["lowered_posture"], "emotional": ["submissive_or_respectful"], "mental": ["homage_paid"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": ["respected_if_sentient"], "mental": ["acknowledged_as_authority"], "positional": []}
+        }
+    ],
+    "completed": true
+}

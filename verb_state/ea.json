@@ -1,0 +1,414 @@
+{
+    "prefix": "ea",
+    "processed_verbs": [
+        "eagle",
+        "earbash",
+        "earmark",
+        "earn",
+        "earth",
+        "earwig",
+        "ease",
+        "eat",
+        "eavesdrop"
+    ],
+
+    "outcomes": [
+        {
+            "verb": "earmark",
+            "applicable_subjects": [
+                "biological bodies",
+                "concepts",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "concepts",
+                "funds",
+                "resources"
+            ],
+            "goals": [
+                "reserve resources for a dedicated future purpose"
+            ],
+            "mechanisms": [
+                "allocation",
+                "labeling",
+                "policy setting"
+            ],
+            "tools": [
+                "accounting software",
+                "budgets",
+                "ledgers"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "disciplined"
+                ],
+                "mental": [
+                    "analytical"
+                ],
+                "positional": [
+                    "overseeing resources"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "quantified"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "aligned with plan"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "tagged"
+                ],
+                "positional": [
+                    "reserved"
+                ]
+            }
+        },
+        {
+            "verb": "earn",
+            "applicable_subjects": [
+                "biological bodies",
+                "organizations"
+            ],
+            "applicable_objects": [
+                "concepts",
+                "funds",
+                "recognition"
+            ],
+            "goals": [
+                "receive compensation or merit through effort"
+            ],
+            "mechanisms": [
+                "delivering value",
+                "meeting criteria",
+                "sustained effort"
+            ],
+            "tools": [
+                "skills",
+                "time",
+                "workflows"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "able to perform"
+                ],
+                "emotional": [
+                    "motivated"
+                ],
+                "mental": [
+                    "focused"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "available reward structure"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [
+                    "expended energy"
+                ],
+                "emotional": [
+                    "validated"
+                ],
+                "mental": [
+                    "acknowledged"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "issued"
+                ],
+                "positional": [
+                    "with subject"
+                ]
+            }
+        },
+        {
+            "verb": "earth",
+            "applicable_subjects": [
+                "biological bodies",
+                "objects"
+            ],
+            "applicable_objects": [
+                "objects",
+                "systems"
+            ],
+            "goals": [
+                "ground an electrical or symbolic system"
+            ],
+            "mechanisms": [
+                "connecting to ground",
+                "routing surplus charge",
+                "securing anchors"
+            ],
+            "tools": [
+                "grounding rods",
+                "conductors",
+                "fasteners"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "steady"
+                ],
+                "emotional": [],
+                "mental": [
+                    "aware of safety"
+                ],
+                "positional": [
+                    "adjacent to installation"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "conductive",
+                    "reachable"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "near grounding point"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "clear of charge"
+                ],
+                "emotional": [
+                    "assured"
+                ],
+                "mental": [
+                    "verified"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "grounded"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "linked to earth"
+                ]
+            }
+        },
+        {
+            "verb": "ease",
+            "applicable_subjects": [
+                "biological bodies",
+                "concepts"
+            ],
+            "applicable_objects": [
+                "concepts",
+                "experiences",
+                "symptoms"
+            ],
+            "goals": [
+                "reduce intensity or difficulty"
+            ],
+            "mechanisms": [
+                "soothing",
+                "reframing",
+                "adjusting load"
+            ],
+            "tools": [
+                "comfort aids",
+                "communication",
+                "treatments"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "calm"
+                ],
+                "mental": [
+                    "attentive"
+                ],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "strained"
+                ],
+                "mental": [
+                    "perceived as difficult"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "supportive"
+                ],
+                "mental": [
+                    "assessing feedback"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "relieved"
+                ],
+                "mental": [
+                    "less burdened"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "eat",
+            "applicable_subjects": [
+                "biological bodies"
+            ],
+            "applicable_objects": [
+                "foods",
+                "nutrients"
+            ],
+            "goals": [
+                "ingest material for energy"
+            ],
+            "mechanisms": [
+                "biting",
+                "chewing",
+                "swallowing"
+            ],
+            "tools": [
+                "cutlery",
+                "hands",
+                "utensils"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "able to digest"
+                ],
+                "emotional": [],
+                "mental": [
+                    "aware of portion"
+                ],
+                "positional": [
+                    "near food"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "prepared",
+                    "edible"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "served"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "satiated"
+                ],
+                "emotional": [
+                    "content"
+                ],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "consumed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "eavesdrop",
+            "applicable_subjects": [
+                "biological bodies",
+                "concepts"
+            ],
+            "applicable_objects": [
+                "conversations",
+                "signals"
+            ],
+            "goals": [
+                "monitor information without notice"
+            ],
+            "mechanisms": [
+                "passive listening",
+                "signal capture",
+                "surveillance"
+            ],
+            "tools": [
+                "audio relays",
+                "hidden sensors",
+                "proximity"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "still"
+                ],
+                "emotional": [
+                    "curious"
+                ],
+                "mental": [
+                    "attentive"
+                ],
+                "positional": [
+                    "within range"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "unguarded speech"
+                ],
+                "positional": [
+                    "within earshot"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "suspenseful"
+                ],
+                "mental": [
+                    "informed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "unaware of monitoring"
+                ],
+                "positional": []
+            }
+        }
+    ]
+}

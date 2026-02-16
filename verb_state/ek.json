@@ -1,0 +1,152 @@
+{
+    "prefix": "ek",
+    "processed_verbs": [
+        "eke",
+        "eklogize"
+    ],
+
+    "outcomes": [
+        {
+            "verb": "eke",
+            "applicable_subjects": [
+                "biological_body",
+                "organization"
+            ],
+            "applicable_objects": [
+                "resource",
+                "timeblock",
+                "budget"
+            ],
+            "goals": [
+                "extend_available_supply",
+                "delay_exhaustion_of_assets"
+            ],
+            "mechanisms": [
+                "rationing",
+                "micro_adjustment",
+                "sequenced_withdrawal"
+            ],
+            "tools": [
+                "allocation_sheet",
+                "usage_meter",
+                "alerts"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "disciplined"
+                ],
+                "mental": [
+                    "aware_of_limits"
+                ],
+                "positional": [
+                    "embedded_in_resource_flow"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "finite",
+                    "divisible"
+                ],
+                "emotional": [],
+                "mental": [
+                    "tracked"
+                ],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "cautiously_relieved"
+                ],
+                "mental": [
+                    "monitoring_balance"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "preserved",
+                    "redistributed"
+                ],
+                "emotional": [],
+                "mental": [
+                    "log_updated"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "eklogize",
+            "applicable_subjects": [
+                "biological_body",
+                "organization",
+                "concept"
+            ],
+            "applicable_objects": [
+                "concept",
+                "narrative",
+                "virtual_object"
+            ],
+            "goals": [
+                "compose_pastoral_dialogue",
+                "mythologize_events_through_eklogues"
+            ],
+            "mechanisms": [
+                "poetic_dialogue",
+                "alternating_voice",
+                "symbolic_imagery"
+            ],
+            "tools": [
+                "writing_tablet",
+                "lyric_reference",
+                "meter_tracker"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "contemplative"
+                ],
+                "mental": [
+                    "immersed_in_classical_forms"
+                ],
+                "positional": [
+                    "seated_in_studio_or_grove"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "symbols_defined",
+                    "themes_selected"
+                ],
+                "positional": [
+                    "held_within_drafts"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "verses_completed"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "eklogue_documented",
+                    "audience_ready"
+                ],
+                "positional": [
+                    "archived_in_poetry_collection"
+                ]
+            }
+        }
+    ],
+    "completed": false
+}

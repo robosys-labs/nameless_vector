@@ -1,0 +1,140 @@
+{
+    "prefix": "et",
+    "processed_verbs": [
+        "etch",
+        "etherize",
+        "eternalize",
+        "eternize"
+    ],
+    "outcomes": [
+        {
+            "verb": "etch",
+            "applicable_subjects": ["biological_body", "physical_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "surface", "virtual_object"],
+            "goals": ["engrave_pattern", "record_mark", "define_outline"],
+            "mechanisms": ["abrasion", "chemical_etching", "laser_tracing"],
+            "tools": ["etching_tool", "acid_solution", "laser_head"],
+            "required_subject_states": {
+                "physical": ["fine_motor_control"],
+                "emotional": ["patient"],
+                "mental": ["design_prepared"],
+                "positional": ["aligned_with_surface"]
+            },
+            "required_object_states": {
+                "physical": ["stable_surface"],
+                "emotional": [],
+                "mental": ["pattern_defined"],
+                "positional": ["secured_in_place"]
+            },
+            "final_subject_states": {
+                "physical": ["task_completed"],
+                "emotional": ["satisfied"],
+                "mental": ["mark_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["etched"],
+                "emotional": [],
+                "mental": ["pattern_visible"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "etherize",
+            "applicable_subjects": ["biological_body", "physical_agent", "synthetic_agent"],
+            "applicable_objects": ["biological_body", "micro_biological_entities"],
+            "goals": ["induce_anesthesia", "suspend_sensation", "prepare_for_procedure"],
+            "mechanisms": ["anesthetic_application", "gas_delivery", "controlled_inhalation"],
+            "tools": ["anesthesia_mask", "ether_supply", "monitoring_device"],
+            "required_subject_states": {
+                "physical": ["trained_operator"],
+                "emotional": ["calm"],
+                "mental": ["protocol_known"],
+                "positional": ["adjacent_to_patient"]
+            },
+            "required_object_states": {
+                "physical": ["prepped_for_anesthesia"],
+                "emotional": [],
+                "mental": ["consent_obtained"],
+                "positional": ["within_delivery_range"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["attentive"],
+                "mental": ["sedation_confirmed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["sedated"],
+                "emotional": [],
+                "mental": ["pain_perception_reduced"],
+                "positional": ["ready_for_procedure"]
+            }
+        },
+        {
+            "verb": "eternalize",
+            "applicable_subjects": ["biological_body", "organization", "interactive_app"],
+            "applicable_objects": ["concept", "memory", "artifact"],
+            "goals": ["preserve_forever", "honor_legacy", "maintain_continuity"],
+            "mechanisms": ["archival_process", "commemorative_creation", "digital_replication"],
+            "tools": ["archive_system", "monument", "backup_service"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["reverent"],
+                "mental": ["significance_identified"],
+                "positional": ["at_site_or_system"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["meaning_documented"],
+                "positional": ["available_for_preservation"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["fulfilled"],
+                "mental": ["legacy_secured"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["permanence_assured"],
+                "positional": ["stored_or_displayed"]
+            }
+        },
+        {
+            "verb": "eternize",
+            "applicable_subjects": ["biological_body", "organization", "interactive_app"],
+            "applicable_objects": ["concept", "memory", "artifact"],
+            "goals": ["render_timeless", "sustain_presence", "immortalize_subject"],
+            "mechanisms": ["symbolic_representation", "continuous_curation", "replication"],
+            "tools": ["digital_archive", "commemorative_media", "preservation_protocol"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["devoted"],
+                "mental": ["value_recognized"],
+                "positional": ["in_preservation_context"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["content_captured"],
+                "positional": ["ready_for_display_or_storage"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["gratified"],
+                "mental": ["immortality_claimed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["timeless_status"],
+                "positional": ["preserved_location"]
+            }
+        }
+    ],
+    "completed": true
+}

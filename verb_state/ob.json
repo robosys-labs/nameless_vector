@@ -1,0 +1,876 @@
+{
+  "prefix": "ob",
+  "processed_verbs": [
+    "obey",
+    "obfuscate",
+    "object",
+    "oblige",
+    "obliterate",
+    "obscure",
+    "obsess",
+    "observe",
+    "obstruct",
+    "obtain",
+    "obtrude",
+    "obviate"
+  ],
+  "outcomes": [
+    {
+      "verb": "obey",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "concept",
+        "organization",
+        "biological_body"
+      ],
+      "goals": [
+        "compliance",
+        "alignment"
+      ],
+      "mechanisms": [
+        "following directives",
+        "conforming actions"
+      ],
+      "tools": [
+        "instructions",
+        "policies"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable"
+        ],
+        "emotional": [
+          "willing",
+          "resigned"
+        ],
+        "mental": [
+          "aware of directive"
+        ],
+        "positional": [
+          "within jurisdictional area"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "directive defined"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [
+          "acted"
+        ],
+        "emotional": [
+          "dutiful"
+        ],
+        "mental": [
+          "confirmed compliance"
+        ],
+        "positional": [
+          "stationed inside governed area"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "enforced"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "obfuscate",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "physical_agent"
+      ],
+      "applicable_objects": [
+        "virtual_object",
+        "concept",
+        "object"
+      ],
+      "goals": [
+        "concealment",
+        "confusion"
+      ],
+      "mechanisms": [
+        "encryption",
+        "masking",
+        "obscuring details"
+      ],
+      "tools": [
+        "cipher",
+        "code",
+        "filters"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "cautious"
+        ],
+        "mental": [
+          "aware of sensitive content",
+          "skilled"
+        ],
+        "positional": [
+          "at content storage location"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "intelligible"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "guarded"
+        ],
+        "mental": [
+          "confident in concealment"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "hidden",
+          "obscured"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "object",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "concept",
+        "organization"
+      ],
+      "goals": [
+        "challenge",
+        "prevention"
+      ],
+      "mechanisms": [
+        "verbal protest",
+        "formal appeal"
+      ],
+      "tools": [
+        "arguments",
+        "evidence"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "concerned",
+          "assertive"
+        ],
+        "mental": [
+          "aware of issue",
+          "prepared rationale"
+        ],
+        "positional": [
+          "at decision venue"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "proposed",
+          "communicated"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "relieved",
+          "resolute"
+        ],
+        "mental": [
+          "recorded dissent"
+        ],
+        "positional": [
+          "at decision venue"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "contested"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "oblige",
+      "applicable_subjects": [
+        "biological_body",
+        "organization"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "organization",
+        "concept"
+      ],
+      "goals": [
+        "assist",
+        "fulfill request"
+      ],
+      "mechanisms": [
+        "agreeing",
+        "performing favor"
+      ],
+      "tools": [
+        "resources",
+        "time"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to act"
+        ],
+        "emotional": [
+          "inclined",
+          "empathetic"
+        ],
+        "mental": [
+          "understands request"
+        ],
+        "positional": [
+          "near requester"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [
+          "needs assistance"
+        ],
+        "mental": [
+          "expressed request"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [
+          "expended effort"
+        ],
+        "emotional": [
+          "helpful",
+          "appreciated"
+        ],
+        "mental": [
+          "acknowledged obligation"
+        ],
+        "positional": [
+          "near requester"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "assisted"
+        ],
+        "emotional": [
+          "grateful"
+        ],
+        "mental": [
+          "request satisfied"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "obliterate",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "physical_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "place",
+        "virtual_object",
+        "concept"
+      ],
+      "goals": [
+        "destruction",
+        "removal"
+      ],
+      "mechanisms": [
+        "force",
+        "erasure",
+        "overwriting"
+      ],
+      "tools": [
+        "weapons",
+        "heavy_equipment",
+        "deletion_process"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to apply force"
+        ],
+        "emotional": [
+          "determined"
+        ],
+        "mental": [
+          "aware of target"
+        ],
+        "positional": [
+          "within effective range"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "intact"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "reachable"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "exerted"
+        ],
+        "emotional": [
+          "resolute"
+        ],
+        "mental": [
+          "aware of removal"
+        ],
+        "positional": [
+          "at target site"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "destroyed"
+        ],
+        "emotional": [],
+        "mental": [
+          "erased"
+        ],
+        "positional": [
+          "absent"
+        ]
+      }
+    },
+    {
+      "verb": "obscure",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "physical_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "place",
+        "virtual_object",
+        "concept"
+      ],
+      "goals": [
+        "reduce visibility",
+        "hide details"
+      ],
+      "mechanisms": [
+        "covering",
+        "blurring",
+        "layering"
+      ],
+      "tools": [
+        "covers",
+        "paint",
+        "filters"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to apply cover"
+        ],
+        "emotional": [
+          "intentional"
+        ],
+        "mental": [
+          "aware of sensitive aspects"
+        ],
+        "positional": [
+          "near target"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "visible"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "protective"
+        ],
+        "mental": [
+          "aware of concealment"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "shrouded"
+        ],
+        "emotional": [],
+        "mental": [
+          "less discernible"
+        ],
+        "positional": [
+          "same location"
+        ]
+      }
+    },
+    {
+      "verb": "obsess",
+      "applicable_subjects": [
+        "biological_body",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "concept",
+        "object",
+        "virtual_object",
+        "biological_body"
+      ],
+      "goals": [
+        "fixation",
+        "control focus"
+      ],
+      "mechanisms": [
+        "rumination",
+        "repeated attention"
+      ],
+      "tools": [
+        "memory",
+        "monitoring"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "attached",
+          "concerned"
+        ],
+        "mental": [
+          "preoccupied"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "known"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "compelled"
+        ],
+        "mental": [
+          "entrenched focus"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "central in focus"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "observe",
+      "applicable_subjects": [
+        "biological_body",
+        "physical_agent",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "place",
+        "biological_body",
+        "concept"
+      ],
+      "goals": [
+        "monitoring",
+        "data collection"
+      ],
+      "mechanisms": [
+        "watching",
+        "sensing"
+      ],
+      "tools": [
+        "eyes",
+        "sensors",
+        "recorders"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "sensory access"
+        ],
+        "emotional": [
+          "attentive"
+        ],
+        "mental": [
+          "focused",
+          "curious"
+        ],
+        "positional": [
+          "in line of sight or range"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "visible or detectable"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "within range"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "informed"
+        ],
+        "mental": [
+          "data captured"
+        ],
+        "positional": [
+          "stationary for monitoring"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "documented"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "obstruct",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "physical_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "place"
+      ],
+      "goals": [
+        "blockage",
+        "delay"
+      ],
+      "mechanisms": [
+        "placing barrier",
+        "interfering"
+      ],
+      "tools": [
+        "barriers",
+        "mass",
+        "policy"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to position barrier"
+        ],
+        "emotional": [
+          "determined"
+        ],
+        "mental": [
+          "aware of target flow"
+        ],
+        "positional": [
+          "at chokepoint"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "open pathway"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "between source and destination"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "stationed"
+        ],
+        "emotional": [
+          "resistant"
+        ],
+        "mental": [
+          "monitoring disruption"
+        ],
+        "positional": [
+          "occupying obstacle position"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "blocked"
+        ],
+        "emotional": [],
+        "mental": [
+          "route altered"
+        ],
+        "positional": [
+          "blocked along route"
+        ]
+      }
+    },
+    {
+      "verb": "obtain",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "concept",
+        "virtual_object"
+      ],
+      "goals": [
+        "acquisition",
+        "control"
+      ],
+      "mechanisms": [
+        "requesting",
+        "purchasing",
+        "collecting"
+      ],
+      "tools": [
+        "currency",
+        "access",
+        "permissions"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "motivated"
+        ],
+        "mental": [
+          "knows need",
+          "knows source"
+        ],
+        "positional": [
+          "near source or connected location"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "available"
+        ],
+        "emotional": [],
+        "mental": [
+          "identified"
+        ],
+        "positional": [
+          "reachable at source location"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "in possession"
+        ],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "ownership acknowledged"
+        ],
+        "positional": [
+          "at storage location"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "transferred"
+        ],
+        "emotional": [],
+        "mental": [
+          "assigned"
+        ],
+        "positional": [
+          "located with acquirer"
+        ]
+      }
+    },
+    {
+      "verb": "obtrude",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "place",
+        "concept",
+        "organization"
+      ],
+      "goals": [
+        "impose presence",
+        "interrupt"
+      ],
+      "mechanisms": [
+        "entering forcefully",
+        "pushing into discourse"
+      ],
+      "tools": [
+        "body",
+        "messaging",
+        "authority"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to enter"
+        ],
+        "emotional": [
+          "assertive"
+        ],
+        "mental": [
+          "intentional"
+        ],
+        "positional": [
+          "approaching boundary"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "accessible"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "accessible location"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "inserted"
+        ],
+        "emotional": [
+          "insistent"
+        ],
+        "mental": [
+          "focused on presence"
+        ],
+        "positional": [
+          "inside target space"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "interrupted"
+        ],
+        "positional": [
+          "sharing space"
+        ]
+      }
+    },
+    {
+      "verb": "obviate",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "concept",
+        "virtual_object"
+      ],
+      "goals": [
+        "eliminate necessity",
+        "prevent issue"
+      ],
+      "mechanisms": [
+        "providing alternative",
+        "preempting"
+      ],
+      "tools": [
+        "solution",
+        "policy",
+        "automation"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "proactive"
+        ],
+        "mental": [
+          "understands dependency"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "identified as need"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "relieved"
+        ],
+        "mental": [
+          "acknowledged prevention"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "unnecessary"
+        ],
+        "positional": []
+      }
+    }
+  ],
+  "completed": true
+}

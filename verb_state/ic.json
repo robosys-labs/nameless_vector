@@ -1,0 +1,21 @@
+{
+    "prefix": "ic",
+    "processed_verbs": [
+        "ice"
+    ],
+    "outcomes": [
+        {
+            "verb": "ice",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "physical_agent", "organization"],
+            "applicable_objects": ["object", "biological_body", "food", "surface"],
+            "goals": ["cool_or_freeze", "cover_with_icing", "eliminate_informally"],
+            "mechanisms": ["applying_cold", "adding_sugar_icing", "forceful_action"],
+            "tools": ["freezer", "ice", "icing", "weapon"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["target_or_item_identified"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["icing_or_cooling_completed"], "positional": []},
+            "final_object_states": {"physical": ["cooled_or_frozen_or_iced"], "emotional": [], "mental": [], "positional": []}
+        }
+    ],
+    "completed": true
+}

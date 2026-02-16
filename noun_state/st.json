@@ -1,0 +1,28 @@
+{
+  "prefix": "st",
+  "processed_nouns": [
+    "startup",
+    "storm",
+    "stress",
+    "student"
+  ],
+  "nouns": [
+    {
+      "noun": "startup",
+      "types": ["organization"]
+    },
+    {
+      "noun": "storm",
+      "types": ["natural_event"]
+    },
+    {
+      "noun": "stress",
+      "types": ["concept", "biological_body"]
+    },
+    {
+      "noun": "student",
+      "types": ["biological_body"]
+    }
+  ],
+  "completed": true
+}

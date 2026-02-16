@@ -1,0 +1,620 @@
+{
+    "prefix": "ed",
+    "processed_verbs": [
+        "edge",
+        "eddy",
+        "edify",
+        "edit",
+        "editorialize",
+        "educate",
+        "educe",
+        "edulcorate"
+    ],
+    "outcomes": [
+        {
+            "verb": "edge",
+            "applicable_subjects": [
+                "biological_body",
+                "object",
+                "system"
+            ],
+            "applicable_objects": [
+                "boundary",
+                "opponent",
+                "task"
+            ],
+            "goals": [
+                "advance_incrementally",
+                "refine_boundary"
+            ],
+            "mechanisms": [
+                "micro_adjustment",
+                "applied_pressure",
+                "guidance_cue"
+            ],
+            "tools": [
+                "handle",
+                "control_surface",
+                "feedback_indicator"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "balanced",
+                    "responsive"
+                ],
+                "emotional": [
+                    "patient"
+                ],
+                "mental": [
+                    "anticipatory"
+                ],
+                "positional": [
+                    "aligned_with_boundary"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "stable",
+                    "defined"
+                ],
+                "emotional": [],
+                "mental": [
+                    "recognized"
+                ],
+                "positional": [
+                    "within_reach"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "advanced",
+                    "steady"
+                ],
+                "emotional": [
+                    "assured"
+                ],
+                "mental": [
+                    "tracking_margin"
+                ],
+                "positional": [
+                    "slightly_ahead"
+                ]
+            },
+            "final_object_states": {
+                "physical": [
+                    "adjusted",
+                    "maintained"
+                ],
+                "emotional": [],
+                "mental": [
+                    "monitored"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "eddy",
+            "applicable_subjects": [
+                "environmental_system",
+                "fluid",
+                "force"
+            ],
+            "applicable_objects": [
+                "channel",
+                "boundary",
+                "adjacent_fluid"
+            ],
+            "goals": [
+                "redistribute_momentum",
+                "dissipate_localized_energy"
+            ],
+            "mechanisms": [
+                "recirculation",
+                "shear_mixing",
+                "vorticity"
+            ],
+            "tools": [
+                "baffle",
+                "flow_guide",
+                "simulation_model"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "in_motion",
+                    "pressurized"
+                ],
+                "emotional": [],
+                "mental": [
+                    "responding_to_gradients"
+                ],
+                "positional": [
+                    "adjacent_to_obstruction"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "rigid",
+                    "exposed"
+                ],
+                "emotional": [],
+                "mental": [],
+                "positional": [
+                    "embedded_in_flow"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "circulating",
+                    "lowered_energy"
+                ],
+                "emotional": [],
+                "mental": [
+                    "tracked_by_sensors"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "buffeted",
+                    "wetted"
+                ],
+                "emotional": [],
+                "mental": [
+                    "characterized"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "edify",
+            "applicable_subjects": [
+                "biological_body",
+                "concept",
+                "organization"
+            ],
+            "applicable_objects": [
+                "community",
+                "individual",
+                "belief"
+            ],
+            "goals": [
+                "strengthen_understanding",
+                "uplift_ethics"
+            ],
+            "mechanisms": [
+                "storytelling",
+                "instruction",
+                "example_setting"
+            ],
+            "tools": [
+                "teaching",
+                "ritual",
+                "media"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "present"
+                ],
+                "emotional": [
+                    "compassionate"
+                ],
+                "mental": [
+                    "reflective"
+                ],
+                "positional": [
+                    "within_community"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [
+                    "receptive"
+                ],
+                "mental": [
+                    "seeking_guidance"
+                ],
+                "positional": [
+                    "in_dialogue"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "encouraged"
+                ],
+                "mental": [
+                    "articulated_values"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "supported"
+                ],
+                "mental": [
+                    "expanded_awareness"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "edit",
+            "applicable_subjects": [
+                "biological_body",
+                "concept",
+                "system"
+            ],
+            "applicable_objects": [
+                "text",
+                "media",
+                "dataset"
+            ],
+            "goals": [
+                "revise_for_clarity",
+                "align_with_standard"
+            ],
+            "mechanisms": [
+                "review",
+                "selection",
+                "restructuring"
+            ],
+            "tools": [
+                "style_guide",
+                "software",
+                "markup_system"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "focused_posture"
+                ],
+                "emotional": [
+                    "objective"
+                ],
+                "mental": [
+                    "analytical",
+                    "detail_oriented"
+                ],
+                "positional": [
+                    "co_located_with_material"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "recorded"
+                ],
+                "emotional": [],
+                "mental": [
+                    "draft_form"
+                ],
+                "positional": [
+                    "version_controlled"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "completed_passes"
+                ],
+                "emotional": [
+                    "assessed"
+                ],
+                "mental": [
+                    "consistent"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "revised"
+                ],
+                "emotional": [],
+                "mental": [
+                    "clarified",
+                    "approved"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "editorialize",
+            "applicable_subjects": [
+                "biological_body",
+                "media_organization"
+            ],
+            "applicable_objects": [
+                "report",
+                "broadcast",
+                "issue"
+            ],
+            "goals": [
+                "frame_fact_with_opinion",
+                "influence_interpretation"
+            ],
+            "mechanisms": [
+                "commentary",
+                "selective_emphasis",
+                "rhetorical_question"
+            ],
+            "tools": [
+                "column",
+                "segment",
+                "platform_guideline"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "communicative"
+                ],
+                "emotional": [
+                    "invested"
+                ],
+                "mental": [
+                    "persuasive",
+                    "context_aware"
+                ],
+                "positional": [
+                    "addressing_audience"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "fact_pattern_identified"
+                ],
+                "positional": [
+                    "in_publication_pipeline"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "expressed"
+                ],
+                "mental": [
+                    "aligned_with_stance"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "polarizing"
+                ],
+                "mental": [
+                    "contextualized"
+                ],
+                "positional": [
+                    "released_to_audience"
+                ]
+            }
+        },
+        {
+            "verb": "educate",
+            "applicable_subjects": [
+                "biological_body",
+                "institution",
+                "system"
+            ],
+            "applicable_objects": [
+                "learner",
+                "workforce",
+                "community"
+            ],
+            "goals": [
+                "transfer_knowledge",
+                "build_capability"
+            ],
+            "mechanisms": [
+                "curriculum_design",
+                "guided_practice",
+                "assessment"
+            ],
+            "tools": [
+                "lesson_plan",
+                "digital_platform",
+                "instructional_material"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "available"
+                ],
+                "emotional": [
+                    "supportive"
+                ],
+                "mental": [
+                    "structured",
+                    "expert"
+                ],
+                "positional": [
+                    "connected_to_learners"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "present"
+                ],
+                "emotional": [
+                    "motivated"
+                ],
+                "mental": [
+                    "baseline_understanding"
+                ],
+                "positional": [
+                    "enrolled"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "encouraged"
+                ],
+                "mental": [
+                    "evaluating_outcomes"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [
+                    "confident"
+                ],
+                "mental": [
+                    "skilled",
+                    "certified"
+                ],
+                "positional": [
+                    "ready_for_application"
+                ]
+            }
+        },
+        {
+            "verb": "educe",
+            "applicable_subjects": [
+                "analyst",
+                "facilitator",
+                "system"
+            ],
+            "applicable_objects": [
+                "pattern",
+                "insight",
+                "latent_trait"
+            ],
+            "goals": [
+                "draw_out_latent_content",
+                "surface_implicit_meaning"
+            ],
+            "mechanisms": [
+                "questioning",
+                "inference",
+                "pattern_recognition"
+            ],
+            "tools": [
+                "dataset",
+                "prompt",
+                "sensing_equipment"
+            ],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "curious"
+                ],
+                "mental": [
+                    "introspective",
+                    "synthesizing"
+                ],
+                "positional": [
+                    "engaged_with_source"
+                ]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "contains_hidden_data"
+                ],
+                "positional": [
+                    "accessible"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [
+                    "satisfied"
+                ],
+                "mental": [
+                    "clarified_abstractions"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [
+                    "revealed",
+                    "documented"
+                ],
+                "positional": []
+            }
+        },
+        {
+            "verb": "edulcorate",
+            "applicable_subjects": [
+                "biological_body",
+                "food_system",
+                "communicator"
+            ],
+            "applicable_objects": [
+                "mixture",
+                "message",
+                "solution"
+            ],
+            "goals": [
+                "sweeten_experience",
+                "mask_bitterness"
+            ],
+            "mechanisms": [
+                "dissolving_agent",
+                "tone_moderation",
+                "flavor_blending"
+            ],
+            "tools": [
+                "syrup",
+                "buffer",
+                "soothing_language"
+            ],
+            "required_subject_states": {
+                "physical": [
+                    "precise_dosing"
+                ],
+                "emotional": [
+                    "empathetic"
+                ],
+                "mental": [
+                    "aware_of_sensitivities"
+                ],
+                "positional": [
+                    "controlling_mixture"
+                ]
+            },
+            "required_object_states": {
+                "physical": [
+                    "soluble",
+                    "receptive"
+                ],
+                "emotional": [],
+                "mental": [
+                    "perceived_as_harsh"
+                ],
+                "positional": [
+                    "contained"
+                ]
+            },
+            "final_subject_states": {
+                "physical": [
+                    "measured"
+                ],
+                "emotional": [
+                    "reassuring"
+                ],
+                "mental": [
+                    "satisfied_balance"
+                ],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [
+                    "sweetened",
+                    "tempered"
+                ],
+                "emotional": [
+                    "calmed"
+                ],
+                "mental": [
+                    "reframed"
+                ],
+                "positional": []
+            }
+        }
+    ],
+    "completed": false
+}

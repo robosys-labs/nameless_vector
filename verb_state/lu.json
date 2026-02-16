@@ -1,0 +1,151 @@
+{
+    "prefix": "lu",
+    "processed_verbs": [
+        "lubricate",
+        "lug",
+        "lull",
+        "lumber",
+        "lump",
+        "lunge",
+        "lurch",
+        "lure",
+        "lurk",
+        "lust",
+        "luxuriate"
+    ],
+    "outcomes": [
+        {
+            "verb": "lubricate",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["object", "mechanism", "joint"],
+            "goals": ["reduce_friction", "enable_smooth_motion"],
+            "mechanisms": ["apply_oil", "apply_grease", "coat_surface"],
+            "tools": ["oil_can", "grease_gun", "applicator"],
+            "required_subject_states": {"physical": ["dexterous"], "emotional": [], "mental": ["contact_points_known"], "positional": ["at_contact_point"]},
+            "required_object_states": {"physical": ["dry_or_friction_present"], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["lubrication_completed"], "positional": []},
+            "final_object_states": {"physical": ["lubricated", "reduced_friction"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "lug",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["object", "container"],
+            "goals": ["carry_with_effort", "haul"],
+            "mechanisms": ["manual_lift", "dragging"],
+            "tools": ["hands", "strap", "cart"],
+            "required_subject_states": {"physical": ["strong_enough"], "emotional": [], "mental": ["destination_known"], "positional": ["near_object"]},
+            "required_object_states": {"physical": ["hefty_or_bulky"], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": ["fatigued"], "emotional": [], "mental": ["task_progress_recorded"], "positional": []},
+            "final_object_states": {"physical": ["moved_to_new_location"], "emotional": [], "mental": [], "positional": ["at_destination"]}
+        },
+        {
+            "verb": "lull",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "group"],
+            "goals": ["soothe", "induce_calm_or_sleep"],
+            "mechanisms": ["gentle_motion", "soft_sound", "reassuring_words"],
+            "tools": ["voice", "music", "rocking_device"],
+            "required_subject_states": {"physical": [], "emotional": ["patient"], "mental": ["calming_intent"], "positional": ["near_object"]},
+            "required_object_states": {"physical": [], "emotional": ["receptive_or_tired"], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": ["soothing_engaged"], "mental": ["calming_actions_completed"], "positional": []},
+            "final_object_states": {"physical": ["relaxed_or_asleep_if_sentient"], "emotional": ["calmed"], "mental": [], "positional": []}
+        },
+        {
+            "verb": "lumber",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["path", "place"],
+            "goals": ["move_heavily", "traverse_slowly"],
+            "mechanisms": ["slow_stride", "heavy_steps"],
+            "tools": ["body_weight", "support_cane_if_needed"],
+            "required_subject_states": {"physical": ["can_walk"], "emotional": [], "mental": ["destination_known"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": ["path_available"]},
+            "final_subject_states": {"physical": ["exerted"], "emotional": [], "mental": ["path_traversed"], "positional": ["advanced_along_path"]},
+            "final_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "lump",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["object", "concept", "data"],
+            "goals": ["combine_indiscriminately", "treat_as_one_group"],
+            "mechanisms": ["stacking", "categorizing_together"],
+            "tools": ["container", "label", "data_structure"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["items_identified"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["grouping_completed"], "positional": []},
+            "final_object_states": {"physical": ["grouped_or_stacked"], "emotional": [], "mental": ["treated_as_single_set"], "positional": []}
+        },
+        {
+            "verb": "lunge",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["target", "opponent", "object"],
+            "goals": ["thrust_forward", "reach_quickly"],
+            "mechanisms": ["sudden_stride", "forward_thrust"],
+            "tools": ["body", "weapon_if_any"],
+            "required_subject_states": {"physical": ["able_to_stride"], "emotional": [], "mental": ["target_selected"], "positional": ["ready_stance"]},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": ["balance_checked"], "emotional": [], "mental": ["attempt_made"], "positional": ["extended_forward"]},
+            "final_object_states": {"physical": ["contact_made_or_evaded"], "emotional": [], "mental": [], "positional": ["possibly_impacted"]}
+        },
+        {
+            "verb": "lurch",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "vehicle"],
+            "applicable_objects": ["path", "place", "trajectory"],
+            "goals": ["move_suddenly", "shift_abruptly"],
+            "mechanisms": ["sudden_step", "jerking_motion", "uneven_propulsion"],
+            "tools": ["body", "vehicle_controls"],
+            "required_subject_states": {"physical": ["balance_capable"], "emotional": [], "mental": ["motion_intent_or_reaction"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": ["balance_compromised_or_recovered"], "emotional": [], "mental": ["movement_registered"], "positional": ["offset_position"]},
+            "final_object_states": {"physical": [], "emotional": [], "mental": [], "positional": ["path_partially_traversed"]}
+        },
+        {
+            "verb": "lure",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "organization"],
+            "applicable_objects": ["biological_body", "autonomous_agent", "animal"],
+            "goals": ["attract", "draw_in"],
+            "mechanisms": ["bait_presentation", "promised_reward", "enticement"],
+            "tools": ["bait", "offer", "signal"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["target_profile_known"], "positional": ["positioned_to_receive_target"]},
+            "required_object_states": {"physical": [], "emotional": ["curious_or_needy_if_sentient"], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["lure_presented"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["interest_piquested"], "positional": ["moving_toward_subject_or_bait"]}
+        },
+        {
+            "verb": "lurk",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["place", "virtual_space"],
+            "goals": ["remain_hidden", "observe_unseen"],
+            "mechanisms": ["staying_out_of_view", "silent_observation"],
+            "tools": ["cover", "shadows", "anonymous_account"],
+            "required_subject_states": {"physical": ["able_to_stay_still"], "emotional": [], "mental": ["observational_intent"], "positional": ["concealed_position"]},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": ["area_with_cover"]},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["information_gathered"], "positional": ["remained_hidden"]},
+            "final_object_states": {"physical": [], "emotional": [], "mental": [], "positional": ["unaware_if_sentient"]}
+        },
+        {
+            "verb": "lust",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "concept", "object"],
+            "goals": ["feel_intense_desire"],
+            "mechanisms": ["fixation", "imagination"],
+            "tools": ["thought", "visualization"],
+            "required_subject_states": {"physical": [], "emotional": ["desiring"], "mental": ["object_of_desire_identified"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": ["aroused"], "mental": ["desire_heightened"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": ["objectified_if_sentient"], "mental": [], "positional": []}
+        },
+        {
+            "verb": "luxuriate",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["place", "experience", "resource"],
+            "goals": ["indulge", "enjoy_comfort"],
+            "mechanisms": ["prolonged_relaxation", "sensory_enjoyment"],
+            "tools": ["spa", "comfortable_seat", "leisure_time"],
+            "required_subject_states": {"physical": ["free_time"], "emotional": [], "mental": ["intent_to_indulge"], "positional": ["at_comfortable_setting"]},
+            "required_object_states": {"physical": ["comfortable_or_plentiful"], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": ["relaxed"], "emotional": ["content"], "mental": ["experience_enjoyed"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["appreciated"], "positional": []}
+        }
+    ],
+    "completed": true
+}

@@ -1,0 +1,900 @@
+{
+    "prefix": "fo",
+    "processed_verbs": [
+        "focus",
+        "foist",
+        "fold",
+        "follow",
+        "foment",
+        "fondle",
+        "forage",
+        "forbid",
+        "force",
+        "forecast",
+        "foreclose",
+        "forego",
+        "forerun",
+        "foresee",
+        "foreshadow",
+        "foretell",
+        "forewarn",
+        "forfeit",
+        "forgive",
+        "forge",
+        "forget",
+        "form",
+        "formalize",
+        "format",
+        "formulate",
+        "fortify",
+        "foster",
+        "found"
+    ],
+    "outcomes": [
+        {
+            "verb": "focus",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["concept", "virtual_object", "object"],
+            "goals": ["concentrate_attention", "reduce_distraction", "increase_clarity"],
+            "mechanisms": ["attention_allocation", "priority_setting", "distraction_filtering"],
+            "tools": ["focus_timer", "task_list", "quiet_space"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["determined"],
+                "mental": ["goal_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["target_identified"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["engaged"],
+                "mental": ["attention_sustained"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["evaluated"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "foist",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "concept", "virtual_object"],
+            "goals": ["impose_unwanted", "pass_off", "shift_burden"],
+            "mechanisms": ["misrepresentation", "pressure_application", "obligate_transfer"],
+            "tools": ["contract_clause", "social_pressure", "deceptive_pitch"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["insistent"],
+                "mental": ["transfer_intent"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["target_identified"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["relieved_or_indifferent"],
+                "mental": ["burden_shifted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["imposed_upon"],
+                "mental": ["unwanted_assignment"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fold",
+            "applicable_subjects": ["biological_body", "physical_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "virtual_object"],
+            "goals": ["bend_and_overlap", "compact", "organize"],
+            "mechanisms": ["crease_creation", "hinge_motion", "layering"],
+            "tools": ["hands", "folding_tool", "software_fold"],
+            "required_subject_states": {
+                "physical": ["dexterous"],
+                "emotional": [],
+                "mental": ["pattern_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["flexible_or_foldable"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied"],
+                "mental": ["fold_completed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["folded"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "follow",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "concept", "virtual_object"],
+            "goals": ["track_path", "adhere_to_instructions", "maintain_sequence"],
+            "mechanisms": ["path_tracing", "instruction_execution", "sequence_alignment"],
+            "tools": ["navigation_system", "instruction_set", "tracking_sensor"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["attentive"],
+                "mental": ["target_or_instructions_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["path_or_instructions_defined"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["aligned"],
+                "mental": ["followed_sequence"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["guidance_consumed"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "foment",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "organization", "process"],
+            "goals": ["stir_up", "incite", "amplify_movement"],
+            "mechanisms": ["advocacy", "messaging", "resource_infusion"],
+            "tools": ["communication_channel", "provocative_content", "support_network"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["motivated"],
+                "mental": ["cause_understood"],
+                "positional": ["within_influence_network"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["audience_present"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["energized"],
+                "mental": ["movement_fueled"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["agitation_increased"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fondle",
+            "applicable_subjects": ["biological_body"],
+            "applicable_objects": ["biological_body", "object"],
+            "goals": ["touch_affectionately", "handle_gently", "explore_by_touch"],
+            "mechanisms": ["stroking", "caressing", "gentle_handling"],
+            "tools": ["hands", "touch"],
+            "required_subject_states": {
+                "physical": ["contact_possible"],
+                "emotional": ["affectionate_or_curious"],
+                "mental": [],
+                "positional": ["within_arm_reach"]
+            },
+            "required_object_states": {
+                "physical": ["touchable"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["soothed_or_curiosified"],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["calmed_or_acknowledged"],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "forage",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["place", "object", "virtual_object"],
+            "goals": ["search_for_resources", "gather_supplies", "collect_food"],
+            "mechanisms": ["scanning_area", "selective_gathering", "resource_collection"],
+            "tools": ["collection_bag", "sensors", "map"],
+            "required_subject_states": {
+                "physical": ["mobile"],
+                "emotional": ["persistent"],
+                "mental": ["resource_need_known"],
+                "positional": ["within_target_area"]
+            },
+            "required_object_states": {
+                "physical": ["resources_present"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["supplied"],
+                "mental": ["resources_collected"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["resources_acquired"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "forbid",
+            "applicable_subjects": ["organization", "biological_body", "autonomous_agent"],
+            "applicable_objects": ["concept", "organization", "biological_body"],
+            "goals": ["prohibit_action", "restrict_behavior", "enforce_rule"],
+            "mechanisms": ["rule_declaration", "access_block", "penalty_threat"],
+            "tools": ["policy", "ban_notice", "enforcement_system"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["authoritative"],
+                "mental": ["rule_defined"],
+                "positional": ["in_governance_scope"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["subject_to_rule"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["resolved"],
+                "mental": ["ban_enforced"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["restricted"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "force",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["biological_body", "object", "organization", "concept"],
+            "goals": ["compel_action", "apply_power", "override_resistance"],
+            "mechanisms": ["pressure_application", "coercion", "mechanical_force"],
+            "tools": ["leverage", "mechanism", "authority"],
+            "required_subject_states": {
+                "physical": ["strength_or_tool"],
+                "emotional": ["resolved"],
+                "mental": ["objective_clear"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["assertive"],
+                "mental": ["force_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["moved_or_complied"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "forecast",
+            "applicable_subjects": ["organization", "synthetic_agent", "biological_body"],
+            "applicable_objects": ["concept", "virtual_object", "event"],
+            "goals": ["predict_future", "estimate_outcome", "plan_ahead"],
+            "mechanisms": ["modeling", "trend_analysis", "simulation"],
+            "tools": ["forecast_model", "analytics_platform", "historical_data"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["analytical"],
+                "mental": ["inputs_collected"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["past_data_available"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["informed"],
+                "mental": ["projection_ready"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["future_scenario_mapped"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "foreclose",
+            "applicable_subjects": ["organization", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["place", "object", "virtual_object"],
+            "goals": ["terminate_access", "seize_collateral", "end_rights"],
+            "mechanisms": ["contract_enforcement", "repossession_process", "account_lockout"],
+            "tools": ["legal_notice", "lockout_system", "repossession_agent"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["default_confirmed"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["under_lien_or_obligation"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["control_asserted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["seized_or_inaccessible"],
+                "emotional": [],
+                "mental": ["rights_revoked"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "forego",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "concept", "opportunity"],
+            "goals": ["refrain", "sacrifice", "prioritize_other"],
+            "mechanisms": ["intentional_abstention", "resource_allocation", "delayed_gratification"],
+            "tools": ["policy", "personal_rule", "budget"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["disciplined"],
+                "mental": ["tradeoff_understood"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["option_available"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["controlled"],
+                "mental": ["choice_noted"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["option_unselected"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "forerun",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "place", "organization"],
+            "goals": ["precede", "prepare_way", "signal_arrival"],
+            "mechanisms": ["advance_movement", "preliminary_action", "early_signal"],
+            "tools": ["messenger", "announcement", "advance_team"],
+            "required_subject_states": {
+                "physical": ["mobile"],
+                "emotional": [],
+                "mental": ["route_or_message_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": ["destination_defined"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["precedence_established"],
+                "positional": ["ahead_of_main_body"]
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["prepared_or_alerted"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "foresee",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["concept", "virtual_object"],
+            "goals": ["anticipate_outcome", "prepare_in_advance", "recognize_future_state"],
+            "mechanisms": ["scenario_projection", "pattern_recognition", "intuition"],
+            "tools": ["analytic_model", "historical_data", "domain_expertise"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["sufficient_information"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["trend_or_signal_present"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["future_state_identified"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["anticipated"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "foreshadow",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["concept", "virtual_object", "object"],
+            "goals": ["hint_future", "signal_what_is_to_come", "prepare_audience"],
+            "mechanisms": ["symbolic_clue", "premonitory_event", "subtle_reference"],
+            "tools": ["narrative_element", "visual_cue", "data_indicator"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["future_event_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["context_established"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["hint_delivered"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["anticipation_increased"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "foretell",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["concept", "virtual_object"],
+            "goals": ["state_future_event", "predict_outcome", "inform_ahead"],
+            "mechanisms": ["prophecy", "model_prediction", "declaration"],
+            "tools": ["divination_tool", "predictive_model", "announcement_channel"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["scenario_formulated"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["future_context_defined"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["prediction_issued"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["forecast_received"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "forge",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent"],
+            "applicable_objects": ["object", "concept", "organization"],
+            "goals": ["shape_through_force", "create_strongly", "form_ahead"],
+            "mechanisms": ["hammering", "pressing", "heat_and_form"],
+            "tools": ["forge", "hammer", "press"],
+            "required_subject_states": {
+                "physical": ["heat_source_available"],
+                "emotional": [],
+                "mental": ["design_intent_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["malleable_material"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["forging_completed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["forged_form"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "forget",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "virtual_object", "event"],
+            "goals": ["lose_recollection", "clear_memory", "discard_information"],
+            "mechanisms": ["memory_fading", "overwriting", "context_switch"],
+            "tools": ["time", "distraction", "memory_management"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["information_stored"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["memory_present"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["memory_faded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["forgotten"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "form",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["object", "concept", "organization"],
+            "goals": ["create_shape", "establish_entity", "bring_together"],
+            "mechanisms": ["assembly", "shaping", "structuring"],
+            "tools": ["materials", "design", "framework"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["intentional"],
+                "mental": ["plan_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["available_materials"],
+                "emotional": [],
+                "mental": ["concept_defined"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["accomplished"],
+                "mental": ["structure_created"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["formed"],
+                "emotional": [],
+                "mental": ["defined"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "formalize",
+            "applicable_subjects": ["organization", "synthetic_agent", "biological_body"],
+            "applicable_objects": ["concept", "process", "agreement"],
+            "goals": ["make_official", "codify", "standardize"],
+            "mechanisms": ["documentation", "approval_process", "schema_definition"],
+            "tools": ["contract", "template", "governance_policy"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["terms_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["content_prepared"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["assured"],
+                "mental": ["formalization_completed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["codified"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "format",
+            "applicable_subjects": ["synthetic_agent", "organization", "biological_body"],
+            "applicable_objects": ["virtual_object", "object", "concept"],
+            "goals": ["structure_data", "prepare_for_use", "standardize_layout"],
+            "mechanisms": ["schema_application", "layout_definition", "serialization"],
+            "tools": ["formatter", "template", "schema"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["format_rules_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["raw_content_present"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["formatting_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["structured"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "formulate",
+            "applicable_subjects": ["organization", "synthetic_agent", "biological_body"],
+            "applicable_objects": ["concept", "process", "plan"],
+            "goals": ["develop_plan", "create_formula", "craft_strategy"],
+            "mechanisms": ["analysis", "combination", "iteration"],
+            "tools": ["model", "framework", "design_document"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["requirements_understood"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["inputs_available"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["formulation_ready"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["formulated"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "fortify",
+            "applicable_subjects": ["organization", "biological_body", "physical_agent"],
+            "applicable_objects": ["place", "object", "concept"],
+            "goals": ["strengthen", "reinforce", "protect"],
+            "mechanisms": ["structure_reinforcement", "resource_infusion", "defensive_setup"],
+            "tools": ["reinforcement_material", "defenses", "nutrient_additive"],
+            "required_subject_states": {
+                "physical": ["resources_available"],
+                "emotional": [],
+                "mental": ["weakness_identified"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["needs_strength"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["confident"],
+                "mental": ["fortification_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["reinforced"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "forewarn",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["biological_body", "organization"],
+            "goals": ["warn_in_advance", "prepare_for_risk", "reduce_surprise"],
+            "mechanisms": ["early_notification", "precautionary_message", "risk_alert"],
+            "tools": ["alert_system", "message_channel", "signal"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["concerned"],
+                "mental": ["risk_identified"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["needs_warning"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["responsible"],
+                "mental": ["warning_sent"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["warning_received"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "forfeit",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "concept", "virtual_object"],
+            "goals": ["relinquish_as_penalty", "lose_by_rule", "cede_claim"],
+            "mechanisms": ["rule_enforcement", "voluntary_surrender", "automatic_loss"],
+            "tools": ["contract", "competition_rule", "penalty_system"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["loss_condition_met"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["subject_to_forfeiture"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["disappointed_or_resigned"],
+                "mental": ["ownership_lost"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["transferred_or_voided"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "foster",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["nurture_growth", "encourage_development", "support_progress"],
+            "mechanisms": ["guidance", "resource_provision", "positive_environment"],
+            "tools": ["mentorship", "funding", "learning_program"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["supportive"],
+                "mental": ["growth_objective_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["potential_present"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["encouraged"],
+                "mental": ["fostering_recorded"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["development_supported"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "found",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["organization", "place", "concept"],
+            "goals": ["establish_institution", "create_base", "initiate_entity"],
+            "mechanisms": ["legal_creation", "resource_allocation", "site_selection"],
+            "tools": ["charter", "capital", "location"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["committed"],
+                "mental": ["founding_plan_ready"],
+                "positional": ["at_selected_site"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["mission_defined"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["proud"],
+                "mental": ["foundation_established"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["founded"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

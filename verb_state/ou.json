@@ -1,0 +1,564 @@
+{
+  "prefix": "ou",
+  "processed_verbs": [
+    "outgrow",
+    "outlast",
+    "outpace",
+    "outperform",
+    "outrun",
+    "outsmart",
+    "outvote",
+    "outweigh"
+  ],
+  "outcomes": [
+    {
+      "verb": "outgrow",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "object"
+      ],
+      "applicable_objects": [
+        "object",
+        "place",
+        "concept"
+      ],
+      "goals": [
+        "exceed size or capacity",
+        "move beyond suitability"
+      ],
+      "mechanisms": [
+        "growth",
+        "development",
+        "expansion"
+      ],
+      "tools": [
+        "nutrition",
+        "investment",
+        "time"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "growing"
+        ],
+        "emotional": [],
+        "mental": [
+          "aspiring"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [
+          "fixed size or capacity"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [
+          "larger"
+        ],
+        "emotional": [],
+        "mental": [
+          "recognizes mismatch"
+        ],
+        "positional": [
+          "beyond original context"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "undersized"
+        ],
+        "emotional": [],
+        "mental": [
+          "outgrown"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "outlast",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "object"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "organization",
+        "object"
+      ],
+      "goals": [
+        "endure longer",
+        "remain when others stop"
+      ],
+      "mechanisms": [
+        "sustaining effort",
+        "durability"
+      ],
+      "tools": [
+        "stamina",
+        "resources"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "enduring"
+        ],
+        "emotional": [
+          "resolute"
+        ],
+        "mental": [
+          "prepared for duration"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [
+          "finite endurance"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [
+          "remaining"
+        ],
+        "emotional": [
+          "persistent"
+        ],
+        "mental": [
+          "endurance confirmed"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "exhausted or ended"
+        ],
+        "emotional": [],
+        "mental": [
+          "ceased"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "outpace",
+      "applicable_subjects": [
+        "biological_body",
+        "physical_agent",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "object",
+        "organization"
+      ],
+      "goals": [
+        "surpass speed",
+        "gain lead"
+      ],
+      "mechanisms": [
+        "accelerating",
+        "efficient movement"
+      ],
+      "tools": [
+        "legs",
+        "vehicles",
+        "boosters"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "fit",
+          "mobile"
+        ],
+        "emotional": [
+          "driven"
+        ],
+        "mental": [
+          "aware of competition"
+        ],
+        "positional": [
+          "on course"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "moving"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "on same course"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "ahead"
+        ],
+        "emotional": [
+          "confident"
+        ],
+        "mental": [
+          "aware of lead"
+        ],
+        "positional": [
+          "in front"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "behind"
+        ],
+        "emotional": [],
+        "mental": [
+          "surpassed"
+        ],
+        "positional": [
+          "trailing"
+        ]
+      }
+    },
+    {
+      "verb": "outperform",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "organization",
+        "biological_body",
+        "autonomous_agent",
+        "object"
+      ],
+      "goals": [
+        "exceed results",
+        "demonstrate superiority"
+      ],
+      "mechanisms": [
+        "better execution",
+        "greater efficiency",
+        "higher quality"
+      ],
+      "tools": [
+        "skills",
+        "process",
+        "resources"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "motivated"
+        ],
+        "mental": [
+          "aware of benchmarks"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "performance observable"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "confident"
+        ],
+        "mental": [
+          "recognized superiority"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "outperformed"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "outrun",
+      "applicable_subjects": [
+        "biological_body",
+        "physical_agent",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "object"
+      ],
+      "goals": [
+        "escape",
+        "win race"
+      ],
+      "mechanisms": [
+        "sprinting",
+        "sustained speed"
+      ],
+      "tools": [
+        "legs",
+        "exosuit",
+        "vehicle"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "fast",
+          "endurance"
+        ],
+        "emotional": [
+          "urgent"
+        ],
+        "mental": [
+          "aware of route"
+        ],
+        "positional": [
+          "on path"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "pursuing or racing"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "behind or alongside"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "ahead"
+        ],
+        "emotional": [
+          "relieved"
+        ],
+        "mental": [
+          "aware of escape"
+        ],
+        "positional": [
+          "clear distance"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "behind"
+        ],
+        "emotional": [],
+        "mental": [
+          "outpaced"
+        ],
+        "positional": [
+          "trailing"
+        ]
+      }
+    },
+    {
+      "verb": "outsmart",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "goals": [
+        "gain advantage",
+        "bypass defenses"
+      ],
+      "mechanisms": [
+        "devising strategy",
+        "anticipating moves"
+      ],
+      "tools": [
+        "planning",
+        "information",
+        "deception"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "calm"
+        ],
+        "mental": [
+          "analytical",
+          "aware of opponent"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "predictable pattern"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "successful tactic"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [
+          "surprised"
+        ],
+        "mental": [
+          "outmaneuvered"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "outvote",
+      "applicable_subjects": [
+        "organization",
+        "biological_body",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "organization",
+        "biological_body",
+        "concept"
+      ],
+      "goals": [
+        "win decision",
+        "establish majority"
+      ],
+      "mechanisms": [
+        "casting ballots",
+        "gathering coalition"
+      ],
+      "tools": [
+        "votes",
+        "ballots",
+        "campaign"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "aware of issue"
+        ],
+        "positional": [
+          "eligible to vote"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "on ballot"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "validated"
+        ],
+        "mental": [
+          "majority achieved"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "approved by majority"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "outweigh",
+      "applicable_subjects": [
+        "object",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "object",
+        "biological_body",
+        "concept"
+      ],
+      "goals": [
+        "exceed weight",
+        "show greater importance"
+      ],
+      "mechanisms": [
+        "mass comparison",
+        "value assessment"
+      ],
+      "tools": [
+        "scale",
+        "analysis"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "mass present"
+        ],
+        "emotional": [],
+        "mental": [
+          "aware of comparison"
+        ],
+        "positional": [
+          "on scale or context"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "mass present"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "on scale or context"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "heavier"
+        ],
+        "emotional": [],
+        "mental": [
+          "perceived as greater"
+        ],
+        "positional": [
+          "above reference"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "lighter"
+        ],
+        "emotional": [],
+        "mental": [
+          "seen as lesser"
+        ],
+        "positional": [
+          "below reference"
+        ]
+      }
+    }
+  ],
+  "completed": true
+}

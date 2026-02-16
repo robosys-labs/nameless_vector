@@ -1,0 +1,151 @@
+{
+    "prefix": "ja",
+    "processed_verbs": [
+        "jab",
+        "jack",
+        "jade",
+        "jail",
+        "jam",
+        "jar",
+        "jaw",
+        "jangle",
+        "jape",
+        "jaunt",
+        "jazz"
+    ],
+    "outcomes": [
+        {
+            "verb": "jab",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object"],
+            "goals": ["pierce_lightly", "prod_to_prompt_reaction"],
+            "mechanisms": ["quick_thrust", "puncturing_motion"],
+            "tools": ["hands", "needles", "pointed_tool"],
+            "required_subject_states": {"physical": ["within_reach", "wielding_pointed_tool"], "emotional": [], "mental": ["aiming"], "positional": ["near_object"]},
+            "required_object_states": {"physical": ["reachable"], "emotional": [], "mental": [], "positional": ["within_range"]},
+            "final_subject_states": {"physical": ["arm_exerted"], "emotional": [], "mental": ["contact_made"], "positional": []},
+            "final_object_states": {"physical": ["punctured_or_prodded"], "emotional": ["startled"], "mental": [], "positional": []}
+        },
+        {
+            "verb": "jack",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "place"],
+            "goals": ["elevate_for_access", "stabilize_for_service"],
+            "mechanisms": ["mechanical_leverage", "controlled_lifting"],
+            "tools": ["car_jack", "lifting_device", "support_stand"],
+            "required_subject_states": {"physical": ["positioned_at_lift_point"], "emotional": [], "mental": ["understands_lift_points"], "positional": ["beside_object"]},
+            "required_object_states": {"physical": ["can_be_lifted", "stable_contact_points"], "emotional": [], "mental": [], "positional": ["on_ground"]},
+            "final_subject_states": {"physical": ["exerted_effort"], "emotional": [], "mental": ["object_elevated"], "positional": []},
+            "final_object_states": {"physical": ["partially_elevated", "supported"], "emotional": [], "mental": [], "positional": ["raised_for_access"]}
+        },
+        {
+            "verb": "jade",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "organization"],
+            "applicable_objects": ["biological_body", "autonomous_agent", "organization"],
+            "goals": ["wear_out", "reduce_energy", "diminish_enthusiasm"],
+            "mechanisms": ["overwork", "repetition", "sustained_exertion"],
+            "tools": ["demanding_tasks", "prolonged_training", "heavy_schedule"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["intentional_overuse"], "positional": []},
+            "required_object_states": {"physical": ["sufficient_energy"], "emotional": [], "mental": ["engaged_in_task"], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["fatigue_induced"], "positional": []},
+            "final_object_states": {"physical": ["fatigued"], "emotional": ["weary"], "mental": ["diminished_motivation"], "positional": []}
+        },
+        {
+            "verb": "jail",
+            "applicable_subjects": ["organization", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["biological_body", "autonomous_agent"],
+            "goals": ["restrain_movement", "enforce_sentence", "ensure_custody"],
+            "mechanisms": ["confinement", "guarding", "controlled_access"],
+            "tools": ["cell", "restraints", "detention_facility"],
+            "required_subject_states": {"physical": ["control_over_facility"], "emotional": [], "mental": ["authority_granted"], "positional": ["at_detention_site"]},
+            "required_object_states": {"physical": ["in_custody"], "emotional": [], "mental": ["notified_of_detention"], "positional": ["within_jurisdiction"]},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["custody_established"], "positional": []},
+            "final_object_states": {"physical": ["movement_restricted"], "emotional": ["distressed"], "mental": ["under_custody"], "positional": ["confined_space"]}
+        },
+        {
+            "verb": "jam",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "virtual_object", "place"],
+            "goals": ["block_movement", "immobilize", "halt_operation"],
+            "mechanisms": ["wedging", "overloading", "obstructing_path"],
+            "tools": ["wedge", "debris", "jammer_device"],
+            "required_subject_states": {"physical": ["able_to_apply_force"], "emotional": [], "mental": ["intentional_block"], "positional": ["at_contact_point"]},
+            "required_object_states": {"physical": ["moving_or_operational"], "emotional": [], "mental": [], "positional": ["accessible"]},
+            "final_subject_states": {"physical": ["force_exerted"], "emotional": [], "mental": ["blockage_created"], "positional": []},
+            "final_object_states": {"physical": ["obstructed", "immobilized"], "emotional": [], "mental": [], "positional": ["stopped_in_place"]}
+        },
+        {
+            "verb": "jar",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept"],
+            "goals": ["shake_up", "dislodge", "startle"],
+            "mechanisms": ["sudden_shock", "abrupt_motion", "vibration"],
+            "tools": ["hands", "impact_tool", "shaking_device"],
+            "required_subject_states": {"physical": ["able_to_apply_force"], "emotional": [], "mental": ["intentional_disturbance"], "positional": ["in_contact_or_adjacent"]},
+            "required_object_states": {"physical": ["loose_or_vulnerable"], "emotional": [], "mental": [], "positional": ["reachable"]},
+            "final_subject_states": {"physical": ["force_exerted"], "emotional": [], "mental": ["disruption_caused"], "positional": []},
+            "final_object_states": {"physical": ["shaken", "dislodged"], "emotional": ["startled_if_sentient"], "mental": [], "positional": []}
+        },
+        {
+            "verb": "jaw",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "organization"],
+            "applicable_objects": ["biological_body", "autonomous_agent", "organization"],
+            "goals": ["converse_idly", "argue_informally"],
+            "mechanisms": ["chatting", "bantering", "debating_casually"],
+            "tools": ["speech", "communication_channel", "voice_interface"],
+            "required_subject_states": {"physical": ["able_to_speak_or_transmit"], "emotional": [], "mental": ["willing_to_engage"], "positional": ["co_located_or_connected"]},
+            "required_object_states": {"physical": ["able_to_receive"], "emotional": [], "mental": ["attentive"], "positional": ["co_located_or_connected"]},
+            "final_subject_states": {"physical": [], "emotional": ["socially_engaged"], "mental": ["exchanged_views"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": ["socially_engaged"], "mental": ["received_views"], "positional": []}
+        },
+        {
+            "verb": "jangle",
+            "applicable_subjects": ["biological_body", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "concept"],
+            "goals": ["produce_clanking_sound", "attract_attention"],
+            "mechanisms": ["rapid_movement", "collision_of_parts"],
+            "tools": ["keys", "metal_objects", "bells"],
+            "required_subject_states": {"physical": ["holding_or_mounting_objects"], "emotional": [], "mental": ["intending_noise"], "positional": ["near_object"]},
+            "required_object_states": {"physical": ["loose_or_movable_parts"], "emotional": [], "mental": [], "positional": ["within_shaking_range"]},
+            "final_subject_states": {"physical": ["motion_applied"], "emotional": [], "mental": ["sound_generated"], "positional": []},
+            "final_object_states": {"physical": ["vibrating"], "emotional": [], "mental": ["attention_drawn_if_conceptual"], "positional": []}
+        },
+        {
+            "verb": "jape",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["mock", "joke"],
+            "mechanisms": ["teasing_speech", "playful_trick", "satire"],
+            "tools": ["words", "gestures", "media"],
+            "required_subject_states": {"physical": ["able_to_express"], "emotional": ["playful_or_ironic"], "mental": ["humor_intent"], "positional": ["co_located_or_connected"]},
+            "required_object_states": {"physical": [], "emotional": [], "mental": ["aware_of_context"], "positional": ["co_located_or_connected"]},
+            "final_subject_states": {"physical": [], "emotional": ["amused"], "mental": ["humor_expressed"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": ["amused_or_irritated"], "mental": ["interpreted_jest"], "positional": []}
+        },
+        {
+            "verb": "jaunt",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["place"],
+            "goals": ["travel_briefly", "recreate", "explore"],
+            "mechanisms": ["short_trip", "leisure_travel", "excursion"],
+            "tools": ["vehicle", "foot_travel", "itinerary"],
+            "required_subject_states": {"physical": ["able_to_travel"], "emotional": ["willing"], "mental": ["destination_selected"], "positional": ["ready_to_depart"]},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": ["reachable"]},
+            "final_subject_states": {"physical": ["distance_covered"], "emotional": ["refreshed"], "mental": ["new_experience"], "positional": ["arrived_at_destination"]},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["visited"], "positional": ["occupied_by_subject_during_visit"]}
+        },
+        {
+            "verb": "jazz",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "virtual_object", "object"],
+            "goals": ["embellish", "energize", "add_style"],
+            "mechanisms": ["improvisation", "styling", "embellishing"],
+            "tools": ["music", "design_elements", "creative_flourishes"],
+            "required_subject_states": {"physical": [], "emotional": ["expressive"], "mental": ["creative_intent"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": ["modifiable_structure"], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": ["expressed"], "mental": ["creative_contribution_made"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["enhanced_style"], "positional": []}
+        }
+    ],
+    "completed": true
+}

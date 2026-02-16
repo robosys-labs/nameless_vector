@@ -1,0 +1,703 @@
+{
+    "prefix": "gl",
+    "processed_verbs": [
+        "gladden",
+        "glamorize",
+        "glance",
+        "glare",
+        "glaze",
+        "glean",
+        "glimmer",
+        "glide",
+        "glimpse",
+        "glisten",
+        "glitter",
+        "glitch",
+        "gloat",
+        "globalize",
+        "glom",
+        "glorify",
+        "gloss",
+        "glove",
+        "glow",
+        "glower",
+        "glue",
+        "glut"
+    ],
+    "outcomes": [
+        {
+            "verb": "gladden",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["bring_joy", "lift_spirits", "reassure"],
+            "mechanisms": ["kindness", "good_news", "supportive_action"],
+            "tools": ["words", "gifts", "help"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["empathetic"],
+                "mental": ["intent_to_comfort"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["satisfied"],
+                "mental": ["comfort_given"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["gladdened"],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glamorize",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["concept", "object", "virtual_object", "place"],
+            "goals": ["make_attractive", "enhance_appeal", "idealize"],
+            "mechanisms": ["selective_highlighting", "embellishment", "reframing"],
+            "tools": ["imagery", "styling", "media"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["desired_image_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["narrative_available"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["image_enhanced"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["perceived_as_glamorous"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glance",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept", "biological_body"],
+            "goals": ["take_brief_look", "check_status", "orient"],
+            "mechanisms": ["eye_movement", "sensor_read", "quick_scan"],
+            "tools": ["eyes", "sensors", "display"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["target_identified"],
+                "positional": ["line_of_sight"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": ["visible"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["visual_snapshot_acquired"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["observed"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glare",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["signal_disapproval", "intimidate", "express_anger"],
+            "mechanisms": ["intense_stare", "hardened_expression", "prolonged_eye_contact"],
+            "tools": ["eyes", "facial_expression"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["angry_or_displeased"],
+                "mental": ["focus_on_target"],
+                "positional": ["facing_target"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": ["within_view"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["assertive"],
+                "mental": ["disapproval_expressed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["intimidated_if_sentient"],
+                "mental": ["message_received"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glaze",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "concept", "virtual_object"],
+            "goals": ["coat_surface", "seal", "add_sheen"],
+            "mechanisms": ["brushing", "dipping", "spraying"],
+            "tools": ["glaze_mix", "brush", "sprayer", "kiln"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["application_plan_ready"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["clean_surface"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["glaze_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["glazed_or_sealed"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glean",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept"],
+            "goals": ["gather_bits", "extract_information", "collect_after_main_take"],
+            "mechanisms": ["scavenging", "analysis", "selective_collection"],
+            "tools": ["hands", "data_queries", "filters"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["patience", "target_criteria_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["residual_items_present"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gleaned_items_collected"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gathered"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glimmer",
+            "applicable_subjects": ["object", "place", "concept", "virtual_object"],
+            "applicable_objects": ["concept"],
+            "goals": ["emit_faint_light", "suggest_presence", "signal_subtle_change"],
+            "mechanisms": ["low_intensity_emission", "partial_reflection", "faint_activity"],
+            "tools": ["light_source", "energy", "reflective_surface"],
+            "required_subject_states": {
+                "physical": ["energized_or_reflective"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": ["faintly_luminous"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glide",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["place", "concept", "virtual_object"],
+            "goals": ["move_smoothly", "reduce_friction", "traverse"]
+            ,
+            "mechanisms": ["momentum", "low_friction_surface", "aerodynamic_lift"],
+            "tools": ["wheels", "skates", "wings"],
+            "required_subject_states": {
+                "physical": ["balanced"],
+                "emotional": [],
+                "mental": ["path_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["glide_completed"],
+                "positional": ["advanced_along_path"]
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glom",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept"],
+            "goals": ["grab_quickly", "attach_to", "appropriate"],
+            "mechanisms": ["snatching", "adhering", "claiming"],
+            "tools": ["hands", "adhesive_force", "access_control"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["target_identified"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["item_acquired_or_attached"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["held_or_attached_if_physical"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glorify",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept", "place", "virtual_object"],
+            "goals": ["praise_highly", "elevate_status", "celebrate"],
+            "mechanisms": ["commendation", "public_acclaim", "embellished_narrative"],
+            "tools": ["speech", "media", "ceremony"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["virtues_or_achievements_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["praise_delivered"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["honored_if_sentient"],
+                "mental": ["status_elevated_in_narrative"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glimpse",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept", "biological_body"],
+            "goals": ["see_briefly", "catch_partial_view", "sample_information"],
+            "mechanisms": ["short_visual_exposure", "quick_scan"],
+            "tools": ["eyes", "sensors"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["attention_brief"],
+                "positional": ["line_of_sight"]
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": ["partially_visible"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["partial_information_acquired"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["briefly_observed"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glisten",
+            "applicable_subjects": ["object", "place", "biological_body"],
+            "applicable_objects": ["concept"],
+            "goals": ["reflect_light", "appear_moist_or_polished", "signal_presence"],
+            "mechanisms": ["specular_reflection", "moisture", "polish"],
+            "tools": ["light_source", "liquid", "polish"],
+            "required_subject_states": {
+                "physical": ["light_exposed"] ,
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": ["shiny_or_reflective"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glitter",
+            "applicable_subjects": ["object", "place", "biological_body"],
+            "applicable_objects": ["concept"],
+            "goals": ["sparkle_visibly", "attract_attention", "reflect_light"],
+            "mechanisms": ["multiple_reflections", "shimmering", "light_scattering"],
+            "tools": ["glitter_particles", "light_source", "reflective_surface"],
+            "required_subject_states": {
+                "physical": ["light_exposed"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": ["sparkling"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glitch",
+            "applicable_subjects": ["virtual_object", "synthetic_agent", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["process", "virtual_object", "concept"],
+            "goals": ["fail_temporarily", "produce_error", "deviate_from_expected"],
+            "mechanisms": ["unexpected_exception", "signal_noise", "hardware_fault"],
+            "tools": ["faulty_module", "unstable_network", "buggy_code"],
+            "required_subject_states": {
+                "physical": ["operational"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gloat",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "organization", "concept"],
+            "goals": ["express_self_satisfaction", "boast_over_advantage", "assert_superiority"],
+            "mechanisms": ["boasting", "taunting", "display_of_success"],
+            "tools": ["speech", "messages", "gestures"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["proud_or_smug"],
+                "mental": ["aware_of_advantage"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["smug"],
+                "mental": ["advantage_declared"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": ["irritated_if_sentient"],
+                "mental": ["aware_of_subjects_boast"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "globalize",
+            "applicable_subjects": ["organization", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["organization", "concept", "virtual_object", "process"],
+            "goals": ["expand_worldwide", "standardize_across_regions", "integrate_markets"],
+            "mechanisms": ["scaling", "standardization", "internationalization"],
+            "tools": ["capital", "technology_platform", "logistics_network"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["expansion_plan_ready"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["globalization_executed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["deployed_globally"],
+                "positional": ["presence_in_multiple_regions"]
+            }
+        },
+        {
+            "verb": "gloss",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["concept", "virtual_object", "object"],
+            "goals": ["apply_shine", "provide_summary", "downplay_issues"],
+            "mechanisms": ["coating", "summarization", "euphemism"],
+            "tools": ["polish", "varnish", "language"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["target_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["content_present"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gloss_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["polished_if_physical"],
+                "emotional": [],
+                "mental": ["presented_concisely_or_softened"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glove",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object"],
+            "goals": ["protect_hands", "improve_grip", "maintain_hygiene"],
+            "mechanisms": ["covering", "donning", "sealing"],
+            "tools": ["gloves"],
+            "required_subject_states": {
+                "physical": ["hands_present"],
+                "emotional": [],
+                "mental": ["intent_to_cover"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": ["hands_covered", "improved_grip"],
+                "emotional": [],
+                "mental": ["protection_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["covered_or_insulated"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glow",
+            "applicable_subjects": ["object", "place", "biological_body", "virtual_object"],
+            "applicable_objects": ["concept"],
+            "goals": ["emit_light", "signal_presence", "radiate_warmth"],
+            "mechanisms": ["incandescence", "luminescence", "bioluminescence"],
+            "tools": ["power_source", "chemical_reaction", "heat"],
+            "required_subject_states": {
+                "physical": ["energized_or_heated"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": ["emitting_light"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glue",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "virtual_object"],
+            "goals": ["adhere", "join_surfaces", "fix_in_place"],
+            "mechanisms": ["adhesive_application", "pressure", "curing"],
+            "tools": ["glue", "adhesive", "clamp"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["surfaces_prepared"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["clean_surfaces"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["adhesion_applied"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["bonded"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "glut",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "concept", "virtual_object", "place"],
+            "goals": ["oversupply", "overfill", "saturate_market"],
+            "mechanisms": ["overproduction", "dumping", "excess_distribution"],
+            "tools": ["inventory", "logistics_network", "capital"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["production_or_supply_ready"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["excess_deployed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["oversupplied_or_overfilled"],
+                "emotional": [],
+                "mental": ["saturated"],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

@@ -1,0 +1,668 @@
+{
+    "prefix": "ge",
+    "processed_verbs": [
+        "gear",
+        "geek",
+        "geocode",
+        "geofence",
+        "geolocate",
+        "geotag",
+        "gel",
+        "geld",
+        "gender",
+        "generalize",
+        "generate",
+        "gentle",
+        "gentrify",
+        "genuflect",
+        "germinate",
+        "gerrymander",
+        "gestate",
+        "gesticulate",
+        "gesture",
+        "get"
+    ],
+    "outcomes": [
+        {
+            "verb": "gear",
+            "applicable_subjects": ["biological_body", "organization", "physical_agent", "autonomous_agent"],
+            "applicable_objects": ["object", "concept", "virtual_object"],
+            "goals": ["equip_for_task", "configure_for_use", "align_mechanisms"],
+            "mechanisms": ["equipment_setup", "calibration", "orientation"],
+            "tools": ["gear_set", "configuration_tools", "alignment_jig"],
+            "required_subject_states": {
+                "physical": ["tools_ready"],
+                "emotional": [],
+                "mental": ["task_requirements_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["adjustable_or_connectable"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gear_engaged"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["configured_or_equipped"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "geek",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "virtual_object"],
+            "goals": ["immerse_in_topic", "display_enthusiasm", "explore_depth"],
+            "mechanisms": ["research", "tinkering", "discussion"],
+            "tools": ["computer", "documentation", "hobby_tools"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["topic_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["subject_matter_available"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["deeper_understanding"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["explored_in_depth"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gel",
+            "applicable_subjects": ["place", "biological_body", "organization", "concept"],
+            "applicable_objects": ["object", "concept", "virtual_object"],
+            "goals": ["solidify", "cohere", "take_form"],
+            "mechanisms": ["cooling", "setting", "consensus_building"],
+            "tools": ["gel_agent", "cooling_process", "facilitation"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["intent_to_set"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["liquid_or_formless"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gelation_observed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["gelled_or_cohesive"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "geld",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body"],
+            "goals": ["castrate", "remove_reproductive_organs", "reduce_aggression"],
+            "mechanisms": ["surgical_removal", "medical_procedure"],
+            "tools": ["scalpel", "anesthetic", "surgical_kit"],
+            "required_subject_states": {
+                "physical": ["sterile_tools_ready"],
+                "emotional": [],
+                "mental": ["procedure_understood"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["restrained_or_sedated"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["procedure_completed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["castrated"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gender",
+            "applicable_subjects": ["biological_body", "organization"],
+            "applicable_objects": ["biological_body", "concept", "virtual_object"],
+            "goals": ["assign_gender", "express_gender", "categorize_by_gender"],
+            "mechanisms": ["labeling", "self_identification", "classification"],
+            "tools": ["forms", "language", "policy"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gender_framework_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["identity_or_description_present"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gender_assigned_or_expressed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gender_labeled_or_shared"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "generalize",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["concept", "virtual_object"],
+            "goals": ["derive_broad_rule", "abstract_from_examples", "extend_scope"],
+            "mechanisms": ["pattern_recognition", "abstraction", "inductive_reasoning"],
+            "tools": ["data_set", "analysis_tool", "model"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["examples_available"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["instances_present"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["general_rule_defined"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["abstracted_or_extended"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "generate",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent", "physical_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept"],
+            "goals": ["create_output", "produce_energy", "originate_content"],
+            "mechanisms": ["production_process", "computation", "conversion"],
+            "tools": ["generator", "software", "raw_material"],
+            "required_subject_states": {
+                "physical": ["operational"],
+                "emotional": [],
+                "mental": ["specs_or_prompt_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["generation_completed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["produced_if_physical"],
+                "emotional": [],
+                "mental": ["created_or_available"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gentle",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "object", "concept"],
+            "goals": ["make_softer", "reduce_harshness", "handle_kindly"],
+            "mechanisms": ["softening", "careful_handling", "soothing"],
+            "tools": ["soft_material", "soothing_voice", "cushion"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": ["calm_or_kind"],
+                "mental": ["intent_to_soften"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": ["caring"],
+                "mental": ["gentling_done"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["softened_or_handled_softly"],
+                "emotional": ["soothed_if_sentient"],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gentrify",
+            "applicable_subjects": ["organization", "biological_body"],
+            "applicable_objects": ["place"],
+            "goals": ["renovate_upscale", "increase_property_value", "attract_new_demographic"],
+            "mechanisms": ["investment", "redevelopment", "amenity_introduction"],
+            "tools": ["capital", "construction", "zoning_change"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["development_plan"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["urban_or_residential_area"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gentrification_executed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["renovated_or_upscaled"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "genuflect",
+            "applicable_subjects": ["biological_body"],
+            "applicable_objects": ["place", "concept"],
+            "goals": ["show_reverence", "comply_with_ritual", "express_respect"],
+            "mechanisms": ["knee_bend", "bowing", "postural_lowering"],
+            "tools": ["support_surface"],
+            "required_subject_states": {
+                "physical": ["able_to_kneel"],
+                "emotional": ["reverent_or_respectful"],
+                "mental": ["ritual_understood"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": ["approachable"]
+            },
+            "final_subject_states": {
+                "physical": ["kneeling_or_bowed"],
+                "emotional": ["expressed_reverence"],
+                "mental": ["ritual_completed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "geocode",
+            "applicable_subjects": ["biological_body", "organization", "synthetic_agent"],
+            "applicable_objects": ["virtual_object", "concept", "place"],
+            "goals": ["assign_coordinates", "normalize_location_data", "enable_spatial_queries"],
+            "mechanisms": ["address_parsing", "coordinate_lookup", "api_request"],
+            "tools": ["geocoding_api", "mapping_service", "dataset"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["location_input_available"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["address_or_place_name_present"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["coordinates_generated"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["geocoded_coordinates_attached"],
+                "positional": ["located_geospatially"]
+            }
+        },
+        {
+            "verb": "geofence",
+            "applicable_subjects": ["organization", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["place", "concept", "virtual_object"],
+            "goals": ["define_virtual_boundary", "control_access", "trigger_location_rules"],
+            "mechanisms": ["boundary_definition", "coordinate_buffering", "rule_assignment"],
+            "tools": ["mapping_service", "location_sdk", "policy_engine"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["boundary_area_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["target_area_identified"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["geofence_active"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["boundary_rules_applied"],
+                "positional": ["area_bounded"]
+            }
+        },
+        {
+            "verb": "geolocate",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept", "place"],
+            "goals": ["determine_position", "track_location", "map_to_coordinates"],
+            "mechanisms": ["gps_fix", "ip_lookup", "triangulation"],
+            "tools": ["gps_receiver", "network_service", "map_database"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["target_to_locate_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["location_determined"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": ["geospatial_coordinates_set"]
+            }
+        },
+        {
+            "verb": "geotag",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent", "synthetic_agent"],
+            "applicable_objects": ["virtual_object", "object", "concept"],
+            "goals": ["attach_location_metadata", "improve_searchability", "contextualize_content"],
+            "mechanisms": ["metadata_annotation", "coordinate_attachment", "tagging"],
+            "tools": ["camera", "mapping_service", "metadata_editor"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["location_context_known"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["taggable_content"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["geotag_added"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["location_metadata_embedded"],
+                "positional": ["location_described"]
+            }
+        },
+        {
+            "verb": "germinate",
+            "applicable_subjects": ["place", "biological_body", "organization"],
+            "applicable_objects": ["biological_body", "concept"],
+            "goals": ["sprout", "initiate_growth", "begin_development"],
+            "mechanisms": ["hydration", "incubation", "activation"],
+            "tools": ["soil", "water", "warmth"],
+            "required_subject_states": {
+                "physical": ["growth_conditions_present"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": ["seed_or_idea_form"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["germination_monitored"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["sprouted_or_initiated"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gerrymander",
+            "applicable_subjects": ["organization"],
+            "applicable_objects": ["place", "concept"],
+            "goals": ["manipulate_boundaries", "influence_outcome", "reshape_districts"],
+            "mechanisms": ["boundary_redrawing", "selective_inclusion", "exclusion"],
+            "tools": ["mapping_software", "demographic_data", "legislative_process"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["districting_rules_understood"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["existing_boundaries_defined"],
+                "positional": ["region_identified"]
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["boundaries_modified"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["redistricted"],
+                "positional": ["boundaries_shifted"]
+            }
+        },
+        {
+            "verb": "gestate",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "concept", "virtual_object"],
+            "goals": ["carry_to_development", "nurture_growth_phase", "prepare_for_birth_or_launch"],
+            "mechanisms": ["incubation", "protection", "iterative_development"],
+            "tools": ["support_environment", "resources", "timeline"],
+            "required_subject_states": {
+                "physical": ["supportive_environment"],
+                "emotional": [],
+                "mental": ["commitment_to_develop"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["in_development_stage"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gestation_progress_tracked"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["ready_for_birth_or_release"],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gesticulate",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["concept", "biological_body"],
+            "goals": ["communicate_with_gestures", "emphasize_speech", "replace_words_with_motion"],
+            "mechanisms": ["hand_movements", "body_language"],
+            "tools": ["hands", "arms", "motion_sensors"],
+            "required_subject_states": {
+                "physical": ["limb_mobility"],
+                "emotional": [],
+                "mental": ["message_or_emphasis_defined"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["audience_present_or_implied"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["message_expressed"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["received_nonverbal_signal"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "gesture",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body", "concept"],
+            "goals": ["signal_intent", "communicate_nonverbally", "acknowledge"],
+            "mechanisms": ["hand_signal", "body_language", "symbolic_motion"],
+            "tools": ["hands", "arms", "signal_device"],
+            "required_subject_states": {
+                "physical": ["limb_mobility_or_signal_device"],
+                "emotional": [],
+                "mental": ["meaning_intended"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["able_to_observe"],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["gesture_made"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["signal_received_or_noted"],
+                "positional": []
+            }
+        },
+        {
+            "verb": "get",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["object", "virtual_object", "concept"],
+            "goals": ["obtain", "receive", "retrieve"],
+            "mechanisms": ["request", "fetching", "acquisition"],
+            "tools": ["hands", "network_request", "transaction"],
+            "required_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["target_specified"],
+                "positional": []
+            },
+            "required_object_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": [],
+                "positional": []
+            },
+            "final_subject_states": {
+                "physical": [],
+                "emotional": [],
+                "mental": ["item_obtained"],
+                "positional": []
+            },
+            "final_object_states": {
+                "physical": ["possessed_or_transferred_if_physical"],
+                "emotional": [],
+                "mental": ["retrieved_or_received"],
+                "positional": []
+            }
+        }
+    ],
+    "completed": true
+}

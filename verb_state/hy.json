@@ -1,0 +1,138 @@
+{
+    "prefix": "hy",
+    "processed_verbs": [
+        "hype",
+        "hyperventilate",
+        "hyphenate",
+        "hybridize",
+        "hydrogenate",
+        "hydrolyze",
+        "hydroplane",
+        "hydrate",
+        "hypnotize",
+        "hypothesize"
+    ],
+    "outcomes": [
+        {
+            "verb": "hype",
+            "applicable_subjects": ["organization", "biological_body", "autonomous_agent"],
+            "applicable_objects": ["concept", "product", "event", "virtual_object"],
+            "goals": ["generate_excited_interest", "promote_intensely"],
+            "mechanisms": ["exaggerated_praise", "marketing", "repetition"],
+            "tools": ["advertising", "social_media", "press"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["promotion_goal_defined"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["hype_executed"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": ["excited_if_sentient"], "mental": ["awareness_raised"], "positional": []}
+        },
+        {
+            "verb": "hyperventilate",
+            "applicable_subjects": ["biological_body", "autonomous_agent"],
+            "applicable_objects": ["biological_body"],
+            "goals": ["breathe_rapidly", "expel_co2_excess"],
+            "mechanisms": ["fast_breathing", "shallow_breaths"],
+            "tools": ["lungs", "respiratory_muscles"],
+            "required_subject_states": {"physical": ["respiratory_functional"], "emotional": ["anxious_or_stressed"], "mental": [], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": ["lightheaded_or_adjusted_co2"], "emotional": [], "mental": [], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "hyphenate",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "organization"],
+            "applicable_objects": ["virtual_object", "text", "name"],
+            "goals": ["insert_hyphen", "join_terms"],
+            "mechanisms": ["editing_text", "punctuation"],
+            "tools": ["keyboard", "editor", "style_guide"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["terms_identified"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["hyphenation_completed"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["hyphen_inserted"], "positional": []}
+        },
+        {
+            "verb": "hybridize",
+            "applicable_subjects": ["organization", "biological_body", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["biological_body", "object", "concept", "virtual_object"],
+            "goals": ["combine_traits", "create_hybrid"],
+            "mechanisms": ["cross_breeding", "fusion", "integration"],
+            "tools": ["lab_equipment", "design_framework", "genetic_tools"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["source_traits_defined"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["hybridization_done"], "positional": []},
+            "final_object_states": {"physical": ["hybrid_created"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "hydrogenate",
+            "applicable_subjects": ["organization", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["object", "substance"],
+            "goals": ["add_hydrogen", "saturate"],
+            "mechanisms": ["chemical_reaction", "catalysis"],
+            "tools": ["hydrogen_gas", "catalyst", "pressure_vessel"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["process_parameters_known"], "positional": []},
+            "required_object_states": {"physical": ["unsaturated_substance"], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["hydrogenation_completed"], "positional": []},
+            "final_object_states": {"physical": ["saturated_or_hydrogenated"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "hydrolyze",
+            "applicable_subjects": ["organization", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["substance", "object"],
+            "goals": ["cleave_with_water", "decompose"],
+            "mechanisms": ["hydrolysis_reaction", "catalysis"],
+            "tools": ["water", "enzyme", "acid_or_base"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["substrate_identified"], "positional": []},
+            "required_object_states": {"physical": ["hydrolyzable_material"], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["hydrolysis_done"], "positional": []},
+            "final_object_states": {"physical": ["broken_into_components"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "hydroplane",
+            "applicable_subjects": ["biological_body", "autonomous_agent", "object", "vehicle"],
+            "applicable_objects": ["vehicle", "object"],
+            "goals": ["skim_over_water", "lose_tire_contact"],
+            "mechanisms": ["water_layer_lift", "speed_over_wet_surface"],
+            "tools": ["vehicle", "speed", "wet_surface"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["motion_initiated"], "positional": []},
+            "required_object_states": {"physical": ["wet_surface_present"], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": ["alarmed_if_sentient"], "mental": ["hydroplaning_experienced"], "positional": []},
+            "final_object_states": {"physical": ["reduced_traction"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "hydrate",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent", "physical_agent"],
+            "applicable_objects": ["biological_body", "object", "substance"],
+            "goals": ["add_water", "restore_moisture"],
+            "mechanisms": ["drinking", "soaking", "infusion"],
+            "tools": ["water", "electrolyte_solution", "soaking_container"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["need_for_moisture_recognized"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": ["hydrated"], "emotional": [], "mental": [], "positional": []},
+            "final_object_states": {"physical": ["moisture_increased"], "emotional": [], "mental": [], "positional": []}
+        },
+        {
+            "verb": "hypnotize",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["biological_body"],
+            "goals": ["induce_trance", "heighten_suggestibility"],
+            "mechanisms": ["guided_relaxation", "focused_attention", "suggestion"],
+            "tools": ["voice", "pendulum", "scripts"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["hypnosis_skill"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": ["willing_subject"], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["hypnosis_performed"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["trance_state", "suggestible"], "positional": []}
+        },
+        {
+            "verb": "hypothesize",
+            "applicable_subjects": ["biological_body", "organization", "autonomous_agent"],
+            "applicable_objects": ["concept", "phenomenon", "process"],
+            "goals": ["form_explanation", "propose_theory"],
+            "mechanisms": ["inference", "abduction", "generalization"],
+            "tools": ["data", "models", "logic"],
+            "required_subject_states": {"physical": [], "emotional": [], "mental": ["domain_understanding"], "positional": []},
+            "required_object_states": {"physical": [], "emotional": [], "mental": [], "positional": []},
+            "final_subject_states": {"physical": [], "emotional": [], "mental": ["hypothesis_stated"], "positional": []},
+            "final_object_states": {"physical": [], "emotional": [], "mental": ["hypothesis_existing"], "positional": []}
+        }
+    ],
+    "completed": true
+}
