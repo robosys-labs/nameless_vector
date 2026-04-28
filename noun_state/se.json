@@ -1,0 +1,13 @@
+{
+  "prefix": "se",
+  "processed_nouns": [
+    "seal"
+  ],
+  "nouns": [
+    {
+      "noun": "seal",
+      "types": ["object"]
+    }
+  ],
+  "completed": true
+}

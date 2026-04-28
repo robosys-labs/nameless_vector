@@ -1,0 +1,18 @@
+{
+  "prefix": "cl",
+  "processed_nouns": [
+    "clerk",
+    "children"
+  ],
+  "nouns": [
+    {
+      "noun": "clerk",
+      "types": ["biological_body"]
+    },
+    {
+      "noun": "children",
+      "types": ["biological_body", "group"]
+    }
+  ],
+  "completed": true
+}

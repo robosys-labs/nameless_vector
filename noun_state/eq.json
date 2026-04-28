@@ -1,0 +1,18 @@
+{
+  "prefix": "eq",
+  "processed_nouns": [
+    "equipment",
+    "effort"
+  ],
+  "nouns": [
+    {
+      "noun": "equipment",
+      "types": ["object"]
+    },
+    {
+      "noun": "effort",
+      "types": ["concept", "action"]
+    }
+  ],
+  "completed": true
+}

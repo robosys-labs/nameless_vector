@@ -1,0 +1,13 @@
+{
+  "prefix": "ar",
+  "processed_nouns": [
+    "artist"
+  ],
+  "nouns": [
+    {
+      "noun": "artist",
+      "types": ["biological_body"]
+    }
+  ],
+  "completed": true
+}

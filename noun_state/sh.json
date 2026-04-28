@@ -1,0 +1,13 @@
+{
+  "prefix": "sh",
+  "processed_nouns": [
+    "shaming"
+  ],
+  "nouns": [
+    {
+      "noun": "shaming",
+      "types": ["action", "concept"]
+    }
+  ],
+  "completed": true
+}

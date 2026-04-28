@@ -1,0 +1,13 @@
+{
+  "prefix": "ri",
+  "processed_nouns": [
+    "rival"
+  ],
+  "nouns": [
+    {
+      "noun": "rival",
+      "types": ["biological_body"]
+    }
+  ],
+  "completed": true
+}

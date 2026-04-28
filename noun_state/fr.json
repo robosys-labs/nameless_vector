@@ -1,0 +1,13 @@
+{
+  "prefix": "fr",
+  "processed_nouns": [
+    "friend"
+  ],
+  "nouns": [
+    {
+      "noun": "friend",
+      "types": ["biological_body"]
+    }
+  ],
+  "completed": true
+}

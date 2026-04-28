@@ -1,0 +1,18 @@
+{
+  "prefix": "cr",
+  "processed_nouns": [
+    "crops",
+    "crowd"
+  ],
+  "nouns": [
+    {
+      "noun": "crops",
+      "types": ["biological_body", "object"]
+    },
+    {
+      "noun": "crowd",
+      "types": ["group"]
+    }
+  ],
+  "completed": true
+}

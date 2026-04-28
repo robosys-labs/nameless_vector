@@ -1,0 +1,33 @@
+{
+  "prefix": "te",
+  "processed_nouns": [
+    "team",
+    "teacher",
+    "technician",
+    "time",
+    "truth"
+  ],
+  "nouns": [
+    {
+      "noun": "team",
+      "types": ["group", "organization"]
+    },
+    {
+      "noun": "teacher",
+      "types": ["biological_body"]
+    },
+    {
+      "noun": "technician",
+      "types": ["biological_body"]
+    },
+    {
+      "noun": "time",
+      "types": ["concept", "resource"]
+    },
+    {
+      "noun": "truth",
+      "types": ["concept"]
+    }
+  ],
+  "completed": true
+}

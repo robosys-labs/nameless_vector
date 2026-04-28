@@ -1,0 +1,13 @@
+{
+  "prefix": "ca",
+  "processed_nouns": [
+    "care"
+  ],
+  "nouns": [
+    {
+      "noun": "care",
+      "types": ["concept", "action"]
+    }
+  ],
+  "completed": true
+}

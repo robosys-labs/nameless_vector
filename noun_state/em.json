@@ -1,0 +1,13 @@
+{
+  "prefix": "em",
+  "processed_nouns": [
+    "emotions"
+  ],
+  "nouns": [
+    {
+      "noun": "emotions",
+      "types": ["concept", "biological_state"]
+    }
+  ],
+  "completed": true
+}

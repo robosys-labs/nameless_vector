@@ -1,0 +1,13 @@
+{
+  "prefix": "no",
+  "processed_nouns": [
+    "noise"
+  ],
+  "nouns": [
+    {
+      "noun": "noise",
+      "types": ["natural_element", "concept"]
+    }
+  ],
+  "completed": true
+}

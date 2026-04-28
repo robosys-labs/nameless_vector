@@ -1,0 +1,13 @@
+{
+  "prefix": "al",
+  "processed_nouns": [
+    "allergies"
+  ],
+  "nouns": [
+    {
+      "noun": "allergies",
+      "types": ["biological_state", "concept"]
+    }
+  ],
+  "completed": true
+}

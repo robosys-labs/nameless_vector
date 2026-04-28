@@ -1,0 +1,13 @@
+{
+  "prefix": "or",
+  "processed_nouns": [
+    "organization"
+  ],
+  "nouns": [
+    {
+      "noun": "organization",
+      "types": ["organization"]
+    }
+  ],
+  "completed": true
+}

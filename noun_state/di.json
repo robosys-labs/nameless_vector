@@ -1,0 +1,18 @@
+{
+  "prefix": "di",
+  "processed_nouns": [
+    "disease",
+    "drought"
+  ],
+  "nouns": [
+    {
+      "noun": "disease",
+      "types": ["concept", "biological_state"]
+    },
+    {
+      "noun": "drought",
+      "types": ["natural_event"]
+    }
+  ],
+  "completed": true
+}

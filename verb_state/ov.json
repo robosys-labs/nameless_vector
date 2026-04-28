@@ -1,6 +1,1929 @@
 {
   "prefix": "ov",
-  "processed_verbs": [],
-  "outcomes": [],
+  "processed_verbs": [
+    "overact",
+    "overbook",
+    "overcharge",
+    "overcook",
+    "overcome",
+    "overdo",
+    "overdraw",
+    "overeat",
+    "overestimate",
+    "overfill",
+    "overflow",
+    "overhaul",
+    "overheat",
+    "overlap",
+    "overload",
+    "overlook",
+    "overpay",
+    "overreact",
+    "overrule",
+    "overrun",
+    "oversee",
+    "overshadow",
+    "overshoot",
+    "oversleep",
+    "overstate",
+    "overstep",
+    "overthink",
+    "overtake",
+    "overthrow",
+    "overuse",
+    "overwhelm",
+    "overwork",
+    "overwrite"
+  ],
+  "outcomes": [
+    {
+      "verb": "overact",
+      "applicable_subjects": [
+        "autonomous_agent",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "concept",
+        "process",
+        "activity"
+      ],
+      "goals": [
+        "exaggerate performance",
+        "emphasize emotions"
+      ],
+      "mechanisms": [
+        "amplifying gestures",
+        "raising volume",
+        "overstating lines"
+      ],
+      "tools": [
+        "voice",
+        "body language",
+        "script"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "expressive"
+        ],
+        "mental": [
+          "role focused"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "audience present"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "dramatic"
+        ],
+        "mental": [
+          "performance heightened"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [
+          "entertained"
+        ],
+        "mental": [
+          "perceived exaggeration"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overbook",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "resource",
+        "schedule",
+        "capacity"
+      ],
+      "goals": [
+        "sell more than capacity",
+        "double-allocate"
+      ],
+      "mechanisms": [
+        "accepting extra reservations",
+        "overestimating no-shows",
+        "ignoring limits"
+      ],
+      "tools": [
+        "booking system",
+        "tickets",
+        "reservations"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "managing inventory"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "capacity defined"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "overage created"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "oversubscribed"
+        ],
+        "emotional": [],
+        "mental": [
+          "conflict to resolve"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overcharge",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "organization",
+        "biological_body",
+        "virtual_object"
+      ],
+      "goals": [
+        "collect excess payment",
+        "inflate price"
+      ],
+      "mechanisms": [
+        "setting high rate",
+        "adding hidden fees",
+        "misquoting"
+      ],
+      "tools": [
+        "billing system",
+        "invoices",
+        "price list"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "controls pricing"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "expects charge"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "extra revenue collected"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [
+          "frustrated"
+        ],
+        "mental": [
+          "overbilled"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overcook",
+      "applicable_subjects": [
+        "autonomous_agent",
+        "biological_body",
+        "organization"
+      ],
+      "applicable_objects": [
+        "object",
+        "food"
+      ],
+      "goals": [
+        "cook too long",
+        "exceed ideal doneness"
+      ],
+      "mechanisms": [
+        "prolonged heat",
+        "high temperature",
+        "ignored timer"
+      ],
+      "tools": [
+        "stove",
+        "oven",
+        "heat source"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "distracted"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [
+          "raw"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "disappointed"
+        ],
+        "mental": [
+          "overcooked"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "burnt"
+        ],
+        "emotional": [],
+        "mental": [
+          "ruined"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overcome",
+      "applicable_subjects": [
+        "biological_body",
+        "organization",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "challenge",
+        "obstacle",
+        "concept"
+      ],
+      "goals": [
+        "defeat obstacle",
+        "resolve issue"
+      ],
+      "mechanisms": [
+        "persistence",
+        "strategy",
+        "effort"
+      ],
+      "tools": [
+        "skills",
+        "support",
+        "resources"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable"
+        ],
+        "emotional": [
+          "determined"
+        ],
+        "mental": [
+          "aware of obstacle"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "identified obstacle"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "relieved"
+        ],
+        "mental": [
+          "solution achieved"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "resolved"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overdo",
+      "applicable_subjects": [
+        "autonomous_agent",
+        "biological_body",
+        "organization"
+      ],
+      "applicable_objects": [
+        "process",
+        "activity",
+        "task"
+      ],
+      "goals": [
+        "excess effort",
+        "exceed reasonable limit"
+      ],
+      "mechanisms": [
+        "extending duration",
+        "adding intensity",
+        "ignoring rest"
+      ],
+      "tools": [
+        "time",
+        "energy",
+        "resources"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable"
+        ],
+        "emotional": [],
+        "mental": [
+          "motivated"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "task defined"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "overexerted"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "overdone"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overdraw",
+      "applicable_subjects": [
+        "autonomous_agent",
+        "organization"
+      ],
+      "applicable_objects": [
+        "account",
+        "budget"
+      ],
+      "goals": [
+        "exceed available funds",
+        "create deficit"
+      ],
+      "mechanisms": [
+        "processing payment",
+        "withdrawing",
+        "spending beyond balance"
+      ],
+      "tools": [
+        "debit",
+        "transfer",
+        "transaction"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "initiating payment"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "limited balance"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "concerned"
+        ],
+        "mental": [
+          "overdraft incurred"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "negative balance"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overeat",
+      "applicable_subjects": [
+        "biological_body",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "food",
+        "meal"
+      ],
+      "goals": [
+        "consume excessively",
+        "eat beyond need"
+      ],
+      "mechanisms": [
+        "continuous eating",
+        "large portions",
+        "rapid consumption"
+      ],
+      "tools": [
+        "utensils",
+        "hands",
+        "food"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "hungry or craving"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [
+          "available to eat"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [
+          "full"
+        ],
+        "emotional": [
+          "regretful"
+        ],
+        "mental": [
+          "overeaten"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "consumed"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overestimate",
+      "applicable_subjects": [
+        "autonomous_agent",
+        "organization",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "concept",
+        "process",
+        "virtual_object"
+      ],
+      "goals": [
+        "value too high",
+        "predict excessive"
+      ],
+      "mechanisms": [
+        "limited data",
+        "optimistic projection",
+        "miscalculation"
+      ],
+      "tools": [
+        "models",
+        "estimates",
+        "assumptions"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "forming judgment"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "value unknown"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "estimate recorded"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "overvalued"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overfill",
+      "applicable_subjects": [
+        "autonomous_agent",
+        "physical_agent",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "object",
+        "container",
+        "virtual_object"
+      ],
+      "goals": [
+        "exceed capacity",
+        "add too much"
+      ],
+      "mechanisms": [
+        "pouring",
+        "loading",
+        "sending excess"
+      ],
+      "tools": [
+        "fluids",
+        "items",
+        "data"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "adding contents"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [
+          "available capacity"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "overfill caused"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "overflowing"
+        ],
+        "emotional": [],
+        "mental": [
+          "capacity exceeded"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overflow",
+      "applicable_subjects": [
+        "object",
+        "virtual_object",
+        "process"
+      ],
+      "applicable_objects": [
+        "object",
+        "virtual_object"
+      ],
+      "goals": [
+        "exceed capacity",
+        "spill contents"
+      ],
+      "mechanisms": [
+        "continuous input",
+        "blocked outflow",
+        "overfilling"
+      ],
+      "tools": [
+        "fluids",
+        "data streams",
+        "inputs"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "accepting input"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [
+          "nearly full"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "capacity exceeded"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "spilled"
+        ],
+        "emotional": [],
+        "mental": [
+          "data dropped"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overhaul",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "physical_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "virtual_object",
+        "process"
+      ],
+      "goals": [
+        "renovate",
+        "improve"
+      ],
+      "mechanisms": [
+        "disassembling",
+        "rebuilding",
+        "refactoring"
+      ],
+      "tools": [
+        "tools",
+        "plans",
+        "parts"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to work"
+        ],
+        "emotional": [
+          "patient"
+        ],
+        "mental": [
+          "understands system"
+        ],
+        "positional": [
+          "at work area"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "existing system"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "accessible"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [
+          "exerted"
+        ],
+        "emotional": [
+          "satisfied"
+        ],
+        "mental": [
+          "revamp complete"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "renewed"
+        ],
+        "emotional": [],
+        "mental": [
+          "updated"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overlap",
+      "applicable_subjects": [
+        "object",
+        "concept",
+        "virtual_object"
+      ],
+      "applicable_objects": [
+        "object",
+        "concept",
+        "virtual_object"
+      ],
+      "goals": [
+        "share space",
+        "intersect"
+      ],
+      "mechanisms": [
+        "overlaying",
+        "arranging",
+        "aligning"
+      ],
+      "tools": [
+        "alignment",
+        "positioning"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "aware of dimensions"
+        ],
+        "positional": [
+          "near other object"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "present"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "positioned"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "aligned"
+        ],
+        "positional": [
+          "intersecting"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "combined area"
+        ],
+        "positional": [
+          "intersecting"
+        ]
+      }
+    },
+    {
+      "verb": "overload",
+      "applicable_subjects": [
+        "autonomous_agent",
+        "organization",
+        "physical_agent"
+      ],
+      "applicable_objects": [
+        "object",
+        "virtual_object",
+        "process"
+      ],
+      "goals": [
+        "exceed capacity",
+        "test limits"
+      ],
+      "mechanisms": [
+        "adding weight",
+        "sending excess input",
+        "stacking tasks"
+      ],
+      "tools": [
+        "weights",
+        "traffic generators",
+        "requests"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "aware of capacity",
+          "intends stress test"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [
+          "available"
+        ],
+        "emotional": [],
+        "mental": [
+          "capacity defined"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "load applied"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "strained"
+        ],
+        "emotional": [],
+        "mental": [
+          "beyond capacity"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overlook",
+      "applicable_subjects": [
+        "autonomous_agent",
+        "biological_body",
+        "organization"
+      ],
+      "applicable_objects": [
+        "object",
+        "process",
+        "concept"
+      ],
+      "goals": [
+        "miss detail",
+        "fail to notice"
+      ],
+      "mechanisms": [
+        "insufficient attention",
+        "distraction",
+        "prioritizing other tasks"
+      ],
+      "tools": [
+        "limited focus",
+        "competing priorities",
+        "time pressure"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "distracted",
+          "multitasking"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "detail present"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "unaware of detail"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "unchecked"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overpay",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "organization",
+        "biological_body",
+        "virtual_object"
+      ],
+      "goals": [
+        "pay excessive amount",
+        "exceed fair price"
+      ],
+      "mechanisms": [
+        "miscalculation",
+        "generous tipping",
+        "incorrect entry"
+      ],
+      "tools": [
+        "payment method",
+        "invoice",
+        "contract"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "intent to pay"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "price expected"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "overpayment made"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [
+          "surprised"
+        ],
+        "mental": [
+          "overpaid"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overreact",
+      "applicable_subjects": [
+        "autonomous_agent",
+        "biological_body",
+        "organization"
+      ],
+      "applicable_objects": [
+        "concept",
+        "process",
+        "object"
+      ],
+      "goals": [
+        "respond disproportionately",
+        "express heightened emotion"
+      ],
+      "mechanisms": [
+        "escalating response",
+        "misjudging severity",
+        "amplifying communication"
+      ],
+      "tools": [
+        "voice",
+        "messages",
+        "gestures"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "sensitive"
+        ],
+        "mental": [
+          "perceives threat"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "perceived trigger"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "agitated"
+        ],
+        "mental": [
+          "response given",
+          "perception disproportionate"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [
+          "affected"
+        ],
+        "mental": [
+          "escalated"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "oversee",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "process",
+        "organization",
+        "virtual_object",
+        "object"
+      ],
+      "goals": [
+        "supervise",
+        "ensure compliance"
+      ],
+      "mechanisms": [
+        "monitoring",
+        "reviewing",
+        "directing"
+      ],
+      "tools": [
+        "dashboards",
+        "reports",
+        "communication"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [
+          "responsible"
+        ],
+        "mental": [
+          "aware of standards"
+        ],
+        "positional": [
+          "connected to operations"
+        ]
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "work in progress"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "assured"
+        ],
+        "mental": [
+          "status known"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "monitored"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overshadow",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "object"
+      ],
+      "applicable_objects": [
+        "object",
+        "concept",
+        "activity"
+      ],
+      "goals": [
+        "dominate attention",
+        "reduce prominence"
+      ],
+      "mechanisms": [
+        "outperforming",
+        "capturing spotlight",
+        "amplifying visibility"
+      ],
+      "tools": [
+        "publicity",
+        "brightness",
+        "volume"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "seeking prominence"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "currently noticeable"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "prominence achieved"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "diminished visibility"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overshoot",
+      "applicable_subjects": [
+        "autonomous_agent",
+        "physical_agent",
+        "organization"
+      ],
+      "applicable_objects": [
+        "target",
+        "location",
+        "goal"
+      ],
+      "goals": [
+        "exceed target",
+        "pass beyond"
+      ],
+      "mechanisms": [
+        "excess speed",
+        "overcorrection",
+        "momentum"
+      ],
+      "tools": [
+        "propulsion",
+        "controls",
+        "actuators"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "aiming"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "target defined"
+        ],
+        "positional": [
+          "in direction of travel"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "beyond target"
+        ],
+        "positional": [
+          "past target"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "missed"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "oversleep",
+      "applicable_subjects": [
+        "biological_body",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "schedule",
+        "event"
+      ],
+      "goals": [
+        "sleep longer than intended",
+        "miss planned time"
+      ],
+      "mechanisms": [
+        "ignoring alarm",
+        "alarm failure",
+        "fatigue"
+      ],
+      "tools": [
+        "bed",
+        "alarm",
+        "sleep environment"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "asleep"
+        ],
+        "emotional": [],
+        "mental": [
+          "unaware of time"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "time scheduled"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [
+          "rested"
+        ],
+        "emotional": [
+          "rushed"
+        ],
+        "mental": [
+          "overslept"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "missed deadline"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overstate",
+      "applicable_subjects": [
+        "autonomous_agent",
+        "organization",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "concept",
+        "process",
+        "object"
+      ],
+      "goals": [
+        "exaggerate",
+        "emphasize excessively"
+      ],
+      "mechanisms": [
+        "strong wording",
+        "selective framing",
+        "inflating metrics"
+      ],
+      "tools": [
+        "reports",
+        "presentations",
+        "statements"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "communicating"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "facts available"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "message delivered"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "perception inflated"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overstep",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "boundary",
+        "rule",
+        "authority"
+      ],
+      "goals": [
+        "exceed limit",
+        "violate boundary"
+      ],
+      "mechanisms": [
+        "ignoring constraints",
+        "pushing scope",
+        "misjudging authority"
+      ],
+      "tools": [
+        "decisions",
+        "actions",
+        "movement"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "assertive"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "limit defined"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "embarrassed"
+        ],
+        "mental": [
+          "limit exceeded"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "boundary violated"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overthink",
+      "applicable_subjects": [
+        "autonomous_agent",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "concept",
+        "decision",
+        "situation"
+      ],
+      "goals": [
+        "analyze excessively",
+        "ruminate"
+      ],
+      "mechanisms": [
+        "repetitive analysis",
+        "looping thoughts",
+        "considering edge cases"
+      ],
+      "tools": [
+        "reflection",
+        "notes",
+        "simulations"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "focused on problem"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "question present"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "anxious"
+        ],
+        "mental": [
+          "stuck in analysis"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "unresolved"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overwhelm",
+      "applicable_subjects": [
+        "autonomous_agent",
+        "organization",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "autonomous_agent",
+        "biological_body",
+        "system"
+      ],
+      "goals": [
+        "overpower",
+        "overload emotionally or physically"
+      ],
+      "mechanisms": [
+        "intense pressure",
+        "excess demand",
+        "force"
+      ],
+      "tools": [
+        "tasks",
+        "volume",
+        "mass"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "applying pressure"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "susceptible"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "pressure exerted"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [
+          "overwhelmed"
+        ],
+        "mental": [
+          "overloaded"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overtake",
+      "applicable_subjects": [
+        "biological_body",
+        "physical_agent",
+        "autonomous_agent"
+      ],
+      "applicable_objects": [
+        "biological_body",
+        "vehicle",
+        "object"
+      ],
+      "goals": [
+        "pass",
+        "lead"
+      ],
+      "mechanisms": [
+        "accelerating",
+        "lane change",
+        "maneuvering"
+      ],
+      "tools": [
+        "vehicles",
+        "propulsion",
+        "path"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "able to maneuver"
+        ],
+        "emotional": [
+          "confident"
+        ],
+        "mental": [
+          "aware of traffic"
+        ],
+        "positional": [
+          "behind target"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "moving"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": [
+          "ahead on path"
+        ]
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "assertive"
+        ],
+        "mental": [
+          "successful pass"
+        ],
+        "positional": [
+          "ahead of target"
+        ]
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "passed"
+        ],
+        "positional": [
+          "behind subject"
+        ]
+      }
+    },
+    {
+      "verb": "overthrow",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "organization",
+        "government",
+        "leader"
+      ],
+      "goals": [
+        "remove from power",
+        "replace leadership"
+      ],
+      "mechanisms": [
+        "uprising",
+        "coup",
+        "force"
+      ],
+      "tools": [
+        "allies",
+        "weapons",
+        "strategy"
+      ],
+      "required_subject_states": {
+        "physical": [
+          "capable of force"
+        ],
+        "emotional": [
+          "resolute"
+        ],
+        "mental": [
+          "strategizing"
+        ],
+        "positional": [
+          "within jurisdiction"
+        ]
+      },
+      "required_object_states": {
+        "physical": [
+          "in power"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [
+          "victorious"
+        ],
+        "mental": [
+          "control achieved"
+        ],
+        "positional": [
+          "at seat of power"
+        ]
+      },
+      "final_object_states": {
+        "physical": [
+          "deposed"
+        ],
+        "emotional": [],
+        "mental": [
+          "removed"
+        ],
+        "positional": [
+          "displaced"
+        ]
+      }
+    },
+    {
+      "verb": "overuse",
+      "applicable_subjects": [
+        "autonomous_agent",
+        "organization",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "object",
+        "resource",
+        "virtual_object"
+      ],
+      "goals": [
+        "consume excessively",
+        "apply too frequently"
+      ],
+      "mechanisms": [
+        "repeated application",
+        "ignoring limits",
+        "continuous operation"
+      ],
+      "tools": [
+        "time",
+        "access",
+        "automation"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "habitual"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [
+          "available"
+        ],
+        "emotional": [],
+        "mental": [],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "usage satisfied"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "worn"
+        ],
+        "emotional": [],
+        "mental": [
+          "overutilized"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overwork",
+      "applicable_subjects": [
+        "organization",
+        "autonomous_agent",
+        "biological_body"
+      ],
+      "applicable_objects": [
+        "autonomous_agent",
+        "biological_body",
+        "organization"
+      ],
+      "goals": [
+        "impose excessive labor",
+        "sustain prolonged effort"
+      ],
+      "mechanisms": [
+        "extending hours",
+        "stacking tasks",
+        "denying rest"
+      ],
+      "tools": [
+        "schedules",
+        "deadlines",
+        "assignments"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "driven to maximize output"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [
+          "able to work"
+        ],
+        "emotional": [],
+        "mental": [
+          "accepting assignments"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "output increased"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [
+          "exhausted"
+        ],
+        "emotional": [
+          "fatigued"
+        ],
+        "mental": [
+          "burnout risk"
+        ],
+        "positional": []
+      }
+    },
+    {
+      "verb": "overwrite",
+      "applicable_subjects": [
+        "autonomous_agent",
+        "organization",
+        "physical_agent"
+      ],
+      "applicable_objects": [
+        "virtual_object",
+        "concept",
+        "object"
+      ],
+      "goals": [
+        "replace data",
+        "supersede content"
+      ],
+      "mechanisms": [
+        "writing new value",
+        "saving over",
+        "replacing record"
+      ],
+      "tools": [
+        "storage device",
+        "software",
+        "commands"
+      ],
+      "required_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "aware of target",
+          "authorized"
+        ],
+        "positional": []
+      },
+      "required_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "existing data present"
+        ],
+        "positional": []
+      },
+      "final_subject_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "replacement confirmed"
+        ],
+        "positional": []
+      },
+      "final_object_states": {
+        "physical": [],
+        "emotional": [],
+        "mental": [
+          "updated",
+          "prior content removed"
+        ],
+        "positional": []
+      }
+    }
+  ],
   "completed": true
 }

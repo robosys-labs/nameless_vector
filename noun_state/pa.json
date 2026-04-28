@@ -1,0 +1,23 @@
+{
+  "prefix": "pa",
+  "processed_nouns": [
+    "patch",
+    "population",
+    "pollution"
+  ],
+  "nouns": [
+    {
+      "noun": "patch",
+      "types": ["object"]
+    },
+    {
+      "noun": "population",
+      "types": ["group", "biological_body"]
+    },
+    {
+      "noun": "pollution",
+      "types": ["concept", "natural_element"]
+    }
+  ],
+  "completed": true
+}

@@ -1,0 +1,23 @@
+{
+  "prefix": "in",
+  "processed_nouns": [
+    "incubator",
+    "insults",
+    "identity"
+  ],
+  "nouns": [
+    {
+      "noun": "incubator",
+      "types": ["organization", "place"]
+    },
+    {
+      "noun": "insults",
+      "types": ["concept", "action"]
+    },
+    {
+      "noun": "identity",
+      "types": ["concept"]
+    }
+  ],
+  "completed": true
+}

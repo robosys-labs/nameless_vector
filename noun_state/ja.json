@@ -1,0 +1,13 @@
+{
+  "prefix": "ja",
+  "processed_nouns": [
+    "jacket"
+  ],
+  "nouns": [
+    {
+      "noun": "jacket",
+      "types": ["object"]
+    }
+  ],
+  "completed": true
+}

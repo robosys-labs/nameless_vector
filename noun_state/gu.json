@@ -1,0 +1,18 @@
+{
+  "prefix": "gu",
+  "processed_nouns": [
+    "guild",
+    "gestures"
+  ],
+  "nouns": [
+    {
+      "noun": "guild",
+      "types": ["organization", "group"]
+    },
+    {
+      "noun": "gestures",
+      "types": ["action", "concept"]
+    }
+  ],
+  "completed": true
+}

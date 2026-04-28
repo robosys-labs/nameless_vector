@@ -1,0 +1,13 @@
+{
+  "prefix": "ta",
+  "processed_nouns": [
+    "tailor"
+  ],
+  "nouns": [
+    {
+      "noun": "tailor",
+      "types": ["biological_body"]
+    }
+  ],
+  "completed": true
+}

@@ -1,0 +1,13 @@
+{
+  "prefix": "sl",
+  "processed_nouns": [
+    "sleep"
+  ],
+  "nouns": [
+    {
+      "noun": "sleep",
+      "types": ["biological_state", "concept"]
+    }
+  ],
+  "completed": true
+}

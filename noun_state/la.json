@@ -1,0 +1,13 @@
+{
+  "prefix": "la",
+  "processed_nouns": [
+    "label"
+  ],
+  "nouns": [
+    {
+      "noun": "label",
+      "types": ["object", "concept"]
+    }
+  ],
+  "completed": true
+}

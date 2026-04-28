@@ -1,0 +1,23 @@
+{
+  "prefix": "de",
+  "processed_nouns": [
+    "decisions",
+    "device",
+    "dignity"
+  ],
+  "nouns": [
+    {
+      "noun": "decisions",
+      "types": ["concept", "action"]
+    },
+    {
+      "noun": "device",
+      "types": ["object"]
+    },
+    {
+      "noun": "dignity",
+      "types": ["concept"]
+    }
+  ],
+  "completed": true
+}

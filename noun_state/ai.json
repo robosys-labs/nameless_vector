@@ -1,0 +1,13 @@
+{
+  "prefix": "ai",
+  "processed_nouns": [
+    "air"
+  ],
+  "nouns": [
+    {
+      "noun": "air",
+      "types": ["natural_element", "object"]
+    }
+  ],
+  "completed": true
+}
