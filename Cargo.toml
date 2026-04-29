@@ -1,5 +1,5 @@
 [package]
-name = "nameless_vector"
+name = "axiom-ai"
 version = "0.1.0"
 edition = "2021"
 
@@ -27,8 +27,14 @@ ctrlc = "3.4"
 hf-hub = "0.4.3"
 # JSON processing
 regex = "1.10"
+# Graph data structure for inference
+petgraph = "0.6"
 # Logging
 tracing = "0.1"
-tracing-subscriber = "0.3"
+tracing-subscriber = { version = "0.3", features = ["json", "env-filter"] }
+# Time handling for observability
+chrono = { version = "0.4", features = ["serde"] }
+# Random number generation for security/request IDs
+rand = "0.8"
 # Candle examples utilities
 candle-examples = { git = "https://github.com/huggingface/candle.git" }

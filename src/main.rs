@@ -5,7 +5,7 @@ use std::{
         atomic::{AtomicBool, Ordering},
         Arc,
     },
-    time::Instant,
+    time::{Duration, Instant},
 };
 
 use anyhow::{Context, Result};
@@ -18,13 +18,47 @@ use ctrlc;
 use indicatif::{ProgressBar, ProgressStyle};
 use model::ModelWeights;
 use serde::{Deserialize, Serialize};
+use tracing::{debug, error, info, warn};
 
-use std::sync::Mutex;
+/// Application configuration with security and resource limits
+pub struct AppConfig {
+    pub security: SecurityMiddleware,
+    pub metrics: Arc<MetricsCollector>,
+}
+
+impl AppConfig {
+    pub fn new() -> Self {
+        Self {
+            security: SecurityMiddleware::new(),
+            metrics: Arc::new(MetricsCollector::new()),
+        }
+    }
+}
+
+use tokio::sync::{RwLock, Mutex as AsyncMutex};
+use tokio::time::timeout;
 use tokenizers::Tokenizer;
-use tokio::sync::Mutex as AsyncMutex;
+
+// Inference engine modules - using library imports
+use axiom_ai::{
+    StateSet, InferenceGraph, VerbNode, EdgeType, InferenceEdge,
+    EdgeGenerator, EdgeInferenceConfig, InferredEdge, InferredRelation, build_connected_graph,
+    TemporalGraph, TemporalRelation, CausalReasoner,
+    Embedder, FrameMemory, VerbFrame, IndexedFrame,
+    GroundingLayer, GroundingResult, ViolationSeverity, Intent, quick_validate,
+    QueryRouter, RoutingDecision, ValidationOutcome, RouterBuilder, quick_route,
+};
+
+// Production infrastructure modules - using library imports
+use axiom_ai::{
+    MetricsCollector, RequestContext, Timer,
+    InputValidator, SecurityMiddleware, ResourceQuotas,
+};
 
 // Configuration constants
-const MODEL_PATH: &str = "./src/models/llama-2-7b-chat.Q4_K_S.gguf"; // Will use meta-llama/Llama-2-7b-chat-hf tokenizer
+// Recommended for edge deployment: Qwen 2.5 0.5B (qwen2.5-0.5b-instruct-q4_k_m.gguf)
+// Alternative: Llama-2-7b-chat.Q4_K_S.gguf for more capability
+const MODEL_PATH: &str = "./src/models/qwen2.5-0.5b-instruct-q4_k_m.gguf";
 const STATE_DIR: &str = "./verb_state";
 const OUTPUT_DIR: &str = "./verb_output";
 const BATCH_SIZE: usize = 5;
@@ -833,8 +867,14 @@ impl CandleModel {
     }
 }
 
-// Global model instance with proper synchronization
-static MODEL: Mutex<Option<CandleModel>> = Mutex::new(None);
+// Global model instance with async-safe synchronization
+// Uses RwLock to allow concurrent reads and exclusive writes
+static MODEL: RwLock<Option<CandleModel>> = RwLock::const_new(None);
+
+// Request timeout for model generation to prevent runaway GPU usage
+const MODEL_TIMEOUT_SECS: u64 = 120;
+// Maximum tokens per request to prevent resource exhaustion
+const MAX_TOKENS_PER_REQUEST: usize = 800;
 
 struct AppState {
     global_state: AsyncMutex<GlobalState>,
@@ -902,7 +942,7 @@ impl AppState {
         pb.set_style(
             ProgressStyle::default_bar()
                 .template("{spinner:.green} [{bar:40.cyan/blue}] {pos}/{len} ({percent}%) | {prefix} | ETA: {eta} | Verbs: {msg}")
-                .unwrap()  // Safe to unwrap - template is valid
+                .unwrap()
                 .progress_chars("█▉▊▋▌▍▎▏  "),
         );
         
@@ -978,7 +1018,7 @@ impl AppState {
     async fn initialize_model(&self) -> Result<()> {
         println!("🔧 Initializing language model...");
         
-        let mut model_guard = MODEL.lock().unwrap();
+        let mut model_guard = MODEL.write().await;
         if model_guard.is_none() {
             let mut model = CandleModel::new(MODEL_PATH)
                 .context("Failed to initialize language model")?;
@@ -1032,7 +1072,7 @@ impl AppState {
     
     async fn get_optimal_batch_size(&self) -> usize {
         // Determine batch size based on available compute device
-        let model_guard = MODEL.lock().unwrap();
+        let model_guard = MODEL.read().await;
         if let Some(ref model) = model_guard.as_ref() {
             match &model.device {
                 Device::Cuda(_) | Device::Metal(_) => {
@@ -1216,14 +1256,26 @@ Generate {} NEW verbs starting with '{}' (NOT: {}) in the same JSON format above
     }
     
     async fn generate_with_model(&self, prompt: &str) -> Result<String> {
-        let mut model_guard = MODEL.lock().unwrap();
-        if let Some(ref mut model) = model_guard.as_mut() {
-            let result = model.generate_text(prompt, MAX_GENERATION_TOKENS);
-            drop(model_guard); // Release lock early
-            result
-        } else {
-            drop(model_guard);
-            Err(anyhow::anyhow!("Model not initialized"))
+        // Timeout wrapper to prevent runaway GPU usage
+        let timeout_duration = Duration::from_secs(MODEL_TIMEOUT_SECS);
+        
+        let generation_future = async {
+            let mut model_guard = MODEL.write().await;
+            if let Some(ref mut model) = model_guard.as_mut() {
+                let result = model.generate_text(prompt, MAX_TOKENS_PER_REQUEST);
+                drop(model_guard); // Release lock early
+                result
+            } else {
+                drop(model_guard);
+                Err(anyhow::anyhow!("Model not initialized"))
+            }
+        };
+        
+        match timeout(timeout_duration, generation_future).await {
+            Ok(result) => result,
+            Err(_) => Err(anyhow::anyhow!(
+                "Model generation timed out after {} seconds", MODEL_TIMEOUT_SECS
+            )),
         }
     }
     
@@ -1548,27 +1600,43 @@ Generate {} NEW verbs starting with '{}' (NOT: {}) in the same JSON format above
 
 #[tokio::main]
 async fn main() -> Result<()> {
-    println!("🚀 Starting Nameless Vector - Verb Outcome Generator");
-    println!("📊 Target: {} prefixes with up to {} verbs each", 676, MAX_VERBS_PER_PREFIX);
+    // Initialize structured logging
+    axiom_ai::observability::init_tracing();
+    
+    let _main_span = tracing::info_span!("main").entered();
+    
+    info!(target: "nameless_vector", "🚀 Starting Nameless Vector - Verb Outcome Generator");
+    info!(target: "nameless_vector", "📊 Target: {} prefixes with up to {} verbs each", 676, MAX_VERBS_PER_PREFIX);
+    
+    // Create request context for main operation
+    let ctx = RequestContext::new("main");
     
     // Initialize application state
+    let timer = Timer::new("app_state_init");
     let app_state = AppState::new().await
         .context("Failed to initialize application state")?;
+    drop(timer);
+    ctx.log_info("Application state initialized");
     
     // Run main processing loop
+    let run_timer = Timer::new("main_processing_loop");
     match app_state.run().await {
         Ok(()) => {
-            println!("✅ Application completed successfully");
+            drop(run_timer);
+            info!(target: "nameless_vector", "✅ Application completed successfully");
             Ok(())
         }
         Err(e) => {
-            eprintln!("❌ Application failed: {}", e);
+            drop(run_timer);
+            error!(target: "nameless_vector", error = %e, "❌ Application failed");
             
             // Attempt emergency save
+            let save_timer = Timer::new("emergency_save");
             if let Err(save_err) = app_state.final_save().await {
-                eprintln!("💥 Emergency save failed: {}", save_err);
+                error!(target: "nameless_vector", error = %save_err, "💥 Emergency save failed");
             } else {
-                println!("💾 Emergency save completed");
+                drop(save_timer);
+                info!(target: "nameless_vector", "💾 Emergency save completed");
             }
             
             Err(e)
