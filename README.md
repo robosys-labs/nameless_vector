@@ -32,6 +32,9 @@ A **research-grade semantic validation layer** that advances LLM reliability thr
 | **Intent Extraction** | Map free text to structured frames | "I want to leave" → `abandon` verb frame |
 | **Inference Graph** | O(1) lookups for applicable actions | "What actions work on `closed door`?" |
 | **Observability** | Structured logging, metrics | Request IDs, validation pass/fail rates |
+| **Database NL Interface** | Natural language → SQL with RBAC | "show sales" → validated SELECT |
+| **Policy Enforcement** | GDPR, access control, audit | Blocks unauthorized DELETE/PII access |
+| **Quantization** | F32→Int8/Int4 compression | 4x-8x memory reduction for embeddings |
 | **Security** | Rate limiting, input validation | 100 req/s limit, injection detection |
 
 ## Architecture
@@ -91,6 +94,9 @@ cargo run --example demo_planning
 
 # 5. Performance comparison (--release for accurate timing)
 cargo run --example demo_performance --release
+
+# 6. Database NL interface with RBAC (NEW)
+cargo run --example demo_database_app_level
 ```
 
 Each demo shows a different aspect of the grounding layer. See `examples/README.md` for research infrastructure details and `GROUNDING_LAYER.md` for architecture documentation.
