@@ -38,3 +38,5 @@ chrono = { version = "0.4", features = ["serde"] }
 rand = "0.8"
 # Candle examples utilities
 candle-examples = { git = "https://github.com/huggingface/candle.git" }
+# SQLite for practical database demo
+rusqlite = { version = "0.30", features = ["bundled", "chrono"] }

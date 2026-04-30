@@ -27,11 +27,11 @@ pub struct QuantizedEmbedding {
 pub enum QuantizationFormat {
     /// 32-bit float (no quantization)
     F32,
-    /// 16-bit float (half precision)
-    F16,
-    /// 8-bit integer with per-tensor scaling
+    /// 16-bit integer with per-tensor scaling (2x compression)
+    Int16,
+    /// 8-bit integer with per-tensor scaling (4x compression)
     Int8,
-    /// 4-bit integer with per-tensor scaling (experimental)
+    /// 4-bit integer with per-tensor scaling (experimental, 8x compression)
     Int4,
 }
 
@@ -76,7 +76,9 @@ impl EmbeddingQuantizer {
             QuantizationFormat::F32 => {
                 // No quantization - store as-is
                 let data = tensor.to_vec1::<f32>()?;
-                let bytes = bytemuck::cast_slice(&data).to_vec();
+                let bytes = data.iter()
+                    .flat_map(|&f| f.to_le_bytes())
+                    .collect();
                 
                 Ok(QuantizedEmbedding {
                     format,
@@ -85,24 +87,38 @@ impl EmbeddingQuantizer {
                     params: QuantizationParams::default(),
                 })
             }
-            QuantizationFormat::F16 => {
-                // Convert to f16
+            QuantizationFormat::Int16 => {
+                // Convert to i16 with per-tensor scaling
                 let data_f32 = tensor.to_vec1::<f32>()?;
-                let data_f16: Vec<f16> = data_f32.iter()
-                    .map(|&x| f16::from_f32(x))
+                let min_val = data_f32.iter().fold(f32::INFINITY, |a, &b| a.min(b));
+                let max_val = data_f32.iter().fold(f32::NEG_INFINITY, |a, &b| a.max(b));
+                
+                let scale = (max_val - min_val) / 65535.0;
+                let zero_point = min_val;
+                
+                // Quantize to i16
+                let data_i16: Vec<i16> = data_f32.iter()
+                    .map(|&x| {
+                        let normalized = (x - zero_point) / scale;
+                        normalized.clamp(-32768.0, 32767.0) as i16
+                    })
                     .collect();
                 
                 // Pack as bytes
-                let mut bytes = Vec::with_capacity(data_f16.len() * 2);
-                for val in &data_f16 {
-                    bytes.extend_from_slice(&val.to_bits().to_le_bytes());
-                }
+                let bytes = data_i16.iter()
+                    .flat_map(|&i| i.to_le_bytes())
+                    .collect();
                 
                 Ok(QuantizedEmbedding {
                     format,
                     data: bytes,
                     dimensions,
-                    params: QuantizationParams::default(),
+                    params: QuantizationParams {
+                        scale,
+                        zero_point,
+                        min_val,
+                        max_val,
+                    },
                 })
             }
             QuantizationFormat::Int8 => {
@@ -182,24 +198,27 @@ impl EmbeddingQuantizer {
                     })
                     .collect();
                 
-                Tensor::from_vec(data_f32, &quantized.dimensions, device)
+                Tensor::from_vec(data_f32, quantized.dimensions.as_slice(), device)
                     .context("Failed to create tensor from f32 data")
             }
-            QuantizationFormat::F16 => {
-                let data_f16: Vec<f16> = quantized.data
+            QuantizationFormat::Int16 => {
+                let data_i16: Vec<i16> = quantized.data
                     .chunks_exact(2)
                     .map(|chunk| {
-                        let bits = u16::from_le_bytes([chunk[0], chunk[1]]);
-                        f16::from_bits(bits)
+                        let bits = i16::from_le_bytes([chunk[0], chunk[1]]);
+                        bits
                     })
                     .collect();
                 
-                let data_f32: Vec<f32> = data_f16.iter()
-                    .map(|&x| x.to_f32())
+                let data_f32: Vec<f32> = data_i16.iter()
+                    .map(|&x| {
+                        let normalized = x as f32;
+                        normalized * quantized.params.scale + quantized.params.zero_point
+                    })
                     .collect();
                 
-                Tensor::from_vec(data_f32, &quantized.dimensions, device)
-                    .context("Failed to create tensor from f16 data")
+                Tensor::from_vec(data_f32, quantized.dimensions.as_slice(), device)
+                    .context("Failed to create tensor from int16 data")
             }
             QuantizationFormat::Int8 => {
                 let data_f32: Vec<f32> = quantized.data.iter()
@@ -209,7 +228,7 @@ impl EmbeddingQuantizer {
                     })
                     .collect();
                 
-                Tensor::from_vec(data_f32, &quantized.dimensions, device)
+                Tensor::from_vec(data_f32, quantized.dimensions.as_slice(), device)
                     .context("Failed to create tensor from int8 data")
             }
             QuantizationFormat::Int4 => {
@@ -228,7 +247,7 @@ impl EmbeddingQuantizer {
                 let total_elements: usize = quantized.dimensions.iter().product();
                 data_f32.truncate(total_elements);
                 
-                Tensor::from_vec(data_f32, &quantized.dimensions, device)
+                Tensor::from_vec(data_f32, quantized.dimensions.as_slice(), device)
                     .context("Failed to create tensor from int4 data")
             }
         }
@@ -238,7 +257,7 @@ impl EmbeddingQuantizer {
     pub fn memory_savings(original_bytes: usize, format: QuantizationFormat) -> f64 {
         let compressed_bytes = match format {
             QuantizationFormat::F32 => original_bytes,
-            QuantizationFormat::F16 => original_bytes / 2,
+            QuantizationFormat::Int16 => original_bytes / 2,
             QuantizationFormat::Int8 => original_bytes / 4,
             QuantizationFormat::Int4 => original_bytes / 8,
         };
@@ -531,7 +550,7 @@ mod tests {
     use candle_core::Device;
 
     #[test]
-    fn test_quantization_f16() {
+    fn test_quantization_int16() {
         let device = Device::Cpu;
         let quantizer = EmbeddingQuantizer::new();
         
@@ -539,19 +558,19 @@ mod tests {
         let data: Vec<f32> = (0..384).map(|i| i as f32 / 384.0).collect();
         let tensor = Tensor::from_vec(data.clone(), &[1, 384], &device).unwrap();
         
-        // Quantize to f16
-        let quantized = quantizer.quantize(&tensor, QuantizationFormat::F16).unwrap();
+        // Quantize to int16
+        let quantized = quantizer.quantize(&tensor, QuantizationFormat::Int16).unwrap();
         
-        // Verify size reduction
+        // Verify size reduction (2 bytes per element vs 4)
         assert!(quantized.data.len() < data.len() * 4);
         
         // Dequantize and verify
         let dequantized = quantizer.dequantize(&quantized, &device).unwrap();
         let dequantized_data = dequantized.to_vec1::<f32>().unwrap();
         
-        // Should be close to original (allowing for f16 precision loss)
+        // Should be reasonably close to original
         for (orig, deq) in data.iter().zip(dequantized_data.iter()) {
-            assert!((orig - deq).abs() < 0.001);
+            assert!((orig - deq).abs() < 0.01);
         }
     }
 
